@@ -1,0 +1,602 @@
+nohup: ignoring input
+2017-10-31 10:28:53.077102: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 10:28:53.077235: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 10:28:53.077249: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 10:28:53.077259: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 10:28:53.077269: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 10:28:53.787154: I tensorflow/core/common_runtime/gpu/gpu_device.cc:887] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:06:00.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+2017-10-31 10:28:53.787230: I tensorflow/core/common_runtime/gpu/gpu_device.cc:908] DMA: 0 
+2017-10-31 10:28:53.787245: I tensorflow/core/common_runtime/gpu/gpu_device.cc:918] 0:   Y 
+2017-10-31 10:28:53.787265: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:06:00.0)
+Preparing dialog data in data
+Creating 4 layers of 128 units.
+45
+seq2seq_lm/Variable:0
+seq2seq_lm/Variable_1:0
+seq2seq_lm/embeddings:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_0/gru_cell/gates/weights:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_0/gru_cell/gates/biases:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_0/gru_cell/candidate/weights:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_0/gru_cell/candidate/biases:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_1/gru_cell/gates/weights:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_1/gru_cell/gates/biases:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_1/gru_cell/candidate/weights:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_1/gru_cell/candidate/biases:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_2/gru_cell/gates/weights:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_2/gru_cell/gates/biases:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_2/gru_cell/candidate/weights:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_2/gru_cell/candidate/biases:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_3/gru_cell/gates/weights:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_3/gru_cell/gates/biases:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_3/gru_cell/candidate/weights:0
+seq2seq_lm/encoder_cell/rnn/multi_rnn_cell/cell_3/gru_cell/candidate/biases:0
+seq2seq_lm/AttnW_0:0
+seq2seq_lm/AttnV_0:0
+seq2seq_lm/proj_w:0
+seq2seq_lm/proj_b:0
+seq2seq_lm/loop/Attention_0/weights:0
+seq2seq_lm/loop/Attention_0/biases:0
+seq2seq_lm/loop/weights:0
+seq2seq_lm/loop/biases:0
+seq2seq_lm/loop/multi_rnn_cell/cell_0/gru_cell/gates/weights:0
+seq2seq_lm/loop/multi_rnn_cell/cell_0/gru_cell/gates/biases:0
+seq2seq_lm/loop/multi_rnn_cell/cell_0/gru_cell/candidate/weights:0
+seq2seq_lm/loop/multi_rnn_cell/cell_0/gru_cell/candidate/biases:0
+seq2seq_lm/loop/multi_rnn_cell/cell_1/gru_cell/gates/weights:0
+seq2seq_lm/loop/multi_rnn_cell/cell_1/gru_cell/gates/biases:0
+seq2seq_lm/loop/multi_rnn_cell/cell_1/gru_cell/candidate/weights:0
+seq2seq_lm/loop/multi_rnn_cell/cell_1/gru_cell/candidate/biases:0
+seq2seq_lm/loop/multi_rnn_cell/cell_2/gru_cell/gates/weights:0
+seq2seq_lm/loop/multi_rnn_cell/cell_2/gru_cell/gates/biases:0
+seq2seq_lm/loop/multi_rnn_cell/cell_2/gru_cell/candidate/weights:0
+seq2seq_lm/loop/multi_rnn_cell/cell_2/gru_cell/candidate/biases:0
+seq2seq_lm/loop/multi_rnn_cell/cell_3/gru_cell/gates/weights:0
+seq2seq_lm/loop/multi_rnn_cell/cell_3/gru_cell/gates/biases:0
+seq2seq_lm/loop/multi_rnn_cell/cell_3/gru_cell/candidate/weights:0
+seq2seq_lm/loop/multi_rnn_cell/cell_3/gru_cell/candidate/biases:0
+seq2seq_lm/loop/AttnOutputProjection/weights:0
+seq2seq_lm/loop/AttnOutputProjection/biases:0
+Created model with fresh params.
+Reading development and training data (limit: 10000000).
+  reading data line 100000
+  reading data line 200000
+  reading data line 300000
+  reading data line 400000
+  reading data line 500000
+  reading data line 600000
+  reading data line 700000
+  reading data line 800000
+  reading data line 900000
+  reading data line 1000000
+  reading data line 1100000
+  reading data line 1200000
+  reading data line 1300000
+  reading data line 1400000
+  reading data line 1500000
+  reading data line 1600000
+  reading data line 1700000
+  reading data line 1800000
+  reading data line 1900000
+  reading data line 2000000
+  reading data line 2100000
+  reading data line 2200000
+  reading data line 2300000
+  reading data line 2400000
+  reading data line 2500000
+  reading data line 2600000
+  reading data line 2700000
+  reading data line 2800000
+  reading data line 2900000
+  reading data line 3000000
+  reading data line 3100000
+  reading data line 3200000
+  reading data line 3300000
+  reading data line 3400000
+  reading data line 3500000
+  reading data line 3600000
+  reading data line 3700000
+  reading data line 3800000
+  reading data line 3900000
+  reading data line 4000000
+  reading data line 4100000
+  reading data line 4200000
+  reading data line 4300000
+  reading data line 4400000
+  reading data line 4500000
+  reading data line 4600000
+  reading data line 4700000
+  reading data line 4800000
+  reading data line 4900000
+  reading data line 5000000
+  reading data line 5100000
+  reading data line 5200000
+  reading data line 5300000
+  reading data line 5400000
+  reading data line 5500000
+  reading data line 5600000
+  reading data line 5700000
+  reading data line 5800000
+  reading data line 5900000
+  reading data line 6000000
+  reading data line 6100000
+  reading data line 6200000
+  reading data line 6300000
+2017-10-31 10:33:28.293726: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4197 get requests, put_count=1874 evicted_count=1000 eviction_rate=0.533618 and unsatisfied allocation rate=0.815583
+2017-10-31 10:33:28.293986: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+2017-10-31 10:33:29.025448: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 0 get requests, put_count=1013 evicted_count=1000 eviction_rate=0.987167 and unsatisfied allocation rate=0
+2017-10-31 10:33:29.705155: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 0 get requests, put_count=1017 evicted_count=1000 eviction_rate=0.983284 and unsatisfied allocation rate=0
+2017-10-31 10:33:30.363513: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 0 get requests, put_count=1023 evicted_count=1000 eviction_rate=0.977517 and unsatisfied allocation rate=0
+2017-10-31 10:33:31.012988: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 0 get requests, put_count=2030 evicted_count=2000 eviction_rate=0.985222 and unsatisfied allocation rate=0
+2017-10-31 10:33:31.840777: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4197 get requests, put_count=4262 evicted_count=3000 eviction_rate=0.703895 and unsatisfied allocation rate=0.70884
+2017-10-31 10:33:31.840856: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 449 to 493
+2017-10-31 10:33:32.538342: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 0 get requests, put_count=1059 evicted_count=1000 eviction_rate=0.944287 and unsatisfied allocation rate=0
+2017-10-31 10:33:33.397895: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4197 get requests, put_count=4722 evicted_count=3000 eviction_rate=0.635324 and unsatisfied allocation rate=0.60853
+2017-10-31 10:33:33.398234: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 871 to 958
+2017-10-31 10:33:34.266465: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 0 get requests, put_count=1127 evicted_count=1000 eviction_rate=0.887311 and unsatisfied allocation rate=0
+2017-10-31 10:33:35.772656: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4197 get requests, put_count=4477 evicted_count=1000 eviction_rate=0.223364 and unsatisfied allocation rate=0.225161
+2017-10-31 10:33:35.772738: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 2478 to 2725
+global step 100 learning rate 0.5000 step-time 0.30 train_perplexity 3320.50
+	eval: perplexity 1413.62
+global step 200 learning rate 0.5000 step-time 0.21 train_perplexity 612.45
+	eval: perplexity 318.95
+global step 300 learning rate 0.5000 step-time 0.20 train_perplexity 426.43
+	eval: perplexity 566.33
+global step 400 learning rate 0.5000 step-time 0.20 train_perplexity 361.54
+	eval: perplexity 642.99
+global step 500 learning rate 0.5000 step-time 0.20 train_perplexity 315.55
+	eval: perplexity 853.36
+global step 600 learning rate 0.5000 step-time 0.21 train_perplexity 300.35
+	eval: perplexity 370.28
+global step 700 learning rate 0.5000 step-time 0.21 train_perplexity 290.41
+	eval: perplexity 319.27
+global step 800 learning rate 0.5000 step-time 0.21 train_perplexity 275.91
+	eval: perplexity 294.85
+global step 900 learning rate 0.5000 step-time 0.21 train_perplexity 264.96
+	eval: perplexity 224.18
+global step 1000 learning rate 0.5000 step-time 0.20 train_perplexity 250.31
+	eval: perplexity 304.15
+global step 1100 learning rate 0.5000 step-time 0.21 train_perplexity 251.80
+	eval: perplexity 330.65
+global step 1200 learning rate 0.5000 step-time 0.20 train_perplexity 245.62
+	eval: perplexity 227.35
+global step 1300 learning rate 0.5000 step-time 0.20 train_perplexity 239.56
+	eval: perplexity 304.57
+global step 1400 learning rate 0.5000 step-time 0.21 train_perplexity 234.71
+	eval: perplexity 208.54
+global step 1500 learning rate 0.5000 step-time 0.20 train_perplexity 227.02
+	eval: perplexity 199.05
+global step 1600 learning rate 0.5000 step-time 0.21 train_perplexity 230.09
+	eval: perplexity 202.63
+global step 1700 learning rate 0.5000 step-time 0.20 train_perplexity 226.01
+	eval: perplexity 310.94
+global step 1800 learning rate 0.5000 step-time 0.21 train_perplexity 220.23
+	eval: perplexity 189.04
+global step 1900 learning rate 0.5000 step-time 0.22 train_perplexity 220.10
+	eval: perplexity 201.90
+global step 2000 learning rate 0.5000 step-time 0.21 train_perplexity 217.78
+	eval: perplexity 189.90
+global step 2100 learning rate 0.5000 step-time 0.21 train_perplexity 216.33
+	eval: perplexity 189.66
+global step 2200 learning rate 0.5000 step-time 0.20 train_perplexity 211.00
+	eval: perplexity 177.79
+global step 2300 learning rate 0.5000 step-time 0.20 train_perplexity 211.38
+	eval: perplexity 196.87
+global step 2400 learning rate 0.5000 step-time 0.20 train_perplexity 207.87
+	eval: perplexity 183.39
+global step 2500 learning rate 0.5000 step-time 0.19 train_perplexity 203.51
+	eval: perplexity 252.66
+global step 2600 learning rate 0.5000 step-time 0.19 train_perplexity 208.75
+	eval: perplexity 193.05
+global step 2700 learning rate 0.5000 step-time 0.23 train_perplexity 206.26
+	eval: perplexity 209.00
+global step 2800 learning rate 0.5000 step-time 0.25 train_perplexity 202.65
+	eval: perplexity 202.01
+global step 2900 learning rate 0.5000 step-time 0.27 train_perplexity 203.19
+	eval: perplexity 209.69
+global step 3000 learning rate 0.5000 step-time 0.26 train_perplexity 200.93
+	eval: perplexity 212.83
+global step 3100 learning rate 0.5000 step-time 0.27 train_perplexity 198.87
+	eval: perplexity 199.67
+global step 3200 learning rate 0.5000 step-time 0.26 train_perplexity 200.51
+	eval: perplexity 199.49
+global step 3300 learning rate 0.5000 step-time 0.26 train_perplexity 197.92
+	eval: perplexity 154.70
+global step 3400 learning rate 0.5000 step-time 0.25 train_perplexity 189.76
+	eval: perplexity 168.80
+global step 3500 learning rate 0.5000 step-time 0.26 train_perplexity 183.99
+	eval: perplexity 175.98
+global step 3600 learning rate 0.5000 step-time 0.27 train_perplexity 178.49
+	eval: perplexity 170.68
+global step 3700 learning rate 0.5000 step-time 0.24 train_perplexity 174.60
+	eval: perplexity 164.34
+global step 3800 learning rate 0.5000 step-time 0.26 train_perplexity 175.22
+	eval: perplexity 161.69
+global step 3900 learning rate 0.5000 step-time 0.25 train_perplexity 170.04
+	eval: perplexity 208.01
+global step 4000 learning rate 0.5000 step-time 0.27 train_perplexity 168.45
+	eval: perplexity 154.95
+global step 4100 learning rate 0.5000 step-time 0.27 train_perplexity 165.67
+	eval: perplexity 181.18
+global step 4200 learning rate 0.5000 step-time 0.25 train_perplexity 164.62
+	eval: perplexity 155.53
+global step 4300 learning rate 0.5000 step-time 0.26 train_perplexity 162.98
+	eval: perplexity 173.94
+global step 4400 learning rate 0.5000 step-time 0.26 train_perplexity 161.46
+	eval: perplexity 154.52
+global step 4500 learning rate 0.5000 step-time 0.26 train_perplexity 161.51
+	eval: perplexity 145.37
+global step 4600 learning rate 0.5000 step-time 0.25 train_perplexity 159.47
+	eval: perplexity 157.13
+global step 4700 learning rate 0.5000 step-time 0.26 train_perplexity 156.92
+	eval: perplexity 148.81
+global step 4800 learning rate 0.5000 step-time 0.26 train_perplexity 156.05
+	eval: perplexity 143.61
+global step 4900 learning rate 0.5000 step-time 0.25 train_perplexity 155.32
+	eval: perplexity 146.60
+global step 5000 learning rate 0.5000 step-time 0.25 train_perplexity 156.37
+	eval: perplexity 146.25
+global step 5100 learning rate 0.5000 step-time 0.25 train_perplexity 153.21
+	eval: perplexity 156.04
+global step 5200 learning rate 0.5000 step-time 0.24 train_perplexity 153.18
+	eval: perplexity 169.52
+global step 5300 learning rate 0.5000 step-time 0.26 train_perplexity 152.63
+	eval: perplexity 166.93
+global step 5400 learning rate 0.5000 step-time 0.26 train_perplexity 151.25
+	eval: perplexity 150.93
+global step 5500 learning rate 0.5000 step-time 0.24 train_perplexity 151.19
+	eval: perplexity 162.78
+global step 5600 learning rate 0.5000 step-time 0.24 train_perplexity 151.21
+	eval: perplexity 143.60
+global step 5700 learning rate 0.5000 step-time 0.26 train_perplexity 147.39
+	eval: perplexity 144.50
+global step 5800 learning rate 0.5000 step-time 0.26 train_perplexity 148.84
+	eval: perplexity 139.64
+global step 5900 learning rate 0.5000 step-time 0.25 train_perplexity 147.82
+	eval: perplexity 144.45
+global step 6000 learning rate 0.5000 step-time 0.25 train_perplexity 144.39
+	eval: perplexity 148.60
+global step 6100 learning rate 0.5000 step-time 0.24 train_perplexity 145.65
+	eval: perplexity 153.51
+global step 6200 learning rate 0.5000 step-time 0.26 train_perplexity 144.24
+	eval: perplexity 128.67
+global step 6300 learning rate 0.5000 step-time 0.27 train_perplexity 144.50
+	eval: perplexity 136.94
+global step 6400 learning rate 0.5000 step-time 0.25 train_perplexity 141.98
+	eval: perplexity 157.92
+global step 6500 learning rate 0.5000 step-time 0.24 train_perplexity 140.45
+	eval: perplexity 146.55
+global step 6600 learning rate 0.5000 step-time 0.25 train_perplexity 141.53
+	eval: perplexity 132.60
+global step 6700 learning rate 0.5000 step-time 0.27 train_perplexity 138.47
+	eval: perplexity 154.59
+global step 6800 learning rate 0.5000 step-time 0.24 train_perplexity 138.85
+	eval: perplexity 148.42
+global step 6900 learning rate 0.5000 step-time 0.25 train_perplexity 138.69
+	eval: perplexity 121.43
+global step 7000 learning rate 0.5000 step-time 0.23 train_perplexity 136.44
+	eval: perplexity 156.99
+global step 7100 learning rate 0.5000 step-time 0.25 train_perplexity 135.79
+	eval: perplexity 114.24
+global step 7200 learning rate 0.5000 step-time 0.26 train_perplexity 135.23
+	eval: perplexity 133.67
+global step 7300 learning rate 0.5000 step-time 0.25 train_perplexity 135.93
+	eval: perplexity 133.42
+global step 7400 learning rate 0.5000 step-time 0.24 train_perplexity 134.28
+	eval: perplexity 133.92
+global step 7500 learning rate 0.5000 step-time 0.25 train_perplexity 134.71
+	eval: perplexity 129.07
+global step 7600 learning rate 0.5000 step-time 0.24 train_perplexity 134.93
+	eval: perplexity 128.37
+global step 7700 learning rate 0.5000 step-time 0.25 train_perplexity 131.89
+	eval: perplexity 130.14
+global step 7800 learning rate 0.5000 step-time 0.26 train_perplexity 130.96
+	eval: perplexity 121.23
+global step 7900 learning rate 0.5000 step-time 0.24 train_perplexity 131.11
+	eval: perplexity 146.54
+global step 8000 learning rate 0.5000 step-time 0.24 train_perplexity 130.90
+	eval: perplexity 126.98
+global step 8100 learning rate 0.5000 step-time 0.27 train_perplexity 131.06
+	eval: perplexity 135.81
+global step 8200 learning rate 0.5000 step-time 0.24 train_perplexity 127.97
+	eval: perplexity 115.06
+global step 8300 learning rate 0.5000 step-time 0.26 train_perplexity 128.55
+	eval: perplexity 122.59
+global step 8400 learning rate 0.5000 step-time 0.26 train_perplexity 128.76
+	eval: perplexity 134.23
+global step 8500 learning rate 0.5000 step-time 0.26 train_perplexity 127.68
+	eval: perplexity 118.03
+global step 8600 learning rate 0.5000 step-time 0.23 train_perplexity 125.80
+	eval: perplexity 128.81
+global step 8700 learning rate 0.5000 step-time 0.26 train_perplexity 125.14
+	eval: perplexity 135.18
+global step 8800 learning rate 0.5000 step-time 0.26 train_perplexity 124.22
+	eval: perplexity 135.53
+global step 8900 learning rate 0.5000 step-time 0.24 train_perplexity 123.98
+	eval: perplexity 121.20
+global step 9000 learning rate 0.5000 step-time 0.25 train_perplexity 124.57
+	eval: perplexity 140.19
+global step 9100 learning rate 0.5000 step-time 0.25 train_perplexity 123.64
+	eval: perplexity 121.01
+global step 9200 learning rate 0.5000 step-time 0.25 train_perplexity 123.91
+	eval: perplexity 117.16
+global step 9300 learning rate 0.5000 step-time 0.24 train_perplexity 123.51
+	eval: perplexity 117.37
+global step 9400 learning rate 0.5000 step-time 0.23 train_perplexity 122.33
+	eval: perplexity 139.64
+global step 9500 learning rate 0.5000 step-time 0.26 train_perplexity 121.31
+	eval: perplexity 125.57
+global step 9600 learning rate 0.5000 step-time 0.25 train_perplexity 122.07
+	eval: perplexity 122.47
+global step 9700 learning rate 0.5000 step-time 0.26 train_perplexity 119.49
+	eval: perplexity 127.24
+global step 9800 learning rate 0.5000 step-time 0.25 train_perplexity 121.38
+	eval: perplexity 150.72
+global step 9900 learning rate 0.5000 step-time 0.25 train_perplexity 119.53
+	eval: perplexity 111.23
+global step 10000 learning rate 0.5000 step-time 0.26 train_perplexity 119.22
+	eval: perplexity 106.82
+global step 10100 learning rate 0.5000 step-time 0.27 train_perplexity 118.19
+	eval: perplexity 126.89
+global step 10200 learning rate 0.5000 step-time 0.25 train_perplexity 118.64
+	eval: perplexity 109.52
+global step 10300 learning rate 0.5000 step-time 0.24 train_perplexity 118.94
+	eval: perplexity 121.59
+global step 10400 learning rate 0.5000 step-time 0.27 train_perplexity 115.38
+	eval: perplexity 113.66
+global step 10500 learning rate 0.5000 step-time 0.25 train_perplexity 117.10
+	eval: perplexity 105.72
+global step 10600 learning rate 0.5000 step-time 0.25 train_perplexity 118.76
+	eval: perplexity 123.88
+global step 10700 learning rate 0.5000 step-time 0.27 train_perplexity 115.34
+	eval: perplexity 106.74
+global step 10800 learning rate 0.5000 step-time 0.27 train_perplexity 112.97
+	eval: perplexity 117.33
+global step 10900 learning rate 0.5000 step-time 0.25 train_perplexity 114.38
+	eval: perplexity 106.95
+global step 11000 learning rate 0.5000 step-time 0.25 train_perplexity 115.18
+	eval: perplexity 100.34
+global step 11100 learning rate 0.5000 step-time 0.26 train_perplexity 112.78
+	eval: perplexity 107.95
+global step 11200 learning rate 0.5000 step-time 0.25 train_perplexity 113.07
+	eval: perplexity 108.02
+global step 11300 learning rate 0.5000 step-time 0.26 train_perplexity 113.30
+	eval: perplexity 118.44
+global step 11400 learning rate 0.5000 step-time 0.25 train_perplexity 113.34
+	eval: perplexity 123.19
+global step 11500 learning rate 0.4950 step-time 0.24 train_perplexity 112.78
+	eval: perplexity 121.04
+global step 11600 learning rate 0.4950 step-time 0.25 train_perplexity 111.78
+	eval: perplexity 108.50
+global step 11700 learning rate 0.4950 step-time 0.26 train_perplexity 110.82
+	eval: perplexity 118.04
+global step 11800 learning rate 0.4950 step-time 0.26 train_perplexity 113.19
+	eval: perplexity 111.84
+global step 11900 learning rate 0.4901 step-time 0.26 train_perplexity 110.11
+	eval: perplexity 121.93
+global step 12000 learning rate 0.4901 step-time 0.26 train_perplexity 111.01
+	eval: perplexity 103.74
+global step 12100 learning rate 0.4901 step-time 0.25 train_perplexity 110.38
+	eval: perplexity 104.84
+global step 12200 learning rate 0.4901 step-time 0.25 train_perplexity 109.00
+	eval: perplexity 115.11
+global step 12300 learning rate 0.4901 step-time 0.27 train_perplexity 109.47
+	eval: perplexity 112.29
+global step 12400 learning rate 0.4901 step-time 0.26 train_perplexity 108.88
+	eval: perplexity 109.84
+global step 12500 learning rate 0.4901 step-time 0.27 train_perplexity 107.27
+	eval: perplexity 104.62
+global step 12600 learning rate 0.4901 step-time 0.26 train_perplexity 107.66
+	eval: perplexity 113.81
+global step 12700 learning rate 0.4901 step-time 0.24 train_perplexity 107.50
+	eval: perplexity 96.29
+global step 12800 learning rate 0.4901 step-time 0.25 train_perplexity 105.24
+	eval: perplexity 99.48
+global step 12900 learning rate 0.4901 step-time 0.26 train_perplexity 105.19
+	eval: perplexity 91.09
+global step 13000 learning rate 0.4901 step-time 0.27 train_perplexity 145.21
+	eval: perplexity 114.40
+global step 13100 learning rate 0.4851 step-time 0.26 train_perplexity 108.68
+	eval: perplexity 110.72
+global step 13200 learning rate 0.4851 step-time 0.26 train_perplexity 107.32
+	eval: perplexity 115.49
+global step 13300 learning rate 0.4851 step-time 0.26 train_perplexity 105.35
+	eval: perplexity 114.98
+global step 13400 learning rate 0.4851 step-time 0.26 train_perplexity 104.23
+	eval: perplexity 109.84
+global step 13500 learning rate 0.4851 step-time 0.24 train_perplexity 104.23
+	eval: perplexity 88.37
+global step 13600 learning rate 0.4851 step-time 0.25 train_perplexity 104.83
+	eval: perplexity 96.72
+global step 13700 learning rate 0.4851 step-time 0.21 train_perplexity 102.78
+	eval: perplexity 95.02
+global step 13800 learning rate 0.4851 step-time 0.19 train_perplexity 102.92
+	eval: perplexity 96.92
+global step 13900 learning rate 0.4851 step-time 0.19 train_perplexity 101.54
+	eval: perplexity 95.34
+global step 14000 learning rate 0.4851 step-time 0.21 train_perplexity 101.35
+	eval: perplexity 99.38
+global step 14100 learning rate 0.4851 step-time 0.19 train_perplexity 101.85
+	eval: perplexity 108.72
+global step 14200 learning rate 0.4851 step-time 0.21 train_perplexity 101.75
+	eval: perplexity 102.25
+global step 14300 learning rate 0.4851 step-time 0.19 train_perplexity 100.70
+	eval: perplexity 97.06
+global step 14400 learning rate 0.4851 step-time 0.22 train_perplexity 102.18
+	eval: perplexity 89.62
+global step 14500 learning rate 0.4803 step-time 0.20 train_perplexity 101.31
+	eval: perplexity 97.05
+global step 14600 learning rate 0.4803 step-time 0.21 train_perplexity 100.67
+	eval: perplexity 112.18
+global step 14700 learning rate 0.4803 step-time 0.19 train_perplexity 101.20
+	eval: perplexity 93.56
+global step 14800 learning rate 0.4803 step-time 0.20 train_perplexity 99.24
+	eval: perplexity 100.83
+global step 14900 learning rate 0.4803 step-time 0.19 train_perplexity 99.76
+	eval: perplexity 106.79
+global step 15000 learning rate 0.4803 step-time 0.19 train_perplexity 101.25
+	eval: perplexity 95.08
+global step 15100 learning rate 0.4755 step-time 0.19 train_perplexity 99.08
+	eval: perplexity 105.30
+global step 15200 learning rate 0.4755 step-time 0.21 train_perplexity 100.08
+	eval: perplexity 94.92
+global step 15300 learning rate 0.4755 step-time 0.20 train_perplexity 98.46
+	eval: perplexity 99.64
+global step 15400 learning rate 0.4755 step-time 0.20 train_perplexity 98.54
+	eval: perplexity 87.18
+global step 15500 learning rate 0.4755 step-time 0.19 train_perplexity 97.94
+	eval: perplexity 116.26
+global step 15600 learning rate 0.4755 step-time 0.19 train_perplexity 97.23
+	eval: perplexity 86.00
+global step 15700 learning rate 0.4755 step-time 0.19 train_perplexity 98.50
+	eval: perplexity 99.60
+global step 15800 learning rate 0.4755 step-time 0.20 train_perplexity 96.61
+	eval: perplexity 100.06
+global step 15900 learning rate 0.4755 step-time 0.20 train_perplexity 98.43
+	eval: perplexity 100.75
+global step 16000 learning rate 0.4755 step-time 0.19 train_perplexity 98.81
+	eval: perplexity 91.14
+global step 16100 learning rate 0.4707 step-time 0.20 train_perplexity 96.02
+	eval: perplexity 97.51
+global step 16200 learning rate 0.4707 step-time 0.20 train_perplexity 96.64
+	eval: perplexity 104.75
+global step 16300 learning rate 0.4707 step-time 0.19 train_perplexity 95.73
+	eval: perplexity 95.31
+global step 16400 learning rate 0.4707 step-time 0.19 train_perplexity 95.98
+	eval: perplexity 92.09
+global step 16500 learning rate 0.4707 step-time 0.19 train_perplexity 95.85
+	eval: perplexity 83.76
+global step 16600 learning rate 0.4707 step-time 0.20 train_perplexity 95.27
+	eval: perplexity 95.87
+global step 16700 learning rate 0.4707 step-time 0.19 train_perplexity 95.32
+	eval: perplexity 101.64
+global step 16800 learning rate 0.4707 step-time 0.19 train_perplexity 96.15
+	eval: perplexity 84.17
+global step 16900 learning rate 0.4660 step-time 0.19 train_perplexity 94.49
+	eval: perplexity 91.43
+global step 17000 learning rate 0.4660 step-time 0.19 train_perplexity 94.39
+	eval: perplexity 90.03
+global step 17100 learning rate 0.4660 step-time 0.19 train_perplexity 95.18
+	eval: perplexity 95.80
+global step 17200 learning rate 0.4660 step-time 0.22 train_perplexity 94.47
+	eval: perplexity 85.83
+global step 17300 learning rate 0.4660 step-time 0.19 train_perplexity 94.19
+	eval: perplexity 87.35
+global step 17400 learning rate 0.4660 step-time 0.20 train_perplexity 94.16
+	eval: perplexity 81.97
+global step 17500 learning rate 0.4660 step-time 0.19 train_perplexity 91.56
+	eval: perplexity 87.01
+global step 17600 learning rate 0.4660 step-time 0.19 train_perplexity 93.45
+	eval: perplexity 86.02
+global step 17700 learning rate 0.4660 step-time 0.19 train_perplexity 94.28
+	eval: perplexity 88.48
+global step 17800 learning rate 0.4614 step-time 0.19 train_perplexity 92.45
+	eval: perplexity 96.94
+global step 17900 learning rate 0.4614 step-time 0.19 train_perplexity 91.09
+	eval: perplexity 88.38
+global step 18000 learning rate 0.4614 step-time 0.20 train_perplexity 92.03
+	eval: perplexity 89.24
+global step 18100 learning rate 0.4614 step-time 0.19 train_perplexity 92.40
+	eval: perplexity 84.72
+global step 18200 learning rate 0.4614 step-time 0.19 train_perplexity 91.72
+	eval: perplexity 108.67
+global step 18300 learning rate 0.4614 step-time 0.19 train_perplexity 90.68
+	eval: perplexity 93.46
+global step 18400 learning rate 0.4614 step-time 0.20 train_perplexity 91.17
+	eval: perplexity 85.24
+global step 18500 learning rate 0.4614 step-time 0.19 train_perplexity 90.06
+	eval: perplexity 85.46
+global step 18600 learning rate 0.4614 step-time 0.21 train_perplexity 91.59
+	eval: perplexity 85.76
+global step 18700 learning rate 0.4568 step-time 0.20 train_perplexity 90.27
+	eval: perplexity 92.79
+global step 18800 learning rate 0.4568 step-time 0.20 train_perplexity 89.90
+	eval: perplexity 78.45
+global step 18900 learning rate 0.4568 step-time 0.19 train_perplexity 88.87
+	eval: perplexity 91.67
+global step 19000 learning rate 0.4568 step-time 0.21 train_perplexity 91.16
+	eval: perplexity 90.40
+global step 19100 learning rate 0.4522 step-time 0.19 train_perplexity 89.20
+	eval: perplexity 85.56
+global step 19200 learning rate 0.4522 step-time 0.21 train_perplexity 90.36
+	eval: perplexity 84.14
+global step 19300 learning rate 0.4522 step-time 0.20 train_perplexity 89.82
+	eval: perplexity 82.48
+global step 19400 learning rate 0.4522 step-time 0.22 train_perplexity 90.44
+	eval: perplexity 84.21
+global step 19500 learning rate 0.4477 step-time 0.20 train_perplexity 89.55
+	eval: perplexity 87.23
+global step 19600 learning rate 0.4477 step-time 0.21 train_perplexity 88.91
+	eval: perplexity 91.04
+global step 19700 learning rate 0.4477 step-time 0.20 train_perplexity 87.98
+	eval: perplexity 101.81
+global step 19800 learning rate 0.4477 step-time 0.20 train_perplexity 88.41
+	eval: perplexity 84.97
+global step 19900 learning rate 0.4477 step-time 0.19 train_perplexity 87.81
+	eval: perplexity 97.27
+global step 20000 learning rate 0.4477 step-time 0.22 train_perplexity 88.03
+	eval: perplexity 73.77
+global step 20100 learning rate 0.4477 step-time 0.19 train_perplexity 88.56
+	eval: perplexity 87.22
+global step 20200 learning rate 0.4432 step-time 0.21 train_perplexity 88.32
+	eval: perplexity 83.87
+global step 20300 learning rate 0.4432 step-time 0.20 train_perplexity 86.93
+	eval: perplexity 100.05
+global step 20400 learning rate 0.4432 step-time 0.20 train_perplexity 87.57
+	eval: perplexity 93.63
+global step 20500 learning rate 0.4432 step-time 0.20 train_perplexity 87.55
+	eval: perplexity 78.46
+global step 20600 learning rate 0.4432 step-time 0.19 train_perplexity 88.20
+	eval: perplexity 81.69
+global step 20700 learning rate 0.4388 step-time 0.20 train_perplexity 87.40
+	eval: perplexity 90.44
+global step 20800 learning rate 0.4388 step-time 0.19 train_perplexity 87.74
+	eval: perplexity 86.28
+global step 20900 learning rate 0.4388 step-time 0.19 train_perplexity 86.54
+	eval: perplexity 92.00
+global step 21000 learning rate 0.4388 step-time 0.20 train_perplexity 85.92
+	eval: perplexity 92.72
+global step 21100 learning rate 0.4388 step-time 0.20 train_perplexity 85.77
+	eval: perplexity 85.25
+global step 21200 learning rate 0.4388 step-time 0.20 train_perplexity 85.54
+	eval: perplexity 83.45
+global step 21300 learning rate 0.4388 step-time 0.21 train_perplexity 85.61
+	eval: perplexity 89.75
+global step 21400 learning rate 0.4388 step-time 0.21 train_perplexity 86.42
+	eval: perplexity 84.51
+global step 21500 learning rate 0.4344 step-time 0.21 train_perplexity 86.10
+	eval: perplexity 90.02
+global step 21600 learning rate 0.4344 step-time 0.20 train_perplexity 85.61
+	eval: perplexity 75.14
+global step 21700 learning rate 0.4344 step-time 0.21 train_perplexity 84.50
+	eval: perplexity 88.52
+global step 21800 learning rate 0.4344 step-time 0.19 train_perplexity 85.60
+	eval: perplexity 87.50
+global step 21900 learning rate 0.4344 step-time 0.22 train_perplexity 85.06
+	eval: perplexity 75.57
+global step 22000 learning rate 0.4344 step-time 0.22 train_perplexity 85.57
+	eval: perplexity 82.79
+global step 22100 learning rate 0.4344 step-time 0.22 train_perplexity 83.23
+	eval: perplexity 85.06
+global step 22200 learning rate 0.4344 step-time 0.20 train_perplexity 84.68
+	eval: perplexity 93.66
+global step 22300 learning rate 0.4344 step-time 0.20 train_perplexity 85.08
+	eval: perplexity 81.26
+global step 22400 learning rate 0.4344 step-time 0.19 train_perplexity 84.06
+	eval: perplexity 82.29
+global step 22500 learning rate 0.4344 step-time 0.21 train_perplexity 84.06
+	eval: perplexity 92.29
+global step 22600 learning rate 0.4344 step-time 0.20 train_perplexity 85.96
+	eval: perplexity 77.94
+global step 22700 learning rate 0.4300 step-time 0.21 train_perplexity 83.58
+	eval: perplexity 76.01
+global step 22800 learning rate 0.4300 step-time 0.21 train_perplexity 82.61
+	eval: perplexity 81.51
+global step 22900 learning rate 0.4300 step-time 0.19 train_perplexity 83.22
+	eval: perplexity 81.65
+global step 23000 learning rate 0.4300 step-time 0.21 train_perplexity 84.29
+	eval: perplexity 86.94
