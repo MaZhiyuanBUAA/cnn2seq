@@ -1,5 +1,5 @@
 #coding:utf-8
-TEST_DATASET_PATH = '/home/zyma/work/models/evaluation/std_test.post'
+TEST_DATASET_PATH = 'data/test1k.query'
 
 class lm_config(object):
   def __init__(self):
@@ -22,9 +22,9 @@ class lm_config(object):
 
 class cnn2seq_config(object):
   def __init__(self):
-    self.data_dir = 'data'
+    self.data_dir = 'data_bpe'
     self.model_dir = 'cnn2seq_models'
-    self.vocab_size = 100000
+    self.vocab_size = 60000
     self.max_train_data_size = 10000000
     self.results_dir = 'results'
     
@@ -44,11 +44,11 @@ class cnn2seq_config(object):
 
 class seq2seq_config(object):
   def __init__(self):
-    self.data_dir = 'data'
+    self.data_dir = 'data_bpe'
     self.model_dir = 'seq2seq_models'
     self.vocab_size = 100000
     self.max_train_data_size = 10000000
-    self.results_dir = 'results/results_seq2seq.txt'
+    self.results_dir = 'results/results_4layers.txt'
     
     self.num_layers = 4
     self.size = 128

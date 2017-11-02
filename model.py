@@ -56,6 +56,7 @@ class cnn2seq(object):
       #encoder_outputs,_ = tf.contrib.rnn.static_rnn(cell,emb_inps,dtype=tf.float32)
       
       top_states = [tf.reshape(ele,[-1,1,size]) for ele in encoder_outputs]
+      #top_states = [tf.reshape(ele,[-1,1,size]) for ele in emb_inps]
       mask_ = [tf.reshape(ele,[-1,1,size]) for ele in self.mask]
       att_states = tf.concat(top_states,axis=1)
       mask_ = tf.concat(mask_,axis=1)
@@ -63,15 +64,16 @@ class cnn2seq(object):
       mask_ = tf.expand_dims(mask_,-1)
 
       def cnn(n_layer,inputs):
-          filter_8 = tf.get_variable('filter_8',[8,size,1,size/4],initializer=tf.truncated_normal_initializer(stddev=0.1))
-          filter_5 = tf.get_variable('filter_5',[5,size,1,size/4],initializer=tf.truncated_normal_initializer(stddev=0.1))
-          filter_3 = tf.get_variable('filter_3',[3,size,1,size/4],initializer=tf.truncated_normal_initializer(stddev=0.1))
-          filter_1 = tf.get_variable('filter_1',[1,size,1,size/4],initializer=tf.truncated_normal_initializer(stddev=0.1))
+          channels = size/4
+          filter_8 = tf.get_variable('filter_8',[8,size,1,channels],initializer=tf.truncated_normal_initializer(stddev=0.1))
+          filter_5 = tf.get_variable('filter_5',[5,size,1,channels],initializer=tf.truncated_normal_initializer(stddev=0.1))
+          filter_3 = tf.get_variable('filter_3',[3,size,1,channels],initializer=tf.truncated_normal_initializer(stddev=0.1))
+          filter_1 = tf.get_variable('filter_1',[1,size,1,channels],initializer=tf.truncated_normal_initializer(stddev=0.1))
 
-          b8 = tf.Variable(tf.constant(0.1, shape=[size/4]), name="b8")
-          b5 = tf.Variable(tf.constant(0.1, shape=[size/4]), name="b5")
-          b3 = tf.Variable(tf.constant(0.1, shape=[size/4]), name="b3")
-          b1 = tf.Variable(tf.constant(0.1, shape=[size/4]), name="b1")
+          b8 = tf.Variable(tf.constant(0.1, shape=[channels]), name="b8")
+          b5 = tf.Variable(tf.constant(0.1, shape=[channels]), name="b5")
+          b3 = tf.Variable(tf.constant(0.1, shape=[channels]), name="b3")
+          b1 = tf.Variable(tf.constant(0.1, shape=[channels]), name="b1")
 
           #print(inputs.get_shape())
           #filter1 = tf.get_variable('filter1',[3,3,1,2])
@@ -101,12 +103,14 @@ class cnn2seq(object):
           
           outputs = tf.reshape(outputs,[self.batch_size,-1])
           
-          
+          #wo = tf.get_variable('wo',[4*size,size],initializer=tf.truncated_normal_initializer(stddev=0.1))
+          #bo = tf.get_variable('bo',[size],initializer=tf.truncated_normal_initializer(stddev=0.1))
+
           print(outputs.get_shape())
           #inputs = tf.nn.max_pool(inputs,[1,self.input_len,1,1],[1,1,1,1],padding="VALID")
           #inputs = tf.reshape(inputs,[self.batch_size,-1])
+          #return tf.nn.xw_plus_b(outputs,wo,bo)
           return outputs
-      
       common_states = cnn(2,mask_*init_common_states)
       print(common_states.get_shape())
 

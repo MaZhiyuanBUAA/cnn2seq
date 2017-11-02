@@ -13,8 +13,9 @@ def predict(create_func,conf):
             test_sentences = [s.strip() for s in test_fh.readlines()]
         return test_sentences
 
-    results_filename = '_'.join(['results_cnn2seq', str(conf.num_layers), str(conf.size), str(conf.vocab_size)])
-    results_path = os.path.join(conf.results_dir, results_filename)
+    #results_filename = '_'.join(['results', str(conf.num_layers), str(conf.size), str(conf.vocab_size)])
+    #results_path = os.path.join(conf.results_dir, results_filename)
+    results_path = conf.results_dir
     conf.batch_size = 1
     #with tf.Session() as sess, open(results_path, 'w') as results_fh:
     with tf.Session() as sess,open(results_path,'w') as results_fh:
@@ -43,4 +44,4 @@ def predict(create_func,conf):
             results_fh.write(predicted_sentence+'\n')
 
 if __name__=='__main__':
-  predict(create_rethink,rethink_config())
+  predict(create_seq2seq,seq2seq_config())
