@@ -1,0 +1,4046 @@
+nohup: ignoring input
+2017-11-03 14:24:33.409796: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:24:33.409846: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:24:33.409856: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:24:33.409863: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:24:33.409871: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:24:34.127296: I tensorflow/core/common_runtime/gpu/gpu_device.cc:887] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:11:00.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+2017-11-03 14:24:34.127364: I tensorflow/core/common_runtime/gpu/gpu_device.cc:908] DMA: 0 
+2017-11-03 14:24:34.127379: I tensorflow/core/common_runtime/gpu/gpu_device.cc:918] 0:   Y 
+2017-11-03 14:24:34.127405: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:11:00.0)
+Preparing dialog data in data_bpe
+Creating 3 layers of 128 units.
+(128, 128)
+(128, 128)
+45
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_0/gru_cell/gates/weights:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_0/gru_cell/gates/biases:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_0/gru_cell/candidate/weights:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_0/gru_cell/candidate/biases:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_1/gru_cell/gates/weights:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_1/gru_cell/gates/biases:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_1/gru_cell/candidate/weights:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_1/gru_cell/candidate/biases:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_2/gru_cell/gates/weights:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_2/gru_cell/gates/biases:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_2/gru_cell/candidate/weights:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_2/gru_cell/candidate/biases:0
+cnn2seq/cnn_encoder/filter_8:0
+cnn2seq/cnn_encoder/filter_5:0
+cnn2seq/cnn_encoder/filter_3:0
+cnn2seq/cnn_encoder/filter_1:0
+cnn2seq/cnn_encoder/b8:0
+cnn2seq/cnn_encoder/b5:0
+cnn2seq/cnn_encoder/b3:0
+cnn2seq/cnn_encoder/b1:0
+cnn2seq/Variable:0
+cnn2seq/Variable_1:0
+cnn2seq/embeddings:0
+cnn2seq/AttnW_0:0
+cnn2seq/AttnV_0:0
+cnn2seq/proj_w:0
+cnn2seq/proj_b:0
+cnn2seq/loop/Attention_0/weights:0
+cnn2seq/loop/Attention_0/biases:0
+cnn2seq/loop/weights:0
+cnn2seq/loop/biases:0
+cnn2seq/loop/multi_rnn_cell/cell_0/gru_cell/gates/weights:0
+cnn2seq/loop/multi_rnn_cell/cell_0/gru_cell/gates/biases:0
+cnn2seq/loop/multi_rnn_cell/cell_0/gru_cell/candidate/weights:0
+cnn2seq/loop/multi_rnn_cell/cell_0/gru_cell/candidate/biases:0
+cnn2seq/loop/multi_rnn_cell/cell_1/gru_cell/gates/weights:0
+cnn2seq/loop/multi_rnn_cell/cell_1/gru_cell/gates/biases:0
+cnn2seq/loop/multi_rnn_cell/cell_1/gru_cell/candidate/weights:0
+cnn2seq/loop/multi_rnn_cell/cell_1/gru_cell/candidate/biases:0
+cnn2seq/loop/multi_rnn_cell/cell_2/gru_cell/gates/weights:0
+cnn2seq/loop/multi_rnn_cell/cell_2/gru_cell/gates/biases:0
+cnn2seq/loop/multi_rnn_cell/cell_2/gru_cell/candidate/weights:0
+cnn2seq/loop/multi_rnn_cell/cell_2/gru_cell/candidate/biases:0
+cnn2seq/loop/AttnOutputProjection/weights:0
+cnn2seq/loop/AttnOutputProjection/biases:0
+Reading seq2seq Embedded LM from test_model/model.ckpt-1600
+Reading development and training data (limit: 200000).
+  reading data line 100000
+  reading data line 200000
+2017-11-03 14:26:43.021913: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 8348 get requests, put_count=8332 evicted_count=1000 eviction_rate=0.120019 and unsatisfied allocation rate=0.133685
+2017-11-03 14:26:43.022015: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+GS 1700 LR 0.5000 ST 0.61 TPPL 240.10 rg 0.00022772 cg 0.00023373
+	eval: perplexity 231.43
+GS 1800 LR 0.5000 ST 0.25 TPPL 238.02 rg 0.00021593 cg 0.00013603
+	eval: perplexity 227.83
+GS 1900 LR 0.5000 ST 0.25 TPPL 233.69 rg 0.00018051 cg 0.00014953
+	eval: perplexity 259.00
+GS 2000 LR 0.5000 ST 0.26 TPPL 218.86 rg 0.00035735 cg 0.00056250
+	eval: perplexity 301.31
+GS 2100 LR 0.5000 ST 0.24 TPPL 211.67 rg 0.00021325 cg 0.00035704
+	eval: perplexity 197.27
+GS 2200 LR 0.5000 ST 0.25 TPPL 210.22 rg 0.00016693 cg 0.00012091
+	eval: perplexity 228.85
+GS 2300 LR 0.5000 ST 0.25 TPPL 205.56 rg 0.00031417 cg 0.00027390
+	eval: perplexity 249.94
+GS 2400 LR 0.5000 ST 0.25 TPPL 203.57 rg 0.00021945 cg 0.00038801
+	eval: perplexity 226.72
+GS 2500 LR 0.5000 ST 0.24 TPPL 203.97 rg 0.00017569 cg 0.00047488
+	eval: perplexity 211.83
+2017-11-03 14:40:50.541614: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 116969 get requests, put_count=116971 evicted_count=1000 eviction_rate=0.00854913 and unsatisfied allocation rate=0.00872881
+2017-11-03 14:40:50.541721: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 256 to 281
+GS 2600 LR 0.5000 ST 0.25 TPPL 199.76 rg 0.00013712 cg 0.00026218
+	eval: perplexity 189.69
+GS 2700 LR 0.5000 ST 0.25 TPPL 197.70 rg 0.00018628 cg 0.00038804
+	eval: perplexity 194.39
+GS 2800 LR 0.5000 ST 0.25 TPPL 193.96 rg 0.00016616 cg 0.00019509
+	eval: perplexity 220.53
+GS 2900 LR 0.5000 ST 0.25 TPPL 190.37 rg 0.00015392 cg 0.00013591
+	eval: perplexity 209.09
+GS 3000 LR 0.5000 ST 0.25 TPPL 190.43 rg 0.00031429 cg 0.00036489
+	eval: perplexity 190.70
+GS 3100 LR 0.5000 ST 0.25 TPPL 186.97 rg 0.00024197 cg 0.00023434
+	eval: perplexity 192.50
+GS 3200 LR 0.5000 ST 0.25 TPPL 188.01 rg 0.00016970 cg 0.00019355
+	eval: perplexity 214.54
+GS 3300 LR 0.5000 ST 0.25 TPPL 185.04 rg 0.00023385 cg 0.00061008
+	eval: perplexity 193.27
+GS 3400 LR 0.5000 ST 0.26 TPPL 187.75 rg 0.00011607 cg 0.00024091
+	eval: perplexity 172.59
+GS 3500 LR 0.5000 ST 0.25 TPPL 181.00 rg 0.00018450 cg 0.00034903
+	eval: perplexity 197.24
+GS 3600 LR 0.5000 ST 0.25 TPPL 180.91 rg 0.00027363 cg 0.00018222
+	eval: perplexity 193.66
+GS 3700 LR 0.5000 ST 0.26 TPPL 181.63 rg 0.00010322 cg 0.00018074
+	eval: perplexity 178.99
+GS 3800 LR 0.5000 ST 0.24 TPPL 179.33 rg 0.00029487 cg 0.00066169
+	eval: perplexity 176.27
+GS 3900 LR 0.5000 ST 0.25 TPPL 177.28 rg 0.00017206 cg 0.00031096
+	eval: perplexity 186.80
+GS 4000 LR 0.5000 ST 0.25 TPPL 172.59 rg 0.00012844 cg 0.00036672
+	eval: perplexity 203.69
+GS 4100 LR 0.5000 ST 0.24 TPPL 174.66 rg 0.00020527 cg 0.00038024
+	eval: perplexity 166.15
+GS 4200 LR 0.5000 ST 0.25 TPPL 169.22 rg 0.00017377 cg 0.00020651
+	eval: perplexity 193.38
+GS 4300 LR 0.5000 ST 0.25 TPPL 171.59 rg 0.00019528 cg 0.00030932
+	eval: perplexity 180.05
+GS 4400 LR 0.5000 ST 0.25 TPPL 169.60 rg 0.00011506 cg 0.00021513
+	eval: perplexity 166.04
+GS 4500 LR 0.5000 ST 0.24 TPPL 167.74 rg 0.00014631 cg 0.00025568
+	eval: perplexity 177.11
+GS 4600 LR 0.5000 ST 0.24 TPPL 168.92 rg 0.00022706 cg 0.00050659
+	eval: perplexity 182.19
+GS 4700 LR 0.5000 ST 0.27 TPPL 165.47 rg 0.00034989 cg 0.00070630
+	eval: perplexity 243.95
+GS 4800 LR 0.5000 ST 0.25 TPPL 165.90 rg 0.00019968 cg 0.00038455
+	eval: perplexity 172.96
+GS 4900 LR 0.5000 ST 0.25 TPPL 165.61 rg 0.00036290 cg 0.00053604
+	eval: perplexity 192.10
+GS 5000 LR 0.5000 ST 0.24 TPPL 161.56 rg 0.00010927 cg 0.00015446
+	eval: perplexity 148.33
+GS 5100 LR 0.5000 ST 0.25 TPPL 161.49 rg 0.00029209 cg 0.00038844
+	eval: perplexity 170.87
+GS 5200 LR 0.5000 ST 0.25 TPPL 158.29 rg 0.00021564 cg 0.00026689
+	eval: perplexity 204.55
+GS 5300 LR 0.5000 ST 0.25 TPPL 159.81 rg 0.00020950 cg 0.00036634
+	eval: perplexity 171.00
+GS 5400 LR 0.5000 ST 0.24 TPPL 157.95 rg 0.00028228 cg 0.00049067
+	eval: perplexity 161.17
+GS 5500 LR 0.5000 ST 0.25 TPPL 158.76 rg 0.00019167 cg 0.00034856
+	eval: perplexity 168.34
+GS 5600 LR 0.5000 ST 0.25 TPPL 155.40 rg 0.00012280 cg 0.00015899
+	eval: perplexity 163.61
+GS 5700 LR 0.5000 ST 0.27 TPPL 155.35 rg 0.00019024 cg 0.00026382
+	eval: perplexity 165.95
+GS 5800 LR 0.5000 ST 0.25 TPPL 153.01 rg 0.00021249 cg 0.00030695
+	eval: perplexity 180.80
+GS 5900 LR 0.5000 ST 0.26 TPPL 151.04 rg 0.00018237 cg 0.00032579
+	eval: perplexity 141.90
+GS 6000 LR 0.5000 ST 0.25 TPPL 150.59 rg 0.00027438 cg 0.00021517
+	eval: perplexity 133.16
+GS 6100 LR 0.5000 ST 0.25 TPPL 150.73 rg 0.00024941 cg 0.00025833
+	eval: perplexity 175.09
+GS 6200 LR 0.5000 ST 0.26 TPPL 149.85 rg 0.00020300 cg 0.00047625
+	eval: perplexity 151.94
+GS 6300 LR 0.5000 ST 0.25 TPPL 148.50 rg 0.00023625 cg 0.00037145
+	eval: perplexity 161.67
+GS 6400 LR 0.5000 ST 0.25 TPPL 148.59 rg 0.00019050 cg 0.00042954
+	eval: perplexity 168.56
+GS 6500 LR 0.5000 ST 0.25 TPPL 146.69 rg 0.00024759 cg 0.00029531
+	eval: perplexity 155.18
+GS 6600 LR 0.5000 ST 0.25 TPPL 145.45 rg 0.00021381 cg 0.00030467
+	eval: perplexity 179.79
+GS 6700 LR 0.5000 ST 0.25 TPPL 145.78 rg 0.00024023 cg 0.00037832
+	eval: perplexity 146.73
+GS 6800 LR 0.5000 ST 0.26 TPPL 142.78 rg 0.00028843 cg 0.00030687
+	eval: perplexity 186.19
+GS 6900 LR 0.5000 ST 0.26 TPPL 143.55 rg 0.00028648 cg 0.00037668
+	eval: perplexity 155.12
+GS 7000 LR 0.5000 ST 0.25 TPPL 144.79 rg 0.00027214 cg 0.00043760
+	eval: perplexity 143.71
+GS 7100 LR 0.5000 ST 0.25 TPPL 144.27 rg 0.00027379 cg 0.00044431
+	eval: perplexity 139.21
+GS 7200 LR 0.5000 ST 0.24 TPPL 139.97 rg 0.00029017 cg 0.00035180
+	eval: perplexity 168.23
+GS 7300 LR 0.5000 ST 0.25 TPPL 142.23 rg 0.00021729 cg 0.00043564
+	eval: perplexity 147.70
+GS 7400 LR 0.5000 ST 0.24 TPPL 138.74 rg 0.00026311 cg 0.00043959
+	eval: perplexity 145.11
+GS 7500 LR 0.5000 ST 0.24 TPPL 140.29 rg 0.00026632 cg 0.00049522
+	eval: perplexity 151.82
+GS 7600 LR 0.5000 ST 0.25 TPPL 137.81 rg 0.00028681 cg 0.00058883
+	eval: perplexity 144.85
+GS 7700 LR 0.5000 ST 0.25 TPPL 138.73 rg 0.00032744 cg 0.00029643
+	eval: perplexity 177.14
+GS 7800 LR 0.5000 ST 0.25 TPPL 137.42 rg 0.00022110 cg 0.00032854
+	eval: perplexity 135.35
+GS 7900 LR 0.5000 ST 0.25 TPPL 138.02 rg 0.00029621 cg 0.00046980
+	eval: perplexity 135.92
+GS 8000 LR 0.5000 ST 0.25 TPPL 136.01 rg 0.00022605 cg 0.00035681
+	eval: perplexity 131.94
+GS 8100 LR 0.5000 ST 0.25 TPPL 134.25 rg 0.00032914 cg 0.00060613
+	eval: perplexity 144.03
+GS 8200 LR 0.5000 ST 0.25 TPPL 133.65 rg 0.00021752 cg 0.00026579
+	eval: perplexity 133.25
+GS 8300 LR 0.5000 ST 0.25 TPPL 134.28 rg 0.00033203 cg 0.00069588
+	eval: perplexity 136.34
+GS 8400 LR 0.5000 ST 0.25 TPPL 132.58 rg 0.00057541 cg 0.00069849
+	eval: perplexity 148.48
+GS 8500 LR 0.5000 ST 0.25 TPPL 132.91 rg 0.00036652 cg 0.00065489
+	eval: perplexity 118.41
+GS 8600 LR 0.5000 ST 0.24 TPPL 131.40 rg 0.00019395 cg 0.00040395
+	eval: perplexity 143.67
+GS 8700 LR 0.5000 ST 0.25 TPPL 130.97 rg 0.00031644 cg 0.00047400
+	eval: perplexity 135.76
+GS 8800 LR 0.5000 ST 0.26 TPPL 129.20 rg 0.00045991 cg 0.00060505
+	eval: perplexity 142.61
+GS 8900 LR 0.5000 ST 0.24 TPPL 130.01 rg 0.00050202 cg 0.00063701
+	eval: perplexity 145.00
+GS 9000 LR 0.5000 ST 0.26 TPPL 128.89 rg 0.00033224 cg 0.00053572
+	eval: perplexity 126.41
+GS 9100 LR 0.5000 ST 0.25 TPPL 128.13 rg 0.00033930 cg 0.00044049
+	eval: perplexity 143.52
+GS 9200 LR 0.5000 ST 0.24 TPPL 125.77 rg 0.00033018 cg 0.00051037
+	eval: perplexity 140.58
+GS 9300 LR 0.5000 ST 0.25 TPPL 125.51 rg 0.00029124 cg 0.00033452
+	eval: perplexity 122.22
+GS 9400 LR 0.5000 ST 0.25 TPPL 126.10 rg 0.00046679 cg 0.00060060
+	eval: perplexity 142.98
+GS 9500 LR 0.5000 ST 0.26 TPPL 129.44 rg 0.00036884 cg 0.00060002
+	eval: perplexity 134.07
+GS 9600 LR 0.4950 ST 0.24 TPPL 124.31 rg 0.00052409 cg 0.00042720
+	eval: perplexity 146.74
+GS 9700 LR 0.4950 ST 0.25 TPPL 125.52 rg 0.00033622 cg 0.00055451
+	eval: perplexity 135.91
+GS 9800 LR 0.4950 ST 0.27 TPPL 123.09 rg 0.00031879 cg 0.00037091
+	eval: perplexity 127.33
+GS 9900 LR 0.4950 ST 0.25 TPPL 123.87 rg 0.00040560 cg 0.00037115
+	eval: perplexity 120.86
+GS 10000 LR 0.4950 ST 0.25 TPPL 120.21 rg 0.00023731 cg 0.00027606
+	eval: perplexity 144.75
+GS 10100 LR 0.4950 ST 0.25 TPPL 123.50 rg 0.00025773 cg 0.00045037
+	eval: perplexity 144.94
+GS 10200 LR 0.4950 ST 0.26 TPPL 121.38 rg 0.00045379 cg 0.00055133
+	eval: perplexity 129.29
+GS 10300 LR 0.4950 ST 0.25 TPPL 120.77 rg 0.00043060 cg 0.00045615
+	eval: perplexity 133.23
+GS 10400 LR 0.4950 ST 0.25 TPPL 119.89 rg 0.00035707 cg 0.00055886
+	eval: perplexity 108.18
+GS 10500 LR 0.4950 ST 0.26 TPPL 119.78 rg 0.00039860 cg 0.00041428
+	eval: perplexity 133.63
+GS 10600 LR 0.4950 ST 0.26 TPPL 120.35 rg 0.00040468 cg 0.00052932
+	eval: perplexity 147.06
+GS 10700 LR 0.4950 ST 0.25 TPPL 118.30 rg 0.00031094 cg 0.00052889
+	eval: perplexity 126.75
+GS 10800 LR 0.4950 ST 0.25 TPPL 119.34 rg 0.00037199 cg 0.00035167
+	eval: perplexity 123.53
+GS 10900 LR 0.4950 ST 0.25 TPPL 117.72 rg 0.00028127 cg 0.00040809
+	eval: perplexity 128.10
+GS 11000 LR 0.4950 ST 0.25 TPPL 115.78 rg 0.00082550 cg 0.00094030
+	eval: perplexity 146.68
+GS 11100 LR 0.4950 ST 0.25 TPPL 178.21 rg 0.00043160 cg 0.00048339
+	eval: perplexity 139.13
+GS 11200 LR 0.4901 ST 0.25 TPPL 115.51 rg 0.00039825 cg 0.00033482
+	eval: perplexity 131.22
+GS 11300 LR 0.4901 ST 0.25 TPPL 114.67 rg 0.00029407 cg 0.00041342
+	eval: perplexity 144.00
+GS 11400 LR 0.4901 ST 0.25 TPPL 115.83 rg 0.00035185 cg 0.00042530
+	eval: perplexity 136.64
+GS 11500 LR 0.4901 ST 0.25 TPPL 113.84 rg 0.00047265 cg 0.00034286
+	eval: perplexity 120.67
+GS 11600 LR 0.4901 ST 0.25 TPPL 114.19 rg 0.00029301 cg 0.00070255
+	eval: perplexity 122.70
+GS 11700 LR 0.4901 ST 0.24 TPPL 112.22 rg 0.00023821 cg 0.00051745
+	eval: perplexity 131.47
+GS 11800 LR 0.4901 ST 0.25 TPPL 112.41 rg 0.00060596 cg 0.00067968
+	eval: perplexity 153.67
+GS 11900 LR 0.4901 ST 0.26 TPPL 113.62 rg 0.00054570 cg 0.00064301
+	eval: perplexity 127.48
+GS 12000 LR 0.4901 ST 0.25 TPPL 112.57 rg 0.00037727 cg 0.00067168
+	eval: perplexity 126.88
+GS 12100 LR 0.4901 ST 0.25 TPPL 113.08 rg 0.00042287 cg 0.00039420
+	eval: perplexity 135.55
+GS 12200 LR 0.4901 ST 0.26 TPPL 110.31 rg 0.00030586 cg 0.00032783
+	eval: perplexity 120.88
+GS 12300 LR 0.4901 ST 0.25 TPPL 109.73 rg 0.00053803 cg 0.00043213
+	eval: perplexity 121.71
+GS 12400 LR 0.4901 ST 0.25 TPPL 109.75 rg 0.00054242 cg 0.00044892
+	eval: perplexity 110.38
+GS 12500 LR 0.4901 ST 0.25 TPPL 108.53 rg 0.00029824 cg 0.00044961
+	eval: perplexity 128.30
+GS 12600 LR 0.4901 ST 0.25 TPPL 109.52 rg 0.00060440 cg 0.00060304
+	eval: perplexity 113.22
+GS 12700 LR 0.4901 ST 0.25 TPPL 110.95 rg 0.00060440 cg 0.00060071
+	eval: perplexity 123.67
+GS 12800 LR 0.4851 ST 0.25 TPPL 106.57 rg 0.00028767 cg 0.00041918
+	eval: perplexity 108.18
+GS 12900 LR 0.4851 ST 0.25 TPPL 106.57 rg 0.00043714 cg 0.00063515
+	eval: perplexity 136.37
+GS 13000 LR 0.4851 ST 0.25 TPPL 107.20 rg 0.00047516 cg 0.00056545
+	eval: perplexity 135.30
+GS 13100 LR 0.4851 ST 0.25 TPPL 106.78 rg 0.00025752 cg 0.00047914
+	eval: perplexity 121.90
+GS 13200 LR 0.4851 ST 0.25 TPPL 106.81 rg 0.00032752 cg 0.00054674
+	eval: perplexity 125.17
+GS 13300 LR 0.4851 ST 0.24 TPPL 105.99 rg 0.00045034 cg 0.00054688
+	eval: perplexity 125.02
+GS 13400 LR 0.4851 ST 0.25 TPPL 106.97 rg 0.00040641 cg 0.00047651
+	eval: perplexity 124.36
+GS 13500 LR 0.4803 ST 0.26 TPPL 105.34 rg 0.00039312 cg 0.00041406
+	eval: perplexity 136.18
+GS 13600 LR 0.4803 ST 0.25 TPPL 106.78 rg 0.00044630 cg 0.00057069
+	eval: perplexity 120.38
+GS 13700 LR 0.4803 ST 0.25 TPPL 105.33 rg 0.00037505 cg 0.00051220
+	eval: perplexity 112.85
+GS 13800 LR 0.4803 ST 0.25 TPPL 104.36 rg 0.00039806 cg 0.00040723
+	eval: perplexity 117.54
+GS 13900 LR 0.4803 ST 0.24 TPPL 102.68 rg 0.00034959 cg 0.00044651
+	eval: perplexity 125.92
+GS 14000 LR 0.4803 ST 0.25 TPPL 103.74 rg 0.00052569 cg 0.00046806
+	eval: perplexity 99.61
+GS 14100 LR 0.4803 ST 0.26 TPPL 103.77 rg 0.00036781 cg 0.00042026
+	eval: perplexity 114.14
+GS 14200 LR 0.4803 ST 0.24 TPPL 103.08 rg 0.00035371 cg 0.00039177
+	eval: perplexity 120.74
+GS 14300 LR 0.4803 ST 0.26 TPPL 100.80 rg 0.00051948 cg 0.00039146
+	eval: perplexity 107.30
+GS 14400 LR 0.4803 ST 0.25 TPPL 174.54 rg 0.00049607 cg 0.00058791
+	eval: perplexity 117.49
+GS 14500 LR 0.4755 ST 0.24 TPPL 105.36 rg 0.00042091 cg 0.00033379
+	eval: perplexity 115.84
+GS 14600 LR 0.4755 ST 0.25 TPPL 101.85 rg 0.00037980 cg 0.00031501
+	eval: perplexity 122.85
+GS 14700 LR 0.4755 ST 0.25 TPPL 102.72 rg 0.00036990 cg 0.00042025
+	eval: perplexity 116.55
+GS 14800 LR 0.4755 ST 0.24 TPPL 101.48 rg 0.00044198 cg 0.00047541
+	eval: perplexity 128.20
+GS 14900 LR 0.4755 ST 0.25 TPPL 100.47 rg 0.00028553 cg 0.00048167
+	eval: perplexity 109.44
+GS 15000 LR 0.4755 ST 0.25 TPPL 99.60 rg 0.00050454 cg 0.00043067
+	eval: perplexity 119.03
+GS 15100 LR 0.4755 ST 0.25 TPPL 99.76 rg 0.00043621 cg 0.00060657
+	eval: perplexity 109.73
+GS 15200 LR 0.4755 ST 0.24 TPPL 99.26 rg 0.00042340 cg 0.00049116
+	eval: perplexity 117.46
+GS 15300 LR 0.4755 ST 0.25 TPPL 98.00 rg 0.00035247 cg 0.00043340
+	eval: perplexity 111.79
+GS 15400 LR 0.4755 ST 0.25 TPPL 97.23 rg 0.00031067 cg 0.00038191
+	eval: perplexity 102.67
+GS 15500 LR 0.4755 ST 0.26 TPPL 97.33 rg 0.00040292 cg 0.00038822
+	eval: perplexity 117.68
+GS 15600 LR 0.4755 ST 0.24 TPPL 97.45 rg 0.00048809 cg 0.00045706
+	eval: perplexity 111.36
+GS 15700 LR 0.4755 ST 0.24 TPPL 96.79 rg 0.00041552 cg 0.00051932
+	eval: perplexity 112.42
+GS 15800 LR 0.4755 ST 0.24 TPPL 97.34 rg 0.00026011 cg 0.00039910
+	eval: perplexity 116.63
+GS 15900 LR 0.4755 ST 0.25 TPPL 97.88 rg 0.00061009 cg 0.00080895
+	eval: perplexity 124.23
+GS 16000 LR 0.4707 ST 0.24 TPPL 95.40 rg 0.00047103 cg 0.00082370
+	eval: perplexity 128.13
+GS 16100 LR 0.4707 ST 0.25 TPPL 95.97 rg 0.00048459 cg 0.00065497
+	eval: perplexity 111.01
+GS 16200 LR 0.4707 ST 0.28 TPPL 96.09 rg 0.00040711 cg 0.00043673
+	eval: perplexity 131.54
+GS 16300 LR 0.4707 ST 0.29 TPPL 94.13 rg 0.00040358 cg 0.00041932
+	eval: perplexity 100.36
+GS 16400 LR 0.4707 ST 0.27 TPPL 94.57 rg 0.00042918 cg 0.00083438
+	eval: perplexity 101.95
+GS 16500 LR 0.4707 ST 0.28 TPPL 96.49 rg 0.00038447 cg 0.00049510
+	eval: perplexity 108.86
+GS 16600 LR 0.4660 ST 0.27 TPPL 94.76 rg 0.00058608 cg 0.00051737
+	eval: perplexity 133.43
+GS 16700 LR 0.4660 ST 0.27 TPPL 94.00 rg 0.00046814 cg 0.00057493
+	eval: perplexity 106.71
+GS 16800 LR 0.4660 ST 0.28 TPPL 94.90 rg 0.00030419 cg 0.00048930
+	eval: perplexity 97.35
+GS 16900 LR 0.4660 ST 0.27 TPPL 93.99 rg 0.00056939 cg 0.00038185
+	eval: perplexity 111.21
+GS 17000 LR 0.4660 ST 0.26 TPPL 91.43 rg 0.00034486 cg 0.00036266
+	eval: perplexity 101.65
+GS 17100 LR 0.4660 ST 0.28 TPPL 93.17 rg 0.00074978 cg 0.00066571
+	eval: perplexity 116.25
+GS 17200 LR 0.4660 ST 0.26 TPPL 92.98 rg 0.00025819 cg 0.00047424
+	eval: perplexity 108.38
+GS 17300 LR 0.4660 ST 0.28 TPPL 92.46 rg 0.00040257 cg 0.00044071
+	eval: perplexity 107.51
+GS 17400 LR 0.4660 ST 0.25 TPPL 92.51 rg 0.00061361 cg 0.00060643
+	eval: perplexity 128.49
+GS 17500 LR 0.4660 ST 0.28 TPPL 90.60 rg 0.00050576 cg 0.00038746
+	eval: perplexity 105.15
+GS 17600 LR 0.4660 ST 0.26 TPPL 95.17 rg 0.00060193 cg 0.00049575
+	eval: perplexity 107.23
+GS 17700 LR 0.4614 ST 0.28 TPPL 91.47 rg 0.00038664 cg 0.00059767
+	eval: perplexity 116.85
+GS 17800 LR 0.4614 ST 0.28 TPPL 91.12 rg 0.00060775 cg 0.00055199
+	eval: perplexity 116.11
+GS 17900 LR 0.4614 ST 0.27 TPPL 91.86 rg 0.00042183 cg 0.00058198
+	eval: perplexity 111.23
+GS 18000 LR 0.4614 ST 0.28 TPPL 90.91 rg 0.00049543 cg 0.00036802
+	eval: perplexity 108.65
+GS 18100 LR 0.4614 ST 0.28 TPPL 90.35 rg 0.00064948 cg 0.00058736
+	eval: perplexity 108.66
+GS 18200 LR 0.4614 ST 0.28 TPPL 90.08 rg 0.00041075 cg 0.00052898
+	eval: perplexity 119.22
+GS 18300 LR 0.4614 ST 0.28 TPPL 88.91 rg 0.00029090 cg 0.00039323
+	eval: perplexity 137.71
+GS 18400 LR 0.4614 ST 0.27 TPPL 89.44 rg 0.00046806 cg 0.00056988
+	eval: perplexity 102.84
+GS 18500 LR 0.4614 ST 0.27 TPPL 88.81 rg 0.00043806 cg 0.00046691
+	eval: perplexity 103.97
+GS 18600 LR 0.4614 ST 0.28 TPPL 89.14 rg 0.00043923 cg 0.00054616
+	eval: perplexity 113.93
+GS 18700 LR 0.4614 ST 0.29 TPPL 88.29 rg 0.00068418 cg 0.00057823
+	eval: perplexity 121.88
+GS 18800 LR 0.4614 ST 0.27 TPPL 87.40 rg 0.00047799 cg 0.00040712
+	eval: perplexity 127.75
+GS 18900 LR 0.4614 ST 0.26 TPPL 95.20 rg 0.00353400 cg 0.00476958
+	eval: perplexity 202184.73
+GS 19000 LR 0.4568 ST 0.27 TPPL 103.30 rg 0.00043872 cg 0.00061496
+	eval: perplexity 111.24
+GS 19100 LR 0.4522 ST 0.28 TPPL 87.61 rg 0.00046110 cg 0.00041797
+	eval: perplexity 107.21
+GS 19200 LR 0.4522 ST 0.27 TPPL 87.62 rg 0.00035697 cg 0.00043357
+	eval: perplexity 110.46
+GS 19300 LR 0.4522 ST 0.28 TPPL 86.43 rg 0.00038671 cg 0.00037474
+	eval: perplexity 87.24
+GS 19400 LR 0.4522 ST 0.27 TPPL 87.01 rg 0.00050810 cg 0.00046770
+	eval: perplexity 102.59
+GS 19500 LR 0.4522 ST 0.25 TPPL 85.64 rg 0.00037731 cg 0.00061792
+	eval: perplexity 102.04
+GS 19600 LR 0.4522 ST 0.27 TPPL 86.09 rg 0.00055811 cg 0.00050301
+	eval: perplexity 97.95
+GS 19700 LR 0.4522 ST 0.26 TPPL 84.97 rg 0.00043278 cg 0.00055475
+	eval: perplexity 105.19
+GS 19800 LR 0.4522 ST 0.28 TPPL 84.56 rg 0.00056949 cg 0.00057454
+	eval: perplexity 110.55
+GS 19900 LR 0.4522 ST 0.26 TPPL 85.43 rg 0.00042869 cg 0.00049009
+	eval: perplexity 103.22
+GS 20000 LR 0.4522 ST 0.27 TPPL 85.38 rg 0.00045191 cg 0.00051254
+	eval: perplexity 116.78
+GS 20100 LR 0.4522 ST 0.26 TPPL 84.97 rg 0.00031415 cg 0.00053528
+	eval: perplexity 110.29
+GS 20200 LR 0.4522 ST 0.28 TPPL 85.35 rg 0.00063587 cg 0.00073179
+	eval: perplexity 108.64
+GS 20300 LR 0.4522 ST 0.28 TPPL 85.08 rg 0.00049108 cg 0.00059087
+	eval: perplexity 95.96
+GS 20400 LR 0.4522 ST 0.25 TPPL 84.30 rg 0.00039741 cg 0.00051447
+	eval: perplexity 113.63
+GS 20500 LR 0.4522 ST 0.26 TPPL 82.62 rg 0.00042007 cg 0.00040958
+	eval: perplexity 105.66
+GS 20600 LR 0.4522 ST 0.26 TPPL 83.72 rg 0.00056130 cg 0.00075338
+	eval: perplexity 111.97
+GS 20700 LR 0.4522 ST 0.26 TPPL 82.44 rg 0.00046831 cg 0.00053803
+	eval: perplexity 95.10
+GS 20800 LR 0.4522 ST 0.26 TPPL 83.47 rg 0.00050851 cg 0.00045156
+	eval: perplexity 114.28
+GS 20900 LR 0.4522 ST 0.25 TPPL 82.42 rg 0.00055737 cg 0.00059686
+	eval: perplexity 102.22
+GS 21000 LR 0.4522 ST 0.26 TPPL 82.63 rg 0.00037399 cg 0.00039722
+	eval: perplexity 100.40
+GS 21100 LR 0.4522 ST 0.26 TPPL 80.64 rg 0.00043119 cg 0.00050131
+	eval: perplexity 101.69
+GS 21200 LR 0.4522 ST 0.25 TPPL 81.85 rg 0.00042506 cg 0.00049110
+	eval: perplexity 108.93
+GS 21300 LR 0.4522 ST 0.25 TPPL 82.30 rg 0.00045810 cg 0.00046244
+	eval: perplexity 102.00
+GS 21400 LR 0.4522 ST 0.26 TPPL 81.05 rg 0.00039645 cg 0.00054007
+	eval: perplexity 113.97
+GS 21500 LR 0.4522 ST 0.25 TPPL 80.98 rg 0.00050637 cg 0.00052786
+	eval: perplexity 87.29
+GS 21600 LR 0.4522 ST 0.26 TPPL 80.85 rg 0.00064877 cg 0.00056888
+	eval: perplexity 111.04
+GS 21700 LR 0.4522 ST 0.25 TPPL 80.94 rg 0.00060901 cg 0.00064682
+	eval: perplexity 107.17
+GS 21800 LR 0.4522 ST 0.25 TPPL 80.27 rg 0.00065330 cg 0.00058168
+	eval: perplexity 110.44
+GS 21900 LR 0.4522 ST 0.25 TPPL 79.85 rg 0.00046357 cg 0.00048725
+	eval: perplexity 112.92
+GS 22000 LR 0.4522 ST 0.25 TPPL 81.11 rg 0.00049936 cg 0.00048535
+	eval: perplexity 105.64
+GS 22100 LR 0.4477 ST 0.25 TPPL 79.86 rg 0.00036051 cg 0.00039335
+	eval: perplexity 104.17
+GS 22200 LR 0.4477 ST 0.25 TPPL 79.84 rg 0.00053741 cg 0.00057937
+	eval: perplexity 105.80
+GS 22300 LR 0.4477 ST 0.25 TPPL 80.19 rg 0.00046546 cg 0.00041663
+	eval: perplexity 104.97
+GS 22400 LR 0.4477 ST 0.24 TPPL 78.60 rg 0.00047528 cg 0.00053969
+	eval: perplexity 89.56
+GS 22500 LR 0.4477 ST 0.24 TPPL 78.14 rg 0.00050295 cg 0.00053017
+	eval: perplexity 108.59
+GS 22600 LR 0.4477 ST 0.25 TPPL 78.19 rg 0.00039569 cg 0.00036385
+	eval: perplexity 102.99
+GS 22700 LR 0.4477 ST 0.24 TPPL 79.76 rg 0.00051891 cg 0.00052773
+	eval: perplexity 105.69
+GS 22800 LR 0.4432 ST 0.25 TPPL 78.10 rg 0.00058560 cg 0.00054506
+	eval: perplexity 103.28
+GS 22900 LR 0.4432 ST 0.24 TPPL 78.63 rg 0.00053738 cg 0.00056187
+	eval: perplexity 102.60
+GS 23000 LR 0.4432 ST 0.24 TPPL 78.38 rg 0.00054589 cg 0.00053056
+	eval: perplexity 93.14
+GS 23100 LR 0.4432 ST 0.24 TPPL 78.71 rg 0.00059853 cg 0.00061036
+	eval: perplexity 98.54
+GS 23200 LR 0.4388 ST 0.25 TPPL 77.41 rg 0.00040043 cg 0.00051948
+	eval: perplexity 111.66
+GS 23300 LR 0.4388 ST 0.25 TPPL 77.34 rg 0.00053438 cg 0.00049615
+	eval: perplexity 90.32
+GS 23400 LR 0.4388 ST 0.25 TPPL 78.23 rg 0.00046936 cg 0.00047127
+	eval: perplexity 98.91
+GS 23500 LR 0.4388 ST 0.24 TPPL 77.34 rg 0.00062331 cg 0.00049952
+	eval: perplexity 115.25
+GS 23600 LR 0.4388 ST 0.25 TPPL 76.38 rg 0.00054513 cg 0.00067155
+	eval: perplexity 100.93
+GS 23700 LR 0.4388 ST 0.25 TPPL 75.09 rg 0.00055940 cg 0.00061079
+	eval: perplexity 97.24
+GS 23800 LR 0.4388 ST 0.25 TPPL 74.83 rg 0.00046777 cg 0.00060129
+	eval: perplexity 99.91
+GS 23900 LR 0.4388 ST 0.25 TPPL 75.55 rg 0.00057290 cg 0.00065313
+	eval: perplexity 104.43
+GS 24000 LR 0.4388 ST 0.25 TPPL 76.34 rg 0.00053981 cg 0.00048356
+	eval: perplexity 103.79
+GS 24100 LR 0.4344 ST 0.25 TPPL 75.49 rg 0.00071113 cg 0.00066024
+	eval: perplexity 114.94
+GS 24200 LR 0.4344 ST 0.25 TPPL 75.37 rg 0.00055670 cg 0.00052986
+	eval: perplexity 105.47
+GS 24300 LR 0.4344 ST 0.24 TPPL 74.79 rg 0.00056587 cg 0.00071783
+	eval: perplexity 112.06
+GS 24400 LR 0.4344 ST 0.24 TPPL 74.76 rg 0.00052256 cg 0.00058157
+	eval: perplexity 102.06
+GS 24500 LR 0.4344 ST 0.24 TPPL 74.68 rg 0.00047824 cg 0.00065294
+	eval: perplexity 115.92
+GS 24600 LR 0.4344 ST 0.24 TPPL 75.87 rg 0.00051041 cg 0.00059392
+	eval: perplexity 104.55
+GS 24700 LR 0.4300 ST 0.25 TPPL 74.65 rg 0.00046391 cg 0.00053629
+	eval: perplexity 108.28
+GS 24800 LR 0.4300 ST 0.25 TPPL 73.27 rg 0.00056098 cg 0.00053164
+	eval: perplexity 113.76
+GS 24900 LR 0.4300 ST 0.25 TPPL 74.16 rg 0.00101803 cg 0.00071635
+	eval: perplexity 116.52
+GS 25000 LR 0.4300 ST 0.25 TPPL 72.74 rg 0.00053531 cg 0.00080758
+	eval: perplexity 110.60
+GS 25100 LR 0.4300 ST 0.25 TPPL 73.32 rg 0.00062001 cg 0.00058706
+	eval: perplexity 106.73
+GS 25200 LR 0.4300 ST 0.25 TPPL 73.76 rg 0.00054157 cg 0.00051700
+	eval: perplexity 108.84
+GS 25300 LR 0.4300 ST 0.24 TPPL 73.36 rg 0.00081558 cg 0.00086680
+	eval: perplexity 119.68
+GS 25400 LR 0.4300 ST 0.24 TPPL 73.94 rg 0.00059495 cg 0.00052708
+	eval: perplexity 108.57
+GS 25500 LR 0.4257 ST 0.24 TPPL 72.35 rg 0.00056943 cg 0.00054967
+	eval: perplexity 89.66
+GS 25600 LR 0.4257 ST 0.24 TPPL 72.64 rg 0.00047472 cg 0.00052608
+	eval: perplexity 105.30
+GS 25700 LR 0.4257 ST 0.26 TPPL 72.50 rg 0.00061493 cg 0.00067937
+	eval: perplexity 105.61
+GS 25800 LR 0.4257 ST 0.24 TPPL 72.12 rg 0.00066528 cg 0.00069363
+	eval: perplexity 91.03
+GS 25900 LR 0.4257 ST 0.24 TPPL 71.89 rg 0.00058709 cg 0.00051826
+	eval: perplexity 97.50
+GS 26000 LR 0.4257 ST 0.24 TPPL 72.29 rg 0.00051983 cg 0.00069526
+	eval: perplexity 91.09
+GS 26100 LR 0.4257 ST 0.25 TPPL 71.40 rg 0.00042288 cg 0.00049515
+	eval: perplexity 105.68
+GS 26200 LR 0.4257 ST 0.24 TPPL 71.08 rg 0.00051972 cg 0.00061961
+	eval: perplexity 95.15
+GS 26300 LR 0.4257 ST 0.24 TPPL 72.06 rg 0.00073090 cg 0.00063876
+	eval: perplexity 104.73
+GS 26400 LR 0.4257 ST 0.24 TPPL 71.36 rg 0.00036477 cg 0.00055109
+	eval: perplexity 105.61
+GS 26500 LR 0.4257 ST 0.24 TPPL 70.16 rg 0.00049436 cg 0.00047942
+	eval: perplexity 106.73
+GS 26600 LR 0.4257 ST 0.24 TPPL 71.42 rg 0.00049184 cg 0.00053331
+	eval: perplexity 78.96
+GS 26700 LR 0.4257 ST 0.24 TPPL 70.66 rg 0.00058890 cg 0.00056898
+	eval: perplexity 93.22
+GS 26800 LR 0.4257 ST 0.25 TPPL 70.53 rg 0.00053166 cg 0.00063032
+	eval: perplexity 113.31
+GS 26900 LR 0.4257 ST 0.24 TPPL 70.03 rg 0.00048480 cg 0.00049518
+	eval: perplexity 106.11
+GS 27000 LR 0.4257 ST 0.25 TPPL 69.73 rg 0.00045010 cg 0.00050999
+	eval: perplexity 97.41
+GS 27100 LR 0.4257 ST 0.24 TPPL 70.45 rg 0.00053748 cg 0.00064351
+	eval: perplexity 121.65
+GS 27200 LR 0.4257 ST 0.24 TPPL 69.68 rg 0.00036148 cg 0.00055162
+	eval: perplexity 103.74
+GS 27300 LR 0.4257 ST 0.26 TPPL 70.52 rg 0.00059266 cg 0.00066853
+	eval: perplexity 87.81
+GS 27400 LR 0.4215 ST 0.25 TPPL 69.15 rg 0.00063762 cg 0.00059378
+	eval: perplexity 90.97
+GS 27500 LR 0.4215 ST 0.24 TPPL 68.86 rg 0.00059766 cg 0.00057629
+	eval: perplexity 113.52
+GS 27600 LR 0.4215 ST 0.26 TPPL 69.61 rg 0.00050663 cg 0.00061481
+	eval: perplexity 93.00
+GS 27700 LR 0.4215 ST 0.24 TPPL 68.23 rg 0.00063899 cg 0.00072929
+	eval: perplexity 116.18
+GS 27800 LR 0.4215 ST 0.26 TPPL 69.67 rg 0.00049444 cg 0.00068834
+	eval: perplexity 108.78
+GS 27900 LR 0.4173 ST 0.26 TPPL 67.94 rg 0.00046524 cg 0.00051795
+	eval: perplexity 98.79
+GS 28000 LR 0.4173 ST 0.26 TPPL 69.47 rg 0.00052604 cg 0.00057495
+	eval: perplexity 99.40
+GS 28100 LR 0.4173 ST 0.26 TPPL 69.96 rg 0.00060307 cg 0.00076736
+	eval: perplexity 118.08
+GS 28200 LR 0.4131 ST 0.26 TPPL 67.90 rg 0.00057976 cg 0.00059100
+	eval: perplexity 107.58
+GS 28300 LR 0.4131 ST 0.25 TPPL 66.59 rg 0.00060976 cg 0.00072678
+	eval: perplexity 85.25
+GS 28400 LR 0.4131 ST 0.25 TPPL 68.71 rg 0.00062821 cg 0.00047747
+	eval: perplexity 95.32
+GS 28500 LR 0.4131 ST 0.27 TPPL 67.51 rg 0.00051397 cg 0.00058634
+	eval: perplexity 112.65
+GS 28600 LR 0.4131 ST 0.25 TPPL 67.28 rg 0.00040183 cg 0.00044743
+	eval: perplexity 97.12
+GS 28700 LR 0.4131 ST 0.24 TPPL 67.47 rg 0.00039651 cg 0.00052233
+	eval: perplexity 91.81
+GS 28800 LR 0.4131 ST 0.24 TPPL 66.95 rg 0.00059637 cg 0.00056654
+	eval: perplexity 102.97
+GS 28900 LR 0.4131 ST 0.24 TPPL 67.62 rg 0.00037171 cg 0.00059706
+	eval: perplexity 102.84
+GS 29000 LR 0.4090 ST 0.24 TPPL 66.83 rg 0.00051229 cg 0.00058457
+	eval: perplexity 116.98
+GS 29100 LR 0.4090 ST 0.24 TPPL 65.99 rg 0.00068668 cg 0.00066577
+	eval: perplexity 99.80
+GS 29200 LR 0.4090 ST 0.24 TPPL 66.51 rg 0.00049566 cg 0.00069576
+	eval: perplexity 99.30
+GS 29300 LR 0.4090 ST 0.24 TPPL 65.98 rg 0.00070369 cg 0.00086360
+	eval: perplexity 96.83
+GS 29400 LR 0.4090 ST 0.26 TPPL 66.60 rg 0.00050642 cg 0.00054242
+	eval: perplexity 96.51
+GS 29500 LR 0.4049 ST 0.24 TPPL 67.20 rg 0.00049243 cg 0.00067738
+	eval: perplexity 92.00
+GS 29600 LR 0.4008 ST 0.24 TPPL 65.81 rg 0.00056830 cg 0.00063130
+	eval: perplexity 92.90
+GS 29700 LR 0.4008 ST 0.24 TPPL 66.76 rg 0.00052298 cg 0.00058189
+	eval: perplexity 103.47
+GS 29800 LR 0.4008 ST 0.24 TPPL 66.68 rg 0.00056758 cg 0.00055802
+	eval: perplexity 94.01
+GS 29900 LR 0.4008 ST 0.25 TPPL 65.00 rg 0.00061225 cg 0.00058745
+	eval: perplexity 107.24
+GS 30000 LR 0.4008 ST 0.24 TPPL 65.65 rg 0.00056890 cg 0.00057639
+	eval: perplexity 106.40
+GS 30100 LR 0.4008 ST 0.24 TPPL 64.85 rg 0.00048409 cg 0.00052339
+	eval: perplexity 94.38
+GS 30200 LR 0.4008 ST 0.24 TPPL 64.02 rg 0.00050074 cg 0.00056734
+	eval: perplexity 101.36
+GS 30300 LR 0.4008 ST 0.24 TPPL 63.60 rg 0.00049124 cg 0.00057760
+	eval: perplexity 89.38
+GS 30400 LR 0.4008 ST 0.24 TPPL 64.72 rg 0.00082335 cg 0.00078985
+	eval: perplexity 99.45
+GS 30500 LR 0.4008 ST 0.24 TPPL 64.79 rg 0.00061434 cg 0.00069983
+	eval: perplexity 87.59
+GS 30600 LR 0.3968 ST 0.24 TPPL 64.66 rg 0.00051217 cg 0.00062069
+	eval: perplexity 79.92
+GS 30700 LR 0.3968 ST 0.24 TPPL 63.54 rg 0.00057841 cg 0.00071808
+	eval: perplexity 116.55
+GS 30800 LR 0.3968 ST 0.24 TPPL 64.06 rg 0.00060351 cg 0.00066030
+	eval: perplexity 100.15
+GS 30900 LR 0.3968 ST 0.24 TPPL 64.15 rg 0.00050278 cg 0.00056149
+	eval: perplexity 110.62
+GS 31000 LR 0.3968 ST 0.24 TPPL 63.42 rg 0.00055513 cg 0.00053166
+	eval: perplexity 115.21
+GS 31100 LR 0.3968 ST 0.24 TPPL 63.32 rg 0.00072579 cg 0.00059475
+	eval: perplexity 108.02
+GS 31200 LR 0.3968 ST 0.24 TPPL 64.64 rg 0.00045847 cg 0.00056087
+	eval: perplexity 97.44
+GS 31300 LR 0.3928 ST 0.24 TPPL 63.42 rg 0.00088630 cg 0.00077964
+	eval: perplexity 88.84
+GS 31400 LR 0.3928 ST 0.24 TPPL 62.46 rg 0.00063613 cg 0.00064950
+	eval: perplexity 95.91
+GS 31500 LR 0.3928 ST 0.24 TPPL 62.00 rg 0.00048537 cg 0.00068237
+	eval: perplexity 91.02
+GS 31600 LR 0.3928 ST 0.25 TPPL 62.86 rg 0.00048231 cg 0.00064857
+	eval: perplexity 102.18
+GS 31700 LR 0.3928 ST 0.24 TPPL 62.73 rg 0.00064184 cg 0.00061327
+	eval: perplexity 90.24
+GS 31800 LR 0.3928 ST 0.24 TPPL 62.55 rg 0.00060027 cg 0.00060607
+	eval: perplexity 84.58
+GS 31900 LR 0.3928 ST 0.24 TPPL 62.40 rg 0.00065268 cg 0.00071456
+	eval: perplexity 92.20
+GS 32000 LR 0.3928 ST 0.24 TPPL 61.73 rg 0.00044231 cg 0.00038684
+	eval: perplexity 108.50
+GS 32100 LR 0.3928 ST 0.24 TPPL 62.40 rg 0.00061400 cg 0.00067106
+	eval: perplexity 90.72
+GS 32200 LR 0.3928 ST 0.24 TPPL 62.49 rg 0.00067716 cg 0.00070937
+	eval: perplexity 106.65
+GS 32300 LR 0.3889 ST 0.27 TPPL 61.84 rg 0.00053826 cg 0.00054058
+	eval: perplexity 95.48
+GS 32400 LR 0.3889 ST 0.24 TPPL 61.73 rg 0.00066919 cg 0.00063142
+	eval: perplexity 123.46
+GS 32500 LR 0.3889 ST 0.24 TPPL 61.82 rg 0.00062107 cg 0.00049986
+	eval: perplexity 113.94
+GS 32600 LR 0.3889 ST 0.24 TPPL 61.60 rg 0.00043389 cg 0.00052327
+	eval: perplexity 103.54
+GS 32700 LR 0.3889 ST 0.24 TPPL 61.72 rg 0.00061830 cg 0.00060725
+	eval: perplexity 87.89
+GS 32800 LR 0.3889 ST 0.24 TPPL 60.76 rg 0.00045156 cg 0.00061583
+	eval: perplexity 103.06
+GS 32900 LR 0.3889 ST 0.24 TPPL 61.10 rg 0.00059598 cg 0.00060134
+	eval: perplexity 94.83
+GS 33000 LR 0.3889 ST 0.24 TPPL 61.43 rg 0.00061009 cg 0.00064111
+	eval: perplexity 88.82
+GS 33100 LR 0.3889 ST 0.24 TPPL 61.40 rg 0.00058063 cg 0.00053877
+	eval: perplexity 93.29
+GS 33200 LR 0.3889 ST 0.26 TPPL 60.69 rg 0.00055773 cg 0.00065493
+	eval: perplexity 103.08
+GS 33300 LR 0.3889 ST 0.24 TPPL 60.86 rg 0.00056700 cg 0.00059135
+	eval: perplexity 98.08
+GS 33400 LR 0.3889 ST 0.24 TPPL 60.23 rg 0.00056753 cg 0.00062925
+	eval: perplexity 87.73
+GS 33500 LR 0.3889 ST 0.24 TPPL 60.47 rg 0.00089314 cg 0.00086028
+	eval: perplexity 111.09
+GS 33600 LR 0.3889 ST 0.24 TPPL 60.56 rg 0.00057417 cg 0.00070243
+	eval: perplexity 112.46
+GS 33700 LR 0.3889 ST 0.24 TPPL 59.42 rg 0.00068919 cg 0.00065547
+	eval: perplexity 101.24
+GS 33800 LR 0.3889 ST 0.24 TPPL 60.18 rg 0.00054719 cg 0.00066543
+	eval: perplexity 92.46
+GS 33900 LR 0.3889 ST 0.26 TPPL 59.19 rg 0.00050855 cg 0.00068864
+	eval: perplexity 88.73
+GS 34000 LR 0.3889 ST 0.24 TPPL 59.48 rg 0.00064592 cg 0.00071097
+	eval: perplexity 101.96
+GS 34100 LR 0.3889 ST 0.24 TPPL 61.03 rg 0.00059946 cg 0.00062541
+	eval: perplexity 86.74
+GS 34200 LR 0.3850 ST 0.24 TPPL 59.45 rg 0.00058076 cg 0.00066501
+	eval: perplexity 93.65
+GS 34300 LR 0.3850 ST 0.24 TPPL 59.49 rg 0.00059387 cg 0.00080031
+	eval: perplexity 98.04
+GS 34400 LR 0.3850 ST 0.24 TPPL 59.71 rg 0.00081734 cg 0.00068281
+	eval: perplexity 96.46
+GS 34500 LR 0.3850 ST 0.24 TPPL 60.07 rg 0.00066098 cg 0.00068040
+	eval: perplexity 93.73
+GS 34600 LR 0.3812 ST 0.24 TPPL 57.85 rg 0.00051416 cg 0.00074001
+	eval: perplexity 84.92
+GS 34700 LR 0.3812 ST 0.24 TPPL 58.71 rg 0.00047264 cg 0.00054304
+	eval: perplexity 93.22
+GS 34800 LR 0.3812 ST 0.24 TPPL 59.20 rg 0.00065282 cg 0.00086518
+	eval: perplexity 88.66
+GS 34900 LR 0.3812 ST 0.24 TPPL 58.52 rg 0.00066476 cg 0.00071622
+	eval: perplexity 93.21
+GS 35000 LR 0.3812 ST 0.24 TPPL 58.67 rg 0.00064747 cg 0.00063638
+	eval: perplexity 87.85
+GS 35100 LR 0.3812 ST 0.24 TPPL 57.48 rg 0.00051075 cg 0.00055248
+	eval: perplexity 114.46
+GS 35200 LR 0.3812 ST 0.24 TPPL 58.05 rg 0.00059314 cg 0.00063050
+	eval: perplexity 110.15
+GS 35300 LR 0.3812 ST 0.24 TPPL 58.98 rg 0.00060164 cg 0.00081267
+	eval: perplexity 95.27
+GS 35400 LR 0.3774 ST 0.24 TPPL 57.87 rg 0.00068703 cg 0.00052338
+	eval: perplexity 95.67
+GS 35500 LR 0.3774 ST 0.24 TPPL 57.48 rg 0.00083069 cg 0.00082954
+	eval: perplexity 98.14
+GS 35600 LR 0.3774 ST 0.24 TPPL 57.57 rg 0.00075615 cg 0.00069804
+	eval: perplexity 115.96
+GS 35700 LR 0.3774 ST 0.24 TPPL 57.74 rg 0.00057302 cg 0.00070928
+	eval: perplexity 91.47
+GS 35800 LR 0.3774 ST 0.24 TPPL 58.45 rg 0.00051956 cg 0.00074940
+	eval: perplexity 93.65
+2017-11-03 20:31:32.919921: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 11297239 get requests, put_count=11297239 evicted_count=8000 eviction_rate=0.000708138 and unsatisfied allocation rate=0.000710616
+GS 35900 LR 0.3736 ST 0.24 TPPL 57.96 rg 0.00067100 cg 0.00064868
+	eval: perplexity 93.33
+GS 36000 LR 0.3736 ST 0.24 TPPL 57.65 rg 0.00063017 cg 0.00070180
+	eval: perplexity 89.24
+GS 36100 LR 0.3736 ST 0.24 TPPL 57.33 rg 0.00063099 cg 0.00066773
+	eval: perplexity 108.61
+GS 36200 LR 0.3736 ST 0.24 TPPL 56.45 rg 0.00059411 cg 0.00061656
+	eval: perplexity 88.71
+GS 36300 LR 0.3736 ST 0.24 TPPL 57.04 rg 0.00079495 cg 0.00060280
+	eval: perplexity 103.74
+GS 36400 LR 0.3736 ST 0.24 TPPL 56.66 rg 0.00073891 cg 0.00094144
+	eval: perplexity 107.89
+GS 36500 LR 0.3736 ST 0.24 TPPL 57.36 rg 0.00069990 cg 0.00056332
+	eval: perplexity 95.43
+GS 36600 LR 0.3699 ST 0.23 TPPL 56.78 rg 0.00083776 cg 0.00071045
+	eval: perplexity 113.16
+GS 36700 LR 0.3699 ST 0.24 TPPL 57.17 rg 0.00055178 cg 0.00062127
+	eval: perplexity 91.68
+GS 36800 LR 0.3699 ST 0.24 TPPL 56.18 rg 0.00050610 cg 0.00065708
+	eval: perplexity 93.74
+GS 36900 LR 0.3699 ST 0.24 TPPL 56.20 rg 0.00056083 cg 0.00057450
+	eval: perplexity 84.56
+GS 37000 LR 0.3699 ST 0.24 TPPL 55.47 rg 0.00058244 cg 0.00069488
+	eval: perplexity 90.79
+GS 37100 LR 0.3699 ST 0.24 TPPL 56.68 rg 0.00045490 cg 0.00047139
+	eval: perplexity 103.17
+GS 37200 LR 0.3662 ST 0.24 TPPL 56.74 rg 0.00064020 cg 0.00063273
+	eval: perplexity 92.92
+GS 37300 LR 0.3625 ST 0.24 TPPL 54.58 rg 0.00058835 cg 0.00063993
+	eval: perplexity 104.83
+GS 37400 LR 0.3625 ST 0.24 TPPL 56.13 rg 0.00048831 cg 0.00055711
+	eval: perplexity 112.66
+GS 37500 LR 0.3625 ST 0.24 TPPL 55.62 rg 0.00061653 cg 0.00078544
+	eval: perplexity 93.97
+GS 37600 LR 0.3625 ST 0.24 TPPL 55.27 rg 0.00084626 cg 0.00076196
+	eval: perplexity 85.87
+GS 37700 LR 0.3625 ST 0.24 TPPL 54.88 rg 0.00057966 cg 0.00079955
+	eval: perplexity 111.99
+GS 37800 LR 0.3625 ST 0.24 TPPL 55.67 rg 0.00078225 cg 0.00074962
+	eval: perplexity 104.98
+GS 37900 LR 0.3589 ST 0.24 TPPL 54.89 rg 0.00054448 cg 0.00068399
+	eval: perplexity 96.34
+GS 38000 LR 0.3589 ST 0.24 TPPL 54.91 rg 0.00057211 cg 0.00071094
+	eval: perplexity 99.29
+GS 38100 LR 0.3589 ST 0.24 TPPL 54.83 rg 0.00075109 cg 0.00069773
+	eval: perplexity 86.80
+GS 38200 LR 0.3589 ST 0.24 TPPL 55.15 rg 0.00046645 cg 0.00051680
+	eval: perplexity 91.69
+GS 38300 LR 0.3553 ST 0.24 TPPL 54.44 rg 0.00061658 cg 0.00065376
+	eval: perplexity 99.73
+GS 38400 LR 0.3553 ST 0.24 TPPL 54.42 rg 0.00072175 cg 0.00080104
+	eval: perplexity 106.07
+GS 38500 LR 0.3553 ST 0.24 TPPL 54.17 rg 0.00058885 cg 0.00089489
+	eval: perplexity 100.06
+GS 38600 LR 0.3553 ST 0.24 TPPL 54.02 rg 0.00054406 cg 0.00071168
+	eval: perplexity 91.78
+GS 38700 LR 0.3553 ST 0.24 TPPL 53.84 rg 0.00050528 cg 0.00079299
+	eval: perplexity 93.34
+GS 38800 LR 0.3553 ST 0.23 TPPL 53.10 rg 0.00063865 cg 0.00079753
+	eval: perplexity 106.60
+GS 38900 LR 0.3553 ST 0.24 TPPL 53.49 rg 0.00061665 cg 0.00052356
+	eval: perplexity 98.52
+GS 39000 LR 0.3553 ST 0.23 TPPL 53.90 rg 0.00067862 cg 0.00074838
+	eval: perplexity 104.59
+GS 39100 LR 0.3517 ST 0.23 TPPL 53.53 rg 0.00064846 cg 0.00064515
+	eval: perplexity 113.61
+GS 39200 LR 0.3517 ST 0.23 TPPL 53.33 rg 0.00090107 cg 0.00056138
+	eval: perplexity 96.96
+GS 39300 LR 0.3517 ST 0.23 TPPL 53.57 rg 0.00066101 cg 0.00063246
+	eval: perplexity 88.76
+GS 39400 LR 0.3517 ST 0.23 TPPL 53.47 rg 0.00065791 cg 0.00069689
+	eval: perplexity 94.83
+GS 39500 LR 0.3517 ST 0.23 TPPL 53.38 rg 0.00062791 cg 0.00074352
+	eval: perplexity 108.14
+GS 39600 LR 0.3517 ST 0.23 TPPL 52.64 rg 0.00077034 cg 0.00051492
+	eval: perplexity 87.11
+GS 39700 LR 0.3517 ST 0.23 TPPL 52.90 rg 0.00091779 cg 0.00082528
+	eval: perplexity 96.42
+GS 39800 LR 0.3517 ST 0.23 TPPL 52.56 rg 0.00069124 cg 0.00073084
+	eval: perplexity 85.56
+GS 39900 LR 0.3517 ST 0.24 TPPL 53.00 rg 0.00064596 cg 0.00061102
+	eval: perplexity 89.23
+GS 40000 LR 0.3482 ST 0.23 TPPL 52.28 rg 0.00063279 cg 0.00066585
+	eval: perplexity 99.81
+GS 40100 LR 0.3482 ST 0.23 TPPL 53.77 rg 0.00059549 cg 0.00100471
+	eval: perplexity 84.76
+GS 40200 LR 0.3447 ST 0.23 TPPL 52.30 rg 0.00052795 cg 0.00053116
+	eval: perplexity 98.78
+GS 40300 LR 0.3447 ST 0.23 TPPL 52.81 rg 0.00080713 cg 0.00066049
+	eval: perplexity 98.11
+GS 40400 LR 0.3447 ST 0.23 TPPL 52.32 rg 0.00067889 cg 0.00064650
+	eval: perplexity 112.58
+GS 40500 LR 0.3447 ST 0.23 TPPL 52.95 rg 0.00058726 cg 0.00067314
+	eval: perplexity 94.21
+GS 40600 LR 0.3413 ST 0.23 TPPL 51.74 rg 0.00057502 cg 0.00084543
+	eval: perplexity 94.97
+GS 40700 LR 0.3413 ST 0.24 TPPL 52.33 rg 0.00069117 cg 0.00088656
+	eval: perplexity 88.90
+GS 40800 LR 0.3413 ST 0.23 TPPL 51.31 rg 0.00084333 cg 0.00089556
+	eval: perplexity 109.64
+GS 40900 LR 0.3413 ST 0.23 TPPL 51.51 rg 0.00053117 cg 0.00062462
+	eval: perplexity 85.34
+GS 41000 LR 0.3413 ST 0.23 TPPL 51.15 rg 0.00055174 cg 0.00075710
+	eval: perplexity 79.97
+GS 41100 LR 0.3413 ST 0.24 TPPL 51.78 rg 0.00052097 cg 0.00064372
+	eval: perplexity 94.72
+GS 41200 LR 0.3379 ST 0.23 TPPL 51.44 rg 0.00048158 cg 0.00062014
+	eval: perplexity 106.43
+GS 41300 LR 0.3379 ST 0.23 TPPL 51.92 rg 0.00061606 cg 0.00073069
+	eval: perplexity 79.04
+GS 41400 LR 0.3345 ST 0.23 TPPL 51.11 rg 0.00070366 cg 0.00059085
+	eval: perplexity 85.00
+GS 41500 LR 0.3345 ST 0.24 TPPL 51.32 rg 0.00075732 cg 0.00067567
+	eval: perplexity 99.08
+GS 41600 LR 0.3345 ST 0.23 TPPL 51.68 rg 0.00065971 cg 0.00060644
+	eval: perplexity 93.78
+GS 41700 LR 0.3345 ST 0.23 TPPL 49.95 rg 0.00078983 cg 0.00072159
+	eval: perplexity 96.28
+GS 41800 LR 0.3345 ST 0.23 TPPL 50.36 rg 0.00059266 cg 0.00061956
+	eval: perplexity 87.75
+GS 41900 LR 0.3345 ST 0.23 TPPL 50.63 rg 0.00074247 cg 0.00070526
+	eval: perplexity 90.91
+GS 42000 LR 0.3345 ST 0.23 TPPL 50.71 rg 0.00058851 cg 0.00061519
+	eval: perplexity 108.66
+GS 42100 LR 0.3311 ST 0.23 TPPL 50.60 rg 0.00062725 cg 0.00062247
+	eval: perplexity 105.30
+GS 42200 LR 0.3311 ST 0.23 TPPL 50.25 rg 0.00062004 cg 0.00084697
+	eval: perplexity 90.79
+GS 42300 LR 0.3311 ST 0.23 TPPL 50.06 rg 0.00064835 cg 0.00073816
+	eval: perplexity 89.10
+GS 42400 LR 0.3311 ST 0.23 TPPL 50.01 rg 0.00061181 cg 0.00084632
+	eval: perplexity 116.85
+GS 42500 LR 0.3311 ST 0.24 TPPL 49.75 rg 0.00068127 cg 0.00068867
+	eval: perplexity 103.86
+GS 42600 LR 0.3311 ST 0.23 TPPL 49.47 rg 0.00085516 cg 0.00066408
+	eval: perplexity 86.24
+GS 42700 LR 0.3311 ST 0.25 TPPL 50.23 rg 0.00071908 cg 0.00090254
+	eval: perplexity 98.35
+GS 42800 LR 0.3278 ST 0.28 TPPL 50.05 rg 0.00068913 cg 0.00083411
+	eval: perplexity 94.02
+GS 42900 LR 0.3278 ST 0.28 TPPL 49.35 rg 0.00060685 cg 0.00083002
+	eval: perplexity 105.48
+GS 43000 LR 0.3278 ST 0.28 TPPL 49.62 rg 0.00071048 cg 0.00082292
+	eval: perplexity 81.39
+GS 43100 LR 0.3278 ST 0.29 TPPL 49.97 rg 0.00067324 cg 0.00052889
+	eval: perplexity 85.62
+GS 43200 LR 0.3278 ST 0.26 TPPL 49.55 rg 0.00071317 cg 0.00083349
+	eval: perplexity 86.80
+GS 43300 LR 0.3278 ST 0.24 TPPL 49.89 rg 0.00068726 cg 0.00064618
+	eval: perplexity 80.29
+GS 43400 LR 0.3278 ST 0.23 TPPL 49.45 rg 0.00071178 cg 0.00075003
+	eval: perplexity 84.38
+GS 43500 LR 0.3278 ST 0.23 TPPL 49.05 rg 0.00057041 cg 0.00069194
+	eval: perplexity 94.99
+GS 43600 LR 0.3278 ST 0.23 TPPL 49.61 rg 0.00062020 cg 0.00058000
+	eval: perplexity 87.42
+GS 43700 LR 0.3278 ST 0.23 TPPL 49.19 rg 0.00066178 cg 0.00082482
+	eval: perplexity 88.67
+GS 43800 LR 0.3278 ST 0.23 TPPL 49.03 rg 0.00065949 cg 0.00062075
+	eval: perplexity 104.46
+GS 43900 LR 0.3278 ST 0.25 TPPL 48.86 rg 0.00061971 cg 0.00057883
+	eval: perplexity 102.99
+GS 44000 LR 0.3278 ST 0.24 TPPL 49.08 rg 0.00057710 cg 0.00069277
+	eval: perplexity 94.77
+GS 44100 LR 0.3278 ST 0.24 TPPL 48.13 rg 0.00062354 cg 0.00078755
+	eval: perplexity 100.83
+GS 44200 LR 0.3278 ST 0.23 TPPL 49.05 rg 0.00058689 cg 0.00068154
+	eval: perplexity 90.57
+GS 44300 LR 0.3278 ST 0.24 TPPL 47.81 rg 0.00055451 cg 0.00068002
+	eval: perplexity 82.42
+GS 44400 LR 0.3278 ST 0.23 TPPL 49.39 rg 0.00063486 cg 0.00069192
+	eval: perplexity 82.61
+GS 44500 LR 0.3246 ST 0.24 TPPL 48.08 rg 0.00066067 cg 0.00089780
+	eval: perplexity 93.49
+GS 44600 LR 0.3246 ST 0.23 TPPL 47.76 rg 0.00057916 cg 0.00065008
+	eval: perplexity 103.05
+GS 44700 LR 0.3246 ST 0.23 TPPL 48.80 rg 0.00075553 cg 0.00082298
+	eval: perplexity 98.91
+GS 44800 LR 0.3246 ST 0.23 TPPL 47.77 rg 0.00074465 cg 0.00070241
+	eval: perplexity 106.03
+GS 44900 LR 0.3246 ST 0.23 TPPL 48.38 rg 0.00090223 cg 0.00074535
+	eval: perplexity 117.67
+GS 45000 LR 0.3246 ST 0.23 TPPL 47.99 rg 0.00067832 cg 0.00054417
+	eval: perplexity 97.22
+GS 45100 LR 0.3246 ST 0.23 TPPL 48.06 rg 0.00061405 cg 0.00080635
+	eval: perplexity 96.19
+GS 45200 LR 0.3246 ST 0.23 TPPL 47.50 rg 0.00070229 cg 0.00073328
+	eval: perplexity 83.83
+GS 45300 LR 0.3246 ST 0.23 TPPL 47.92 rg 0.00072031 cg 0.00078320
+	eval: perplexity 106.69
+GS 45400 LR 0.3246 ST 0.23 TPPL 48.24 rg 0.00061614 cg 0.00078949
+	eval: perplexity 79.18
+GS 45500 LR 0.3213 ST 0.24 TPPL 47.63 rg 0.00073368 cg 0.00081366
+	eval: perplexity 113.45
+GS 45600 LR 0.3213 ST 0.23 TPPL 47.23 rg 0.00063655 cg 0.00055780
+	eval: perplexity 105.19
+GS 45700 LR 0.3213 ST 0.23 TPPL 47.98 rg 0.00066596 cg 0.00083610
+	eval: perplexity 93.24
+GS 45800 LR 0.3213 ST 0.23 TPPL 47.49 rg 0.00066887 cg 0.00072571
+	eval: perplexity 107.63
+GS 45900 LR 0.3213 ST 0.23 TPPL 47.68 rg 0.00071819 cg 0.00091551
+	eval: perplexity 116.76
+GS 46000 LR 0.3213 ST 0.23 TPPL 47.48 rg 0.00078030 cg 0.00067937
+	eval: perplexity 110.22
+GS 46100 LR 0.3213 ST 0.23 TPPL 47.26 rg 0.00057416 cg 0.00062219
+	eval: perplexity 84.33
+GS 46200 LR 0.3213 ST 0.23 TPPL 46.94 rg 0.00075885 cg 0.00063557
+	eval: perplexity 90.49
+GS 46300 LR 0.3213 ST 0.23 TPPL 47.02 rg 0.00057192 cg 0.00062100
+	eval: perplexity 90.92
+GS 46400 LR 0.3213 ST 0.23 TPPL 47.19 rg 0.00073416 cg 0.00059262
+	eval: perplexity 84.99
+GS 46500 LR 0.3213 ST 0.24 TPPL 47.37 rg 0.00067332 cg 0.00069504
+	eval: perplexity 124.09
+GS 46600 LR 0.3181 ST 0.23 TPPL 47.37 rg 0.00059537 cg 0.00066399
+	eval: perplexity 103.68
+GS 46700 LR 0.3181 ST 0.23 TPPL 46.67 rg 0.00077283 cg 0.00068291
+	eval: perplexity 100.36
+GS 46800 LR 0.3181 ST 0.23 TPPL 46.97 rg 0.00064701 cg 0.00068650
+	eval: perplexity 100.56
+GS 46900 LR 0.3181 ST 0.23 TPPL 46.62 rg 0.00057174 cg 0.00081592
+	eval: perplexity 102.80
+GS 47000 LR 0.3181 ST 0.23 TPPL 46.25 rg 0.00070490 cg 0.00070754
+	eval: perplexity 94.57
+GS 47100 LR 0.3181 ST 0.24 TPPL 46.29 rg 0.00065850 cg 0.00068884
+	eval: perplexity 105.21
+GS 47200 LR 0.3181 ST 0.23 TPPL 46.28 rg 0.00071585 cg 0.00081114
+	eval: perplexity 90.27
+GS 47300 LR 0.3181 ST 0.24 TPPL 46.00 rg 0.00075616 cg 0.00084453
+	eval: perplexity 112.31
+GS 47400 LR 0.3181 ST 0.23 TPPL 47.14 rg 0.00070049 cg 0.00095939
+	eval: perplexity 107.79
+GS 47500 LR 0.3149 ST 0.23 TPPL 46.30 rg 0.00084690 cg 0.00081159
+	eval: perplexity 101.67
+GS 47600 LR 0.3149 ST 0.23 TPPL 46.15 rg 0.00065348 cg 0.00069228
+	eval: perplexity 102.17
+GS 47700 LR 0.3149 ST 0.24 TPPL 45.99 rg 0.00051215 cg 0.00058073
+	eval: perplexity 93.41
+GS 47800 LR 0.3149 ST 0.23 TPPL 46.57 rg 0.00070979 cg 0.00070668
+	eval: perplexity 89.60
+GS 47900 LR 0.3118 ST 0.23 TPPL 46.30 rg 0.00064611 cg 0.00082639
+	eval: perplexity 91.07
+GS 48000 LR 0.3118 ST 0.23 TPPL 45.07 rg 0.00066768 cg 0.00052488
+	eval: perplexity 89.06
+GS 48100 LR 0.3118 ST 0.23 TPPL 45.95 rg 0.00069395 cg 0.00079575
+	eval: perplexity 97.37
+GS 48200 LR 0.3118 ST 0.23 TPPL 46.10 rg 0.00068507 cg 0.00069947
+	eval: perplexity 98.90
+GS 48300 LR 0.3118 ST 0.23 TPPL 44.98 rg 0.00081125 cg 0.00067585
+	eval: perplexity 89.92
+GS 48400 LR 0.3118 ST 0.23 TPPL 45.74 rg 0.00078980 cg 0.00080806
+	eval: perplexity 87.35
+GS 48500 LR 0.3118 ST 0.23 TPPL 46.04 rg 0.00062447 cg 0.00069729
+	eval: perplexity 81.54
+GS 48600 LR 0.3118 ST 0.23 TPPL 45.41 rg 0.00061207 cg 0.00059633
+	eval: perplexity 92.77
+GS 48700 LR 0.3118 ST 0.24 TPPL 45.05 rg 0.00062634 cg 0.00068696
+	eval: perplexity 101.40
+GS 48800 LR 0.3118 ST 0.23 TPPL 45.32 rg 0.00056512 cg 0.00068417
+	eval: perplexity 98.96
+GS 48900 LR 0.3118 ST 0.24 TPPL 45.60 rg 0.00064700 cg 0.00076363
+	eval: perplexity 96.00
+GS 49000 LR 0.3086 ST 0.23 TPPL 45.17 rg 0.00087876 cg 0.00058774
+	eval: perplexity 93.08
+GS 49100 LR 0.3086 ST 0.24 TPPL 44.34 rg 0.00067303 cg 0.00064232
+	eval: perplexity 85.06
+GS 49200 LR 0.3086 ST 0.23 TPPL 44.37 rg 0.00083797 cg 0.00065761
+	eval: perplexity 102.35
+GS 49300 LR 0.3086 ST 0.24 TPPL 44.73 rg 0.00074165 cg 0.00084944
+	eval: perplexity 110.29
+GS 49400 LR 0.3086 ST 0.23 TPPL 44.32 rg 0.00062943 cg 0.00081918
+	eval: perplexity 112.86
+GS 49500 LR 0.3086 ST 0.23 TPPL 45.39 rg 0.00080693 cg 0.00093463
+	eval: perplexity 81.76
+GS 49600 LR 0.3056 ST 0.23 TPPL 45.13 rg 0.00063215 cg 0.00066735
+	eval: perplexity 92.57
+GS 49700 LR 0.3056 ST 0.23 TPPL 44.55 rg 0.00062994 cg 0.00072444
+	eval: perplexity 88.43
+GS 49800 LR 0.3056 ST 0.23 TPPL 44.72 rg 0.00081770 cg 0.00078407
+	eval: perplexity 101.03
+GS 49900 LR 0.3056 ST 0.24 TPPL 44.23 rg 0.00073728 cg 0.00066875
+	eval: perplexity 89.74
+GS 50000 LR 0.3056 ST 0.23 TPPL 44.13 rg 0.00076323 cg 0.00080543
+	eval: perplexity 110.21
+GS 50100 LR 0.3056 ST 0.23 TPPL 44.66 rg 0.00059801 cg 0.00070689
+	eval: perplexity 86.76
+GS 50200 LR 0.3056 ST 0.23 TPPL 44.03 rg 0.00078493 cg 0.00069989
+	eval: perplexity 86.43
+GS 50300 LR 0.3056 ST 0.24 TPPL 45.25 rg 0.00069580 cg 0.00069133
+	eval: perplexity 105.29
+GS 50400 LR 0.3025 ST 0.23 TPPL 44.52 rg 0.00064339 cg 0.00076185
+	eval: perplexity 99.53
+GS 50500 LR 0.3025 ST 0.24 TPPL 43.09 rg 0.00075722 cg 0.00076465
+	eval: perplexity 97.24
+GS 50600 LR 0.3025 ST 0.23 TPPL 43.50 rg 0.00065314 cg 0.00065859
+	eval: perplexity 100.61
+GS 50700 LR 0.3025 ST 0.24 TPPL 43.49 rg 0.00070794 cg 0.00065321
+	eval: perplexity 120.27
+GS 50800 LR 0.3025 ST 0.23 TPPL 43.43 rg 0.00078962 cg 0.00079337
+	eval: perplexity 94.06
+GS 50900 LR 0.3025 ST 0.24 TPPL 44.14 rg 0.00082155 cg 0.00070004
+	eval: perplexity 93.64
+GS 51000 LR 0.2995 ST 0.23 TPPL 43.92 rg 0.00053885 cg 0.00067432
+	eval: perplexity 123.67
+GS 51100 LR 0.2995 ST 0.23 TPPL 43.36 rg 0.00060538 cg 0.00086301
+	eval: perplexity 110.27
+GS 51200 LR 0.2995 ST 0.23 TPPL 42.87 rg 0.00078495 cg 0.00070939
+	eval: perplexity 106.02
+GS 51300 LR 0.2995 ST 0.24 TPPL 43.49 rg 0.00089793 cg 0.00076432
+	eval: perplexity 102.19
+GS 51400 LR 0.2995 ST 0.24 TPPL 43.32 rg 0.00057953 cg 0.00062737
+	eval: perplexity 102.50
+GS 51500 LR 0.2995 ST 0.24 TPPL 43.59 rg 0.00097093 cg 0.00066038
+	eval: perplexity 94.10
+GS 51600 LR 0.2965 ST 0.24 TPPL 43.40 rg 0.00089183 cg 0.00083724
+	eval: perplexity 79.48
+GS 51700 LR 0.2965 ST 0.24 TPPL 43.61 rg 0.00081240 cg 0.00087202
+	eval: perplexity 79.06
+GS 51800 LR 0.2935 ST 0.24 TPPL 42.99 rg 0.00064222 cg 0.00076349
+	eval: perplexity 98.60
+GS 51900 LR 0.2935 ST 0.23 TPPL 42.61 rg 0.00068304 cg 0.00066641
+	eval: perplexity 111.32
+GS 52000 LR 0.2935 ST 0.25 TPPL 42.82 rg 0.00076760 cg 0.00081109
+	eval: perplexity 96.93
+GS 52100 LR 0.2935 ST 0.25 TPPL 42.21 rg 0.00099248 cg 0.00087749
+	eval: perplexity 93.67
+GS 52200 LR 0.2935 ST 0.24 TPPL 42.83 rg 0.00093139 cg 0.00075114
+	eval: perplexity 102.90
+GS 52300 LR 0.2906 ST 0.24 TPPL 42.37 rg 0.00071540 cg 0.00064005
+	eval: perplexity 104.46
+GS 52400 LR 0.2906 ST 0.24 TPPL 42.31 rg 0.00084180 cg 0.00076027
+	eval: perplexity 102.20
+GS 52500 LR 0.2906 ST 0.23 TPPL 42.72 rg 0.00080623 cg 0.00085728
+	eval: perplexity 71.85
+GS 52600 LR 0.2906 ST 0.24 TPPL 42.45 rg 0.00095398 cg 0.00077779
+	eval: perplexity 103.97
+GS 52700 LR 0.2906 ST 0.24 TPPL 42.59 rg 0.00072781 cg 0.00076918
+	eval: perplexity 104.76
+GS 52800 LR 0.2906 ST 0.25 TPPL 43.22 rg 0.00067526 cg 0.00071289
+	eval: perplexity 86.27
+GS 52900 LR 0.2877 ST 0.23 TPPL 43.32 rg 0.00073806 cg 0.00081895
+	eval: perplexity 88.74
+GS 53000 LR 0.2848 ST 0.25 TPPL 41.51 rg 0.00065107 cg 0.00080158
+	eval: perplexity 76.36
+GS 53100 LR 0.2848 ST 0.24 TPPL 42.26 rg 0.00065752 cg 0.00071845
+	eval: perplexity 109.18
+GS 53200 LR 0.2848 ST 0.24 TPPL 42.29 rg 0.00075698 cg 0.00075310
+	eval: perplexity 92.63
+GS 53300 LR 0.2848 ST 0.24 TPPL 42.01 rg 0.00077386 cg 0.00068680
+	eval: perplexity 100.20
+GS 53400 LR 0.2848 ST 0.24 TPPL 42.33 rg 0.00075627 cg 0.00090099
+	eval: perplexity 95.59
+GS 53500 LR 0.2820 ST 0.24 TPPL 40.98 rg 0.00071012 cg 0.00072354
+	eval: perplexity 87.78
+GS 53600 LR 0.2820 ST 0.24 TPPL 41.34 rg 0.00078834 cg 0.00083824
+	eval: perplexity 98.45
+GS 53700 LR 0.2820 ST 0.24 TPPL 41.62 rg 0.00070084 cg 0.00079875
+	eval: perplexity 73.21
+GS 53800 LR 0.2820 ST 0.24 TPPL 41.73 rg 0.00063951 cg 0.00076114
+	eval: perplexity 104.21
+GS 53900 LR 0.2791 ST 0.24 TPPL 40.75 rg 0.00069603 cg 0.00073295
+	eval: perplexity 98.93
+GS 54000 LR 0.2791 ST 0.24 TPPL 41.02 rg 0.00072190 cg 0.00080145
+	eval: perplexity 89.12
+GS 54100 LR 0.2791 ST 0.24 TPPL 40.83 rg 0.00066045 cg 0.00068487
+	eval: perplexity 96.61
+GS 54200 LR 0.2791 ST 0.24 TPPL 41.27 rg 0.00066513 cg 0.00081488
+	eval: perplexity 108.15
+GS 54300 LR 0.2763 ST 0.25 TPPL 41.13 rg 0.00073063 cg 0.00062251
+	eval: perplexity 101.79
+GS 54400 LR 0.2763 ST 0.24 TPPL 41.16 rg 0.00063576 cg 0.00073927
+	eval: perplexity 110.75
+GS 54500 LR 0.2763 ST 0.24 TPPL 41.36 rg 0.00075141 cg 0.00061323
+	eval: perplexity 102.75
+GS 54600 LR 0.2736 ST 0.24 TPPL 40.32 rg 0.00067319 cg 0.00069705
+	eval: perplexity 91.39
+GS 54700 LR 0.2736 ST 0.24 TPPL 41.03 rg 0.00089536 cg 0.00069150
+	eval: perplexity 97.26
+GS 54800 LR 0.2736 ST 0.24 TPPL 41.34 rg 0.00067627 cg 0.00071668
+	eval: perplexity 100.03
+GS 54900 LR 0.2736 ST 0.24 TPPL 41.38 rg 0.00078048 cg 0.00075592
+	eval: perplexity 99.55
+GS 55000 LR 0.2708 ST 0.24 TPPL 40.91 rg 0.00077130 cg 0.00084007
+	eval: perplexity 99.47
+GS 55100 LR 0.2708 ST 0.24 TPPL 40.90 rg 0.00082021 cg 0.00074951
+	eval: perplexity 98.59
+GS 55200 LR 0.2708 ST 0.24 TPPL 40.37 rg 0.00078074 cg 0.00081793
+	eval: perplexity 86.35
+GS 55300 LR 0.2708 ST 0.24 TPPL 40.51 rg 0.00069011 cg 0.00078726
+	eval: perplexity 92.97
+GS 55400 LR 0.2708 ST 0.24 TPPL 40.69 rg 0.00078122 cg 0.00058577
+	eval: perplexity 98.16
+GS 55500 LR 0.2708 ST 0.24 TPPL 40.88 rg 0.00084649 cg 0.00075161
+	eval: perplexity 106.06
+GS 55600 LR 0.2681 ST 0.24 TPPL 40.88 rg 0.00073972 cg 0.00071412
+	eval: perplexity 84.35
+GS 55700 LR 0.2655 ST 0.24 TPPL 40.72 rg 0.00076932 cg 0.00083998
+	eval: perplexity 115.41
+GS 55800 LR 0.2655 ST 0.24 TPPL 40.36 rg 0.00071175 cg 0.00079955
+	eval: perplexity 96.46
+GS 55900 LR 0.2655 ST 0.25 TPPL 40.53 rg 0.00070957 cg 0.00086383
+	eval: perplexity 98.68
+GS 56000 LR 0.2655 ST 0.24 TPPL 40.31 rg 0.00087389 cg 0.00083452
+	eval: perplexity 113.05
+GS 56100 LR 0.2655 ST 0.24 TPPL 40.21 rg 0.00090286 cg 0.00069775
+	eval: perplexity 96.37
+GS 56200 LR 0.2655 ST 0.24 TPPL 39.77 rg 0.00074925 cg 0.00092092
+	eval: perplexity 82.22
+GS 56300 LR 0.2655 ST 0.24 TPPL 39.67 rg 0.00077713 cg 0.00076298
+	eval: perplexity 100.58
+GS 56400 LR 0.2655 ST 0.24 TPPL 40.76 rg 0.00073255 cg 0.00083108
+	eval: perplexity 97.86
+GS 56500 LR 0.2628 ST 0.24 TPPL 39.48 rg 0.00078328 cg 0.00082969
+	eval: perplexity 98.99
+GS 56600 LR 0.2628 ST 0.24 TPPL 39.41 rg 0.00069922 cg 0.00072638
+	eval: perplexity 125.75
+GS 56700 LR 0.2628 ST 0.24 TPPL 40.31 rg 0.00080067 cg 0.00089253
+	eval: perplexity 109.02
+GS 56800 LR 0.2628 ST 0.24 TPPL 39.88 rg 0.00087663 cg 0.00067095
+	eval: perplexity 98.95
+GS 56900 LR 0.2628 ST 0.24 TPPL 39.66 rg 0.00087333 cg 0.00094492
+	eval: perplexity 102.07
+GS 57000 LR 0.2628 ST 0.24 TPPL 39.64 rg 0.00062393 cg 0.00083091
+	eval: perplexity 103.54
+GS 57100 LR 0.2628 ST 0.24 TPPL 39.73 rg 0.00076190 cg 0.00083411
+	eval: perplexity 96.52
+GS 57200 LR 0.2628 ST 0.24 TPPL 39.69 rg 0.00072213 cg 0.00080515
+	eval: perplexity 97.92
+GS 57300 LR 0.2628 ST 0.24 TPPL 39.75 rg 0.00072758 cg 0.00100966
+	eval: perplexity 86.64
+GS 57400 LR 0.2602 ST 0.24 TPPL 39.48 rg 0.00074313 cg 0.00061104
+	eval: perplexity 88.87
+GS 57500 LR 0.2602 ST 0.24 TPPL 39.70 rg 0.00066620 cg 0.00089677
+	eval: perplexity 85.96
+GS 57600 LR 0.2602 ST 0.24 TPPL 39.47 rg 0.00075434 cg 0.00089927
+	eval: perplexity 98.05
+GS 57700 LR 0.2602 ST 0.24 TPPL 39.54 rg 0.00062816 cg 0.00060848
+	eval: perplexity 85.14
+GS 57800 LR 0.2602 ST 0.24 TPPL 39.42 rg 0.00086627 cg 0.00065076
+	eval: perplexity 88.86
+GS 57900 LR 0.2602 ST 0.24 TPPL 38.38 rg 0.00066010 cg 0.00067325
+	eval: perplexity 93.85
+GS 58000 LR 0.2602 ST 0.24 TPPL 39.84 rg 0.00072145 cg 0.00082134
+	eval: perplexity 99.76
+GS 58100 LR 0.2576 ST 0.24 TPPL 38.58 rg 0.00088973 cg 0.00097036
+	eval: perplexity 118.78
+GS 58200 LR 0.2576 ST 0.24 TPPL 39.02 rg 0.00089378 cg 0.00087880
+	eval: perplexity 87.76
+GS 58300 LR 0.2576 ST 0.24 TPPL 39.50 rg 0.00082074 cg 0.00075132
+	eval: perplexity 98.95
+GS 58400 LR 0.2576 ST 0.24 TPPL 39.01 rg 0.00071796 cg 0.00090458
+	eval: perplexity 101.38
+GS 58500 LR 0.2576 ST 0.24 TPPL 38.64 rg 0.00092747 cg 0.00075133
+	eval: perplexity 111.78
+GS 58600 LR 0.2576 ST 0.24 TPPL 39.11 rg 0.00085162 cg 0.00079071
+	eval: perplexity 91.14
+GS 58700 LR 0.2576 ST 0.24 TPPL 38.91 rg 0.00070488 cg 0.00088757
+	eval: perplexity 92.78
+GS 58800 LR 0.2576 ST 0.24 TPPL 38.97 rg 0.00087022 cg 0.00097293
+	eval: perplexity 88.24
+GS 58900 LR 0.2576 ST 0.24 TPPL 38.51 rg 0.00083945 cg 0.00077090
+	eval: perplexity 96.30
+GS 59000 LR 0.2576 ST 0.23 TPPL 38.93 rg 0.00076153 cg 0.00075564
+	eval: perplexity 86.12
+GS 59100 LR 0.2576 ST 0.24 TPPL 38.38 rg 0.00075520 cg 0.00064655
+	eval: perplexity 107.87
+GS 59200 LR 0.2576 ST 0.24 TPPL 38.66 rg 0.00069849 cg 0.00072716
+	eval: perplexity 107.21
+GS 59300 LR 0.2576 ST 0.24 TPPL 38.58 rg 0.00079256 cg 0.00089985
+	eval: perplexity 98.58
+GS 59400 LR 0.2576 ST 0.23 TPPL 38.50 rg 0.00099586 cg 0.00088242
+	eval: perplexity 96.29
+GS 59500 LR 0.2576 ST 0.24 TPPL 38.85 rg 0.00085717 cg 0.00076162
+	eval: perplexity 100.21
+GS 59600 LR 0.2550 ST 0.24 TPPL 38.30 rg 0.00080365 cg 0.00094965
+	eval: perplexity 89.59
+GS 59700 LR 0.2550 ST 0.23 TPPL 38.55 rg 0.00071466 cg 0.00084847
+	eval: perplexity 86.64
+GS 59800 LR 0.2550 ST 0.24 TPPL 38.89 rg 0.00086073 cg 0.00094574
+	eval: perplexity 104.28
+GS 59900 LR 0.2524 ST 0.24 TPPL 37.71 rg 0.00066933 cg 0.00084680
+	eval: perplexity 107.44
+GS 60000 LR 0.2524 ST 0.24 TPPL 38.81 rg 0.00085076 cg 0.00067913
+	eval: perplexity 100.80
+GS 60100 LR 0.2524 ST 0.24 TPPL 38.38 rg 0.00073459 cg 0.00071539
+	eval: perplexity 100.40
+GS 60200 LR 0.2524 ST 0.24 TPPL 38.05 rg 0.00081815 cg 0.00085763
+	eval: perplexity 91.41
+GS 60300 LR 0.2524 ST 0.23 TPPL 38.36 rg 0.00074582 cg 0.00086414
+	eval: perplexity 116.27
+GS 60400 LR 0.2524 ST 0.24 TPPL 37.94 rg 0.00065899 cg 0.00068180
+	eval: perplexity 110.75
+GS 60500 LR 0.2524 ST 0.24 TPPL 38.08 rg 0.00077342 cg 0.00086271
+	eval: perplexity 102.63
+GS 60600 LR 0.2524 ST 0.24 TPPL 37.80 rg 0.00088468 cg 0.00086189
+	eval: perplexity 99.34
+GS 60700 LR 0.2524 ST 0.24 TPPL 37.68 rg 0.00084089 cg 0.00080528
+	eval: perplexity 108.26
+GS 60800 LR 0.2524 ST 0.24 TPPL 38.38 rg 0.00077649 cg 0.00082295
+	eval: perplexity 122.44
+GS 60900 LR 0.2499 ST 0.24 TPPL 37.28 rg 0.00075464 cg 0.00069612
+	eval: perplexity 100.45
+GS 61000 LR 0.2499 ST 0.24 TPPL 38.17 rg 0.00072759 cg 0.00088702
+	eval: perplexity 96.95
+GS 61100 LR 0.2499 ST 0.24 TPPL 36.97 rg 0.00071370 cg 0.00088614
+	eval: perplexity 96.40
+GS 61200 LR 0.2499 ST 0.24 TPPL 38.09 rg 0.00076035 cg 0.00068479
+	eval: perplexity 99.51
+GS 61300 LR 0.2499 ST 0.23 TPPL 37.34 rg 0.00075898 cg 0.00070496
+	eval: perplexity 88.17
+GS 61400 LR 0.2499 ST 0.24 TPPL 37.52 rg 0.00078658 cg 0.00096849
+	eval: perplexity 94.24
+GS 61500 LR 0.2499 ST 0.24 TPPL 37.39 rg 0.00085599 cg 0.00084737
+	eval: perplexity 92.80
+GS 61600 LR 0.2499 ST 0.24 TPPL 37.77 rg 0.00071426 cg 0.00077064
+	eval: perplexity 99.96
+GS 61700 LR 0.2474 ST 0.23 TPPL 37.72 rg 0.00086950 cg 0.00076575
+	eval: perplexity 82.91
+GS 61800 LR 0.2474 ST 0.24 TPPL 37.43 rg 0.00099514 cg 0.00080151
+	eval: perplexity 99.93
+GS 61900 LR 0.2474 ST 0.23 TPPL 36.69 rg 0.00088085 cg 0.00078899
+	eval: perplexity 111.68
+GS 62000 LR 0.2474 ST 0.24 TPPL 37.42 rg 0.00066996 cg 0.00085407
+	eval: perplexity 92.94
+GS 62100 LR 0.2474 ST 0.24 TPPL 37.01 rg 0.00080499 cg 0.00075269
+	eval: perplexity 91.17
+GS 62200 LR 0.2474 ST 0.24 TPPL 37.44 rg 0.00084531 cg 0.00060345
+	eval: perplexity 99.14
+GS 62300 LR 0.2449 ST 0.24 TPPL 37.08 rg 0.00066439 cg 0.00074222
+	eval: perplexity 119.06
+GS 62400 LR 0.2449 ST 0.23 TPPL 36.88 rg 0.00080657 cg 0.00066891
+	eval: perplexity 102.26
+GS 62500 LR 0.2449 ST 0.24 TPPL 37.02 rg 0.00071889 cg 0.00075655
+	eval: perplexity 107.12
+GS 62600 LR 0.2449 ST 0.24 TPPL 36.45 rg 0.00072525 cg 0.00085739
+	eval: perplexity 85.16
+GS 62700 LR 0.2449 ST 0.23 TPPL 37.31 rg 0.00095730 cg 0.00076021
+	eval: perplexity 95.31
+GS 62800 LR 0.2425 ST 0.24 TPPL 36.62 rg 0.00079208 cg 0.00080274
+	eval: perplexity 94.31
+GS 62900 LR 0.2425 ST 0.24 TPPL 37.05 rg 0.00079239 cg 0.00068244
+	eval: perplexity 108.29
+GS 63000 LR 0.2425 ST 0.24 TPPL 36.87 rg 0.00076210 cg 0.00085802
+	eval: perplexity 98.64
+GS 63100 LR 0.2425 ST 0.24 TPPL 37.00 rg 0.00091161 cg 0.00065959
+	eval: perplexity 82.36
+GS 63200 LR 0.2425 ST 0.24 TPPL 36.90 rg 0.00071919 cg 0.00078324
+	eval: perplexity 88.23
+GS 63300 LR 0.2425 ST 0.24 TPPL 36.41 rg 0.00075318 cg 0.00083815
+	eval: perplexity 97.93
+GS 63400 LR 0.2425 ST 0.24 TPPL 35.87 rg 0.00081995 cg 0.00078006
+	eval: perplexity 111.38
+GS 63500 LR 0.2425 ST 0.24 TPPL 36.20 rg 0.00085995 cg 0.00095900
+	eval: perplexity 89.04
+GS 63600 LR 0.2425 ST 0.24 TPPL 36.10 rg 0.00077165 cg 0.00067960
+	eval: perplexity 117.70
+GS 63700 LR 0.2425 ST 0.24 TPPL 36.30 rg 0.00101995 cg 0.00092568
+	eval: perplexity 89.44
+GS 63800 LR 0.2401 ST 0.24 TPPL 36.19 rg 0.00078268 cg 0.00085146
+	eval: perplexity 101.82
+GS 63900 LR 0.2401 ST 0.24 TPPL 36.52 rg 0.00088098 cg 0.00077850
+	eval: perplexity 116.34
+GS 64000 LR 0.2377 ST 0.24 TPPL 36.01 rg 0.00081769 cg 0.00085496
+	eval: perplexity 95.04
+GS 64100 LR 0.2377 ST 0.24 TPPL 36.18 rg 0.00086811 cg 0.00096930
+	eval: perplexity 114.92
+GS 64200 LR 0.2377 ST 0.24 TPPL 36.58 rg 0.00065588 cg 0.00060288
+	eval: perplexity 92.91
+GS 64300 LR 0.2353 ST 0.24 TPPL 36.14 rg 0.00093804 cg 0.00095371
+	eval: perplexity 117.52
+GS 64400 LR 0.2353 ST 0.24 TPPL 36.00 rg 0.00091741 cg 0.00097238
+	eval: perplexity 104.61
+GS 64500 LR 0.2353 ST 0.24 TPPL 35.52 rg 0.00071122 cg 0.00078768
+	eval: perplexity 110.38
+GS 64600 LR 0.2353 ST 0.24 TPPL 35.87 rg 0.00097617 cg 0.00089259
+	eval: perplexity 81.69
+GS 64700 LR 0.2353 ST 0.24 TPPL 36.31 rg 0.00074292 cg 0.00085417
+	eval: perplexity 110.81
+GS 64800 LR 0.2329 ST 0.23 TPPL 36.41 rg 0.00096287 cg 0.00072619
+	eval: perplexity 106.63
+GS 64900 LR 0.2306 ST 0.24 TPPL 36.14 rg 0.00088500 cg 0.00088356
+	eval: perplexity 99.07
+GS 65000 LR 0.2306 ST 0.24 TPPL 35.73 rg 0.00080281 cg 0.00095997
+	eval: perplexity 102.98
+GS 65100 LR 0.2306 ST 0.24 TPPL 35.66 rg 0.00078448 cg 0.00079503
+	eval: perplexity 102.37
+GS 65200 LR 0.2306 ST 0.24 TPPL 35.69 rg 0.00094358 cg 0.00095368
+	eval: perplexity 99.95
+GS 65300 LR 0.2306 ST 0.23 TPPL 36.07 rg 0.00078935 cg 0.00099813
+	eval: perplexity 92.48
+GS 65400 LR 0.2283 ST 0.24 TPPL 35.56 rg 0.00080667 cg 0.00081634
+	eval: perplexity 106.19
+GS 65500 LR 0.2283 ST 0.24 TPPL 35.97 rg 0.00077435 cg 0.00083623
+	eval: perplexity 98.53
+GS 65600 LR 0.2283 ST 0.23 TPPL 36.24 rg 0.00084578 cg 0.00079929
+	eval: perplexity 96.02
+GS 65700 LR 0.2260 ST 0.24 TPPL 35.22 rg 0.00094591 cg 0.00068654
+	eval: perplexity 98.06
+GS 65800 LR 0.2260 ST 0.24 TPPL 35.32 rg 0.00080617 cg 0.00079049
+	eval: perplexity 102.71
+GS 65900 LR 0.2260 ST 0.24 TPPL 35.36 rg 0.00083502 cg 0.00083772
+	eval: perplexity 105.73
+GS 66000 LR 0.2260 ST 0.24 TPPL 35.44 rg 0.00081151 cg 0.00093406
+	eval: perplexity 114.63
+GS 66100 LR 0.2238 ST 0.24 TPPL 35.95 rg 0.00079129 cg 0.00091845
+	eval: perplexity 122.36
+GS 66200 LR 0.2215 ST 0.24 TPPL 35.10 rg 0.00083538 cg 0.00101482
+	eval: perplexity 94.28
+GS 66300 LR 0.2215 ST 0.24 TPPL 35.60 rg 0.00103741 cg 0.00092082
+	eval: perplexity 94.62
+GS 66400 LR 0.2215 ST 0.24 TPPL 34.86 rg 0.00094588 cg 0.00081029
+	eval: perplexity 96.75
+GS 66500 LR 0.2215 ST 0.24 TPPL 34.67 rg 0.00079142 cg 0.00086250
+	eval: perplexity 131.33
+GS 66600 LR 0.2215 ST 0.24 TPPL 35.19 rg 0.00091483 cg 0.00084952
+	eval: perplexity 102.55
+GS 66700 LR 0.2215 ST 0.23 TPPL 35.14 rg 0.00077203 cg 0.00080061
+	eval: perplexity 88.39
+GS 66800 LR 0.2215 ST 0.24 TPPL 34.91 rg 0.00070258 cg 0.00071704
+	eval: perplexity 106.67
+GS 66900 LR 0.2215 ST 0.24 TPPL 34.60 rg 0.00079832 cg 0.00074257
+	eval: perplexity 131.09
+GS 67000 LR 0.2215 ST 0.24 TPPL 34.62 rg 0.00079877 cg 0.00076953
+	eval: perplexity 100.04
+GS 67100 LR 0.2215 ST 0.24 TPPL 34.62 rg 0.00091725 cg 0.00108649
+	eval: perplexity 105.75
+GS 67200 LR 0.2215 ST 0.23 TPPL 34.50 rg 0.00073688 cg 0.00093187
+	eval: perplexity 92.79
+GS 67300 LR 0.2215 ST 0.24 TPPL 34.78 rg 0.00073168 cg 0.00078590
+	eval: perplexity 119.69
+GS 67400 LR 0.2193 ST 0.24 TPPL 34.30 rg 0.00070488 cg 0.00086040
+	eval: perplexity 97.72
+GS 67500 LR 0.2193 ST 0.24 TPPL 34.77 rg 0.00074188 cg 0.00075781
+	eval: perplexity 108.99
+GS 67600 LR 0.2193 ST 0.24 TPPL 34.24 rg 0.00083328 cg 0.00091365
+	eval: perplexity 102.94
+GS 67700 LR 0.2193 ST 0.23 TPPL 34.52 rg 0.00081957 cg 0.00096855
+	eval: perplexity 108.18
+GS 67800 LR 0.2193 ST 0.24 TPPL 34.90 rg 0.00080284 cg 0.00107460
+	eval: perplexity 96.46
+GS 67900 LR 0.2171 ST 0.24 TPPL 34.23 rg 0.00086701 cg 0.00083227
+	eval: perplexity 84.39
+GS 68000 LR 0.2171 ST 0.24 TPPL 34.45 rg 0.00080580 cg 0.00088128
+	eval: perplexity 110.94
+GS 68100 LR 0.2171 ST 0.23 TPPL 34.31 rg 0.00076102 cg 0.00086341
+	eval: perplexity 118.52
+GS 68200 LR 0.2171 ST 0.24 TPPL 34.41 rg 0.00072813 cg 0.00093828
+	eval: perplexity 103.52
+GS 68300 LR 0.2171 ST 0.23 TPPL 34.27 rg 0.00077925 cg 0.00075410
+	eval: perplexity 94.83
+GS 68400 LR 0.2171 ST 0.23 TPPL 34.74 rg 0.00081922 cg 0.00079097
+	eval: perplexity 108.36
+GS 68500 LR 0.2149 ST 0.24 TPPL 34.22 rg 0.00077066 cg 0.00076431
+	eval: perplexity 112.69
+GS 68600 LR 0.2149 ST 0.24 TPPL 33.80 rg 0.00077873 cg 0.00091668
+	eval: perplexity 110.22
+GS 68700 LR 0.2149 ST 0.24 TPPL 34.39 rg 0.00075821 cg 0.00072264
+	eval: perplexity 111.22
+GS 68800 LR 0.2149 ST 0.23 TPPL 34.06 rg 0.00090044 cg 0.00086058
+	eval: perplexity 102.47
+GS 68900 LR 0.2149 ST 0.24 TPPL 33.94 rg 0.00086157 cg 0.00086775
+	eval: perplexity 94.81
+GS 69000 LR 0.2149 ST 0.24 TPPL 33.58 rg 0.00072686 cg 0.00072818
+	eval: perplexity 112.25
+GS 69100 LR 0.2149 ST 0.23 TPPL 34.01 rg 0.00074528 cg 0.00076336
+	eval: perplexity 134.57
+GS 69200 LR 0.2149 ST 0.23 TPPL 33.31 rg 0.00069967 cg 0.00093202
+	eval: perplexity 88.05
+GS 69300 LR 0.2149 ST 0.24 TPPL 33.90 rg 0.00089628 cg 0.00083698
+	eval: perplexity 96.22
+GS 69400 LR 0.2149 ST 0.24 TPPL 34.08 rg 0.00092115 cg 0.00098743
+	eval: perplexity 104.20
+GS 69500 LR 0.2128 ST 0.23 TPPL 33.35 rg 0.00092968 cg 0.00076641
+	eval: perplexity 98.76
+GS 69600 LR 0.2128 ST 0.24 TPPL 33.63 rg 0.00081675 cg 0.00082153
+	eval: perplexity 110.98
+GS 69700 LR 0.2128 ST 0.23 TPPL 33.71 rg 0.00071702 cg 0.00073292
+	eval: perplexity 95.51
+GS 69800 LR 0.2128 ST 0.24 TPPL 33.77 rg 0.00093903 cg 0.00085642
+	eval: perplexity 97.34
+GS 69900 LR 0.2107 ST 0.23 TPPL 33.59 rg 0.00080108 cg 0.00091759
+	eval: perplexity 104.46
+GS 70000 LR 0.2107 ST 0.24 TPPL 33.85 rg 0.00084458 cg 0.00086947
+	eval: perplexity 109.57
+GS 70100 LR 0.2086 ST 0.24 TPPL 33.74 rg 0.00084298 cg 0.00080359
+	eval: perplexity 114.94
+GS 70200 LR 0.2086 ST 0.24 TPPL 33.21 rg 0.00077657 cg 0.00090660
+	eval: perplexity 114.99
+GS 70300 LR 0.2086 ST 0.24 TPPL 33.57 rg 0.00072722 cg 0.00062914
+	eval: perplexity 121.19
+GS 70400 LR 0.2086 ST 0.23 TPPL 33.60 rg 0.00076153 cg 0.00082692
+	eval: perplexity 104.12
+GS 70500 LR 0.2086 ST 0.24 TPPL 33.86 rg 0.00080249 cg 0.00069731
+	eval: perplexity 108.12
+GS 70600 LR 0.2065 ST 0.24 TPPL 32.87 rg 0.00083150 cg 0.00085639
+	eval: perplexity 108.08
+GS 70700 LR 0.2065 ST 0.23 TPPL 33.14 rg 0.00088076 cg 0.00073557
+	eval: perplexity 121.99
+GS 70800 LR 0.2065 ST 0.24 TPPL 32.81 rg 0.00079725 cg 0.00089399
+	eval: perplexity 87.40
+GS 70900 LR 0.2065 ST 0.23 TPPL 33.49 rg 0.00090591 cg 0.00076900
+	eval: perplexity 107.16
+GS 71000 LR 0.2044 ST 0.24 TPPL 33.35 rg 0.00082281 cg 0.00085829
+	eval: perplexity 93.34
+GS 71100 LR 0.2044 ST 0.24 TPPL 33.43 rg 0.00093089 cg 0.00095746
+	eval: perplexity 103.90
+GS 71200 LR 0.2044 ST 0.24 TPPL 33.14 rg 0.00086018 cg 0.00076426
+	eval: perplexity 98.30
+GS 71300 LR 0.2044 ST 0.23 TPPL 33.54 rg 0.00088493 cg 0.00080462
+	eval: perplexity 114.60
+GS 71400 LR 0.2024 ST 0.24 TPPL 34.22 rg 0.00085338 cg 0.00098656
+	eval: perplexity 124.81
+2017-11-04 00:05:59.756605: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 24288551 get requests, put_count=24288551 evicted_count=18000 eviction_rate=0.00074109 and unsatisfied allocation rate=0.000742243
+GS 71500 LR 0.2003 ST 0.24 TPPL 32.45 rg 0.00085360 cg 0.00073482
+	eval: perplexity 98.69
+GS 71600 LR 0.2003 ST 0.24 TPPL 33.21 rg 0.00076850 cg 0.00118065
+	eval: perplexity 98.87
+GS 71700 LR 0.2003 ST 0.24 TPPL 32.82 rg 0.00082635 cg 0.00095590
+	eval: perplexity 117.19
+GS 71800 LR 0.2003 ST 0.23 TPPL 33.98 rg 0.00081656 cg 0.00092230
+	eval: perplexity 109.15
+GS 71900 LR 0.1983 ST 0.24 TPPL 32.66 rg 0.00081732 cg 0.00089056
+	eval: perplexity 101.48
+GS 72000 LR 0.1983 ST 0.24 TPPL 32.96 rg 0.00079440 cg 0.00088967
+	eval: perplexity 107.25
+GS 72100 LR 0.1983 ST 0.23 TPPL 33.09 rg 0.00071574 cg 0.00078982
+	eval: perplexity 102.64
+GS 72200 LR 0.1983 ST 0.24 TPPL 33.48 rg 0.00091230 cg 0.00090581
+	eval: perplexity 110.94
+GS 72300 LR 0.1964 ST 0.24 TPPL 32.36 rg 0.00087557 cg 0.00072630
+	eval: perplexity 90.78
+GS 72400 LR 0.1964 ST 0.24 TPPL 32.94 rg 0.00091380 cg 0.00083563
+	eval: perplexity 94.88
+GS 72500 LR 0.1964 ST 0.24 TPPL 32.53 rg 0.00088186 cg 0.00083226
+	eval: perplexity 101.02
+GS 72600 LR 0.1964 ST 0.24 TPPL 32.55 rg 0.00092025 cg 0.00082956
+	eval: perplexity 107.23
+GS 72700 LR 0.1964 ST 0.23 TPPL 32.49 rg 0.00081422 cg 0.00107727
+	eval: perplexity 128.22
+GS 72800 LR 0.1964 ST 0.24 TPPL 32.45 rg 0.00086313 cg 0.00104771
+	eval: perplexity 103.28
+GS 72900 LR 0.1964 ST 0.24 TPPL 32.63 rg 0.00087585 cg 0.00085044
+	eval: perplexity 115.80
+GS 73000 LR 0.1944 ST 0.24 TPPL 32.42 rg 0.00074796 cg 0.00086987
+	eval: perplexity 94.58
+GS 73100 LR 0.1944 ST 0.24 TPPL 32.31 rg 0.00079638 cg 0.00093232
+	eval: perplexity 101.77
+GS 73200 LR 0.1944 ST 0.24 TPPL 31.76 rg 0.00086342 cg 0.00089087
+	eval: perplexity 82.98
+GS 73300 LR 0.1944 ST 0.24 TPPL 32.52 rg 0.00088018 cg 0.00098218
+	eval: perplexity 103.28
+GS 73400 LR 0.1924 ST 0.24 TPPL 31.95 rg 0.00071710 cg 0.00079671
+	eval: perplexity 123.02
+GS 73500 LR 0.1924 ST 0.24 TPPL 32.37 rg 0.00083750 cg 0.00071848
+	eval: perplexity 97.88
+GS 73600 LR 0.1924 ST 0.23 TPPL 32.63 rg 0.00080890 cg 0.00082538
+	eval: perplexity 111.36
+GS 73700 LR 0.1905 ST 0.23 TPPL 32.35 rg 0.00081011 cg 0.00101986
+	eval: perplexity 114.15
+GS 73800 LR 0.1905 ST 0.24 TPPL 32.10 rg 0.00085779 cg 0.00075417
+	eval: perplexity 109.89
+GS 73900 LR 0.1905 ST 0.23 TPPL 32.16 rg 0.00085439 cg 0.00081217
+	eval: perplexity 100.42
+GS 74000 LR 0.1905 ST 0.24 TPPL 31.90 rg 0.00088899 cg 0.00105296
+	eval: perplexity 120.99
+GS 74100 LR 0.1905 ST 0.24 TPPL 32.25 rg 0.00091728 cg 0.00069747
+	eval: perplexity 91.86
+GS 74200 LR 0.1886 ST 0.24 TPPL 32.27 rg 0.00099637 cg 0.00088406
+	eval: perplexity 91.26
+GS 74300 LR 0.1867 ST 0.24 TPPL 32.31 rg 0.00075109 cg 0.00100497
+	eval: perplexity 91.45
+GS 74400 LR 0.1849 ST 0.23 TPPL 32.29 rg 0.00096513 cg 0.00086818
+	eval: perplexity 94.36
+GS 74500 LR 0.1849 ST 0.24 TPPL 31.58 rg 0.00083944 cg 0.00082953
+	eval: perplexity 93.34
+GS 74600 LR 0.1849 ST 0.24 TPPL 32.06 rg 0.00077202 cg 0.00096180
+	eval: perplexity 92.93
+GS 74700 LR 0.1849 ST 0.23 TPPL 31.80 rg 0.00079324 cg 0.00077573
+	eval: perplexity 102.24
+GS 74800 LR 0.1849 ST 0.25 TPPL 31.54 rg 0.00104302 cg 0.00092023
+	eval: perplexity 123.57
+GS 74900 LR 0.1849 ST 0.25 TPPL 31.17 rg 0.00089934 cg 0.00091539
+	eval: perplexity 98.30
+GS 75000 LR 0.1849 ST 0.25 TPPL 31.62 rg 0.00074696 cg 0.00075812
+	eval: perplexity 95.79
+GS 75100 LR 0.1849 ST 0.25 TPPL 31.96 rg 0.00081415 cg 0.00083062
+	eval: perplexity 100.27
+GS 75200 LR 0.1830 ST 0.25 TPPL 31.19 rg 0.00081375 cg 0.00072031
+	eval: perplexity 114.36
+GS 75300 LR 0.1830 ST 0.25 TPPL 31.67 rg 0.00093638 cg 0.00100422
+	eval: perplexity 104.95
+GS 75400 LR 0.1830 ST 0.25 TPPL 32.01 rg 0.00092017 cg 0.00081613
+	eval: perplexity 109.71
+GS 75500 LR 0.1812 ST 0.25 TPPL 31.39 rg 0.00095360 cg 0.00087695
+	eval: perplexity 80.72
+GS 75600 LR 0.1812 ST 0.25 TPPL 31.77 rg 0.00080580 cg 0.00073815
+	eval: perplexity 103.91
+GS 75700 LR 0.1812 ST 0.24 TPPL 31.65 rg 0.00082191 cg 0.00083121
+	eval: perplexity 84.38
+GS 75800 LR 0.1812 ST 0.25 TPPL 31.62 rg 0.00086529 cg 0.00097995
+	eval: perplexity 93.83
+GS 75900 LR 0.1812 ST 0.25 TPPL 31.47 rg 0.00082303 cg 0.00083596
+	eval: perplexity 120.30
+GS 76000 LR 0.1812 ST 0.25 TPPL 31.59 rg 0.00082294 cg 0.00089886
+	eval: perplexity 136.97
+GS 76100 LR 0.1812 ST 0.26 TPPL 31.52 rg 0.00081595 cg 0.00104714
+	eval: perplexity 117.83
+GS 76200 LR 0.1812 ST 0.25 TPPL 31.49 rg 0.00072352 cg 0.00089112
+	eval: perplexity 83.44
+GS 76300 LR 0.1812 ST 0.25 TPPL 31.40 rg 0.00092466 cg 0.00081398
+	eval: perplexity 109.94
+GS 76400 LR 0.1812 ST 0.25 TPPL 31.11 rg 0.00090008 cg 0.00095844
+	eval: perplexity 98.36
+GS 76500 LR 0.1812 ST 0.26 TPPL 31.29 rg 0.00078590 cg 0.00098560
+	eval: perplexity 111.85
+GS 76600 LR 0.1812 ST 0.26 TPPL 31.52 rg 0.00088159 cg 0.00077517
+	eval: perplexity 99.81
+GS 76700 LR 0.1794 ST 0.26 TPPL 31.39 rg 0.00091707 cg 0.00093646
+	eval: perplexity 111.20
+GS 76800 LR 0.1794 ST 0.25 TPPL 31.41 rg 0.00075856 cg 0.00078843
+	eval: perplexity 107.59
+GS 76900 LR 0.1794 ST 0.26 TPPL 31.11 rg 0.00071298 cg 0.00100995
+	eval: perplexity 101.97
+GS 77000 LR 0.1794 ST 0.26 TPPL 31.30 rg 0.00100603 cg 0.00102903
+	eval: perplexity 104.01
+GS 77100 LR 0.1794 ST 0.25 TPPL 31.00 rg 0.00101895 cg 0.00103212
+	eval: perplexity 117.00
+GS 77200 LR 0.1794 ST 0.25 TPPL 30.75 rg 0.00087158 cg 0.00086071
+	eval: perplexity 111.91
+GS 77300 LR 0.1794 ST 0.25 TPPL 31.11 rg 0.00082450 cg 0.00073546
+	eval: perplexity 100.50
+GS 77400 LR 0.1794 ST 0.26 TPPL 30.27 rg 0.00087889 cg 0.00072744
+	eval: perplexity 107.58
+GS 77500 LR 0.1794 ST 0.26 TPPL 30.87 rg 0.00073125 cg 0.00088531
+	eval: perplexity 101.70
+GS 77600 LR 0.1794 ST 0.25 TPPL 30.98 rg 0.00082462 cg 0.00080871
+	eval: perplexity 126.70
+GS 77700 LR 0.1794 ST 0.25 TPPL 30.83 rg 0.00089898 cg 0.00081205
+	eval: perplexity 113.25
+GS 77800 LR 0.1794 ST 0.25 TPPL 31.36 rg 0.00089519 cg 0.00097086
+	eval: perplexity 103.31
+GS 77900 LR 0.1776 ST 0.25 TPPL 30.63 rg 0.00090362 cg 0.00104615
+	eval: perplexity 120.45
+GS 78000 LR 0.1776 ST 0.25 TPPL 30.98 rg 0.00081340 cg 0.00090919
+	eval: perplexity 108.16
+GS 78100 LR 0.1776 ST 0.25 TPPL 31.11 rg 0.00074219 cg 0.00074431
+	eval: perplexity 98.64
+GS 78200 LR 0.1776 ST 0.25 TPPL 30.78 rg 0.00093364 cg 0.00080737
+	eval: perplexity 104.24
+GS 78300 LR 0.1776 ST 0.25 TPPL 30.82 rg 0.00089420 cg 0.00089782
+	eval: perplexity 101.03
+GS 78400 LR 0.1776 ST 0.25 TPPL 31.16 rg 0.00079147 cg 0.00077096
+	eval: perplexity 78.51
+GS 78500 LR 0.1758 ST 0.25 TPPL 30.67 rg 0.00082735 cg 0.00083908
+	eval: perplexity 110.17
+GS 78600 LR 0.1758 ST 0.25 TPPL 30.45 rg 0.00094208 cg 0.00085809
+	eval: perplexity 111.06
+GS 78700 LR 0.1758 ST 0.26 TPPL 30.64 rg 0.00100473 cg 0.00090446
+	eval: perplexity 145.37
+GS 78800 LR 0.1758 ST 0.26 TPPL 30.66 rg 0.00093739 cg 0.00097668
+	eval: perplexity 88.67
+GS 78900 LR 0.1758 ST 0.25 TPPL 30.62 rg 0.00084405 cg 0.00081604
+	eval: perplexity 92.70
+GS 79000 LR 0.1758 ST 0.25 TPPL 30.81 rg 0.00075303 cg 0.00079462
+	eval: perplexity 103.16
+GS 79100 LR 0.1740 ST 0.25 TPPL 30.53 rg 0.00081689 cg 0.00077711
+	eval: perplexity 119.57
+GS 79200 LR 0.1740 ST 0.25 TPPL 30.26 rg 0.00080086 cg 0.00097197
+	eval: perplexity 102.65
+GS 79300 LR 0.1740 ST 0.25 TPPL 30.12 rg 0.00086211 cg 0.00089313
+	eval: perplexity 94.28
+GS 79400 LR 0.1740 ST 0.25 TPPL 30.72 rg 0.00094070 cg 0.00105620
+	eval: perplexity 105.15
+GS 79500 LR 0.1723 ST 0.25 TPPL 30.37 rg 0.00085113 cg 0.00097834
+	eval: perplexity 110.28
+GS 79600 LR 0.1723 ST 0.25 TPPL 31.19 rg 0.00081225 cg 0.00094585
+	eval: perplexity 99.78
+GS 79700 LR 0.1706 ST 0.25 TPPL 30.44 rg 0.00071793 cg 0.00092742
+	eval: perplexity 113.33
+GS 79800 LR 0.1706 ST 0.25 TPPL 30.11 rg 0.00087364 cg 0.00103314
+	eval: perplexity 108.64
+GS 79900 LR 0.1706 ST 0.25 TPPL 30.83 rg 0.00087332 cg 0.00091437
+	eval: perplexity 109.34
+GS 80000 LR 0.1706 ST 0.25 TPPL 29.96 rg 0.00092530 cg 0.00091266
+	eval: perplexity 100.76
+GS 80100 LR 0.1706 ST 0.25 TPPL 30.39 rg 0.00084488 cg 0.00077027
+	eval: perplexity 109.82
+GS 80200 LR 0.1706 ST 0.25 TPPL 30.53 rg 0.00092650 cg 0.00085274
+	eval: perplexity 106.68
+GS 80300 LR 0.1706 ST 0.25 TPPL 30.92 rg 0.00089454 cg 0.00096298
+	eval: perplexity 91.12
+GS 80400 LR 0.1689 ST 0.25 TPPL 29.84 rg 0.00088291 cg 0.00075635
+	eval: perplexity 102.44
+GS 80500 LR 0.1689 ST 0.25 TPPL 30.15 rg 0.00099947 cg 0.00086220
+	eval: perplexity 112.94
+GS 80600 LR 0.1689 ST 0.25 TPPL 30.00 rg 0.00098166 cg 0.00084910
+	eval: perplexity 93.35
+GS 80700 LR 0.1689 ST 0.25 TPPL 29.89 rg 0.00082766 cg 0.00083580
+	eval: perplexity 124.80
+GS 80800 LR 0.1689 ST 0.25 TPPL 30.12 rg 0.00084811 cg 0.00098758
+	eval: perplexity 114.12
+GS 80900 LR 0.1689 ST 0.25 TPPL 30.25 rg 0.00090962 cg 0.00108455
+	eval: perplexity 104.92
+GS 81000 LR 0.1672 ST 0.25 TPPL 30.63 rg 0.00091142 cg 0.00093343
+	eval: perplexity 120.68
+GS 81100 LR 0.1655 ST 0.25 TPPL 30.38 rg 0.00091296 cg 0.00103460
+	eval: perplexity 104.55
+GS 81200 LR 0.1655 ST 0.26 TPPL 29.88 rg 0.00101619 cg 0.00074080
+	eval: perplexity 104.68
+GS 81300 LR 0.1655 ST 0.25 TPPL 29.66 rg 0.00081705 cg 0.00095687
+	eval: perplexity 100.52
+GS 81400 LR 0.1655 ST 0.25 TPPL 29.94 rg 0.00085315 cg 0.00104887
+	eval: perplexity 130.05
+GS 81500 LR 0.1655 ST 0.25 TPPL 30.10 rg 0.00091014 cg 0.00094710
+	eval: perplexity 99.94
+GS 81600 LR 0.1639 ST 0.25 TPPL 29.88 rg 0.00071936 cg 0.00090975
+	eval: perplexity 120.83
+GS 81700 LR 0.1639 ST 0.24 TPPL 29.32 rg 0.00084801 cg 0.00095307
+	eval: perplexity 98.91
+GS 81800 LR 0.1639 ST 0.25 TPPL 29.57 rg 0.00078777 cg 0.00083917
+	eval: perplexity 95.01
+GS 81900 LR 0.1639 ST 0.25 TPPL 29.45 rg 0.00072093 cg 0.00093477
+	eval: perplexity 113.96
+GS 82000 LR 0.1639 ST 0.25 TPPL 30.01 rg 0.00090956 cg 0.00084959
+	eval: perplexity 120.78
+GS 82100 LR 0.1622 ST 0.25 TPPL 29.73 rg 0.00081070 cg 0.00075501
+	eval: perplexity 92.53
+GS 82200 LR 0.1622 ST 0.25 TPPL 30.22 rg 0.00091107 cg 0.00093842
+	eval: perplexity 97.51
+GS 82300 LR 0.1606 ST 0.25 TPPL 30.02 rg 0.00107860 cg 0.00107706
+	eval: perplexity 108.51
+GS 82400 LR 0.1606 ST 0.25 TPPL 29.53 rg 0.00089395 cg 0.00089381
+	eval: perplexity 134.50
+GS 82500 LR 0.1606 ST 0.26 TPPL 29.66 rg 0.00098444 cg 0.00078404
+	eval: perplexity 114.12
+GS 82600 LR 0.1606 ST 0.25 TPPL 29.87 rg 0.00095300 cg 0.00092541
+	eval: perplexity 133.98
+GS 82700 LR 0.1606 ST 0.25 TPPL 29.41 rg 0.00100946 cg 0.00101226
+	eval: perplexity 125.06
+GS 82800 LR 0.1606 ST 0.25 TPPL 29.23 rg 0.00092565 cg 0.00075178
+	eval: perplexity 96.88
+GS 82900 LR 0.1606 ST 0.25 TPPL 29.92 rg 0.00090769 cg 0.00091292
+	eval: perplexity 97.95
+GS 83000 LR 0.1590 ST 0.25 TPPL 29.72 rg 0.00091162 cg 0.00093959
+	eval: perplexity 100.45
+GS 83100 LR 0.1590 ST 0.26 TPPL 29.62 rg 0.00089457 cg 0.00096790
+	eval: perplexity 100.98
+GS 83200 LR 0.1590 ST 0.25 TPPL 29.57 rg 0.00095692 cg 0.00074508
+	eval: perplexity 107.57
+GS 83300 LR 0.1590 ST 0.25 TPPL 29.52 rg 0.00109130 cg 0.00106689
+	eval: perplexity 113.44
+GS 83400 LR 0.1590 ST 0.25 TPPL 29.50 rg 0.00080716 cg 0.00084553
+	eval: perplexity 101.10
+GS 83500 LR 0.1590 ST 0.25 TPPL 29.56 rg 0.00088867 cg 0.00095966
+	eval: perplexity 111.63
+GS 83600 LR 0.1590 ST 0.25 TPPL 29.09 rg 0.00080179 cg 0.00072845
+	eval: perplexity 125.01
+GS 83700 LR 0.1590 ST 0.25 TPPL 29.95 rg 0.00091756 cg 0.00085869
+	eval: perplexity 94.94
+GS 83800 LR 0.1574 ST 0.25 TPPL 28.73 rg 0.00076036 cg 0.00081264
+	eval: perplexity 119.79
+GS 83900 LR 0.1574 ST 0.25 TPPL 29.56 rg 0.00106205 cg 0.00138622
+	eval: perplexity 107.39
+GS 84000 LR 0.1574 ST 0.25 TPPL 29.53 rg 0.00087648 cg 0.00106060
+	eval: perplexity 103.80
+GS 84100 LR 0.1574 ST 0.25 TPPL 29.47 rg 0.00092497 cg 0.00084836
+	eval: perplexity 107.71
+GS 84200 LR 0.1574 ST 0.25 TPPL 29.71 rg 0.00107963 cg 0.00118370
+	eval: perplexity 100.94
+GS 84300 LR 0.1558 ST 0.25 TPPL 29.37 rg 0.00084297 cg 0.00091886
+	eval: perplexity 107.84
+GS 84400 LR 0.1558 ST 0.25 TPPL 29.08 rg 0.00094147 cg 0.00089095
+	eval: perplexity 114.75
+GS 84500 LR 0.1558 ST 0.25 TPPL 29.28 rg 0.00090569 cg 0.00097167
+	eval: perplexity 97.28
+GS 84600 LR 0.1558 ST 0.25 TPPL 29.30 rg 0.00078673 cg 0.00080588
+	eval: perplexity 103.83
+GS 84700 LR 0.1558 ST 0.25 TPPL 29.07 rg 0.00080629 cg 0.00081497
+	eval: perplexity 94.59
+GS 84800 LR 0.1558 ST 0.25 TPPL 29.11 rg 0.00091542 cg 0.00110090
+	eval: perplexity 99.33
+GS 84900 LR 0.1558 ST 0.25 TPPL 29.18 rg 0.00085367 cg 0.00100598
+	eval: perplexity 99.89
+GS 85000 LR 0.1558 ST 0.25 TPPL 29.02 rg 0.00094219 cg 0.00087144
+	eval: perplexity 110.67
+GS 85100 LR 0.1558 ST 0.25 TPPL 29.00 rg 0.00097478 cg 0.00094075
+	eval: perplexity 94.26
+GS 85200 LR 0.1558 ST 0.25 TPPL 28.93 rg 0.00084522 cg 0.00104088
+	eval: perplexity 92.81
+GS 85300 LR 0.1558 ST 0.25 TPPL 29.08 rg 0.00091606 cg 0.00085500
+	eval: perplexity 127.91
+GS 85400 LR 0.1543 ST 0.26 TPPL 28.75 rg 0.00090664 cg 0.00096444
+	eval: perplexity 121.02
+GS 85500 LR 0.1543 ST 0.25 TPPL 29.24 rg 0.00079148 cg 0.00098472
+	eval: perplexity 104.25
+GS 85600 LR 0.1527 ST 0.25 TPPL 28.92 rg 0.00095515 cg 0.00085442
+	eval: perplexity 104.59
+GS 85700 LR 0.1527 ST 0.25 TPPL 29.13 rg 0.00083671 cg 0.00085244
+	eval: perplexity 110.05
+GS 85800 LR 0.1527 ST 0.25 TPPL 29.25 rg 0.00090776 cg 0.00097883
+	eval: perplexity 122.84
+GS 85900 LR 0.1512 ST 0.25 TPPL 28.97 rg 0.00093836 cg 0.00103799
+	eval: perplexity 113.43
+GS 86000 LR 0.1512 ST 0.25 TPPL 28.89 rg 0.00092549 cg 0.00095092
+	eval: perplexity 112.08
+GS 86100 LR 0.1512 ST 0.25 TPPL 29.04 rg 0.00098209 cg 0.00087261
+	eval: perplexity 104.29
+GS 86200 LR 0.1512 ST 0.25 TPPL 29.17 rg 0.00103650 cg 0.00088984
+	eval: perplexity 101.24
+GS 86300 LR 0.1497 ST 0.25 TPPL 28.88 rg 0.00116549 cg 0.00092805
+	eval: perplexity 107.96
+GS 86400 LR 0.1497 ST 0.25 TPPL 28.94 rg 0.00104772 cg 0.00101017
+	eval: perplexity 111.11
+GS 86500 LR 0.1497 ST 0.25 TPPL 28.71 rg 0.00101174 cg 0.00079167
+	eval: perplexity 114.55
+GS 86600 LR 0.1497 ST 0.24 TPPL 28.54 rg 0.00104672 cg 0.00095590
+	eval: perplexity 119.30
+GS 86700 LR 0.1497 ST 0.25 TPPL 28.58 rg 0.00092113 cg 0.00108413
+	eval: perplexity 112.76
+GS 86800 LR 0.1497 ST 0.25 TPPL 29.01 rg 0.00090778 cg 0.00124570
+	eval: perplexity 99.20
+GS 86900 LR 0.1482 ST 0.25 TPPL 28.49 rg 0.00103682 cg 0.00112990
+	eval: perplexity 121.27
+GS 87000 LR 0.1482 ST 0.25 TPPL 28.56 rg 0.00088157 cg 0.00093403
+	eval: perplexity 93.89
+GS 87100 LR 0.1482 ST 0.25 TPPL 28.39 rg 0.00097486 cg 0.00082089
+	eval: perplexity 114.30
+GS 87200 LR 0.1482 ST 0.25 TPPL 28.59 rg 0.00088967 cg 0.00098479
+	eval: perplexity 132.89
+GS 87300 LR 0.1467 ST 0.25 TPPL 28.55 rg 0.00083189 cg 0.00103484
+	eval: perplexity 113.43
+GS 87400 LR 0.1467 ST 0.25 TPPL 28.73 rg 0.00099162 cg 0.00103282
+	eval: perplexity 122.88
+GS 87500 LR 0.1452 ST 0.25 TPPL 28.75 rg 0.00069193 cg 0.00090737
+	eval: perplexity 125.85
+GS 87600 LR 0.1438 ST 0.24 TPPL 28.70 rg 0.00089471 cg 0.00095911
+	eval: perplexity 87.87
+GS 87700 LR 0.1438 ST 0.25 TPPL 29.11 rg 0.00102208 cg 0.00085694
+	eval: perplexity 137.44
+GS 87800 LR 0.1424 ST 0.25 TPPL 28.62 rg 0.00087385 cg 0.00088481
+	eval: perplexity 116.14
+GS 87900 LR 0.1424 ST 0.25 TPPL 28.29 rg 0.00082758 cg 0.00088742
+	eval: perplexity 127.06
+GS 88000 LR 0.1424 ST 0.25 TPPL 28.42 rg 0.00103426 cg 0.00101723
+	eval: perplexity 109.19
+GS 88100 LR 0.1424 ST 0.26 TPPL 28.06 rg 0.00076400 cg 0.00076292
+	eval: perplexity 111.37
+GS 88200 LR 0.1424 ST 0.25 TPPL 28.21 rg 0.00092058 cg 0.00121732
+	eval: perplexity 128.54
+GS 88300 LR 0.1424 ST 0.25 TPPL 28.74 rg 0.00108336 cg 0.00096718
+	eval: perplexity 120.06
+GS 88400 LR 0.1409 ST 0.24 TPPL 27.94 rg 0.00101369 cg 0.00108426
+	eval: perplexity 118.80
+GS 88500 LR 0.1409 ST 0.25 TPPL 28.22 rg 0.00111516 cg 0.00097493
+	eval: perplexity 125.12
+GS 88600 LR 0.1409 ST 0.30 TPPL 28.12 rg 0.00091776 cg 0.00091711
+	eval: perplexity 107.79
+GS 88700 LR 0.1409 ST 0.25 TPPL 28.37 rg 0.00102959 cg 0.00095755
+	eval: perplexity 124.12
+GS 88800 LR 0.1395 ST 0.25 TPPL 27.71 rg 0.00082828 cg 0.00080229
+	eval: perplexity 118.65
+GS 88900 LR 0.1395 ST 0.24 TPPL 27.89 rg 0.00096103 cg 0.00076813
+	eval: perplexity 109.46
+GS 89000 LR 0.1395 ST 0.25 TPPL 28.65 rg 0.00079097 cg 0.00089843
+	eval: perplexity 108.19
+GS 89100 LR 0.1381 ST 0.25 TPPL 27.73 rg 0.00094275 cg 0.00102082
+	eval: perplexity 106.62
+GS 89200 LR 0.1381 ST 0.25 TPPL 27.76 rg 0.00096440 cg 0.00082325
+	eval: perplexity 124.67
+GS 89300 LR 0.1381 ST 0.25 TPPL 27.95 rg 0.00094271 cg 0.00108283
+	eval: perplexity 113.66
+GS 89400 LR 0.1381 ST 0.25 TPPL 27.94 rg 0.00122397 cg 0.00104089
+	eval: perplexity 115.02
+GS 89500 LR 0.1381 ST 0.25 TPPL 28.00 rg 0.00087017 cg 0.00100004
+	eval: perplexity 114.90
+GS 89600 LR 0.1367 ST 0.24 TPPL 27.75 rg 0.00102408 cg 0.00095097
+	eval: perplexity 100.05
+GS 89700 LR 0.1367 ST 0.25 TPPL 27.30 rg 0.00096870 cg 0.00091302
+	eval: perplexity 105.58
+GS 89800 LR 0.1367 ST 0.25 TPPL 28.27 rg 0.00098903 cg 0.00092253
+	eval: perplexity 119.14
+GS 89900 LR 0.1354 ST 0.25 TPPL 27.81 rg 0.00082661 cg 0.00091658
+	eval: perplexity 107.35
+GS 90000 LR 0.1354 ST 0.25 TPPL 28.07 rg 0.00088502 cg 0.00109725
+	eval: perplexity 104.85
+GS 90100 LR 0.1354 ST 0.25 TPPL 27.53 rg 0.00092484 cg 0.00101369
+	eval: perplexity 104.43
+GS 90200 LR 0.1354 ST 0.25 TPPL 27.89 rg 0.00090510 cg 0.00091381
+	eval: perplexity 133.60
+GS 90300 LR 0.1354 ST 0.25 TPPL 27.83 rg 0.00104663 cg 0.00098837
+	eval: perplexity 119.11
+GS 90400 LR 0.1354 ST 0.25 TPPL 27.87 rg 0.00089166 cg 0.00109545
+	eval: perplexity 89.92
+GS 90500 LR 0.1354 ST 0.25 TPPL 28.01 rg 0.00107045 cg 0.00108928
+	eval: perplexity 102.56
+GS 90600 LR 0.1340 ST 0.25 TPPL 27.42 rg 0.00079558 cg 0.00102419
+	eval: perplexity 125.53
+GS 90700 LR 0.1340 ST 0.25 TPPL 27.73 rg 0.00095142 cg 0.00090504
+	eval: perplexity 123.06
+GS 90800 LR 0.1340 ST 0.25 TPPL 27.38 rg 0.00091814 cg 0.00091691
+	eval: perplexity 87.64
+GS 90900 LR 0.1340 ST 0.25 TPPL 27.58 rg 0.00090815 cg 0.00089199
+	eval: perplexity 142.53
+GS 91000 LR 0.1340 ST 0.25 TPPL 28.20 rg 0.00091549 cg 0.00101366
+	eval: perplexity 114.69
+GS 91100 LR 0.1327 ST 0.25 TPPL 27.87 rg 0.00081743 cg 0.00113075
+	eval: perplexity 102.71
+GS 91200 LR 0.1327 ST 0.25 TPPL 27.61 rg 0.00096825 cg 0.00105680
+	eval: perplexity 108.89
+GS 91300 LR 0.1327 ST 0.25 TPPL 27.56 rg 0.00082194 cg 0.00092334
+	eval: perplexity 132.87
+GS 91400 LR 0.1327 ST 0.25 TPPL 27.32 rg 0.00110851 cg 0.00094587
+	eval: perplexity 112.71
+GS 91500 LR 0.1327 ST 0.25 TPPL 27.46 rg 0.00109053 cg 0.00086300
+	eval: perplexity 130.83
+GS 91600 LR 0.1327 ST 0.25 TPPL 27.75 rg 0.00106962 cg 0.00097544
+	eval: perplexity 104.08
+GS 91700 LR 0.1314 ST 0.25 TPPL 27.17 rg 0.00097632 cg 0.00100333
+	eval: perplexity 112.79
+GS 91800 LR 0.1314 ST 0.25 TPPL 27.82 rg 0.00089502 cg 0.00093901
+	eval: perplexity 93.33
+GS 91900 LR 0.1300 ST 0.25 TPPL 28.24 rg 0.00086091 cg 0.00099214
+	eval: perplexity 91.21
+GS 92000 LR 0.1287 ST 0.25 TPPL 27.86 rg 0.00091690 cg 0.00104717
+	eval: perplexity 97.01
+GS 92100 LR 0.1287 ST 0.25 TPPL 27.44 rg 0.00104367 cg 0.00101442
+	eval: perplexity 100.83
+GS 92200 LR 0.1287 ST 0.25 TPPL 27.24 rg 0.00090760 cg 0.00087589
+	eval: perplexity 105.61
+GS 92300 LR 0.1287 ST 0.25 TPPL 27.62 rg 0.00077793 cg 0.00097018
+	eval: perplexity 110.79
+GS 92400 LR 0.1287 ST 0.24 TPPL 27.33 rg 0.00072188 cg 0.00079768
+	eval: perplexity 119.20
+GS 92500 LR 0.1287 ST 0.25 TPPL 27.12 rg 0.00095792 cg 0.00102442
+	eval: perplexity 88.38
+GS 92600 LR 0.1287 ST 0.25 TPPL 27.26 rg 0.00099916 cg 0.00088327
+	eval: perplexity 113.53
+GS 92700 LR 0.1287 ST 0.25 TPPL 27.36 rg 0.00097428 cg 0.00083466
+	eval: perplexity 110.73
+GS 92800 LR 0.1275 ST 0.25 TPPL 27.13 rg 0.00090302 cg 0.00106830
+	eval: perplexity 119.98
+GS 92900 LR 0.1275 ST 0.25 TPPL 26.89 rg 0.00099533 cg 0.00080557
+	eval: perplexity 109.10
+GS 93000 LR 0.1275 ST 0.25 TPPL 27.54 rg 0.00086903 cg 0.00083403
+	eval: perplexity 100.08
+GS 93100 LR 0.1262 ST 0.25 TPPL 27.27 rg 0.00093994 cg 0.00089109
+	eval: perplexity 100.72
+GS 93200 LR 0.1262 ST 0.25 TPPL 27.35 rg 0.00102543 cg 0.00094791
+	eval: perplexity 96.10
+GS 93300 LR 0.1262 ST 0.25 TPPL 27.33 rg 0.00110405 cg 0.00112029
+	eval: perplexity 123.23
+GS 93400 LR 0.1262 ST 0.25 TPPL 27.55 rg 0.00098222 cg 0.00094231
+	eval: perplexity 122.76
+GS 93500 LR 0.1249 ST 0.25 TPPL 27.36 rg 0.00097208 cg 0.00079609
+	eval: perplexity 116.67
+GS 93600 LR 0.1249 ST 0.25 TPPL 27.43 rg 0.00080675 cg 0.00104099
+	eval: perplexity 106.15
+GS 93700 LR 0.1249 ST 0.25 TPPL 27.29 rg 0.00102356 cg 0.00102506
+	eval: perplexity 124.43
+GS 93800 LR 0.1249 ST 0.25 TPPL 27.26 rg 0.00102946 cg 0.00083391
+	eval: perplexity 124.29
+GS 93900 LR 0.1249 ST 0.25 TPPL 26.96 rg 0.00100154 cg 0.00085197
+	eval: perplexity 97.84
+GS 94000 LR 0.1249 ST 0.25 TPPL 27.30 rg 0.00110006 cg 0.00100679
+	eval: perplexity 122.72
+GS 94100 LR 0.1237 ST 0.25 TPPL 27.56 rg 0.00100795 cg 0.00101600
+	eval: perplexity 137.74
+GS 94200 LR 0.1224 ST 0.25 TPPL 26.91 rg 0.00103696 cg 0.00097343
+	eval: perplexity 134.17
+GS 94300 LR 0.1224 ST 0.24 TPPL 27.27 rg 0.00090055 cg 0.00091352
+	eval: perplexity 100.21
+GS 94400 LR 0.1224 ST 0.25 TPPL 27.02 rg 0.00078371 cg 0.00084248
+	eval: perplexity 132.48
+GS 94500 LR 0.1224 ST 0.25 TPPL 27.35 rg 0.00093884 cg 0.00080113
+	eval: perplexity 106.34
+GS 94600 LR 0.1212 ST 0.25 TPPL 26.93 rg 0.00106865 cg 0.00100316
+	eval: perplexity 120.02
+GS 94700 LR 0.1212 ST 0.25 TPPL 27.00 rg 0.00103479 cg 0.00101440
+	eval: perplexity 110.22
+GS 94800 LR 0.1212 ST 0.25 TPPL 27.05 rg 0.00090548 cg 0.00087764
+	eval: perplexity 118.95
+GS 94900 LR 0.1212 ST 0.25 TPPL 27.02 rg 0.00085739 cg 0.00098698
+	eval: perplexity 123.55
+GS 95000 LR 0.1212 ST 0.25 TPPL 26.82 rg 0.00097160 cg 0.00092538
+	eval: perplexity 120.43
+GS 95100 LR 0.1212 ST 0.25 TPPL 26.51 rg 0.00118007 cg 0.00109474
+	eval: perplexity 122.84
+GS 95200 LR 0.1212 ST 0.24 TPPL 27.26 rg 0.00089262 cg 0.00111328
+	eval: perplexity 131.63
+GS 95300 LR 0.1200 ST 0.25 TPPL 27.01 rg 0.00105186 cg 0.00102283
+	eval: perplexity 97.28
+GS 95400 LR 0.1200 ST 0.26 TPPL 26.91 rg 0.00100508 cg 0.00092417
+	eval: perplexity 98.57
+GS 95500 LR 0.1200 ST 0.25 TPPL 26.78 rg 0.00100087 cg 0.00079769
+	eval: perplexity 90.41
+GS 95600 LR 0.1200 ST 0.25 TPPL 26.66 rg 0.00104050 cg 0.00088954
+	eval: perplexity 104.71
+GS 95700 LR 0.1200 ST 0.25 TPPL 26.66 rg 0.00103237 cg 0.00086919
+	eval: perplexity 125.74
+GS 95800 LR 0.1200 ST 0.26 TPPL 26.73 rg 0.00108447 cg 0.00083105
+	eval: perplexity 105.95
+GS 95900 LR 0.1200 ST 0.25 TPPL 26.79 rg 0.00100278 cg 0.00071724
+	eval: perplexity 114.50
+GS 96000 LR 0.1188 ST 0.25 TPPL 26.37 rg 0.00099950 cg 0.00097905
+	eval: perplexity 90.79
+GS 96100 LR 0.1188 ST 0.25 TPPL 26.87 rg 0.00093553 cg 0.00101313
+	eval: perplexity 126.50
+GS 96200 LR 0.1176 ST 0.25 TPPL 26.24 rg 0.00106868 cg 0.00089127
+	eval: perplexity 116.71
+GS 96300 LR 0.1176 ST 0.25 TPPL 26.65 rg 0.00086965 cg 0.00093276
+	eval: perplexity 112.83
+GS 96400 LR 0.1176 ST 0.26 TPPL 26.41 rg 0.00111524 cg 0.00111479
+	eval: perplexity 107.09
+GS 96500 LR 0.1176 ST 0.25 TPPL 26.53 rg 0.00106628 cg 0.00102376
+	eval: perplexity 122.61
+GS 96600 LR 0.1176 ST 0.26 TPPL 26.23 rg 0.00099941 cg 0.00130686
+	eval: perplexity 119.84
+GS 96700 LR 0.1176 ST 0.25 TPPL 26.38 rg 0.00095939 cg 0.00099914
+	eval: perplexity 110.19
+GS 96800 LR 0.1176 ST 0.25 TPPL 26.46 rg 0.00094453 cg 0.00097797
+	eval: perplexity 122.55
+GS 96900 LR 0.1176 ST 0.25 TPPL 26.23 rg 0.00102735 cg 0.00091683
+	eval: perplexity 139.55
+GS 97000 LR 0.1176 ST 0.25 TPPL 26.86 rg 0.00102883 cg 0.00115585
+	eval: perplexity 115.00
+GS 97100 LR 0.1164 ST 0.26 TPPL 26.75 rg 0.00107369 cg 0.00098811
+	eval: perplexity 104.41
+GS 97200 LR 0.1164 ST 0.25 TPPL 26.50 rg 0.00098629 cg 0.00088412
+	eval: perplexity 102.48
+GS 97300 LR 0.1164 ST 0.25 TPPL 26.37 rg 0.00096189 cg 0.00098279
+	eval: perplexity 112.06
+GS 97400 LR 0.1164 ST 0.25 TPPL 26.73 rg 0.00098644 cg 0.00111951
+	eval: perplexity 160.15
+GS 97500 LR 0.1164 ST 0.25 TPPL 26.49 rg 0.00092688 cg 0.00120374
+	eval: perplexity 104.64
+GS 97600 LR 0.1164 ST 0.25 TPPL 26.90 rg 0.00100021 cg 0.00101622
+	eval: perplexity 113.96
+GS 97700 LR 0.1153 ST 0.25 TPPL 26.71 rg 0.00102877 cg 0.00098475
+	eval: perplexity 126.14
+GS 97800 LR 0.1153 ST 0.25 TPPL 26.60 rg 0.00099408 cg 0.00098287
+	eval: perplexity 113.57
+GS 97900 LR 0.1153 ST 0.25 TPPL 26.53 rg 0.00107493 cg 0.00102380
+	eval: perplexity 106.14
+GS 98000 LR 0.1153 ST 0.25 TPPL 26.24 rg 0.00094361 cg 0.00120824
+	eval: perplexity 117.74
+GS 98100 LR 0.1153 ST 0.25 TPPL 26.16 rg 0.00114617 cg 0.00105724
+	eval: perplexity 121.98
+GS 98200 LR 0.1153 ST 0.25 TPPL 26.55 rg 0.00090489 cg 0.00098400
+	eval: perplexity 114.09
+GS 98300 LR 0.1141 ST 0.24 TPPL 26.25 rg 0.00109066 cg 0.00084734
+	eval: perplexity 129.20
+GS 98400 LR 0.1141 ST 0.24 TPPL 26.65 rg 0.00102337 cg 0.00108755
+	eval: perplexity 119.74
+GS 98500 LR 0.1130 ST 0.24 TPPL 26.24 rg 0.00103587 cg 0.00108590
+	eval: perplexity 108.00
+GS 98600 LR 0.1130 ST 0.24 TPPL 26.44 rg 0.00097622 cg 0.00129725
+	eval: perplexity 100.16
+GS 98700 LR 0.1130 ST 0.24 TPPL 26.56 rg 0.00116074 cg 0.00095006
+	eval: perplexity 83.13
+GS 98800 LR 0.1130 ST 0.24 TPPL 26.43 rg 0.00098872 cg 0.00101832
+	eval: perplexity 96.96
+GS 98900 LR 0.1130 ST 0.24 TPPL 26.00 rg 0.00108581 cg 0.00118311
+	eval: perplexity 101.30
+GS 99000 LR 0.1130 ST 0.24 TPPL 26.23 rg 0.00098145 cg 0.00115404
+	eval: perplexity 108.34
+GS 99100 LR 0.1130 ST 0.25 TPPL 26.02 rg 0.00097461 cg 0.00098438
+	eval: perplexity 109.52
+GS 99200 LR 0.1130 ST 0.25 TPPL 25.87 rg 0.00093173 cg 0.00090620
+	eval: perplexity 125.77
+GS 99300 LR 0.1130 ST 0.24 TPPL 26.42 rg 0.00106466 cg 0.00089467
+	eval: perplexity 125.11
+GS 99400 LR 0.1118 ST 0.24 TPPL 26.40 rg 0.00122155 cg 0.00106200
+	eval: perplexity 131.03
+GS 99500 LR 0.1118 ST 0.24 TPPL 26.19 rg 0.00101531 cg 0.00112467
+	eval: perplexity 123.29
+GS 99600 LR 0.1118 ST 0.24 TPPL 26.31 rg 0.00103480 cg 0.00114952
+	eval: perplexity 111.19
+GS 99700 LR 0.1118 ST 0.24 TPPL 26.13 rg 0.00109905 cg 0.00099330
+	eval: perplexity 118.79
+GS 99800 LR 0.1118 ST 0.24 TPPL 26.19 rg 0.00094030 cg 0.00085734
+	eval: perplexity 103.94
+GS 99900 LR 0.1118 ST 0.24 TPPL 26.31 rg 0.00108936 cg 0.00097319
+	eval: perplexity 106.23
+GS 100000 LR 0.1107 ST 0.25 TPPL 26.32 rg 0.00104801 cg 0.00108807
+	eval: perplexity 111.06
+GS 100100 LR 0.1096 ST 0.24 TPPL 25.95 rg 0.00101415 cg 0.00098630
+	eval: perplexity 113.89
+GS 100200 LR 0.1096 ST 0.24 TPPL 26.25 rg 0.00098539 cg 0.00096044
+	eval: perplexity 121.40
+GS 100300 LR 0.1096 ST 0.23 TPPL 26.05 rg 0.00096120 cg 0.00107312
+	eval: perplexity 127.73
+GS 100400 LR 0.1096 ST 0.23 TPPL 25.83 rg 0.00102564 cg 0.00101957
+	eval: perplexity 112.15
+GS 100500 LR 0.1096 ST 0.23 TPPL 25.68 rg 0.00103019 cg 0.00102021
+	eval: perplexity 104.04
+GS 100600 LR 0.1096 ST 0.24 TPPL 26.00 rg 0.00094437 cg 0.00108891
+	eval: perplexity 88.79
+GS 100700 LR 0.1096 ST 0.24 TPPL 25.88 rg 0.00095994 cg 0.00091144
+	eval: perplexity 114.79
+GS 100800 LR 0.1096 ST 0.25 TPPL 25.94 rg 0.00085603 cg 0.00109963
+	eval: perplexity 126.76
+GS 100900 LR 0.1096 ST 0.24 TPPL 25.86 rg 0.00095383 cg 0.00114798
+	eval: perplexity 125.20
+GS 101000 LR 0.1096 ST 0.24 TPPL 26.12 rg 0.00098488 cg 0.00110167
+	eval: perplexity 134.48
+GS 101100 LR 0.1085 ST 0.24 TPPL 25.92 rg 0.00116662 cg 0.00084870
+	eval: perplexity 108.81
+GS 101200 LR 0.1085 ST 0.25 TPPL 25.83 rg 0.00086706 cg 0.00105315
+	eval: perplexity 140.98
+GS 101300 LR 0.1085 ST 0.24 TPPL 25.87 rg 0.00091077 cg 0.00090537
+	eval: perplexity 122.52
+GS 101400 LR 0.1085 ST 0.24 TPPL 25.79 rg 0.00092052 cg 0.00084596
+	eval: perplexity 135.23
+GS 101500 LR 0.1085 ST 0.24 TPPL 25.76 rg 0.00088540 cg 0.00087469
+	eval: perplexity 112.06
+GS 101600 LR 0.1085 ST 0.24 TPPL 26.36 rg 0.00083683 cg 0.00098596
+	eval: perplexity 112.51
+GS 101700 LR 0.1074 ST 0.24 TPPL 25.79 rg 0.00089655 cg 0.00096348
+	eval: perplexity 127.21
+GS 101800 LR 0.1074 ST 0.24 TPPL 25.86 rg 0.00095310 cg 0.00092549
+	eval: perplexity 116.14
+GS 101900 LR 0.1074 ST 0.24 TPPL 25.31 rg 0.00087623 cg 0.00079417
+	eval: perplexity 102.47
+GS 102000 LR 0.1074 ST 0.25 TPPL 26.08 rg 0.00100911 cg 0.00105773
+	eval: perplexity 113.03
+GS 102100 LR 0.1064 ST 0.24 TPPL 25.77 rg 0.00084647 cg 0.00115063
+	eval: perplexity 149.19
+GS 102200 LR 0.1064 ST 0.25 TPPL 26.21 rg 0.00103879 cg 0.00102315
+	eval: perplexity 102.34
+GS 102300 LR 0.1053 ST 0.24 TPPL 25.55 rg 0.00099814 cg 0.00099068
+	eval: perplexity 146.18
+GS 102400 LR 0.1053 ST 0.24 TPPL 25.54 rg 0.00106110 cg 0.00109245
+	eval: perplexity 112.43
+GS 102500 LR 0.1053 ST 0.24 TPPL 25.45 rg 0.00106472 cg 0.00095901
+	eval: perplexity 88.74
+GS 102600 LR 0.1053 ST 0.25 TPPL 25.91 rg 0.00094522 cg 0.00113566
+	eval: perplexity 114.98
+GS 102700 LR 0.1042 ST 0.24 TPPL 26.32 rg 0.00093054 cg 0.00089049
+	eval: perplexity 147.58
+GS 102800 LR 0.1032 ST 0.24 TPPL 25.78 rg 0.00085049 cg 0.00093314
+	eval: perplexity 102.29
+GS 102900 LR 0.1032 ST 0.24 TPPL 25.49 rg 0.00101314 cg 0.00097607
+	eval: perplexity 119.41
+GS 103000 LR 0.1032 ST 0.24 TPPL 25.80 rg 0.00116071 cg 0.00096920
+	eval: perplexity 125.45
+GS 103100 LR 0.1032 ST 0.24 TPPL 25.12 rg 0.00091075 cg 0.00105997
+	eval: perplexity 124.06
+GS 103200 LR 0.1032 ST 0.24 TPPL 25.50 rg 0.00103658 cg 0.00090929
+	eval: perplexity 129.52
+GS 103300 LR 0.1032 ST 0.23 TPPL 25.58 rg 0.00104878 cg 0.00102532
+	eval: perplexity 113.91
+GS 103400 LR 0.1032 ST 0.23 TPPL 25.79 rg 0.00096333 cg 0.00087320
+	eval: perplexity 116.53
+GS 103500 LR 0.1022 ST 0.23 TPPL 25.40 rg 0.00095730 cg 0.00092005
+	eval: perplexity 86.95
+GS 103600 LR 0.1022 ST 0.24 TPPL 25.99 rg 0.00099091 cg 0.00153824
+	eval: perplexity 131.42
+GS 103700 LR 0.1012 ST 0.23 TPPL 25.74 rg 0.00089741 cg 0.00094906
+	eval: perplexity 119.11
+GS 103800 LR 0.1012 ST 0.24 TPPL 25.57 rg 0.00104149 cg 0.00099240
+	eval: perplexity 113.70
+GS 103900 LR 0.1012 ST 0.24 TPPL 25.51 rg 0.00099384 cg 0.00096875
+	eval: perplexity 97.00
+GS 104000 LR 0.1012 ST 0.24 TPPL 25.50 rg 0.00103008 cg 0.00109565
+	eval: perplexity 109.62
+GS 104100 LR 0.1012 ST 0.23 TPPL 25.44 rg 0.00113447 cg 0.00098537
+	eval: perplexity 94.92
+GS 104200 LR 0.1012 ST 0.23 TPPL 25.36 rg 0.00093205 cg 0.00109564
+	eval: perplexity 103.93
+GS 104300 LR 0.1012 ST 0.23 TPPL 25.28 rg 0.00111623 cg 0.00115092
+	eval: perplexity 148.82
+GS 104400 LR 0.1012 ST 0.24 TPPL 25.14 rg 0.00091107 cg 0.00101042
+	eval: perplexity 118.43
+GS 104500 LR 0.1012 ST 0.23 TPPL 25.38 rg 0.00101850 cg 0.00110673
+	eval: perplexity 141.93
+GS 104600 LR 0.1001 ST 0.24 TPPL 25.56 rg 0.00106137 cg 0.00097313
+	eval: perplexity 134.14
+GS 104700 LR 0.0991 ST 0.24 TPPL 25.11 rg 0.00111797 cg 0.00104473
+	eval: perplexity 134.13
+GS 104800 LR 0.0991 ST 0.24 TPPL 25.81 rg 0.00097025 cg 0.00113151
+	eval: perplexity 118.31
+GS 104900 LR 0.0981 ST 0.23 TPPL 25.07 rg 0.00102650 cg 0.00118882
+	eval: perplexity 131.89
+GS 105000 LR 0.0981 ST 0.24 TPPL 25.69 rg 0.00103358 cg 0.00089638
+	eval: perplexity 125.66
+GS 105100 LR 0.0981 ST 0.23 TPPL 25.01 rg 0.00099782 cg 0.00093349
+	eval: perplexity 131.78
+GS 105200 LR 0.0981 ST 0.24 TPPL 25.21 rg 0.00136964 cg 0.00109582
+	eval: perplexity 96.26
+GS 105300 LR 0.0981 ST 0.24 TPPL 25.32 rg 0.00123481 cg 0.00120334
+	eval: perplexity 128.87
+GS 105400 LR 0.0981 ST 0.23 TPPL 25.16 rg 0.00099096 cg 0.00092125
+	eval: perplexity 131.35
+GS 105500 LR 0.0981 ST 0.24 TPPL 25.00 rg 0.00082057 cg 0.00104360
+	eval: perplexity 156.07
+GS 105600 LR 0.0981 ST 0.24 TPPL 24.99 rg 0.00081625 cg 0.00095929
+	eval: perplexity 113.46
+GS 105700 LR 0.0981 ST 0.24 TPPL 25.44 rg 0.00085261 cg 0.00080727
+	eval: perplexity 110.80
+GS 105800 LR 0.0972 ST 0.24 TPPL 25.11 rg 0.00103425 cg 0.00108285
+	eval: perplexity 117.83
+GS 105900 LR 0.0972 ST 0.24 TPPL 25.08 rg 0.00105598 cg 0.00093397
+	eval: perplexity 147.00
+GS 106000 LR 0.0972 ST 0.24 TPPL 25.20 rg 0.00105535 cg 0.00079572
+	eval: perplexity 112.53
+GS 106100 LR 0.0972 ST 0.24 TPPL 25.33 rg 0.00091348 cg 0.00103240
+	eval: perplexity 109.27
+GS 106200 LR 0.0962 ST 0.24 TPPL 25.35 rg 0.00114471 cg 0.00092115
+	eval: perplexity 124.69
+GS 106300 LR 0.0952 ST 0.24 TPPL 25.34 rg 0.00110116 cg 0.00145431
+	eval: perplexity 104.13
+GS 106400 LR 0.0952 ST 0.24 TPPL 24.89 rg 0.00111896 cg 0.00101622
+	eval: perplexity 130.23
+GS 106500 LR 0.0952 ST 0.24 TPPL 24.72 rg 0.00108452 cg 0.00094541
+	eval: perplexity 106.90
+GS 106600 LR 0.0952 ST 0.24 TPPL 25.05 rg 0.00102899 cg 0.00122929
+	eval: perplexity 106.81
+GS 106700 LR 0.0952 ST 0.24 TPPL 25.34 rg 0.00111550 cg 0.00099796
+	eval: perplexity 104.00
+GS 106800 LR 0.0943 ST 0.24 TPPL 25.14 rg 0.00090036 cg 0.00089369
+	eval: perplexity 110.07
+GS 106900 LR 0.0943 ST 0.24 TPPL 25.48 rg 0.00118744 cg 0.00102230
+	eval: perplexity 138.75
+GS 107000 LR 0.0933 ST 0.24 TPPL 25.09 rg 0.00098259 cg 0.00120578
+	eval: perplexity 94.97
+GS 107100 LR 0.0933 ST 0.24 TPPL 25.12 rg 0.00114037 cg 0.00118517
+	eval: perplexity 102.11
+GS 107200 LR 0.0933 ST 0.24 TPPL 25.02 rg 0.00112187 cg 0.00113147
+	eval: perplexity 113.36
+GS 107300 LR 0.0933 ST 0.25 TPPL 25.19 rg 0.00103470 cg 0.00094263
+	eval: perplexity 131.00
+GS 107400 LR 0.0924 ST 0.24 TPPL 25.63 rg 0.00101296 cg 0.00102393
+	eval: perplexity 112.69
+GS 107500 LR 0.0915 ST 0.24 TPPL 24.95 rg 0.00095681 cg 0.00131260
+	eval: perplexity 112.52
+GS 107600 LR 0.0915 ST 0.24 TPPL 24.87 rg 0.00093959 cg 0.00095697
+	eval: perplexity 137.90
+GS 107700 LR 0.0915 ST 0.24 TPPL 25.01 rg 0.00118933 cg 0.00110727
+	eval: perplexity 108.23
+GS 107800 LR 0.0915 ST 0.24 TPPL 24.90 rg 0.00111561 cg 0.00114362
+	eval: perplexity 164.14
+GS 107900 LR 0.0915 ST 0.24 TPPL 24.91 rg 0.00110828 cg 0.00094829
+	eval: perplexity 115.51
+GS 108000 LR 0.0915 ST 0.24 TPPL 25.03 rg 0.00122196 cg 0.00083656
+	eval: perplexity 125.36
+GS 108100 LR 0.0906 ST 0.24 TPPL 24.85 rg 0.00109294 cg 0.00123833
+	eval: perplexity 128.78
+GS 108200 LR 0.0906 ST 0.24 TPPL 24.63 rg 0.00104428 cg 0.00126471
+	eval: perplexity 124.74
+GS 108300 LR 0.0906 ST 0.24 TPPL 24.80 rg 0.00091423 cg 0.00083868
+	eval: perplexity 125.47
+GS 108400 LR 0.0906 ST 0.24 TPPL 25.07 rg 0.00102295 cg 0.00111575
+	eval: perplexity 108.91
+GS 108500 LR 0.0897 ST 0.24 TPPL 24.66 rg 0.00102568 cg 0.00086015
+	eval: perplexity 109.56
+GS 108600 LR 0.0897 ST 0.24 TPPL 24.81 rg 0.00105582 cg 0.00111028
+	eval: perplexity 131.09
+GS 108700 LR 0.0897 ST 0.24 TPPL 24.74 rg 0.00126468 cg 0.00109599
+	eval: perplexity 90.68
+GS 108800 LR 0.0897 ST 0.24 TPPL 25.29 rg 0.00084015 cg 0.00116901
+	eval: perplexity 140.01
+GS 108900 LR 0.0888 ST 0.24 TPPL 24.81 rg 0.00110299 cg 0.00094505
+	eval: perplexity 115.20
+GS 109000 LR 0.0888 ST 0.24 TPPL 24.55 rg 0.00106222 cg 0.00101084
+	eval: perplexity 109.86
+GS 109100 LR 0.0888 ST 0.24 TPPL 24.68 rg 0.00103366 cg 0.00102134
+	eval: perplexity 121.15
+GS 109200 LR 0.0888 ST 0.24 TPPL 24.54 rg 0.00132661 cg 0.00107059
+	eval: perplexity 119.36
+GS 109300 LR 0.0888 ST 0.24 TPPL 24.57 rg 0.00101198 cg 0.00122272
+	eval: perplexity 126.58
+GS 109400 LR 0.0888 ST 0.24 TPPL 24.74 rg 0.00102818 cg 0.00113736
+	eval: perplexity 113.81
+GS 109500 LR 0.0879 ST 0.24 TPPL 24.75 rg 0.00108227 cg 0.00122152
+	eval: perplexity 101.46
+GS 109600 LR 0.0870 ST 0.24 TPPL 24.76 rg 0.00117979 cg 0.00125167
+	eval: perplexity 120.80
+GS 109700 LR 0.0861 ST 0.24 TPPL 24.74 rg 0.00099592 cg 0.00090453
+	eval: perplexity 118.21
+GS 109800 LR 0.0861 ST 0.24 TPPL 24.64 rg 0.00112725 cg 0.00109188
+	eval: perplexity 101.91
+GS 109900 LR 0.0861 ST 0.24 TPPL 24.47 rg 0.00112283 cg 0.00110047
+	eval: perplexity 118.87
+GS 110000 LR 0.0861 ST 0.24 TPPL 25.39 rg 0.00093446 cg 0.00087461
+	eval: perplexity 130.38
+GS 110100 LR 0.0853 ST 0.23 TPPL 24.84 rg 0.00107393 cg 0.00094820
+	eval: perplexity 129.66
+GS 110200 LR 0.0853 ST 0.24 TPPL 24.40 rg 0.00107908 cg 0.00093047
+	eval: perplexity 114.11
+GS 110300 LR 0.0853 ST 0.24 TPPL 24.56 rg 0.00099612 cg 0.00105691
+	eval: perplexity 103.73
+GS 110400 LR 0.0853 ST 0.24 TPPL 24.73 rg 0.00116471 cg 0.00128186
+	eval: perplexity 95.70
+GS 110500 LR 0.0853 ST 0.23 TPPL 24.56 rg 0.00100740 cg 0.00104556
+	eval: perplexity 99.42
+GS 110600 LR 0.0853 ST 0.24 TPPL 24.63 rg 0.00112315 cg 0.00095941
+	eval: perplexity 100.85
+GS 110700 LR 0.0853 ST 0.24 TPPL 24.66 rg 0.00096480 cg 0.00111483
+	eval: perplexity 109.95
+GS 110800 LR 0.0853 ST 0.24 TPPL 24.60 rg 0.00117218 cg 0.00108955
+	eval: perplexity 113.87
+GS 110900 LR 0.0853 ST 0.24 TPPL 24.57 rg 0.00097953 cg 0.00119297
+	eval: perplexity 120.48
+GS 111000 LR 0.0853 ST 0.24 TPPL 24.48 rg 0.00097285 cg 0.00098016
+	eval: perplexity 115.21
+GS 111100 LR 0.0853 ST 0.24 TPPL 24.72 rg 0.00087774 cg 0.00108874
+	eval: perplexity 113.09
+GS 111200 LR 0.0844 ST 0.24 TPPL 24.20 rg 0.00099757 cg 0.00080659
+	eval: perplexity 156.83
+GS 111300 LR 0.0844 ST 0.24 TPPL 24.73 rg 0.00111320 cg 0.00116303
+	eval: perplexity 134.11
+GS 111400 LR 0.0836 ST 0.24 TPPL 24.74 rg 0.00116684 cg 0.00123109
+	eval: perplexity 113.72
+GS 111500 LR 0.0827 ST 0.24 TPPL 24.49 rg 0.00107381 cg 0.00117046
+	eval: perplexity 126.43
+GS 111600 LR 0.0827 ST 0.24 TPPL 24.03 rg 0.00099697 cg 0.00091681
+	eval: perplexity 121.34
+GS 111700 LR 0.0827 ST 0.24 TPPL 24.50 rg 0.00095142 cg 0.00085816
+	eval: perplexity 149.85
+GS 111800 LR 0.0827 ST 0.24 TPPL 24.17 rg 0.00103201 cg 0.00095116
+	eval: perplexity 109.61
+GS 111900 LR 0.0827 ST 0.24 TPPL 24.24 rg 0.00110833 cg 0.00097644
+	eval: perplexity 130.16
+GS 112000 LR 0.0827 ST 0.23 TPPL 24.60 rg 0.00103251 cg 0.00104419
+	eval: perplexity 107.55
+GS 112100 LR 0.0819 ST 0.24 TPPL 24.39 rg 0.00099665 cg 0.00113420
+	eval: perplexity 138.10
+GS 112200 LR 0.0819 ST 0.24 TPPL 24.54 rg 0.00109195 cg 0.00100450
+	eval: perplexity 109.91
+GS 112300 LR 0.0819 ST 0.23 TPPL 24.59 rg 0.00100976 cg 0.00101261
+	eval: perplexity 130.19
+2017-11-04 04:22:52.146460: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 39263930 get requests, put_count=39263930 evicted_count=28000 eviction_rate=0.000713123 and unsatisfied allocation rate=0.000713836
+GS 112400 LR 0.0819 ST 0.24 TPPL 24.16 rg 0.00111704 cg 0.00092274
+	eval: perplexity 116.37
+GS 112500 LR 0.0819 ST 0.24 TPPL 24.61 rg 0.00106968 cg 0.00094530
+	eval: perplexity 128.20
+GS 112600 LR 0.0811 ST 0.24 TPPL 24.24 rg 0.00111476 cg 0.00087007
+	eval: perplexity 138.11
+GS 112700 LR 0.0811 ST 0.24 TPPL 24.25 rg 0.00100426 cg 0.00113184
+	eval: perplexity 114.71
+GS 112800 LR 0.0811 ST 0.24 TPPL 24.46 rg 0.00106956 cg 0.00128612
+	eval: perplexity 138.22
+GS 112900 LR 0.0811 ST 0.23 TPPL 24.20 rg 0.00118964 cg 0.00121302
+	eval: perplexity 97.15
+GS 113000 LR 0.0811 ST 0.24 TPPL 24.30 rg 0.00097371 cg 0.00119958
+	eval: perplexity 118.57
+GS 113100 LR 0.0811 ST 0.23 TPPL 24.07 rg 0.00119729 cg 0.00123947
+	eval: perplexity 126.11
+GS 113200 LR 0.0811 ST 0.24 TPPL 24.01 rg 0.00101619 cg 0.00096253
+	eval: perplexity 117.86
+GS 113300 LR 0.0811 ST 0.24 TPPL 24.29 rg 0.00104303 cg 0.00106653
+	eval: perplexity 102.82
+GS 113400 LR 0.0811 ST 0.24 TPPL 24.58 rg 0.00108197 cg 0.00118770
+	eval: perplexity 112.26
+GS 113500 LR 0.0803 ST 0.24 TPPL 24.25 rg 0.00114340 cg 0.00106183
+	eval: perplexity 118.37
+GS 113600 LR 0.0803 ST 0.24 TPPL 24.28 rg 0.00097416 cg 0.00116505
+	eval: perplexity 116.45
+GS 113700 LR 0.0803 ST 0.24 TPPL 24.48 rg 0.00112859 cg 0.00104230
+	eval: perplexity 140.03
+GS 113800 LR 0.0803 ST 0.24 TPPL 24.41 rg 0.00105239 cg 0.00112616
+	eval: perplexity 114.24
+GS 113900 LR 0.0803 ST 0.24 TPPL 24.61 rg 0.00089052 cg 0.00115203
+	eval: perplexity 136.65
+GS 114000 LR 0.0795 ST 0.24 TPPL 24.16 rg 0.00116125 cg 0.00124357
+	eval: perplexity 101.26
+GS 114100 LR 0.0795 ST 0.24 TPPL 24.08 rg 0.00108352 cg 0.00095337
+	eval: perplexity 115.85
+GS 114200 LR 0.0795 ST 0.24 TPPL 24.41 rg 0.00110195 cg 0.00103217
+	eval: perplexity 122.42
+GS 114300 LR 0.0795 ST 0.23 TPPL 24.00 rg 0.00104181 cg 0.00102016
+	eval: perplexity 134.86
+GS 114400 LR 0.0795 ST 0.24 TPPL 24.60 rg 0.00104378 cg 0.00093716
+	eval: perplexity 134.38
+GS 114500 LR 0.0787 ST 0.23 TPPL 23.86 rg 0.00116390 cg 0.00089850
+	eval: perplexity 134.03
+GS 114600 LR 0.0787 ST 0.24 TPPL 24.36 rg 0.00108137 cg 0.00109094
+	eval: perplexity 113.30
+GS 114700 LR 0.0787 ST 0.23 TPPL 24.17 rg 0.00112926 cg 0.00118890
+	eval: perplexity 117.28
+GS 114800 LR 0.0787 ST 0.24 TPPL 24.29 rg 0.00098414 cg 0.00095017
+	eval: perplexity 130.12
+GS 114900 LR 0.0787 ST 0.24 TPPL 24.28 rg 0.00112152 cg 0.00120439
+	eval: perplexity 169.76
+GS 115000 LR 0.0787 ST 0.25 TPPL 24.19 rg 0.00105870 cg 0.00102524
+	eval: perplexity 128.86
+GS 115100 LR 0.0787 ST 0.28 TPPL 24.11 rg 0.00109977 cg 0.00117348
+	eval: perplexity 112.67
+GS 115200 LR 0.0787 ST 0.24 TPPL 24.42 rg 0.00113742 cg 0.00134848
+	eval: perplexity 97.63
+GS 115300 LR 0.0779 ST 0.24 TPPL 24.30 rg 0.00119295 cg 0.00106255
+	eval: perplexity 122.59
+GS 115400 LR 0.0779 ST 0.24 TPPL 24.23 rg 0.00107762 cg 0.00099680
+	eval: perplexity 142.13
+GS 115500 LR 0.0779 ST 0.24 TPPL 24.02 rg 0.00118441 cg 0.00095279
+	eval: perplexity 114.25
+GS 115600 LR 0.0779 ST 0.25 TPPL 24.28 rg 0.00118875 cg 0.00098268
+	eval: perplexity 101.05
+GS 115700 LR 0.0779 ST 0.24 TPPL 24.07 rg 0.00131390 cg 0.00117058
+	eval: perplexity 112.91
+GS 115800 LR 0.0779 ST 0.24 TPPL 24.13 rg 0.00087998 cg 0.00092655
+	eval: perplexity 128.99
+GS 115900 LR 0.0779 ST 0.24 TPPL 23.89 rg 0.00101050 cg 0.00128405
+	eval: perplexity 122.24
+GS 116000 LR 0.0779 ST 0.24 TPPL 23.82 rg 0.00113449 cg 0.00136995
+	eval: perplexity 115.52
+GS 116100 LR 0.0779 ST 0.24 TPPL 24.23 rg 0.00095032 cg 0.00129767
+	eval: perplexity 108.50
+GS 116200 LR 0.0771 ST 0.24 TPPL 24.06 rg 0.00092134 cg 0.00108436
+	eval: perplexity 97.92
+GS 116300 LR 0.0771 ST 0.24 TPPL 23.93 rg 0.00133385 cg 0.00115132
+	eval: perplexity 114.57
+GS 116400 LR 0.0771 ST 0.24 TPPL 23.94 rg 0.00084419 cg 0.00095953
+	eval: perplexity 128.47
+GS 116500 LR 0.0771 ST 0.24 TPPL 23.69 rg 0.00119497 cg 0.00113036
+	eval: perplexity 114.42
+GS 116600 LR 0.0771 ST 0.24 TPPL 23.98 rg 0.00092763 cg 0.00124777
+	eval: perplexity 121.88
+GS 116700 LR 0.0763 ST 0.24 TPPL 23.68 rg 0.00107127 cg 0.00085702
+	eval: perplexity 100.99
+GS 116800 LR 0.0763 ST 0.24 TPPL 23.55 rg 0.00104994 cg 0.00119364
+	eval: perplexity 120.13
+GS 116900 LR 0.0763 ST 0.24 TPPL 23.90 rg 0.00103896 cg 0.00100434
+	eval: perplexity 111.71
+GS 117000 LR 0.0763 ST 0.24 TPPL 23.88 rg 0.00102829 cg 0.00097439
+	eval: perplexity 125.59
+GS 117100 LR 0.0763 ST 0.24 TPPL 23.98 rg 0.00095010 cg 0.00095879
+	eval: perplexity 121.83
+GS 117200 LR 0.0756 ST 0.24 TPPL 24.01 rg 0.00095819 cg 0.00107817
+	eval: perplexity 115.15
+GS 117300 LR 0.0748 ST 0.24 TPPL 23.47 rg 0.00110397 cg 0.00106329
+	eval: perplexity 120.77
+GS 117400 LR 0.0748 ST 0.24 TPPL 23.98 rg 0.00103949 cg 0.00095176
+	eval: perplexity 146.55
+GS 117500 LR 0.0748 ST 0.24 TPPL 23.80 rg 0.00095989 cg 0.00115160
+	eval: perplexity 116.77
+GS 117600 LR 0.0748 ST 0.24 TPPL 23.51 rg 0.00110694 cg 0.00103136
+	eval: perplexity 132.72
+GS 117700 LR 0.0748 ST 0.24 TPPL 23.70 rg 0.00101443 cg 0.00111563
+	eval: perplexity 141.61
+GS 117800 LR 0.0748 ST 0.24 TPPL 23.67 rg 0.00092524 cg 0.00105218
+	eval: perplexity 121.32
+GS 117900 LR 0.0748 ST 0.24 TPPL 23.80 rg 0.00109936 cg 0.00093925
+	eval: perplexity 104.06
+GS 118000 LR 0.0741 ST 0.24 TPPL 23.77 rg 0.00107302 cg 0.00100694
+	eval: perplexity 97.60
+GS 118100 LR 0.0741 ST 0.24 TPPL 23.59 rg 0.00098780 cg 0.00098882
+	eval: perplexity 122.52
+GS 118200 LR 0.0741 ST 0.24 TPPL 23.98 rg 0.00090687 cg 0.00104904
+	eval: perplexity 126.72
+GS 118300 LR 0.0733 ST 0.24 TPPL 23.99 rg 0.00105775 cg 0.00107230
+	eval: perplexity 120.54
+GS 118400 LR 0.0726 ST 0.24 TPPL 23.50 rg 0.00121383 cg 0.00103871
+	eval: perplexity 121.38
+GS 118500 LR 0.0726 ST 0.25 TPPL 23.91 rg 0.00097488 cg 0.00104488
+	eval: perplexity 132.96
+GS 118600 LR 0.0726 ST 0.24 TPPL 23.81 rg 0.00103231 cg 0.00097788
+	eval: perplexity 123.58
+GS 118700 LR 0.0726 ST 0.24 TPPL 23.70 rg 0.00107482 cg 0.00115305
+	eval: perplexity 109.13
+GS 118800 LR 0.0726 ST 0.24 TPPL 23.79 rg 0.00103171 cg 0.00116859
+	eval: perplexity 129.67
+GS 118900 LR 0.0726 ST 0.25 TPPL 23.63 rg 0.00113794 cg 0.00096728
+	eval: perplexity 117.65
+GS 119000 LR 0.0726 ST 0.24 TPPL 23.36 rg 0.00128000 cg 0.00106799
+	eval: perplexity 118.39
+GS 119100 LR 0.0726 ST 0.24 TPPL 23.55 rg 0.00111348 cg 0.00098060
+	eval: perplexity 160.86
+GS 119200 LR 0.0726 ST 0.24 TPPL 23.30 rg 0.00108281 cg 0.00105390
+	eval: perplexity 125.16
+GS 119300 LR 0.0726 ST 0.24 TPPL 23.99 rg 0.00099993 cg 0.00109923
+	eval: perplexity 152.91
+GS 119400 LR 0.0719 ST 0.24 TPPL 23.86 rg 0.00108623 cg 0.00107754
+	eval: perplexity 116.50
+GS 119500 LR 0.0719 ST 0.25 TPPL 23.79 rg 0.00116526 cg 0.00097704
+	eval: perplexity 138.49
+GS 119600 LR 0.0719 ST 0.24 TPPL 23.84 rg 0.00101698 cg 0.00108190
+	eval: perplexity 105.44
+GS 119700 LR 0.0719 ST 0.24 TPPL 23.25 rg 0.00084623 cg 0.00101442
+	eval: perplexity 114.01
+GS 119800 LR 0.0719 ST 0.24 TPPL 23.10 rg 0.00117505 cg 0.00114976
+	eval: perplexity 143.07
+GS 119900 LR 0.0719 ST 0.24 TPPL 23.45 rg 0.00093336 cg 0.00099066
+	eval: perplexity 111.16
+GS 120000 LR 0.0719 ST 0.24 TPPL 23.36 rg 0.00110063 cg 0.00105458
+	eval: perplexity 104.75
+GS 120100 LR 0.0719 ST 0.24 TPPL 24.01 rg 0.00100596 cg 0.00111553
+	eval: perplexity 115.22
+GS 120200 LR 0.0712 ST 0.24 TPPL 23.60 rg 0.00106523 cg 0.00109912
+	eval: perplexity 123.84
+GS 120300 LR 0.0712 ST 0.24 TPPL 23.93 rg 0.00120100 cg 0.00093087
+	eval: perplexity 98.65
+GS 120400 LR 0.0712 ST 0.24 TPPL 23.19 rg 0.00101461 cg 0.00133688
+	eval: perplexity 115.79
+GS 120500 LR 0.0712 ST 0.24 TPPL 23.26 rg 0.00107048 cg 0.00097107
+	eval: perplexity 153.18
+GS 120600 LR 0.0712 ST 0.24 TPPL 23.46 rg 0.00103551 cg 0.00111120
+	eval: perplexity 143.13
+GS 120700 LR 0.0712 ST 0.24 TPPL 23.46 rg 0.00112117 cg 0.00098046
+	eval: perplexity 155.29
+GS 120800 LR 0.0712 ST 0.24 TPPL 23.33 rg 0.00102903 cg 0.00104659
+	eval: perplexity 97.93
+GS 120900 LR 0.0712 ST 0.24 TPPL 23.43 rg 0.00115165 cg 0.00119439
+	eval: perplexity 127.14
+GS 121000 LR 0.0712 ST 0.24 TPPL 23.31 rg 0.00101270 cg 0.00108015
+	eval: perplexity 114.05
+GS 121100 LR 0.0712 ST 0.24 TPPL 23.62 rg 0.00120400 cg 0.00103004
+	eval: perplexity 130.12
+GS 121200 LR 0.0704 ST 0.24 TPPL 23.36 rg 0.00113113 cg 0.00138810
+	eval: perplexity 117.50
+GS 121300 LR 0.0704 ST 0.24 TPPL 23.55 rg 0.00111695 cg 0.00113032
+	eval: perplexity 124.31
+GS 121400 LR 0.0704 ST 0.24 TPPL 23.50 rg 0.00093939 cg 0.00098248
+	eval: perplexity 130.02
+GS 121500 LR 0.0704 ST 0.24 TPPL 23.67 rg 0.00111234 cg 0.00095852
+	eval: perplexity 124.31
+GS 121600 LR 0.0697 ST 0.24 TPPL 23.71 rg 0.00097891 cg 0.00093998
+	eval: perplexity 113.60
+GS 121700 LR 0.0690 ST 0.24 TPPL 23.16 rg 0.00093261 cg 0.00111735
+	eval: perplexity 105.19
+GS 121800 LR 0.0690 ST 0.24 TPPL 23.31 rg 0.00104275 cg 0.00116523
+	eval: perplexity 121.18
+GS 121900 LR 0.0690 ST 0.24 TPPL 23.56 rg 0.00104782 cg 0.00114101
+	eval: perplexity 140.00
+GS 122000 LR 0.0690 ST 0.24 TPPL 23.36 rg 0.00112493 cg 0.00101089
+	eval: perplexity 116.55
+GS 122100 LR 0.0690 ST 0.24 TPPL 23.29 rg 0.00116188 cg 0.00105389
+	eval: perplexity 108.22
+GS 122200 LR 0.0690 ST 0.24 TPPL 23.63 rg 0.00099634 cg 0.00102086
+	eval: perplexity 128.78
+GS 122300 LR 0.0684 ST 0.24 TPPL 23.42 rg 0.00101666 cg 0.00112163
+	eval: perplexity 108.26
+GS 122400 LR 0.0684 ST 0.25 TPPL 23.15 rg 0.00116935 cg 0.00111424
+	eval: perplexity 135.95
+GS 122500 LR 0.0684 ST 0.24 TPPL 23.40 rg 0.00116297 cg 0.00103186
+	eval: perplexity 121.62
+GS 122600 LR 0.0684 ST 0.24 TPPL 23.74 rg 0.00128867 cg 0.00109198
+	eval: perplexity 102.51
+GS 122700 LR 0.0677 ST 0.24 TPPL 23.41 rg 0.00106292 cg 0.00114860
+	eval: perplexity 111.13
+GS 122800 LR 0.0677 ST 0.24 TPPL 22.58 rg 0.00106549 cg 0.00117690
+	eval: perplexity 120.84
+GS 122900 LR 0.0677 ST 0.24 TPPL 23.61 rg 0.00114929 cg 0.00113448
+	eval: perplexity 137.39
+GS 123000 LR 0.0677 ST 0.24 TPPL 23.56 rg 0.00103658 cg 0.00102288
+	eval: perplexity 137.43
+GS 123100 LR 0.0677 ST 0.24 TPPL 23.20 rg 0.00109744 cg 0.00103024
+	eval: perplexity 116.24
+GS 123200 LR 0.0677 ST 0.24 TPPL 23.07 rg 0.00116967 cg 0.00127082
+	eval: perplexity 129.06
+GS 123300 LR 0.0677 ST 0.23 TPPL 23.22 rg 0.00115125 cg 0.00118430
+	eval: perplexity 139.22
+GS 123400 LR 0.0677 ST 0.24 TPPL 23.40 rg 0.00118981 cg 0.00109718
+	eval: perplexity 106.67
+GS 123500 LR 0.0670 ST 0.23 TPPL 23.33 rg 0.00115284 cg 0.00123686
+	eval: perplexity 123.57
+GS 123600 LR 0.0670 ST 0.24 TPPL 22.89 rg 0.00109559 cg 0.00115171
+	eval: perplexity 136.10
+GS 123700 LR 0.0670 ST 0.23 TPPL 23.00 rg 0.00127243 cg 0.00098018
+	eval: perplexity 104.74
+GS 123800 LR 0.0670 ST 0.23 TPPL 22.93 rg 0.00106048 cg 0.00138286
+	eval: perplexity 120.54
+GS 123900 LR 0.0670 ST 0.23 TPPL 23.53 rg 0.00113854 cg 0.00129017
+	eval: perplexity 125.56
+GS 124000 LR 0.0663 ST 0.24 TPPL 22.99 rg 0.00107937 cg 0.00086308
+	eval: perplexity 108.29
+GS 124100 LR 0.0663 ST 0.24 TPPL 23.26 rg 0.00094465 cg 0.00119902
+	eval: perplexity 135.27
+GS 124200 LR 0.0663 ST 0.24 TPPL 23.14 rg 0.00100355 cg 0.00111315
+	eval: perplexity 126.01
+GS 124300 LR 0.0663 ST 0.37 TPPL 22.84 rg 0.00103469 cg 0.00111186
+	eval: perplexity 169.77
+GS 124400 LR 0.0663 ST 0.23 TPPL 23.14 rg 0.00108429 cg 0.00132038
+	eval: perplexity 129.78
+GS 124500 LR 0.0663 ST 0.24 TPPL 23.46 rg 0.00112366 cg 0.00109114
+	eval: perplexity 141.55
+GS 124600 LR 0.0657 ST 0.24 TPPL 22.92 rg 0.00123630 cg 0.00106873
+	eval: perplexity 131.55
+GS 124700 LR 0.0657 ST 0.24 TPPL 22.64 rg 0.00097967 cg 0.00102281
+	eval: perplexity 122.11
+GS 124800 LR 0.0657 ST 0.24 TPPL 23.15 rg 0.00117028 cg 0.00124329
+	eval: perplexity 143.42
+GS 124900 LR 0.0657 ST 0.24 TPPL 23.30 rg 0.00101991 cg 0.00106613
+	eval: perplexity 129.51
+GS 125000 LR 0.0650 ST 0.23 TPPL 23.12 rg 0.00113094 cg 0.00122525
+	eval: perplexity 101.56
+GS 125100 LR 0.0650 ST 0.23 TPPL 23.18 rg 0.00112590 cg 0.00106202
+	eval: perplexity 119.66
+GS 125200 LR 0.0650 ST 0.23 TPPL 23.18 rg 0.00105118 cg 0.00104050
+	eval: perplexity 180.45
+GS 125300 LR 0.0650 ST 0.24 TPPL 22.97 rg 0.00127265 cg 0.00112483
+	eval: perplexity 103.59
+GS 125400 LR 0.0650 ST 0.24 TPPL 23.20 rg 0.00105636 cg 0.00118943
+	eval: perplexity 111.46
+GS 125500 LR 0.0644 ST 0.24 TPPL 22.54 rg 0.00129182 cg 0.00105333
+	eval: perplexity 158.66
+GS 125600 LR 0.0644 ST 0.24 TPPL 23.24 rg 0.00114372 cg 0.00113013
+	eval: perplexity 128.50
+GS 125700 LR 0.0637 ST 0.23 TPPL 23.23 rg 0.00111989 cg 0.00130530
+	eval: perplexity 111.96
+GS 125800 LR 0.0637 ST 0.24 TPPL 23.40 rg 0.00084975 cg 0.00079158
+	eval: perplexity 107.88
+GS 125900 LR 0.0631 ST 0.24 TPPL 23.40 rg 0.00126372 cg 0.00125769
+	eval: perplexity 136.66
+GS 126000 LR 0.0631 ST 0.23 TPPL 22.59 rg 0.00106717 cg 0.00107771
+	eval: perplexity 122.51
+GS 126100 LR 0.0631 ST 0.24 TPPL 23.10 rg 0.00108914 cg 0.00096595
+	eval: perplexity 110.03
+GS 126200 LR 0.0631 ST 0.24 TPPL 22.73 rg 0.00116939 cg 0.00128766
+	eval: perplexity 134.98
+GS 126300 LR 0.0631 ST 0.24 TPPL 22.93 rg 0.00106828 cg 0.00117392
+	eval: perplexity 108.80
+GS 126400 LR 0.0631 ST 0.24 TPPL 22.85 rg 0.00101289 cg 0.00110214
+	eval: perplexity 146.54
+GS 126500 LR 0.0631 ST 0.24 TPPL 23.44 rg 0.00115603 cg 0.00103118
+	eval: perplexity 111.13
+GS 126600 LR 0.0624 ST 0.24 TPPL 22.79 rg 0.00103284 cg 0.00103510
+	eval: perplexity 126.83
+GS 126700 LR 0.0624 ST 0.24 TPPL 22.79 rg 0.00106107 cg 0.00107084
+	eval: perplexity 119.94
+GS 126800 LR 0.0624 ST 0.24 TPPL 22.79 rg 0.00102498 cg 0.00123792
+	eval: perplexity 140.43
+GS 126900 LR 0.0624 ST 0.23 TPPL 23.23 rg 0.00112656 cg 0.00108321
+	eval: perplexity 110.72
+GS 127000 LR 0.0618 ST 0.24 TPPL 23.17 rg 0.00106606 cg 0.00111941
+	eval: perplexity 133.95
+GS 127100 LR 0.0618 ST 0.24 TPPL 23.07 rg 0.00104998 cg 0.00093453
+	eval: perplexity 139.84
+GS 127200 LR 0.0618 ST 0.24 TPPL 22.69 rg 0.00104908 cg 0.00099001
+	eval: perplexity 133.92
+GS 127300 LR 0.0618 ST 0.24 TPPL 22.86 rg 0.00103643 cg 0.00102737
+	eval: perplexity 135.36
+GS 127400 LR 0.0618 ST 0.23 TPPL 23.41 rg 0.00095050 cg 0.00126495
+	eval: perplexity 126.70
+GS 127500 LR 0.0612 ST 0.24 TPPL 22.69 rg 0.00110506 cg 0.00117791
+	eval: perplexity 122.48
+GS 127600 LR 0.0612 ST 0.24 TPPL 23.06 rg 0.00105825 cg 0.00126320
+	eval: perplexity 169.62
+GS 127700 LR 0.0612 ST 0.23 TPPL 23.04 rg 0.00109643 cg 0.00101976
+	eval: perplexity 152.77
+GS 127800 LR 0.0612 ST 0.24 TPPL 22.77 rg 0.00115021 cg 0.00120666
+	eval: perplexity 90.36
+GS 127900 LR 0.0612 ST 0.24 TPPL 22.39 rg 0.00104042 cg 0.00099727
+	eval: perplexity 166.00
+GS 128000 LR 0.0612 ST 0.23 TPPL 22.85 rg 0.00115373 cg 0.00102141
+	eval: perplexity 112.94
+GS 128100 LR 0.0612 ST 0.24 TPPL 22.85 rg 0.00110688 cg 0.00101340
+	eval: perplexity 123.46
+GS 128200 LR 0.0612 ST 0.24 TPPL 22.76 rg 0.00122192 cg 0.00115957
+	eval: perplexity 115.12
+GS 128300 LR 0.0612 ST 0.23 TPPL 23.23 rg 0.00101806 cg 0.00105715
+	eval: perplexity 115.02
+GS 128400 LR 0.0606 ST 0.24 TPPL 23.11 rg 0.00117675 cg 0.00104163
+	eval: perplexity 115.67
+GS 128500 LR 0.0606 ST 0.24 TPPL 22.90 rg 0.00108160 cg 0.00107238
+	eval: perplexity 132.70
+GS 128600 LR 0.0606 ST 0.24 TPPL 23.04 rg 0.00115439 cg 0.00091812
+	eval: perplexity 144.68
+GS 128700 LR 0.0606 ST 0.23 TPPL 22.56 rg 0.00115736 cg 0.00104286
+	eval: perplexity 127.69
+GS 128800 LR 0.0606 ST 0.24 TPPL 22.87 rg 0.00118375 cg 0.00103869
+	eval: perplexity 156.02
+GS 128900 LR 0.0606 ST 0.24 TPPL 23.18 rg 0.00105500 cg 0.00107940
+	eval: perplexity 122.18
+GS 129000 LR 0.0600 ST 0.24 TPPL 22.86 rg 0.00105666 cg 0.00129988
+	eval: perplexity 113.90
+GS 129100 LR 0.0600 ST 0.24 TPPL 23.03 rg 0.00127905 cg 0.00129058
+	eval: perplexity 124.55
+GS 129200 LR 0.0600 ST 0.24 TPPL 22.57 rg 0.00103464 cg 0.00106116
+	eval: perplexity 136.12
+GS 129300 LR 0.0600 ST 0.24 TPPL 22.83 rg 0.00109189 cg 0.00117195
+	eval: perplexity 110.30
+GS 129400 LR 0.0600 ST 0.23 TPPL 23.04 rg 0.00102132 cg 0.00098431
+	eval: perplexity 118.65
+GS 129500 LR 0.0594 ST 0.24 TPPL 22.83 rg 0.00114416 cg 0.00107837
+	eval: perplexity 154.76
+GS 129600 LR 0.0594 ST 0.24 TPPL 22.56 rg 0.00110626 cg 0.00101078
+	eval: perplexity 147.40
+GS 129700 LR 0.0594 ST 0.24 TPPL 22.88 rg 0.00118149 cg 0.00110082
+	eval: perplexity 150.86
+GS 129800 LR 0.0594 ST 0.23 TPPL 22.73 rg 0.00103098 cg 0.00089789
+	eval: perplexity 110.10
+GS 129900 LR 0.0594 ST 0.23 TPPL 22.91 rg 0.00106663 cg 0.00117563
+	eval: perplexity 116.74
+GS 130000 LR 0.0588 ST 0.23 TPPL 22.47 rg 0.00110137 cg 0.00093828
+	eval: perplexity 145.27
+GS 130100 LR 0.0588 ST 0.23 TPPL 22.92 rg 0.00102788 cg 0.00113059
+	eval: perplexity 143.67
+GS 130200 LR 0.0582 ST 0.23 TPPL 22.65 rg 0.00107254 cg 0.00098024
+	eval: perplexity 138.88
+GS 130300 LR 0.0582 ST 0.25 TPPL 22.71 rg 0.00104134 cg 0.00090987
+	eval: perplexity 126.67
+GS 130400 LR 0.0582 ST 0.24 TPPL 22.30 rg 0.00106704 cg 0.00101958
+	eval: perplexity 111.86
+GS 130500 LR 0.0582 ST 0.24 TPPL 22.86 rg 0.00107139 cg 0.00109188
+	eval: perplexity 106.78
+GS 130600 LR 0.0576 ST 0.24 TPPL 22.43 rg 0.00119093 cg 0.00116260
+	eval: perplexity 105.15
+GS 130700 LR 0.0576 ST 0.24 TPPL 22.66 rg 0.00085853 cg 0.00104678
+	eval: perplexity 130.01
+GS 130800 LR 0.0576 ST 0.24 TPPL 22.30 rg 0.00098619 cg 0.00096349
+	eval: perplexity 126.47
+GS 130900 LR 0.0576 ST 0.24 TPPL 22.33 rg 0.00116329 cg 0.00094612
+	eval: perplexity 130.62
+GS 131000 LR 0.0576 ST 0.25 TPPL 22.67 rg 0.00124422 cg 0.00120472
+	eval: perplexity 99.21
+GS 131100 LR 0.0570 ST 0.24 TPPL 22.21 rg 0.00107377 cg 0.00105609
+	eval: perplexity 130.86
+GS 131200 LR 0.0570 ST 0.24 TPPL 22.63 rg 0.00103627 cg 0.00133897
+	eval: perplexity 127.14
+GS 131300 LR 0.0570 ST 0.24 TPPL 22.62 rg 0.00103344 cg 0.00116186
+	eval: perplexity 106.49
+GS 131400 LR 0.0570 ST 0.24 TPPL 22.78 rg 0.00108492 cg 0.00113618
+	eval: perplexity 117.82
+GS 131500 LR 0.0565 ST 0.25 TPPL 22.60 rg 0.00110542 cg 0.00099451
+	eval: perplexity 162.43
+GS 131600 LR 0.0565 ST 0.25 TPPL 22.74 rg 0.00102750 cg 0.00115564
+	eval: perplexity 133.16
+GS 131700 LR 0.0565 ST 0.24 TPPL 22.30 rg 0.00119308 cg 0.00110162
+	eval: perplexity 134.89
+GS 131800 LR 0.0565 ST 0.24 TPPL 22.76 rg 0.00112418 cg 0.00109099
+	eval: perplexity 135.23
+GS 131900 LR 0.0559 ST 0.24 TPPL 22.95 rg 0.00112458 cg 0.00111174
+	eval: perplexity 168.83
+GS 132000 LR 0.0553 ST 0.24 TPPL 22.19 rg 0.00104755 cg 0.00131302
+	eval: perplexity 105.16
+GS 132100 LR 0.0553 ST 0.24 TPPL 22.27 rg 0.00104611 cg 0.00098803
+	eval: perplexity 113.17
+GS 132200 LR 0.0553 ST 0.24 TPPL 22.98 rg 0.00102512 cg 0.00107750
+	eval: perplexity 129.88
+GS 132300 LR 0.0548 ST 0.24 TPPL 22.36 rg 0.00105462 cg 0.00106635
+	eval: perplexity 124.15
+GS 132400 LR 0.0548 ST 0.24 TPPL 22.91 rg 0.00122964 cg 0.00128905
+	eval: perplexity 143.56
+GS 132500 LR 0.0548 ST 0.25 TPPL 22.12 rg 0.00109494 cg 0.00128630
+	eval: perplexity 100.26
+GS 132600 LR 0.0548 ST 0.24 TPPL 22.13 rg 0.00096254 cg 0.00086512
+	eval: perplexity 132.95
+GS 132700 LR 0.0548 ST 0.24 TPPL 22.63 rg 0.00107012 cg 0.00108197
+	eval: perplexity 137.29
+GS 132800 LR 0.0548 ST 0.24 TPPL 22.63 rg 0.00095885 cg 0.00093805
+	eval: perplexity 122.48
+GS 132900 LR 0.0548 ST 0.24 TPPL 22.28 rg 0.00121582 cg 0.00110689
+	eval: perplexity 125.15
+GS 133000 LR 0.0548 ST 0.24 TPPL 22.31 rg 0.00102384 cg 0.00107422
+	eval: perplexity 139.37
+GS 133100 LR 0.0548 ST 0.24 TPPL 22.13 rg 0.00103233 cg 0.00131634
+	eval: perplexity 130.58
+GS 133200 LR 0.0548 ST 0.24 TPPL 22.91 rg 0.00117432 cg 0.00112050
+	eval: perplexity 141.02
+GS 133300 LR 0.0542 ST 0.23 TPPL 22.44 rg 0.00094041 cg 0.00112614
+	eval: perplexity 142.93
+GS 133400 LR 0.0542 ST 0.24 TPPL 22.08 rg 0.00125183 cg 0.00120051
+	eval: perplexity 123.62
+GS 133500 LR 0.0542 ST 0.24 TPPL 22.52 rg 0.00111829 cg 0.00110699
+	eval: perplexity 107.52
+GS 133600 LR 0.0542 ST 0.23 TPPL 22.46 rg 0.00098746 cg 0.00103846
+	eval: perplexity 126.65
+GS 133700 LR 0.0542 ST 0.24 TPPL 22.54 rg 0.00119244 cg 0.00104210
+	eval: perplexity 112.92
+GS 133800 LR 0.0537 ST 0.24 TPPL 22.32 rg 0.00098546 cg 0.00105197
+	eval: perplexity 140.72
+GS 133900 LR 0.0537 ST 0.24 TPPL 22.41 rg 0.00112438 cg 0.00138879
+	eval: perplexity 138.90
+GS 134000 LR 0.0537 ST 0.24 TPPL 22.15 rg 0.00106360 cg 0.00122623
+	eval: perplexity 101.28
+GS 134100 LR 0.0537 ST 0.24 TPPL 22.53 rg 0.00116697 cg 0.00104458
+	eval: perplexity 92.74
+GS 134200 LR 0.0532 ST 0.24 TPPL 22.38 rg 0.00111792 cg 0.00089938
+	eval: perplexity 156.19
+GS 134300 LR 0.0532 ST 0.24 TPPL 22.40 rg 0.00106710 cg 0.00111756
+	eval: perplexity 126.03
+GS 134400 LR 0.0532 ST 0.24 TPPL 22.61 rg 0.00104733 cg 0.00107548
+	eval: perplexity 140.25
+GS 134500 LR 0.0526 ST 0.24 TPPL 22.45 rg 0.00118374 cg 0.00118330
+	eval: perplexity 122.46
+GS 134600 LR 0.0526 ST 0.25 TPPL 22.65 rg 0.00098821 cg 0.00104049
+	eval: perplexity 113.43
+GS 134700 LR 0.0521 ST 0.24 TPPL 22.28 rg 0.00121757 cg 0.00105792
+	eval: perplexity 112.65
+GS 134800 LR 0.0521 ST 0.24 TPPL 22.39 rg 0.00098369 cg 0.00106378
+	eval: perplexity 159.81
+GS 134900 LR 0.0521 ST 0.24 TPPL 22.49 rg 0.00113679 cg 0.00103118
+	eval: perplexity 124.36
+GS 135000 LR 0.0521 ST 0.24 TPPL 22.84 rg 0.00110789 cg 0.00135259
+	eval: perplexity 152.60
+GS 135100 LR 0.0516 ST 0.23 TPPL 22.67 rg 0.00118105 cg 0.00120490
+	eval: perplexity 79.13
+GS 135200 LR 0.0516 ST 0.23 TPPL 22.28 rg 0.00111628 cg 0.00112939
+	eval: perplexity 129.10
+GS 135300 LR 0.0516 ST 0.24 TPPL 22.17 rg 0.00121766 cg 0.00113517
+	eval: perplexity 120.14
+GS 135400 LR 0.0516 ST 0.24 TPPL 22.58 rg 0.00108601 cg 0.00116606
+	eval: perplexity 136.32
+GS 135500 LR 0.0516 ST 0.23 TPPL 22.31 rg 0.00099923 cg 0.00097372
+	eval: perplexity 111.77
+GS 135600 LR 0.0516 ST 0.24 TPPL 21.83 rg 0.00108674 cg 0.00129105
+	eval: perplexity 135.76
+GS 135700 LR 0.0516 ST 0.23 TPPL 22.20 rg 0.00102086 cg 0.00107357
+	eval: perplexity 133.31
+GS 135800 LR 0.0516 ST 0.24 TPPL 22.35 rg 0.00113990 cg 0.00104236
+	eval: perplexity 142.19
+GS 135900 LR 0.0511 ST 0.24 TPPL 22.48 rg 0.00102136 cg 0.00115475
+	eval: perplexity 121.36
+GS 136000 LR 0.0506 ST 0.24 TPPL 22.22 rg 0.00107359 cg 0.00119994
+	eval: perplexity 156.56
+GS 136100 LR 0.0506 ST 0.24 TPPL 22.25 rg 0.00099617 cg 0.00105918
+	eval: perplexity 148.23
+GS 136200 LR 0.0506 ST 0.24 TPPL 22.34 rg 0.00113000 cg 0.00112978
+	eval: perplexity 139.21
+GS 136300 LR 0.0506 ST 0.25 TPPL 22.28 rg 0.00106385 cg 0.00101111
+	eval: perplexity 134.96
+GS 136400 LR 0.0506 ST 0.24 TPPL 22.08 rg 0.00098251 cg 0.00097457
+	eval: perplexity 123.30
+GS 136500 LR 0.0506 ST 0.24 TPPL 21.78 rg 0.00106715 cg 0.00111225
+	eval: perplexity 123.58
+GS 136600 LR 0.0506 ST 0.24 TPPL 22.19 rg 0.00102360 cg 0.00121859
+	eval: perplexity 148.10
+GS 136700 LR 0.0506 ST 0.24 TPPL 22.45 rg 0.00106419 cg 0.00135409
+	eval: perplexity 130.64
+GS 136800 LR 0.0501 ST 0.24 TPPL 22.38 rg 0.00103935 cg 0.00128717
+	eval: perplexity 131.79
+GS 136900 LR 0.0501 ST 0.24 TPPL 22.47 rg 0.00114995 cg 0.00121169
+	eval: perplexity 105.44
+GS 137000 LR 0.0496 ST 0.24 TPPL 22.26 rg 0.00119759 cg 0.00108318
+	eval: perplexity 110.96
+GS 137100 LR 0.0496 ST 0.24 TPPL 22.41 rg 0.00101272 cg 0.00128158
+	eval: perplexity 124.93
+GS 137200 LR 0.0496 ST 0.24 TPPL 22.14 rg 0.00114157 cg 0.00122292
+	eval: perplexity 109.75
+GS 137300 LR 0.0496 ST 0.24 TPPL 21.91 rg 0.00124825 cg 0.00123739
+	eval: perplexity 117.20
+GS 137400 LR 0.0496 ST 0.23 TPPL 22.13 rg 0.00114211 cg 0.00128707
+	eval: perplexity 124.64
+GS 137500 LR 0.0496 ST 0.24 TPPL 22.07 rg 0.00100698 cg 0.00107740
+	eval: perplexity 141.71
+GS 137600 LR 0.0496 ST 0.24 TPPL 22.26 rg 0.00101631 cg 0.00091077
+	eval: perplexity 109.64
+GS 137700 LR 0.0491 ST 0.24 TPPL 22.09 rg 0.00125960 cg 0.00122285
+	eval: perplexity 118.71
+GS 137800 LR 0.0491 ST 0.24 TPPL 22.08 rg 0.00128404 cg 0.00126892
+	eval: perplexity 138.98
+GS 137900 LR 0.0491 ST 0.25 TPPL 22.15 rg 0.00113049 cg 0.00118653
+	eval: perplexity 116.52
+GS 138000 LR 0.0491 ST 0.25 TPPL 22.42 rg 0.00110468 cg 0.00122765
+	eval: perplexity 128.55
+GS 138100 LR 0.0486 ST 0.24 TPPL 22.47 rg 0.00116725 cg 0.00124537
+	eval: perplexity 140.29
+GS 138200 LR 0.0481 ST 0.24 TPPL 22.11 rg 0.00102434 cg 0.00103715
+	eval: perplexity 155.61
+GS 138300 LR 0.0481 ST 0.24 TPPL 22.02 rg 0.00094839 cg 0.00081608
+	eval: perplexity 108.14
+GS 138400 LR 0.0481 ST 0.24 TPPL 21.87 rg 0.00116439 cg 0.00112758
+	eval: perplexity 138.84
+GS 138500 LR 0.0481 ST 0.24 TPPL 22.22 rg 0.00108913 cg 0.00112166
+	eval: perplexity 118.31
+GS 138600 LR 0.0476 ST 0.24 TPPL 22.68 rg 0.00134865 cg 0.00117921
+	eval: perplexity 131.37
+GS 138700 LR 0.0471 ST 0.24 TPPL 22.29 rg 0.00120158 cg 0.00102801
+	eval: perplexity 136.61
+GS 138800 LR 0.0471 ST 0.24 TPPL 21.98 rg 0.00117457 cg 0.00107353
+	eval: perplexity 125.14
+GS 138900 LR 0.0471 ST 0.24 TPPL 22.20 rg 0.00122228 cg 0.00105620
+	eval: perplexity 135.95
+GS 139000 LR 0.0471 ST 0.24 TPPL 22.02 rg 0.00119217 cg 0.00120694
+	eval: perplexity 132.97
+GS 139100 LR 0.0471 ST 0.24 TPPL 22.11 rg 0.00109061 cg 0.00123549
+	eval: perplexity 146.27
+GS 139200 LR 0.0471 ST 0.24 TPPL 22.26 rg 0.00122908 cg 0.00114331
+	eval: perplexity 136.26
+GS 139300 LR 0.0467 ST 0.24 TPPL 21.96 rg 0.00118529 cg 0.00119494
+	eval: perplexity 152.10
+GS 139400 LR 0.0467 ST 0.24 TPPL 22.52 rg 0.00096387 cg 0.00093400
+	eval: perplexity 136.59
+GS 139500 LR 0.0462 ST 0.24 TPPL 21.98 rg 0.00102105 cg 0.00107675
+	eval: perplexity 107.53
+GS 139600 LR 0.0462 ST 0.25 TPPL 21.92 rg 0.00109910 cg 0.00129189
+	eval: perplexity 141.61
+GS 139700 LR 0.0462 ST 0.25 TPPL 22.19 rg 0.00120500 cg 0.00114752
+	eval: perplexity 136.27
+GS 139800 LR 0.0462 ST 0.24 TPPL 21.83 rg 0.00099738 cg 0.00105655
+	eval: perplexity 134.18
+GS 139900 LR 0.0462 ST 0.24 TPPL 22.07 rg 0.00110061 cg 0.00082738
+	eval: perplexity 167.19
+GS 140000 LR 0.0462 ST 0.24 TPPL 21.74 rg 0.00098761 cg 0.00105393
+	eval: perplexity 123.30
+GS 140100 LR 0.0462 ST 0.23 TPPL 22.03 rg 0.00114352 cg 0.00107165
+	eval: perplexity 108.92
+GS 140200 LR 0.0462 ST 0.24 TPPL 22.10 rg 0.00118506 cg 0.00128302
+	eval: perplexity 128.17
+GS 140300 LR 0.0457 ST 0.24 TPPL 22.65 rg 0.00109708 cg 0.00109007
+	eval: perplexity 127.42
+GS 140400 LR 0.0453 ST 0.24 TPPL 21.65 rg 0.00125628 cg 0.00136604
+	eval: perplexity 126.58
+GS 140500 LR 0.0453 ST 0.24 TPPL 21.85 rg 0.00117666 cg 0.00111664
+	eval: perplexity 136.21
+GS 140600 LR 0.0453 ST 0.24 TPPL 22.00 rg 0.00123069 cg 0.00121512
+	eval: perplexity 112.42
+GS 140700 LR 0.0453 ST 0.24 TPPL 21.76 rg 0.00122230 cg 0.00105756
+	eval: perplexity 135.34
+GS 140800 LR 0.0453 ST 0.24 TPPL 22.18 rg 0.00103751 cg 0.00105627
+	eval: perplexity 105.13
+GS 140900 LR 0.0448 ST 0.24 TPPL 22.04 rg 0.00096216 cg 0.00093259
+	eval: perplexity 122.86
+GS 141000 LR 0.0448 ST 0.24 TPPL 21.97 rg 0.00126521 cg 0.00103572
+	eval: perplexity 134.24
+GS 141100 LR 0.0448 ST 0.23 TPPL 22.20 rg 0.00115044 cg 0.00114999
+	eval: perplexity 123.84
+GS 141200 LR 0.0444 ST 0.24 TPPL 22.01 rg 0.00122255 cg 0.00125717
+	eval: perplexity 106.01
+GS 141300 LR 0.0444 ST 0.25 TPPL 22.35 rg 0.00115539 cg 0.00117027
+	eval: perplexity 136.10
+GS 141400 LR 0.0439 ST 0.25 TPPL 22.08 rg 0.00116043 cg 0.00106684
+	eval: perplexity 101.23
+GS 141500 LR 0.0439 ST 0.24 TPPL 22.08 rg 0.00106821 cg 0.00106088
+	eval: perplexity 126.51
+GS 141600 LR 0.0439 ST 0.23 TPPL 22.08 rg 0.00105590 cg 0.00120715
+	eval: perplexity 141.62
+GS 141700 LR 0.0439 ST 0.24 TPPL 22.23 rg 0.00117126 cg 0.00141603
+	eval: perplexity 115.91
+GS 141800 LR 0.0435 ST 0.24 TPPL 21.66 rg 0.00109742 cg 0.00122072
+	eval: perplexity 125.84
+GS 141900 LR 0.0435 ST 0.24 TPPL 21.60 rg 0.00120749 cg 0.00146830
+	eval: perplexity 107.52
+GS 142000 LR 0.0435 ST 0.23 TPPL 21.95 rg 0.00135212 cg 0.00138434
+	eval: perplexity 135.60
+GS 142100 LR 0.0435 ST 0.24 TPPL 21.94 rg 0.00119672 cg 0.00119367
+	eval: perplexity 142.23
+GS 142200 LR 0.0435 ST 0.23 TPPL 21.84 rg 0.00100409 cg 0.00113166
+	eval: perplexity 152.15
+GS 142300 LR 0.0435 ST 0.24 TPPL 21.76 rg 0.00096239 cg 0.00115662
+	eval: perplexity 143.46
+GS 142400 LR 0.0435 ST 0.24 TPPL 22.11 rg 0.00104328 cg 0.00111168
+	eval: perplexity 128.31
+GS 142500 LR 0.0430 ST 0.24 TPPL 21.71 rg 0.00106661 cg 0.00128176
+	eval: perplexity 127.84
+GS 142600 LR 0.0430 ST 0.23 TPPL 21.73 rg 0.00113744 cg 0.00126249
+	eval: perplexity 154.91
+GS 142700 LR 0.0430 ST 0.24 TPPL 21.88 rg 0.00112137 cg 0.00110555
+	eval: perplexity 131.76
+GS 142800 LR 0.0430 ST 0.24 TPPL 22.05 rg 0.00113892 cg 0.00118552
+	eval: perplexity 119.83
+GS 142900 LR 0.0426 ST 0.24 TPPL 21.69 rg 0.00110614 cg 0.00102635
+	eval: perplexity 117.00
+GS 143000 LR 0.0426 ST 0.24 TPPL 21.86 rg 0.00121728 cg 0.00123247
+	eval: perplexity 144.20
+GS 143100 LR 0.0426 ST 0.23 TPPL 21.95 rg 0.00119769 cg 0.00118684
+	eval: perplexity 120.48
+GS 143200 LR 0.0426 ST 0.23 TPPL 21.85 rg 0.00113006 cg 0.00091367
+	eval: perplexity 128.87
+GS 143300 LR 0.0426 ST 0.24 TPPL 21.70 rg 0.00112154 cg 0.00101897
+	eval: perplexity 114.40
+GS 143400 LR 0.0426 ST 0.24 TPPL 22.08 rg 0.00125823 cg 0.00134451
+	eval: perplexity 121.52
+GS 143500 LR 0.0422 ST 0.23 TPPL 21.72 rg 0.00103940 cg 0.00099055
+	eval: perplexity 149.14
+GS 143600 LR 0.0422 ST 0.24 TPPL 21.68 rg 0.00114782 cg 0.00125705
+	eval: perplexity 151.53
+GS 143700 LR 0.0422 ST 0.24 TPPL 21.91 rg 0.00124312 cg 0.00121855
+	eval: perplexity 123.09
+GS 143800 LR 0.0422 ST 0.24 TPPL 21.97 rg 0.00109714 cg 0.00120210
+	eval: perplexity 101.72
+GS 143900 LR 0.0418 ST 0.23 TPPL 21.81 rg 0.00112115 cg 0.00117260
+	eval: perplexity 123.07
+GS 144000 LR 0.0418 ST 0.23 TPPL 22.05 rg 0.00107999 cg 0.00129117
+	eval: perplexity 148.85
+GS 144100 LR 0.0414 ST 0.24 TPPL 21.81 rg 0.00100719 cg 0.00124683
+	eval: perplexity 114.46
+GS 144200 LR 0.0414 ST 0.24 TPPL 21.76 rg 0.00121406 cg 0.00109334
+	eval: perplexity 151.91
+GS 144300 LR 0.0414 ST 0.24 TPPL 21.94 rg 0.00122075 cg 0.00101391
+	eval: perplexity 132.50
+GS 144400 LR 0.0414 ST 0.24 TPPL 21.65 rg 0.00108935 cg 0.00104943
+	eval: perplexity 133.56
+GS 144500 LR 0.0414 ST 0.24 TPPL 21.91 rg 0.00107330 cg 0.00099348
+	eval: perplexity 128.49
+GS 144600 LR 0.0414 ST 0.24 TPPL 21.96 rg 0.00093687 cg 0.00100533
+	eval: perplexity 109.54
+GS 144700 LR 0.0409 ST 0.24 TPPL 21.68 rg 0.00111929 cg 0.00117802
+	eval: perplexity 130.25
+GS 144800 LR 0.0409 ST 0.24 TPPL 21.65 rg 0.00102747 cg 0.00108334
+	eval: perplexity 138.60
+GS 144900 LR 0.0409 ST 0.23 TPPL 21.57 rg 0.00110313 cg 0.00118184
+	eval: perplexity 129.80
+GS 145000 LR 0.0409 ST 0.24 TPPL 21.92 rg 0.00110290 cg 0.00109515
+	eval: perplexity 133.79
+GS 145100 LR 0.0405 ST 0.23 TPPL 22.10 rg 0.00133317 cg 0.00088022
+	eval: perplexity 122.55
+GS 145200 LR 0.0401 ST 0.23 TPPL 21.96 rg 0.00118973 cg 0.00127226
+	eval: perplexity 117.17
+GS 145300 LR 0.0401 ST 0.23 TPPL 21.86 rg 0.00134252 cg 0.00144271
+	eval: perplexity 172.60
+GS 145400 LR 0.0401 ST 0.24 TPPL 21.76 rg 0.00123690 cg 0.00112309
+	eval: perplexity 139.00
+GS 145500 LR 0.0401 ST 0.23 TPPL 21.34 rg 0.00117661 cg 0.00120102
+	eval: perplexity 175.86
+GS 145600 LR 0.0401 ST 0.23 TPPL 21.62 rg 0.00120649 cg 0.00129031
+	eval: perplexity 172.05
+GS 145700 LR 0.0401 ST 0.23 TPPL 21.59 rg 0.00103696 cg 0.00115592
+	eval: perplexity 158.33
+GS 145800 LR 0.0401 ST 0.24 TPPL 21.47 rg 0.00108129 cg 0.00133131
+	eval: perplexity 132.43
+GS 145900 LR 0.0401 ST 0.23 TPPL 21.25 rg 0.00109539 cg 0.00118783
+	eval: perplexity 124.30
+GS 146000 LR 0.0401 ST 0.24 TPPL 21.80 rg 0.00124289 cg 0.00113484
+	eval: perplexity 131.04
+GS 146100 LR 0.0397 ST 0.24 TPPL 21.96 rg 0.00107119 cg 0.00099273
+	eval: perplexity 124.85
+GS 146200 LR 0.0393 ST 0.43 TPPL 21.17 rg 0.00115033 cg 0.00115586
+	eval: perplexity 110.53
+GS 146300 LR 0.0393 ST 0.24 TPPL 21.78 rg 0.00098660 cg 0.00124475
+	eval: perplexity 163.60
+GS 146400 LR 0.0393 ST 0.24 TPPL 21.65 rg 0.00114687 cg 0.00108412
+	eval: perplexity 160.24
+GS 146500 LR 0.0393 ST 0.23 TPPL 21.85 rg 0.00105988 cg 0.00119639
+	eval: perplexity 114.69
+GS 146600 LR 0.0389 ST 0.24 TPPL 21.64 rg 0.00120538 cg 0.00120330
+	eval: perplexity 100.11
+GS 146700 LR 0.0389 ST 0.24 TPPL 21.41 rg 0.00104689 cg 0.00114936
+	eval: perplexity 137.34
+GS 146800 LR 0.0389 ST 0.24 TPPL 21.70 rg 0.00121432 cg 0.00126397
+	eval: perplexity 115.75
+GS 146900 LR 0.0389 ST 0.24 TPPL 21.45 rg 0.00108674 cg 0.00091650
+	eval: perplexity 163.86
+GS 147000 LR 0.0389 ST 0.24 TPPL 21.56 rg 0.00116206 cg 0.00118668
+	eval: perplexity 140.59
+GS 147100 LR 0.0389 ST 0.24 TPPL 21.38 rg 0.00121545 cg 0.00140982
+	eval: perplexity 122.62
+GS 147200 LR 0.0389 ST 0.24 TPPL 21.80 rg 0.00094912 cg 0.00109528
+	eval: perplexity 157.95
+GS 147300 LR 0.0385 ST 0.23 TPPL 21.65 rg 0.00120533 cg 0.00104323
+	eval: perplexity 131.95
+GS 147400 LR 0.0385 ST 0.23 TPPL 22.05 rg 0.00113130 cg 0.00133337
+	eval: perplexity 125.44
+GS 147500 LR 0.0382 ST 0.24 TPPL 21.54 rg 0.00116079 cg 0.00120415
+	eval: perplexity 142.21
+2017-11-04 08:02:41.970659: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 52131922 get requests, put_count=52131922 evicted_count=38000 eviction_rate=0.00072892 and unsatisfied allocation rate=0.000729457
+GS 147600 LR 0.0382 ST 0.24 TPPL 22.16 rg 0.00127422 cg 0.00131504
+	eval: perplexity 120.78
+GS 147700 LR 0.0378 ST 0.24 TPPL 21.52 rg 0.00108286 cg 0.00108299
+	eval: perplexity 156.98
+GS 147800 LR 0.0378 ST 0.24 TPPL 21.53 rg 0.00112189 cg 0.00128046
+	eval: perplexity 111.91
+GS 147900 LR 0.0378 ST 0.23 TPPL 21.33 rg 0.00110684 cg 0.00110437
+	eval: perplexity 114.22
+GS 148000 LR 0.0378 ST 0.24 TPPL 21.66 rg 0.00121283 cg 0.00112070
+	eval: perplexity 122.00
+GS 148100 LR 0.0374 ST 0.24 TPPL 21.65 rg 0.00116593 cg 0.00105364
+	eval: perplexity 110.96
+GS 148200 LR 0.0374 ST 0.24 TPPL 21.37 rg 0.00109637 cg 0.00121537
+	eval: perplexity 136.21
+GS 148300 LR 0.0374 ST 0.24 TPPL 21.28 rg 0.00109757 cg 0.00105520
+	eval: perplexity 130.53
+GS 148400 LR 0.0374 ST 0.23 TPPL 21.53 rg 0.00115384 cg 0.00104344
+	eval: perplexity 96.90
+GS 148500 LR 0.0374 ST 0.24 TPPL 21.40 rg 0.00131379 cg 0.00122848
+	eval: perplexity 124.26
+GS 148600 LR 0.0374 ST 0.24 TPPL 21.41 rg 0.00105486 cg 0.00129473
+	eval: perplexity 113.00
+GS 148700 LR 0.0374 ST 0.24 TPPL 21.72 rg 0.00102426 cg 0.00119765
+	eval: perplexity 134.99
+GS 148800 LR 0.0370 ST 0.23 TPPL 21.43 rg 0.00112987 cg 0.00106072
+	eval: perplexity 133.14
+GS 148900 LR 0.0370 ST 0.24 TPPL 21.43 rg 0.00120872 cg 0.00099240
+	eval: perplexity 120.94
+GS 149000 LR 0.0370 ST 0.24 TPPL 21.57 rg 0.00112719 cg 0.00109439
+	eval: perplexity 151.64
+GS 149100 LR 0.0370 ST 0.23 TPPL 21.28 rg 0.00102436 cg 0.00125060
+	eval: perplexity 139.09
+GS 149200 LR 0.0370 ST 0.24 TPPL 21.73 rg 0.00106097 cg 0.00099045
+	eval: perplexity 141.28
+GS 149300 LR 0.0367 ST 0.24 TPPL 21.51 rg 0.00108454 cg 0.00108877
+	eval: perplexity 135.86
+GS 149400 LR 0.0367 ST 0.24 TPPL 21.69 rg 0.00111570 cg 0.00121608
+	eval: perplexity 131.16
+GS 149500 LR 0.0367 ST 0.24 TPPL 21.94 rg 0.00099597 cg 0.00117091
+	eval: perplexity 112.61
+GS 149600 LR 0.0363 ST 0.24 TPPL 21.80 rg 0.00101638 cg 0.00093152
+	eval: perplexity 120.38
+GS 149700 LR 0.0363 ST 0.23 TPPL 21.34 rg 0.00136248 cg 0.00132680
+	eval: perplexity 145.75
+GS 149800 LR 0.0363 ST 0.24 TPPL 21.37 rg 0.00137064 cg 0.00100031
+	eval: perplexity 135.01
+GS 149900 LR 0.0363 ST 0.24 TPPL 21.49 rg 0.00118095 cg 0.00111496
+	eval: perplexity 123.06
+GS 150000 LR 0.0363 ST 0.24 TPPL 21.48 rg 0.00114646 cg 0.00107303
+	eval: perplexity 152.64
+GS 150100 LR 0.0363 ST 0.24 TPPL 21.40 rg 0.00142722 cg 0.00135309
+	eval: perplexity 148.07
+GS 150200 LR 0.0363 ST 0.24 TPPL 22.00 rg 0.00100714 cg 0.00097617
+	eval: perplexity 138.00
+GS 150300 LR 0.0359 ST 0.24 TPPL 21.62 rg 0.00120075 cg 0.00100675
+	eval: perplexity 114.37
+GS 150400 LR 0.0359 ST 0.24 TPPL 21.65 rg 0.00111416 cg 0.00127397
+	eval: perplexity 133.94
+GS 150500 LR 0.0359 ST 0.24 TPPL 21.28 rg 0.00122676 cg 0.00132088
+	eval: perplexity 140.67
+GS 150600 LR 0.0359 ST 0.24 TPPL 21.11 rg 0.00108838 cg 0.00109484
+	eval: perplexity 140.88
+GS 150700 LR 0.0359 ST 0.24 TPPL 21.22 rg 0.00108957 cg 0.00101642
+	eval: perplexity 157.13
+GS 150800 LR 0.0359 ST 0.24 TPPL 21.61 rg 0.00116901 cg 0.00131052
+	eval: perplexity 125.83
+GS 150900 LR 0.0356 ST 0.23 TPPL 21.55 rg 0.00120862 cg 0.00112902
+	eval: perplexity 106.54
+GS 151000 LR 0.0356 ST 0.24 TPPL 21.31 rg 0.00124441 cg 0.00128205
+	eval: perplexity 110.94
+GS 151100 LR 0.0356 ST 0.24 TPPL 21.40 rg 0.00141551 cg 0.00144447
+	eval: perplexity 136.96
+GS 151200 LR 0.0356 ST 0.24 TPPL 21.57 rg 0.00109357 cg 0.00107586
+	eval: perplexity 128.17
+GS 151300 LR 0.0352 ST 0.24 TPPL 21.75 rg 0.00111179 cg 0.00113392
+	eval: perplexity 130.89
+GS 151400 LR 0.0349 ST 0.24 TPPL 21.37 rg 0.00132579 cg 0.00117431
+	eval: perplexity 117.72
+GS 151500 LR 0.0349 ST 0.24 TPPL 21.38 rg 0.00108341 cg 0.00118290
+	eval: perplexity 105.45
+GS 151600 LR 0.0349 ST 0.24 TPPL 21.14 rg 0.00104151 cg 0.00103932
+	eval: perplexity 136.21
+GS 151700 LR 0.0349 ST 0.23 TPPL 21.48 rg 0.00122501 cg 0.00148741
+	eval: perplexity 124.19
+GS 151800 LR 0.0345 ST 0.24 TPPL 21.51 rg 0.00119024 cg 0.00104819
+	eval: perplexity 187.95
+GS 151900 LR 0.0342 ST 0.24 TPPL 21.17 rg 0.00118127 cg 0.00119907
+	eval: perplexity 200.12
+GS 152000 LR 0.0342 ST 0.24 TPPL 21.38 rg 0.00105656 cg 0.00104967
+	eval: perplexity 126.96
+GS 152100 LR 0.0342 ST 0.24 TPPL 21.17 rg 0.00121065 cg 0.00113281
+	eval: perplexity 95.43
+GS 152200 LR 0.0342 ST 0.24 TPPL 21.41 rg 0.00112422 cg 0.00107441
+	eval: perplexity 133.36
+GS 152300 LR 0.0338 ST 0.24 TPPL 21.36 rg 0.00111075 cg 0.00132499
+	eval: perplexity 111.03
+GS 152400 LR 0.0338 ST 0.24 TPPL 21.46 rg 0.00113982 cg 0.00107216
+	eval: perplexity 123.54
+GS 152500 LR 0.0335 ST 0.24 TPPL 21.20 rg 0.00115278 cg 0.00127426
+	eval: perplexity 147.14
+GS 152600 LR 0.0335 ST 0.24 TPPL 21.54 rg 0.00125129 cg 0.00117920
+	eval: perplexity 105.19
+GS 152700 LR 0.0331 ST 0.24 TPPL 21.18 rg 0.00121978 cg 0.00119088
+	eval: perplexity 162.27
+GS 152800 LR 0.0331 ST 0.24 TPPL 21.68 rg 0.00116445 cg 0.00106196
+	eval: perplexity 154.42
+GS 152900 LR 0.0328 ST 0.24 TPPL 21.29 rg 0.00107626 cg 0.00122765
+	eval: perplexity 137.43
+GS 153000 LR 0.0328 ST 0.24 TPPL 21.78 rg 0.00140198 cg 0.00137448
+	eval: perplexity 127.77
+GS 153100 LR 0.0325 ST 0.25 TPPL 21.52 rg 0.00108991 cg 0.00112762
+	eval: perplexity 106.69
+GS 153200 LR 0.0325 ST 0.39 TPPL 21.32 rg 0.00113662 cg 0.00111340
+	eval: perplexity 147.55
+GS 153300 LR 0.0325 ST 0.24 TPPL 21.54 rg 0.00115427 cg 0.00122511
+	eval: perplexity 140.97
+GS 153400 LR 0.0325 ST 0.25 TPPL 21.82 rg 0.00116157 cg 0.00098976
+	eval: perplexity 159.07
+GS 153500 LR 0.0322 ST 0.25 TPPL 21.40 rg 0.00108928 cg 0.00108470
+	eval: perplexity 109.78
+GS 153600 LR 0.0322 ST 0.24 TPPL 21.41 rg 0.00127039 cg 0.00107889
+	eval: perplexity 171.24
+GS 153700 LR 0.0322 ST 0.24 TPPL 21.74 rg 0.00110937 cg 0.00111215
+	eval: perplexity 139.13
+GS 153800 LR 0.0322 ST 0.25 TPPL 21.15 rg 0.00111709 cg 0.00104727
+	eval: perplexity 143.05
+GS 153900 LR 0.0322 ST 0.25 TPPL 21.14 rg 0.00116649 cg 0.00107825
+	eval: perplexity 109.92
+GS 154000 LR 0.0322 ST 0.24 TPPL 20.92 rg 0.00118163 cg 0.00112520
+	eval: perplexity 133.28
+GS 154100 LR 0.0322 ST 0.25 TPPL 21.04 rg 0.00116208 cg 0.00130601
+	eval: perplexity 110.18
+GS 154200 LR 0.0322 ST 0.24 TPPL 21.33 rg 0.00132934 cg 0.00105599
+	eval: perplexity 117.40
+GS 154300 LR 0.0318 ST 0.24 TPPL 21.43 rg 0.00121241 cg 0.00109964
+	eval: perplexity 137.37
+GS 154400 LR 0.0315 ST 0.24 TPPL 20.94 rg 0.00126399 cg 0.00137063
+	eval: perplexity 122.29
+GS 154500 LR 0.0315 ST 0.24 TPPL 21.21 rg 0.00104735 cg 0.00106850
+	eval: perplexity 115.37
+GS 154600 LR 0.0315 ST 0.24 TPPL 21.47 rg 0.00102452 cg 0.00108718
+	eval: perplexity 125.80
+GS 154700 LR 0.0312 ST 0.24 TPPL 21.11 rg 0.00114879 cg 0.00105211
+	eval: perplexity 141.66
+GS 154800 LR 0.0312 ST 0.24 TPPL 21.30 rg 0.00120432 cg 0.00101510
+	eval: perplexity 121.17
+GS 154900 LR 0.0312 ST 0.24 TPPL 21.37 rg 0.00121399 cg 0.00133717
+	eval: perplexity 119.85
+GS 155000 LR 0.0312 ST 0.24 TPPL 21.53 rg 0.00110343 cg 0.00113711
+	eval: perplexity 122.59
+GS 155100 LR 0.0309 ST 0.24 TPPL 21.29 rg 0.00097620 cg 0.00088298
+	eval: perplexity 140.59
+GS 155200 LR 0.0309 ST 0.25 TPPL 20.95 rg 0.00112969 cg 0.00125463
+	eval: perplexity 142.91
+GS 155300 LR 0.0309 ST 0.24 TPPL 21.16 rg 0.00114549 cg 0.00102424
+	eval: perplexity 136.38
+GS 155400 LR 0.0309 ST 0.24 TPPL 21.67 rg 0.00107042 cg 0.00117858
+	eval: perplexity 109.63
+GS 155500 LR 0.0306 ST 0.24 TPPL 21.23 rg 0.00124461 cg 0.00101471
+	eval: perplexity 128.29
+GS 155600 LR 0.0306 ST 0.24 TPPL 21.74 rg 0.00134587 cg 0.00157502
+	eval: perplexity 159.94
+GS 155700 LR 0.0303 ST 0.25 TPPL 21.06 rg 0.00122748 cg 0.00117634
+	eval: perplexity 125.19
+GS 155800 LR 0.0303 ST 0.24 TPPL 21.28 rg 0.00109693 cg 0.00129245
+	eval: perplexity 159.30
+GS 155900 LR 0.0303 ST 0.24 TPPL 21.25 rg 0.00117236 cg 0.00111743
+	eval: perplexity 123.10
+GS 156000 LR 0.0303 ST 0.25 TPPL 21.24 rg 0.00128870 cg 0.00122589
+	eval: perplexity 140.39
+GS 156100 LR 0.0303 ST 0.24 TPPL 21.15 rg 0.00099732 cg 0.00123465
+	eval: perplexity 194.24
+GS 156200 LR 0.0303 ST 0.24 TPPL 21.14 rg 0.00125988 cg 0.00106432
+	eval: perplexity 135.69
+GS 156300 LR 0.0303 ST 0.24 TPPL 21.18 rg 0.00127411 cg 0.00109849
+	eval: perplexity 157.91
+GS 156400 LR 0.0303 ST 0.24 TPPL 21.28 rg 0.00097578 cg 0.00131584
+	eval: perplexity 137.37
+GS 156500 LR 0.0300 ST 0.25 TPPL 21.66 rg 0.00103773 cg 0.00088102
+	eval: perplexity 141.00
+GS 156600 LR 0.0297 ST 0.24 TPPL 21.15 rg 0.00103904 cg 0.00089326
+	eval: perplexity 133.12
+GS 156700 LR 0.0297 ST 0.24 TPPL 21.28 rg 0.00115140 cg 0.00126273
+	eval: perplexity 136.49
+GS 156800 LR 0.0297 ST 0.24 TPPL 21.27 rg 0.00128170 cg 0.00142197
+	eval: perplexity 136.66
+GS 156900 LR 0.0297 ST 0.24 TPPL 20.64 rg 0.00134178 cg 0.00136502
+	eval: perplexity 112.74
+GS 157000 LR 0.0297 ST 0.24 TPPL 21.29 rg 0.00124024 cg 0.00113892
+	eval: perplexity 125.68
+GS 157100 LR 0.0294 ST 0.24 TPPL 20.87 rg 0.00114844 cg 0.00104989
+	eval: perplexity 136.82
+GS 157200 LR 0.0294 ST 0.25 TPPL 20.88 rg 0.00109379 cg 0.00132279
+	eval: perplexity 117.76
+GS 157300 LR 0.0294 ST 0.32 TPPL 21.36 rg 0.00125587 cg 0.00115112
+	eval: perplexity 153.79
+GS 157400 LR 0.0291 ST 0.24 TPPL 21.27 rg 0.00119447 cg 0.00133339
+	eval: perplexity 130.45
+GS 157500 LR 0.0291 ST 0.25 TPPL 21.55 rg 0.00119679 cg 0.00138562
+	eval: perplexity 139.78
+GS 157600 LR 0.0288 ST 0.24 TPPL 21.13 rg 0.00116724 cg 0.00113484
+	eval: perplexity 110.33
+GS 157700 LR 0.0288 ST 0.25 TPPL 20.49 rg 0.00104527 cg 0.00100354
+	eval: perplexity 142.28
+GS 157800 LR 0.0288 ST 0.24 TPPL 21.22 rg 0.00119713 cg 0.00105890
+	eval: perplexity 116.17
+GS 157900 LR 0.0288 ST 0.24 TPPL 21.34 rg 0.00114241 cg 0.00128473
+	eval: perplexity 143.71
+GS 158000 LR 0.0285 ST 0.24 TPPL 21.19 rg 0.00114576 cg 0.00107579
+	eval: perplexity 134.23
+GS 158100 LR 0.0285 ST 0.24 TPPL 21.23 rg 0.00128193 cg 0.00110347
+	eval: perplexity 115.39
+GS 158200 LR 0.0285 ST 0.24 TPPL 21.11 rg 0.00109597 cg 0.00101389
+	eval: perplexity 128.06
+GS 158300 LR 0.0285 ST 0.24 TPPL 20.56 rg 0.00107847 cg 0.00123713
+	eval: perplexity 125.45
+GS 158400 LR 0.0285 ST 0.24 TPPL 20.96 rg 0.00121557 cg 0.00105195
+	eval: perplexity 110.91
+GS 158500 LR 0.0285 ST 0.24 TPPL 20.92 rg 0.00119140 cg 0.00121364
+	eval: perplexity 139.95
+GS 158600 LR 0.0285 ST 0.24 TPPL 21.13 rg 0.00117540 cg 0.00112381
+	eval: perplexity 161.88
+GS 158700 LR 0.0282 ST 0.24 TPPL 21.17 rg 0.00105518 cg 0.00098103
+	eval: perplexity 121.11
+GS 158800 LR 0.0279 ST 0.24 TPPL 21.31 rg 0.00112563 cg 0.00103624
+	eval: perplexity 118.13
+GS 158900 LR 0.0277 ST 0.24 TPPL 21.10 rg 0.00100670 cg 0.00096385
+	eval: perplexity 128.48
+GS 159000 LR 0.0277 ST 0.24 TPPL 21.23 rg 0.00121536 cg 0.00123752
+	eval: perplexity 130.39
+GS 159100 LR 0.0277 ST 0.25 TPPL 21.04 rg 0.00121934 cg 0.00118098
+	eval: perplexity 147.96
+GS 159200 LR 0.0277 ST 0.25 TPPL 21.19 rg 0.00119702 cg 0.00115235
+	eval: perplexity 105.97
+GS 159300 LR 0.0277 ST 0.24 TPPL 20.96 rg 0.00095562 cg 0.00108660
+	eval: perplexity 114.63
+GS 159400 LR 0.0277 ST 0.25 TPPL 21.19 rg 0.00115804 cg 0.00115835
+	eval: perplexity 122.28
+GS 159500 LR 0.0277 ST 0.24 TPPL 21.01 rg 0.00126375 cg 0.00111563
+	eval: perplexity 140.19
+GS 159600 LR 0.0277 ST 0.24 TPPL 21.19 rg 0.00109150 cg 0.00109156
+	eval: perplexity 113.45
+GS 159700 LR 0.0274 ST 0.25 TPPL 21.16 rg 0.00105631 cg 0.00102582
+	eval: perplexity 131.64
+GS 159800 LR 0.0274 ST 0.25 TPPL 20.96 rg 0.00113955 cg 0.00128207
+	eval: perplexity 144.51
+GS 159900 LR 0.0274 ST 0.24 TPPL 21.08 rg 0.00097089 cg 0.00112215
+	eval: perplexity 145.43
+GS 160000 LR 0.0274 ST 0.24 TPPL 21.26 rg 0.00100929 cg 0.00124794
+	eval: perplexity 151.33
+GS 160100 LR 0.0271 ST 0.24 TPPL 20.90 rg 0.00133362 cg 0.00121235
+	eval: perplexity 109.09
+GS 160200 LR 0.0271 ST 0.24 TPPL 21.28 rg 0.00132135 cg 0.00141762
+	eval: perplexity 110.59
+GS 160300 LR 0.0268 ST 0.25 TPPL 21.03 rg 0.00119544 cg 0.00131763
+	eval: perplexity 149.06
+GS 160400 LR 0.0268 ST 0.25 TPPL 20.98 rg 0.00122555 cg 0.00107459
+	eval: perplexity 119.87
+GS 160500 LR 0.0268 ST 0.24 TPPL 21.24 rg 0.00104973 cg 0.00121629
+	eval: perplexity 106.65
+GS 160600 LR 0.0268 ST 0.24 TPPL 21.13 rg 0.00120767 cg 0.00113688
+	eval: perplexity 149.97
+GS 160700 LR 0.0268 ST 0.25 TPPL 21.14 rg 0.00109662 cg 0.00126814
+	eval: perplexity 121.78
+GS 160800 LR 0.0268 ST 0.24 TPPL 20.87 rg 0.00114083 cg 0.00108746
+	eval: perplexity 120.83
+GS 160900 LR 0.0268 ST 0.24 TPPL 20.97 rg 0.00108108 cg 0.00125898
+	eval: perplexity 102.40
+GS 161000 LR 0.0268 ST 0.24 TPPL 20.82 rg 0.00114392 cg 0.00119044
+	eval: perplexity 127.53
+GS 161100 LR 0.0268 ST 0.24 TPPL 20.95 rg 0.00145480 cg 0.00129036
+	eval: perplexity 156.22
+GS 161200 LR 0.0268 ST 0.24 TPPL 20.93 rg 0.00111447 cg 0.00119483
+	eval: perplexity 152.00
+GS 161300 LR 0.0268 ST 0.25 TPPL 21.09 rg 0.00111577 cg 0.00102592
+	eval: perplexity 131.06
+GS 161400 LR 0.0266 ST 0.25 TPPL 21.11 rg 0.00126302 cg 0.00132503
+	eval: perplexity 118.00
+GS 161500 LR 0.0263 ST 0.24 TPPL 21.24 rg 0.00126807 cg 0.00123166
+	eval: perplexity 117.07
+GS 161600 LR 0.0260 ST 0.24 TPPL 21.21 rg 0.00122203 cg 0.00109576
+	eval: perplexity 135.21
+GS 161700 LR 0.0260 ST 0.24 TPPL 20.94 rg 0.00133124 cg 0.00142179
+	eval: perplexity 123.38
+GS 161800 LR 0.0260 ST 0.25 TPPL 21.06 rg 0.00109644 cg 0.00105673
+	eval: perplexity 143.88
+GS 161900 LR 0.0260 ST 0.25 TPPL 21.01 rg 0.00120733 cg 0.00113148
+	eval: perplexity 131.63
+GS 162000 LR 0.0260 ST 0.25 TPPL 21.19 rg 0.00111530 cg 0.00106201
+	eval: perplexity 135.44
+GS 162100 LR 0.0258 ST 0.24 TPPL 20.91 rg 0.00113831 cg 0.00117938
+	eval: perplexity 129.74
+GS 162200 LR 0.0258 ST 0.25 TPPL 21.18 rg 0.00103361 cg 0.00095815
+	eval: perplexity 128.35
+GS 162300 LR 0.0258 ST 0.25 TPPL 21.09 rg 0.00128108 cg 0.00134014
+	eval: perplexity 144.81
+GS 162400 LR 0.0258 ST 0.25 TPPL 21.14 rg 0.00128143 cg 0.00134166
+	eval: perplexity 134.73
+GS 162500 LR 0.0258 ST 0.24 TPPL 21.09 rg 0.00115564 cg 0.00112187
+	eval: perplexity 118.68
+GS 162600 LR 0.0258 ST 0.25 TPPL 21.20 rg 0.00123720 cg 0.00116421
+	eval: perplexity 148.97
+GS 162700 LR 0.0255 ST 0.25 TPPL 21.51 rg 0.00121089 cg 0.00105802
+	eval: perplexity 130.60
+GS 162800 LR 0.0253 ST 0.24 TPPL 20.73 rg 0.00113818 cg 0.00131575
+	eval: perplexity 125.48
+GS 162900 LR 0.0253 ST 0.25 TPPL 21.08 rg 0.00134103 cg 0.00125222
+	eval: perplexity 96.59
+GS 163000 LR 0.0253 ST 0.24 TPPL 21.10 rg 0.00127074 cg 0.00105542
+	eval: perplexity 124.06
+GS 163100 LR 0.0253 ST 0.24 TPPL 21.02 rg 0.00130704 cg 0.00100818
+	eval: perplexity 125.38
+GS 163200 LR 0.0253 ST 0.24 TPPL 20.99 rg 0.00124050 cg 0.00117724
+	eval: perplexity 119.90
+GS 163300 LR 0.0253 ST 0.24 TPPL 20.67 rg 0.00114822 cg 0.00109045
+	eval: perplexity 139.23
+GS 163400 LR 0.0253 ST 0.25 TPPL 20.94 rg 0.00110432 cg 0.00103723
+	eval: perplexity 149.72
+GS 163500 LR 0.0253 ST 0.26 TPPL 21.15 rg 0.00114060 cg 0.00095841
+	eval: perplexity 114.73
+GS 163600 LR 0.0250 ST 0.25 TPPL 20.97 rg 0.00112168 cg 0.00103837
+	eval: perplexity 150.75
+GS 163700 LR 0.0250 ST 0.25 TPPL 20.61 rg 0.00112014 cg 0.00114773
+	eval: perplexity 150.77
+GS 163800 LR 0.0250 ST 0.25 TPPL 21.02 rg 0.00137926 cg 0.00120144
+	eval: perplexity 144.71
+GS 163900 LR 0.0250 ST 0.24 TPPL 21.08 rg 0.00120045 cg 0.00130212
+	eval: perplexity 164.06
+GS 164000 LR 0.0248 ST 0.25 TPPL 21.01 rg 0.00111129 cg 0.00121608
+	eval: perplexity 107.31
+GS 164100 LR 0.0248 ST 0.25 TPPL 20.61 rg 0.00119606 cg 0.00124845
+	eval: perplexity 129.99
+GS 164200 LR 0.0248 ST 0.25 TPPL 21.05 rg 0.00129063 cg 0.00119632
+	eval: perplexity 103.11
+GS 164300 LR 0.0248 ST 0.25 TPPL 20.88 rg 0.00129373 cg 0.00145355
+	eval: perplexity 144.87
+GS 164400 LR 0.0248 ST 0.25 TPPL 20.84 rg 0.00114133 cg 0.00127922
+	eval: perplexity 144.44
+GS 164500 LR 0.0248 ST 0.24 TPPL 20.88 rg 0.00102977 cg 0.00133165
+	eval: perplexity 144.13
+GS 164600 LR 0.0248 ST 0.25 TPPL 21.55 rg 0.00128168 cg 0.00116591
+	eval: perplexity 107.82
+GS 164700 LR 0.0245 ST 0.24 TPPL 21.00 rg 0.00096106 cg 0.00113623
+	eval: perplexity 138.13
+GS 164800 LR 0.0245 ST 0.24 TPPL 20.90 rg 0.00123406 cg 0.00132536
+	eval: perplexity 147.40
+GS 164900 LR 0.0245 ST 0.24 TPPL 21.18 rg 0.00119010 cg 0.00135697
+	eval: perplexity 131.10
+GS 165000 LR 0.0245 ST 0.24 TPPL 20.70 rg 0.00107724 cg 0.00114861
+	eval: perplexity 138.20
+GS 165100 LR 0.0245 ST 0.24 TPPL 20.83 rg 0.00115923 cg 0.00111236
+	eval: perplexity 129.11
+GS 165200 LR 0.0245 ST 0.25 TPPL 20.72 rg 0.00105863 cg 0.00113565
+	eval: perplexity 104.14
+GS 165300 LR 0.0245 ST 0.25 TPPL 21.34 rg 0.00097779 cg 0.00125578
+	eval: perplexity 144.93
+GS 165400 LR 0.0243 ST 0.25 TPPL 20.97 rg 0.00131188 cg 0.00116130
+	eval: perplexity 168.78
+GS 165500 LR 0.0243 ST 0.25 TPPL 20.89 rg 0.00108267 cg 0.00107157
+	eval: perplexity 139.44
+GS 165600 LR 0.0243 ST 0.25 TPPL 20.85 rg 0.00114329 cg 0.00105986
+	eval: perplexity 150.83
+GS 165700 LR 0.0243 ST 0.24 TPPL 20.79 rg 0.00125560 cg 0.00124432
+	eval: perplexity 132.29
+GS 165800 LR 0.0243 ST 0.24 TPPL 20.80 rg 0.00140314 cg 0.00126526
+	eval: perplexity 160.66
+GS 165900 LR 0.0243 ST 0.24 TPPL 20.78 rg 0.00130359 cg 0.00137787
+	eval: perplexity 104.93
+GS 166000 LR 0.0243 ST 0.24 TPPL 20.84 rg 0.00139609 cg 0.00118714
+	eval: perplexity 100.94
+GS 166100 LR 0.0240 ST 0.24 TPPL 20.87 rg 0.00134960 cg 0.00126056
+	eval: perplexity 129.64
+GS 166200 LR 0.0238 ST 0.25 TPPL 20.77 rg 0.00120768 cg 0.00118553
+	eval: perplexity 111.28
+GS 166300 LR 0.0238 ST 0.24 TPPL 20.88 rg 0.00119818 cg 0.00115213
+	eval: perplexity 153.25
+GS 166400 LR 0.0236 ST 0.25 TPPL 20.88 rg 0.00114156 cg 0.00109665
+	eval: perplexity 130.66
+GS 166500 LR 0.0236 ST 0.24 TPPL 20.83 rg 0.00108501 cg 0.00119858
+	eval: perplexity 131.44
+GS 166600 LR 0.0236 ST 0.24 TPPL 20.47 rg 0.00101932 cg 0.00110698
+	eval: perplexity 128.11
+GS 166700 LR 0.0236 ST 0.26 TPPL 20.90 rg 0.00136852 cg 0.00116444
+	eval: perplexity 139.15
+GS 166800 LR 0.0233 ST 0.25 TPPL 20.93 rg 0.00104976 cg 0.00103690
+	eval: perplexity 143.70
+GS 166900 LR 0.0231 ST 0.24 TPPL 20.43 rg 0.00132254 cg 0.00105870
+	eval: perplexity 139.41
+GS 167000 LR 0.0231 ST 0.24 TPPL 20.83 rg 0.00108824 cg 0.00107026
+	eval: perplexity 126.90
+GS 167100 LR 0.0231 ST 0.24 TPPL 20.94 rg 0.00124727 cg 0.00142301
+	eval: perplexity 102.14
+GS 167200 LR 0.0229 ST 0.24 TPPL 20.79 rg 0.00117701 cg 0.00136868
+	eval: perplexity 171.86
+GS 167300 LR 0.0229 ST 0.24 TPPL 20.64 rg 0.00114858 cg 0.00117015
+	eval: perplexity 134.74
+GS 167400 LR 0.0229 ST 0.24 TPPL 20.54 rg 0.00111888 cg 0.00106006
+	eval: perplexity 139.21
+GS 167500 LR 0.0229 ST 0.24 TPPL 20.89 rg 0.00124536 cg 0.00132234
+	eval: perplexity 114.70
+GS 167600 LR 0.0226 ST 0.25 TPPL 20.75 rg 0.00109140 cg 0.00121344
+	eval: perplexity 120.31
+GS 167700 LR 0.0226 ST 0.26 TPPL 20.97 rg 0.00136595 cg 0.00131149
+	eval: perplexity 116.00
+GS 167800 LR 0.0224 ST 0.25 TPPL 20.86 rg 0.00105270 cg 0.00097349
+	eval: perplexity 139.49
+GS 167900 LR 0.0224 ST 0.25 TPPL 20.65 rg 0.00117641 cg 0.00103311
+	eval: perplexity 138.84
+GS 168000 LR 0.0224 ST 0.25 TPPL 20.75 rg 0.00108235 cg 0.00112746
+	eval: perplexity 102.23
+GS 168100 LR 0.0224 ST 0.25 TPPL 20.77 rg 0.00107342 cg 0.00087947
+	eval: perplexity 105.48
+GS 168200 LR 0.0224 ST 0.25 TPPL 20.88 rg 0.00117018 cg 0.00122934
+	eval: perplexity 139.77
+GS 168300 LR 0.0222 ST 0.25 TPPL 20.93 rg 0.00129339 cg 0.00126093
+	eval: perplexity 143.17
+GS 168400 LR 0.0220 ST 0.25 TPPL 20.61 rg 0.00120887 cg 0.00125909
+	eval: perplexity 105.03
+GS 168500 LR 0.0220 ST 0.25 TPPL 20.69 rg 0.00127305 cg 0.00124298
+	eval: perplexity 138.04
+GS 168600 LR 0.0220 ST 0.25 TPPL 20.88 rg 0.00121943 cg 0.00095158
+	eval: perplexity 113.61
+GS 168700 LR 0.0220 ST 0.24 TPPL 20.58 rg 0.00131535 cg 0.00108307
+	eval: perplexity 130.29
+GS 168800 LR 0.0220 ST 0.24 TPPL 20.93 rg 0.00117935 cg 0.00117883
+	eval: perplexity 130.71
+GS 168900 LR 0.0217 ST 0.24 TPPL 20.60 rg 0.00120915 cg 0.00119206
+	eval: perplexity 140.32
+GS 169000 LR 0.0217 ST 0.24 TPPL 20.87 rg 0.00126092 cg 0.00149652
+	eval: perplexity 102.00
+GS 169100 LR 0.0217 ST 0.24 TPPL 20.90 rg 0.00113010 cg 0.00108577
+	eval: perplexity 141.35
+GS 169200 LR 0.0217 ST 0.24 TPPL 20.82 rg 0.00113507 cg 0.00087124
+	eval: perplexity 140.64
+GS 169300 LR 0.0217 ST 0.24 TPPL 20.94 rg 0.00120134 cg 0.00117817
+	eval: perplexity 147.46
+GS 169400 LR 0.0215 ST 0.24 TPPL 20.62 rg 0.00119417 cg 0.00117357
+	eval: perplexity 151.07
+GS 169500 LR 0.0215 ST 0.24 TPPL 20.86 rg 0.00125144 cg 0.00132478
+	eval: perplexity 125.72
+GS 169600 LR 0.0215 ST 0.24 TPPL 20.81 rg 0.00114709 cg 0.00108192
+	eval: perplexity 122.09
+GS 169700 LR 0.0215 ST 0.23 TPPL 20.79 rg 0.00120832 cg 0.00115752
+	eval: perplexity 150.51
+GS 169800 LR 0.0215 ST 0.23 TPPL 21.16 rg 0.00132125 cg 0.00148768
+	eval: perplexity 175.76
+GS 169900 LR 0.0213 ST 0.23 TPPL 20.53 rg 0.00120163 cg 0.00119722
+	eval: perplexity 152.18
+GS 170000 LR 0.0213 ST 0.23 TPPL 20.77 rg 0.00126364 cg 0.00132210
+	eval: perplexity 156.85
+GS 170100 LR 0.0213 ST 0.23 TPPL 20.67 rg 0.00112563 cg 0.00118764
+	eval: perplexity 131.23
+GS 170200 LR 0.0213 ST 0.23 TPPL 20.45 rg 0.00120455 cg 0.00104031
+	eval: perplexity 105.67
+GS 170300 LR 0.0213 ST 0.23 TPPL 21.02 rg 0.00106534 cg 0.00103248
+	eval: perplexity 151.12
+GS 170400 LR 0.0211 ST 0.23 TPPL 20.76 rg 0.00122029 cg 0.00123168
+	eval: perplexity 114.02
+GS 170500 LR 0.0211 ST 0.23 TPPL 20.86 rg 0.00123821 cg 0.00113190
+	eval: perplexity 146.43
+GS 170600 LR 0.0211 ST 0.23 TPPL 20.62 rg 0.00107186 cg 0.00109319
+	eval: perplexity 122.98
+GS 170700 LR 0.0211 ST 0.23 TPPL 20.54 rg 0.00127874 cg 0.00116909
+	eval: perplexity 177.84
+GS 170800 LR 0.0211 ST 0.23 TPPL 20.75 rg 0.00125380 cg 0.00116230
+	eval: perplexity 161.94
+GS 170900 LR 0.0211 ST 0.23 TPPL 21.08 rg 0.00113672 cg 0.00134093
+	eval: perplexity 146.59
+GS 171000 LR 0.0209 ST 0.24 TPPL 21.12 rg 0.00113782 cg 0.00144857
+	eval: perplexity 129.75
+GS 171100 LR 0.0207 ST 0.23 TPPL 20.39 rg 0.00130900 cg 0.00146872
+	eval: perplexity 130.88
+GS 171200 LR 0.0207 ST 0.23 TPPL 21.01 rg 0.00102945 cg 0.00108622
+	eval: perplexity 142.37
+GS 171300 LR 0.0207 ST 0.23 TPPL 20.62 rg 0.00118201 cg 0.00115170
+	eval: perplexity 141.18
+GS 171400 LR 0.0207 ST 0.24 TPPL 20.53 rg 0.00142019 cg 0.00149306
+	eval: perplexity 133.58
+GS 171500 LR 0.0207 ST 0.23 TPPL 21.17 rg 0.00121730 cg 0.00119779
+	eval: perplexity 132.78
+GS 171600 LR 0.0205 ST 0.24 TPPL 20.73 rg 0.00144859 cg 0.00121485
+	eval: perplexity 129.26
+GS 171700 LR 0.0205 ST 0.23 TPPL 20.53 rg 0.00127401 cg 0.00115642
+	eval: perplexity 152.17
+GS 171800 LR 0.0205 ST 0.23 TPPL 20.60 rg 0.00123048 cg 0.00132236
+	eval: perplexity 138.42
+GS 171900 LR 0.0205 ST 0.24 TPPL 20.56 rg 0.00140412 cg 0.00107503
+	eval: perplexity 131.82
+GS 172000 LR 0.0205 ST 0.24 TPPL 20.92 rg 0.00115505 cg 0.00119554
+	eval: perplexity 168.02
+GS 172100 LR 0.0203 ST 0.24 TPPL 20.71 rg 0.00104945 cg 0.00113510
+	eval: perplexity 159.11
+GS 172200 LR 0.0203 ST 0.24 TPPL 20.63 rg 0.00115597 cg 0.00120402
+	eval: perplexity 126.37
+GS 172300 LR 0.0203 ST 0.24 TPPL 20.69 rg 0.00109293 cg 0.00115675
+	eval: perplexity 147.79
+GS 172400 LR 0.0203 ST 0.24 TPPL 20.37 rg 0.00109684 cg 0.00094933
+	eval: perplexity 127.96
+GS 172500 LR 0.0203 ST 0.24 TPPL 20.51 rg 0.00130092 cg 0.00108455
+	eval: perplexity 125.75
+GS 172600 LR 0.0203 ST 0.24 TPPL 20.54 rg 0.00121549 cg 0.00105485
+	eval: perplexity 158.63
+GS 172700 LR 0.0203 ST 0.24 TPPL 20.47 rg 0.00106515 cg 0.00152425
+	eval: perplexity 109.27
+GS 172800 LR 0.0203 ST 0.24 TPPL 20.89 rg 0.00107469 cg 0.00117889
+	eval: perplexity 131.12
+GS 172900 LR 0.0201 ST 0.24 TPPL 20.69 rg 0.00116304 cg 0.00119659
+	eval: perplexity 135.23
+GS 173000 LR 0.0201 ST 0.24 TPPL 20.87 rg 0.00127659 cg 0.00131215
+	eval: perplexity 134.23
+GS 173100 LR 0.0201 ST 0.24 TPPL 20.58 rg 0.00119512 cg 0.00108276
+	eval: perplexity 159.98
+GS 173200 LR 0.0201 ST 0.24 TPPL 20.85 rg 0.00128254 cg 0.00118862
+	eval: perplexity 112.64
+GS 173300 LR 0.0201 ST 0.24 TPPL 20.65 rg 0.00110683 cg 0.00118623
+	eval: perplexity 139.16
+GS 173400 LR 0.0201 ST 0.24 TPPL 20.85 rg 0.00116907 cg 0.00127616
+	eval: perplexity 119.65
+GS 173500 LR 0.0201 ST 0.24 TPPL 20.82 rg 0.00104423 cg 0.00116689
+	eval: perplexity 149.31
+GS 173600 LR 0.0201 ST 0.24 TPPL 20.82 rg 0.00125328 cg 0.00115054
+	eval: perplexity 148.89
+GS 173700 LR 0.0201 ST 0.24 TPPL 20.54 rg 0.00117509 cg 0.00121386
+	eval: perplexity 147.74
+GS 173800 LR 0.0201 ST 0.24 TPPL 20.94 rg 0.00132679 cg 0.00143741
+	eval: perplexity 148.83
+GS 173900 LR 0.0199 ST 0.24 TPPL 20.52 rg 0.00105623 cg 0.00115946
+	eval: perplexity 131.05
+GS 174000 LR 0.0199 ST 0.24 TPPL 20.47 rg 0.00119514 cg 0.00089501
+	eval: perplexity 143.43
+GS 174100 LR 0.0199 ST 0.24 TPPL 20.94 rg 0.00128053 cg 0.00107835
+	eval: perplexity 123.20
+GS 174200 LR 0.0199 ST 0.24 TPPL 20.76 rg 0.00113280 cg 0.00113969
+	eval: perplexity 108.81
+GS 174300 LR 0.0199 ST 0.24 TPPL 20.56 rg 0.00135775 cg 0.00090019
+	eval: perplexity 135.89
+GS 174400 LR 0.0199 ST 0.24 TPPL 20.55 rg 0.00123583 cg 0.00105324
+	eval: perplexity 146.98
+GS 174500 LR 0.0199 ST 0.24 TPPL 20.53 rg 0.00120876 cg 0.00126714
+	eval: perplexity 151.81
+GS 174600 LR 0.0199 ST 0.24 TPPL 20.57 rg 0.00110268 cg 0.00134306
+	eval: perplexity 161.17
+GS 174700 LR 0.0197 ST 0.24 TPPL 20.41 rg 0.00145783 cg 0.00130226
+	eval: perplexity 152.74
+GS 174800 LR 0.0197 ST 0.24 TPPL 20.82 rg 0.00115310 cg 0.00118342
+	eval: perplexity 140.66
+GS 174900 LR 0.0195 ST 0.24 TPPL 20.82 rg 0.00105964 cg 0.00114594
+	eval: perplexity 120.38
+GS 175000 LR 0.0195 ST 0.24 TPPL 20.84 rg 0.00117479 cg 0.00125860
+	eval: perplexity 134.74
+GS 175100 LR 0.0193 ST 0.24 TPPL 20.46 rg 0.00108420 cg 0.00121117
+	eval: perplexity 124.37
+GS 175200 LR 0.0193 ST 0.24 TPPL 20.42 rg 0.00127659 cg 0.00136907
+	eval: perplexity 179.43
+GS 175300 LR 0.0193 ST 0.24 TPPL 20.46 rg 0.00107467 cg 0.00105845
+	eval: perplexity 135.58
+GS 175400 LR 0.0193 ST 0.24 TPPL 20.98 rg 0.00129061 cg 0.00124956
+	eval: perplexity 134.09
+GS 175500 LR 0.0191 ST 0.24 TPPL 20.68 rg 0.00100726 cg 0.00126019
+	eval: perplexity 120.36
+GS 175600 LR 0.0191 ST 0.24 TPPL 20.70 rg 0.00104259 cg 0.00101537
+	eval: perplexity 154.31
+GS 175700 LR 0.0191 ST 0.24 TPPL 20.72 rg 0.00118360 cg 0.00112234
+	eval: perplexity 117.89
+GS 175800 LR 0.0191 ST 0.23 TPPL 20.53 rg 0.00122856 cg 0.00120240
+	eval: perplexity 138.74
+GS 175900 LR 0.0191 ST 0.24 TPPL 20.47 rg 0.00111011 cg 0.00122335
+	eval: perplexity 163.17
+GS 176000 LR 0.0191 ST 0.24 TPPL 20.59 rg 0.00112193 cg 0.00129532
+	eval: perplexity 119.61
+GS 176100 LR 0.0191 ST 0.24 TPPL 20.59 rg 0.00112664 cg 0.00117015
+	eval: perplexity 117.40
+GS 176200 LR 0.0191 ST 0.23 TPPL 20.34 rg 0.00105893 cg 0.00113148
+	eval: perplexity 149.44
+GS 176300 LR 0.0191 ST 0.24 TPPL 20.51 rg 0.00130591 cg 0.00128840
+	eval: perplexity 122.49
+GS 176400 LR 0.0191 ST 0.23 TPPL 20.82 rg 0.00114127 cg 0.00097775
+	eval: perplexity 141.17
+GS 176500 LR 0.0189 ST 0.24 TPPL 20.57 rg 0.00122607 cg 0.00119011
+	eval: perplexity 154.65
+GS 176600 LR 0.0189 ST 0.23 TPPL 20.50 rg 0.00120405 cg 0.00102626
+	eval: perplexity 140.08
+GS 176700 LR 0.0189 ST 0.24 TPPL 20.22 rg 0.00112840 cg 0.00126107
+	eval: perplexity 155.45
+GS 176800 LR 0.0189 ST 0.24 TPPL 20.95 rg 0.00122253 cg 0.00132121
+	eval: perplexity 149.91
+GS 176900 LR 0.0187 ST 0.24 TPPL 20.63 rg 0.00127856 cg 0.00117422
+	eval: perplexity 145.20
+GS 177000 LR 0.0187 ST 0.24 TPPL 20.66 rg 0.00120729 cg 0.00115724
+	eval: perplexity 121.74
+GS 177100 LR 0.0187 ST 0.24 TPPL 21.03 rg 0.00126653 cg 0.00114327
+	eval: perplexity 127.14
+GS 177200 LR 0.0185 ST 0.23 TPPL 20.73 rg 0.00110119 cg 0.00116251
+	eval: perplexity 125.69
+GS 177300 LR 0.0185 ST 0.24 TPPL 20.67 rg 0.00120093 cg 0.00137640
+	eval: perplexity 110.49
+GS 177400 LR 0.0185 ST 0.24 TPPL 20.36 rg 0.00108810 cg 0.00108632
+	eval: perplexity 138.75
+GS 177500 LR 0.0185 ST 0.24 TPPL 20.43 rg 0.00097682 cg 0.00111273
+	eval: perplexity 148.64
+GS 177600 LR 0.0185 ST 0.24 TPPL 20.67 rg 0.00114405 cg 0.00105570
+	eval: perplexity 133.67
+GS 177700 LR 0.0185 ST 0.24 TPPL 20.63 rg 0.00110665 cg 0.00115340
+	eval: perplexity 117.68
+GS 177800 LR 0.0185 ST 0.24 TPPL 20.64 rg 0.00125563 cg 0.00119766
+	eval: perplexity 104.84
+GS 177900 LR 0.0185 ST 0.24 TPPL 20.42 rg 0.00116573 cg 0.00111062
+	eval: perplexity 138.96
+GS 178000 LR 0.0185 ST 0.23 TPPL 20.80 rg 0.00123035 cg 0.00107289
+	eval: perplexity 132.43
+GS 178100 LR 0.0183 ST 0.24 TPPL 20.40 rg 0.00117430 cg 0.00121139
+	eval: perplexity 138.65
+GS 178200 LR 0.0183 ST 0.23 TPPL 20.45 rg 0.00114410 cg 0.00119938
+	eval: perplexity 123.37
+GS 178300 LR 0.0183 ST 0.24 TPPL 20.36 rg 0.00127486 cg 0.00132941
+	eval: perplexity 144.91
+GS 178400 LR 0.0183 ST 0.24 TPPL 20.65 rg 0.00125130 cg 0.00104103
+	eval: perplexity 107.40
+GS 178500 LR 0.0181 ST 0.24 TPPL 20.70 rg 0.00111322 cg 0.00117864
+	eval: perplexity 130.01
+GS 178600 LR 0.0180 ST 0.23 TPPL 20.64 rg 0.00127151 cg 0.00101832
+	eval: perplexity 124.67
+GS 178700 LR 0.0180 ST 0.24 TPPL 20.45 rg 0.00121080 cg 0.00105420
+	eval: perplexity 143.97
+GS 178800 LR 0.0180 ST 0.23 TPPL 20.66 rg 0.00112933 cg 0.00110591
+	eval: perplexity 161.38
+GS 178900 LR 0.0180 ST 0.23 TPPL 20.69 rg 0.00130014 cg 0.00147540
+	eval: perplexity 109.50
+GS 179000 LR 0.0178 ST 0.24 TPPL 20.57 rg 0.00114741 cg 0.00102541
+	eval: perplexity 116.39
+GS 179100 LR 0.0178 ST 0.24 TPPL 20.26 rg 0.00111768 cg 0.00121579
+	eval: perplexity 102.57
+GS 179200 LR 0.0178 ST 0.23 TPPL 20.33 rg 0.00121592 cg 0.00140017
+	eval: perplexity 134.49
+GS 179300 LR 0.0178 ST 0.24 TPPL 20.48 rg 0.00121415 cg 0.00104208
+	eval: perplexity 179.84
+GS 179400 LR 0.0178 ST 0.23 TPPL 20.29 rg 0.00105431 cg 0.00114870
+	eval: perplexity 150.02
+GS 179500 LR 0.0178 ST 0.24 TPPL 20.58 rg 0.00113476 cg 0.00115821
+	eval: perplexity 130.28
+GS 179600 LR 0.0176 ST 0.24 TPPL 20.70 rg 0.00128354 cg 0.00115584
+	eval: perplexity 138.70
+GS 179700 LR 0.0174 ST 0.24 TPPL 20.48 rg 0.00116739 cg 0.00134016
+	eval: perplexity 117.61
+GS 179800 LR 0.0174 ST 0.23 TPPL 20.29 rg 0.00123837 cg 0.00129154
+	eval: perplexity 170.68
+GS 179900 LR 0.0174 ST 0.24 TPPL 20.49 rg 0.00149316 cg 0.00110447
+	eval: perplexity 135.03
+GS 180000 LR 0.0174 ST 0.24 TPPL 20.40 rg 0.00120648 cg 0.00135080
+	eval: perplexity 128.47
+GS 180100 LR 0.0174 ST 0.23 TPPL 20.19 rg 0.00118979 cg 0.00103880
+	eval: perplexity 125.53
+GS 180200 LR 0.0174 ST 0.24 TPPL 20.73 rg 0.00113414 cg 0.00111798
+	eval: perplexity 115.92
+GS 180300 LR 0.0172 ST 0.24 TPPL 20.64 rg 0.00133848 cg 0.00105218
+	eval: perplexity 170.64
+GS 180400 LR 0.0172 ST 0.24 TPPL 20.46 rg 0.00124169 cg 0.00110378
+	eval: perplexity 130.13
+GS 180500 LR 0.0172 ST 0.24 TPPL 20.43 rg 0.00109826 cg 0.00114133
+	eval: perplexity 181.53
+GS 180600 LR 0.0172 ST 0.24 TPPL 20.39 rg 0.00103004 cg 0.00105014
+	eval: perplexity 177.04
+GS 180700 LR 0.0172 ST 0.24 TPPL 20.55 rg 0.00121021 cg 0.00097646
+	eval: perplexity 158.82
+GS 180800 LR 0.0171 ST 0.24 TPPL 20.36 rg 0.00129142 cg 0.00108537
+	eval: perplexity 122.78
+GS 180900 LR 0.0171 ST 0.24 TPPL 20.43 rg 0.00123179 cg 0.00114083
+	eval: perplexity 117.26
+GS 181000 LR 0.0171 ST 0.23 TPPL 20.40 rg 0.00116140 cg 0.00121022
+	eval: perplexity 143.43
+GS 181100 LR 0.0171 ST 0.24 TPPL 20.71 rg 0.00112125 cg 0.00108698
+	eval: perplexity 131.00
+GS 181200 LR 0.0169 ST 0.23 TPPL 20.60 rg 0.00100018 cg 0.00119984
+	eval: perplexity 149.39
+GS 181300 LR 0.0169 ST 0.23 TPPL 20.43 rg 0.00106218 cg 0.00098345
+	eval: perplexity 149.61
+GS 181400 LR 0.0169 ST 0.24 TPPL 20.35 rg 0.00115130 cg 0.00105044
+	eval: perplexity 118.01
+GS 181500 LR 0.0169 ST 0.23 TPPL 20.33 rg 0.00135077 cg 0.00121719
+	eval: perplexity 153.76
+GS 181600 LR 0.0169 ST 0.23 TPPL 20.55 rg 0.00113943 cg 0.00103568
+	eval: perplexity 133.81
+GS 181700 LR 0.0167 ST 0.23 TPPL 20.43 rg 0.00117715 cg 0.00096352
+	eval: perplexity 135.18
+GS 181800 LR 0.0167 ST 0.24 TPPL 20.28 rg 0.00129281 cg 0.00117887
+	eval: perplexity 148.32
+GS 181900 LR 0.0167 ST 0.23 TPPL 20.33 rg 0.00112034 cg 0.00118624
+	eval: perplexity 137.96
+GS 182000 LR 0.0167 ST 0.23 TPPL 20.68 rg 0.00126464 cg 0.00107566
+	eval: perplexity 156.49
+GS 182100 LR 0.0166 ST 0.23 TPPL 20.11 rg 0.00103353 cg 0.00137095
+	eval: perplexity 120.62
+GS 182200 LR 0.0166 ST 0.24 TPPL 20.87 rg 0.00139917 cg 0.00163201
+	eval: perplexity 135.06
+GS 182300 LR 0.0164 ST 0.24 TPPL 20.45 rg 0.00120958 cg 0.00144732
+	eval: perplexity 119.38
+2017-11-04 12:19:42.128994: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 64832550 get requests, put_count=64832550 evicted_count=48000 eviction_rate=0.000740369 and unsatisfied allocation rate=0.000740801
+GS 182400 LR 0.0164 ST 0.24 TPPL 20.53 rg 0.00128211 cg 0.00116492
+	eval: perplexity 137.70
+GS 182500 LR 0.0164 ST 0.24 TPPL 20.30 rg 0.00123697 cg 0.00136746
+	eval: perplexity 164.23
+GS 182600 LR 0.0164 ST 0.24 TPPL 20.39 rg 0.00126383 cg 0.00132198
+	eval: perplexity 163.93
+GS 182700 LR 0.0164 ST 0.24 TPPL 20.59 rg 0.00115687 cg 0.00094177
+	eval: perplexity 112.34
+GS 182800 LR 0.0162 ST 0.24 TPPL 20.40 rg 0.00120968 cg 0.00121226
+	eval: perplexity 129.51
+GS 182900 LR 0.0162 ST 0.23 TPPL 20.78 rg 0.00116054 cg 0.00120489
+	eval: perplexity 143.79
+GS 183000 LR 0.0161 ST 0.23 TPPL 20.55 rg 0.00107293 cg 0.00125293
+	eval: perplexity 120.73
+GS 183100 LR 0.0161 ST 0.23 TPPL 20.71 rg 0.00130876 cg 0.00129703
+	eval: perplexity 139.51
+GS 183200 LR 0.0161 ST 0.24 TPPL 20.81 rg 0.00117203 cg 0.00124953
+	eval: perplexity 161.24
+GS 183300 LR 0.0159 ST 0.23 TPPL 21.05 rg 0.00121519 cg 0.00095309
+	eval: perplexity 115.11
+GS 183400 LR 0.0158 ST 0.23 TPPL 20.37 rg 0.00119183 cg 0.00151471
+	eval: perplexity 123.76
+GS 183500 LR 0.0158 ST 0.23 TPPL 20.83 rg 0.00111243 cg 0.00105041
+	eval: perplexity 122.98
+GS 183600 LR 0.0158 ST 0.24 TPPL 20.59 rg 0.00111432 cg 0.00115229
+	eval: perplexity 152.86
+GS 183700 LR 0.0158 ST 0.23 TPPL 20.74 rg 0.00126162 cg 0.00122845
+	eval: perplexity 131.76
+GS 183800 LR 0.0158 ST 0.23 TPPL 20.52 rg 0.00120549 cg 0.00111090
+	eval: perplexity 122.23
+GS 183900 LR 0.0158 ST 0.23 TPPL 20.43 rg 0.00107432 cg 0.00106237
+	eval: perplexity 129.16
+GS 184000 LR 0.0158 ST 0.24 TPPL 20.09 rg 0.00117435 cg 0.00108233
+	eval: perplexity 171.04
+GS 184100 LR 0.0158 ST 0.23 TPPL 20.44 rg 0.00117878 cg 0.00117072
+	eval: perplexity 132.35
+GS 184200 LR 0.0158 ST 0.23 TPPL 20.42 rg 0.00122102 cg 0.00122954
+	eval: perplexity 157.55
+GS 184300 LR 0.0158 ST 0.23 TPPL 20.48 rg 0.00119720 cg 0.00119774
+	eval: perplexity 139.88
+GS 184400 LR 0.0156 ST 0.25 TPPL 20.53 rg 0.00116755 cg 0.00122166
+	eval: perplexity 110.87
+GS 184500 LR 0.0154 ST 0.24 TPPL 20.24 rg 0.00132031 cg 0.00128554
+	eval: perplexity 112.01
+GS 184600 LR 0.0154 ST 0.24 TPPL 20.11 rg 0.00112482 cg 0.00134109
+	eval: perplexity 113.26
+GS 184700 LR 0.0154 ST 0.24 TPPL 20.65 rg 0.00103125 cg 0.00094118
+	eval: perplexity 130.77
+GS 184800 LR 0.0153 ST 0.23 TPPL 20.28 rg 0.00115890 cg 0.00117627
+	eval: perplexity 146.15
+GS 184900 LR 0.0153 ST 0.23 TPPL 20.23 rg 0.00121372 cg 0.00106206
+	eval: perplexity 110.04
+GS 185000 LR 0.0153 ST 0.23 TPPL 20.32 rg 0.00131926 cg 0.00131054
+	eval: perplexity 215.23
+GS 185100 LR 0.0153 ST 0.23 TPPL 20.51 rg 0.00126308 cg 0.00110696
+	eval: perplexity 129.41
+GS 185200 LR 0.0151 ST 0.23 TPPL 20.55 rg 0.00116941 cg 0.00131557
+	eval: perplexity 120.91
+GS 185300 LR 0.0150 ST 0.24 TPPL 20.34 rg 0.00120485 cg 0.00128603
+	eval: perplexity 118.22
+GS 185400 LR 0.0150 ST 0.24 TPPL 20.28 rg 0.00124628 cg 0.00107680
+	eval: perplexity 137.71
+GS 185500 LR 0.0150 ST 0.24 TPPL 20.44 rg 0.00115517 cg 0.00115862
+	eval: perplexity 148.72
+GS 185600 LR 0.0150 ST 0.24 TPPL 20.54 rg 0.00123797 cg 0.00100435
+	eval: perplexity 167.10
+GS 185700 LR 0.0148 ST 0.24 TPPL 20.40 rg 0.00115488 cg 0.00100129
+	eval: perplexity 143.65
+GS 185800 LR 0.0148 ST 0.23 TPPL 20.33 rg 0.00126679 cg 0.00100747
+	eval: perplexity 157.27
+GS 185900 LR 0.0148 ST 0.24 TPPL 20.02 rg 0.00120755 cg 0.00101969
+	eval: perplexity 139.02
+GS 186000 LR 0.0148 ST 0.24 TPPL 20.18 rg 0.00128492 cg 0.00110707
+	eval: perplexity 120.28
+GS 186100 LR 0.0148 ST 0.24 TPPL 19.94 rg 0.00110593 cg 0.00122325
+	eval: perplexity 131.01
+GS 186200 LR 0.0148 ST 0.24 TPPL 20.07 rg 0.00118660 cg 0.00125488
+	eval: perplexity 122.47
+GS 186300 LR 0.0148 ST 0.24 TPPL 20.50 rg 0.00124790 cg 0.00115934
+	eval: perplexity 103.67
+GS 186400 LR 0.0147 ST 0.24 TPPL 20.63 rg 0.00116009 cg 0.00119092
+	eval: perplexity 122.37
+GS 186500 LR 0.0145 ST 0.24 TPPL 20.23 rg 0.00101198 cg 0.00154960
+	eval: perplexity 138.87
+GS 186600 LR 0.0145 ST 0.24 TPPL 20.33 rg 0.00111742 cg 0.00128193
+	eval: perplexity 127.17
+GS 186700 LR 0.0145 ST 0.24 TPPL 20.10 rg 0.00107197 cg 0.00091299
+	eval: perplexity 120.60
+GS 186800 LR 0.0145 ST 0.25 TPPL 20.29 rg 0.00110863 cg 0.00106180
+	eval: perplexity 135.87
+GS 186900 LR 0.0145 ST 0.24 TPPL 20.40 rg 0.00118296 cg 0.00120087
+	eval: perplexity 169.52
+GS 187000 LR 0.0144 ST 0.24 TPPL 20.19 rg 0.00115463 cg 0.00131603
+	eval: perplexity 97.60
+GS 187100 LR 0.0144 ST 0.24 TPPL 20.48 rg 0.00117832 cg 0.00126981
+	eval: perplexity 142.97
+GS 187200 LR 0.0143 ST 0.24 TPPL 20.45 rg 0.00126878 cg 0.00124379
+	eval: perplexity 138.14
+GS 187300 LR 0.0143 ST 0.24 TPPL 20.57 rg 0.00134666 cg 0.00142198
+	eval: perplexity 166.82
+GS 187400 LR 0.0141 ST 0.24 TPPL 20.50 rg 0.00113230 cg 0.00099463
+	eval: perplexity 150.99
+GS 187500 LR 0.0141 ST 0.24 TPPL 20.52 rg 0.00132191 cg 0.00107920
+	eval: perplexity 130.74
+GS 187600 LR 0.0141 ST 0.24 TPPL 20.39 rg 0.00116341 cg 0.00119152
+	eval: perplexity 150.98
+GS 187700 LR 0.0141 ST 0.25 TPPL 20.28 rg 0.00117812 cg 0.00119869
+	eval: perplexity 105.64
+GS 187800 LR 0.0141 ST 0.24 TPPL 20.07 rg 0.00118278 cg 0.00121093
+	eval: perplexity 135.54
+GS 187900 LR 0.0141 ST 0.24 TPPL 20.42 rg 0.00124292 cg 0.00124225
+	eval: perplexity 160.28
+GS 188000 LR 0.0140 ST 0.24 TPPL 20.31 rg 0.00124722 cg 0.00113345
+	eval: perplexity 162.99
+GS 188100 LR 0.0140 ST 0.24 TPPL 20.41 rg 0.00119114 cg 0.00146291
+	eval: perplexity 138.41
+GS 188200 LR 0.0140 ST 0.24 TPPL 20.48 rg 0.00109868 cg 0.00109821
+	eval: perplexity 155.68
+GS 188300 LR 0.0138 ST 0.24 TPPL 20.11 rg 0.00121615 cg 0.00127671
+	eval: perplexity 143.46
+GS 188400 LR 0.0138 ST 0.24 TPPL 20.42 rg 0.00120292 cg 0.00123620
+	eval: perplexity 146.55
+GS 188500 LR 0.0138 ST 0.24 TPPL 20.01 rg 0.00114013 cg 0.00123301
+	eval: perplexity 143.87
+GS 188600 LR 0.0138 ST 0.24 TPPL 20.41 rg 0.00120845 cg 0.00118852
+	eval: perplexity 149.50
+GS 188700 LR 0.0138 ST 0.24 TPPL 20.39 rg 0.00127008 cg 0.00099050
+	eval: perplexity 120.10
+GS 188800 LR 0.0138 ST 0.24 TPPL 20.58 rg 0.00114228 cg 0.00114827
+	eval: perplexity 184.56
+GS 188900 LR 0.0137 ST 0.24 TPPL 20.20 rg 0.00121645 cg 0.00121959
+	eval: perplexity 122.32
+GS 189000 LR 0.0137 ST 0.24 TPPL 20.47 rg 0.00121352 cg 0.00121726
+	eval: perplexity 154.59
+GS 189100 LR 0.0137 ST 0.24 TPPL 20.36 rg 0.00104570 cg 0.00087792
+	eval: perplexity 153.46
+GS 189200 LR 0.0137 ST 0.24 TPPL 20.34 rg 0.00124291 cg 0.00098289
+	eval: perplexity 148.97
+GS 189300 LR 0.0137 ST 0.25 TPPL 20.08 rg 0.00107938 cg 0.00109830
+	eval: perplexity 135.91
+GS 189400 LR 0.0137 ST 0.25 TPPL 20.24 rg 0.00103288 cg 0.00119397
+	eval: perplexity 119.18
+GS 189500 LR 0.0137 ST 0.24 TPPL 20.59 rg 0.00119160 cg 0.00134459
+	eval: perplexity 150.18
+GS 189600 LR 0.0136 ST 0.24 TPPL 20.40 rg 0.00129877 cg 0.00124540
+	eval: perplexity 107.72
+GS 189700 LR 0.0136 ST 0.24 TPPL 19.77 rg 0.00137237 cg 0.00143186
+	eval: perplexity 168.01
+GS 189800 LR 0.0136 ST 0.24 TPPL 20.44 rg 0.00109340 cg 0.00118629
+	eval: perplexity 125.16
+GS 189900 LR 0.0136 ST 0.24 TPPL 20.38 rg 0.00106371 cg 0.00123864
+	eval: perplexity 161.36
+GS 190000 LR 0.0136 ST 0.24 TPPL 20.20 rg 0.00125627 cg 0.00117020
+	eval: perplexity 147.04
+GS 190100 LR 0.0136 ST 0.24 TPPL 20.74 rg 0.00118700 cg 0.00100370
+	eval: perplexity 150.42
+GS 190200 LR 0.0134 ST 0.24 TPPL 20.51 rg 0.00138098 cg 0.00134236
+	eval: perplexity 131.35
+GS 190300 LR 0.0134 ST 0.24 TPPL 20.34 rg 0.00129085 cg 0.00120722
+	eval: perplexity 111.09
+GS 190400 LR 0.0134 ST 0.24 TPPL 20.25 rg 0.00121614 cg 0.00118456
+	eval: perplexity 138.36
+GS 190500 LR 0.0134 ST 0.24 TPPL 20.11 rg 0.00115612 cg 0.00115353
+	eval: perplexity 129.78
+GS 190600 LR 0.0134 ST 0.24 TPPL 20.32 rg 0.00131243 cg 0.00142737
+	eval: perplexity 105.14
+GS 190700 LR 0.0134 ST 0.24 TPPL 20.15 rg 0.00131573 cg 0.00143590
+	eval: perplexity 147.80
+GS 190800 LR 0.0134 ST 0.25 TPPL 20.56 rg 0.00113333 cg 0.00107848
+	eval: perplexity 151.16
+GS 190900 LR 0.0133 ST 0.26 TPPL 20.54 rg 0.00117443 cg 0.00128190
+	eval: perplexity 140.70
+GS 191000 LR 0.0133 ST 0.24 TPPL 20.28 rg 0.00125518 cg 0.00106684
+	eval: perplexity 176.38
+GS 191100 LR 0.0133 ST 0.24 TPPL 20.00 rg 0.00117750 cg 0.00096515
+	eval: perplexity 139.22
+GS 191200 LR 0.0133 ST 0.24 TPPL 20.40 rg 0.00118925 cg 0.00122014
+	eval: perplexity 132.66
+GS 191300 LR 0.0133 ST 0.24 TPPL 20.37 rg 0.00126553 cg 0.00160481
+	eval: perplexity 149.62
+GS 191400 LR 0.0133 ST 0.24 TPPL 20.46 rg 0.00120108 cg 0.00109294
+	eval: perplexity 138.75
+GS 191500 LR 0.0131 ST 0.24 TPPL 20.23 rg 0.00116607 cg 0.00111439
+	eval: perplexity 135.03
+GS 191600 LR 0.0131 ST 0.24 TPPL 20.26 rg 0.00110957 cg 0.00127372
+	eval: perplexity 120.66
+GS 191700 LR 0.0131 ST 0.24 TPPL 20.39 rg 0.00122409 cg 0.00108533
+	eval: perplexity 164.95
+GS 191800 LR 0.0131 ST 0.24 TPPL 20.45 rg 0.00111173 cg 0.00131173
+	eval: perplexity 148.58
+GS 191900 LR 0.0130 ST 0.24 TPPL 20.54 rg 0.00119328 cg 0.00122432
+	eval: perplexity 123.72
+GS 192000 LR 0.0129 ST 0.24 TPPL 20.26 rg 0.00132887 cg 0.00115613
+	eval: perplexity 183.21
+GS 192100 LR 0.0129 ST 0.24 TPPL 20.39 rg 0.00105265 cg 0.00125121
+	eval: perplexity 132.04
+GS 192200 LR 0.0129 ST 0.24 TPPL 20.37 rg 0.00106829 cg 0.00113520
+	eval: perplexity 121.57
+GS 192300 LR 0.0129 ST 0.24 TPPL 20.01 rg 0.00114741 cg 0.00117761
+	eval: perplexity 140.05
+GS 192400 LR 0.0129 ST 0.24 TPPL 20.09 rg 0.00123583 cg 0.00123273
+	eval: perplexity 165.71
+GS 192500 LR 0.0129 ST 0.25 TPPL 20.16 rg 0.00130780 cg 0.00103942
+	eval: perplexity 117.15
+GS 192600 LR 0.0129 ST 0.25 TPPL 20.32 rg 0.00108905 cg 0.00116300
+	eval: perplexity 119.84
+GS 192700 LR 0.0128 ST 0.24 TPPL 20.06 rg 0.00135316 cg 0.00142697
+	eval: perplexity 120.06
+GS 192800 LR 0.0128 ST 0.24 TPPL 20.08 rg 0.00119700 cg 0.00154581
+	eval: perplexity 148.45
+GS 192900 LR 0.0128 ST 0.24 TPPL 20.39 rg 0.00113552 cg 0.00127614
+	eval: perplexity 142.46
+GS 193000 LR 0.0126 ST 0.24 TPPL 20.74 rg 0.00134327 cg 0.00136230
+	eval: perplexity 149.64
+GS 193100 LR 0.0125 ST 0.24 TPPL 19.75 rg 0.00111433 cg 0.00119703
+	eval: perplexity 169.08
+GS 193200 LR 0.0125 ST 0.24 TPPL 20.06 rg 0.00119021 cg 0.00108912
+	eval: perplexity 139.82
+GS 193300 LR 0.0125 ST 0.24 TPPL 20.47 rg 0.00119417 cg 0.00129154
+	eval: perplexity 151.50
+GS 193400 LR 0.0125 ST 0.24 TPPL 20.49 rg 0.00120916 cg 0.00120746
+	eval: perplexity 150.87
+GS 193500 LR 0.0124 ST 0.24 TPPL 20.25 rg 0.00118220 cg 0.00094322
+	eval: perplexity 135.09
+GS 193600 LR 0.0124 ST 0.24 TPPL 19.89 rg 0.00116947 cg 0.00141741
+	eval: perplexity 145.71
+GS 193700 LR 0.0124 ST 0.24 TPPL 20.22 rg 0.00131246 cg 0.00123751
+	eval: perplexity 138.41
+GS 193800 LR 0.0124 ST 0.24 TPPL 20.09 rg 0.00118467 cg 0.00107651
+	eval: perplexity 114.39
+GS 193900 LR 0.0124 ST 0.24 TPPL 20.01 rg 0.00111415 cg 0.00100322
+	eval: perplexity 145.30
+GS 194000 LR 0.0124 ST 0.24 TPPL 20.09 rg 0.00118991 cg 0.00098695
+	eval: perplexity 216.53
+GS 194100 LR 0.0124 ST 0.24 TPPL 20.49 rg 0.00117021 cg 0.00119569
+	eval: perplexity 141.80
+GS 194200 LR 0.0123 ST 0.24 TPPL 20.37 rg 0.00114688 cg 0.00107316
+	eval: perplexity 140.33
+GS 194300 LR 0.0123 ST 0.24 TPPL 20.08 rg 0.00128925 cg 0.00116956
+	eval: perplexity 114.51
+GS 194400 LR 0.0123 ST 0.24 TPPL 20.26 rg 0.00124197 cg 0.00123107
+	eval: perplexity 174.03
+GS 194500 LR 0.0123 ST 0.24 TPPL 20.25 rg 0.00120234 cg 0.00123596
+	eval: perplexity 124.46
+GS 194600 LR 0.0123 ST 0.24 TPPL 20.01 rg 0.00121891 cg 0.00140742
+	eval: perplexity 134.40
+GS 194700 LR 0.0123 ST 0.24 TPPL 20.10 rg 0.00108043 cg 0.00117886
+	eval: perplexity 137.71
+GS 194800 LR 0.0123 ST 0.24 TPPL 20.03 rg 0.00131356 cg 0.00109106
+	eval: perplexity 152.14
+GS 194900 LR 0.0123 ST 0.24 TPPL 20.23 rg 0.00107237 cg 0.00106262
+	eval: perplexity 118.99
+GS 195000 LR 0.0121 ST 0.24 TPPL 20.24 rg 0.00111924 cg 0.00101261
+	eval: perplexity 123.11
+GS 195100 LR 0.0120 ST 0.24 TPPL 20.05 rg 0.00127463 cg 0.00115105
+	eval: perplexity 143.98
+GS 195200 LR 0.0120 ST 0.24 TPPL 20.39 rg 0.00113090 cg 0.00128701
+	eval: perplexity 147.28
+GS 195300 LR 0.0119 ST 0.24 TPPL 20.51 rg 0.00112325 cg 0.00114025
+	eval: perplexity 124.10
+GS 195400 LR 0.0118 ST 0.23 TPPL 20.35 rg 0.00125166 cg 0.00113929
+	eval: perplexity 154.15
+GS 195500 LR 0.0118 ST 0.24 TPPL 20.10 rg 0.00105091 cg 0.00122144
+	eval: perplexity 152.20
+GS 195600 LR 0.0118 ST 0.24 TPPL 20.43 rg 0.00121171 cg 0.00121865
+	eval: perplexity 143.67
+GS 195700 LR 0.0118 ST 0.24 TPPL 20.40 rg 0.00120791 cg 0.00114194
+	eval: perplexity 125.38
+GS 195800 LR 0.0118 ST 0.23 TPPL 20.32 rg 0.00119158 cg 0.00113870
+	eval: perplexity 128.38
+GS 195900 LR 0.0118 ST 0.24 TPPL 20.18 rg 0.00107036 cg 0.00103155
+	eval: perplexity 123.53
+GS 196000 LR 0.0118 ST 0.24 TPPL 19.95 rg 0.00116873 cg 0.00114936
+	eval: perplexity 134.46
+GS 196100 LR 0.0118 ST 0.24 TPPL 20.16 rg 0.00115463 cg 0.00112013
+	eval: perplexity 150.87
+GS 196200 LR 0.0118 ST 0.24 TPPL 19.83 rg 0.00099709 cg 0.00112951
+	eval: perplexity 117.42
+GS 196300 LR 0.0118 ST 0.24 TPPL 20.33 rg 0.00128914 cg 0.00134299
+	eval: perplexity 150.22
+GS 196400 LR 0.0117 ST 0.25 TPPL 20.36 rg 0.00120880 cg 0.00126166
+	eval: perplexity 150.60
+GS 196500 LR 0.0115 ST 0.25 TPPL 20.49 rg 0.00120894 cg 0.00133546
+	eval: perplexity 121.81
+GS 196600 LR 0.0114 ST 0.24 TPPL 20.63 rg 0.00135033 cg 0.00128948
+	eval: perplexity 110.94
+GS 196700 LR 0.0113 ST 0.24 TPPL 20.32 rg 0.00100258 cg 0.00130790
+	eval: perplexity 140.12
+GS 196800 LR 0.0113 ST 0.24 TPPL 20.61 rg 0.00121903 cg 0.00114049
+	eval: perplexity 185.40
+GS 196900 LR 0.0113 ST 0.24 TPPL 20.22 rg 0.00118299 cg 0.00110587
+	eval: perplexity 121.08
+GS 197000 LR 0.0113 ST 0.24 TPPL 19.94 rg 0.00119791 cg 0.00109178
+	eval: perplexity 142.16
+GS 197100 LR 0.0113 ST 0.24 TPPL 20.38 rg 0.00112463 cg 0.00107266
+	eval: perplexity 140.74
+GS 197200 LR 0.0113 ST 0.24 TPPL 19.78 rg 0.00128819 cg 0.00107427
+	eval: perplexity 190.31
+GS 197300 LR 0.0113 ST 0.24 TPPL 20.35 rg 0.00144178 cg 0.00135499
+	eval: perplexity 147.16
+GS 197400 LR 0.0113 ST 0.24 TPPL 20.23 rg 0.00116657 cg 0.00114902
+	eval: perplexity 148.71
+GS 197500 LR 0.0113 ST 0.24 TPPL 20.36 rg 0.00115567 cg 0.00128781
+	eval: perplexity 137.54
+GS 197600 LR 0.0112 ST 0.24 TPPL 20.28 rg 0.00140117 cg 0.00116807
+	eval: perplexity 134.16
+GS 197700 LR 0.0112 ST 0.24 TPPL 20.22 rg 0.00120292 cg 0.00132295
+	eval: perplexity 133.18
+GS 197800 LR 0.0112 ST 0.24 TPPL 20.00 rg 0.00120893 cg 0.00105058
+	eval: perplexity 142.27
+GS 197900 LR 0.0112 ST 0.24 TPPL 20.31 rg 0.00112549 cg 0.00110663
+	eval: perplexity 153.82
+GS 198000 LR 0.0111 ST 0.24 TPPL 20.42 rg 0.00131735 cg 0.00123714
+	eval: perplexity 110.86
+GS 198100 LR 0.0110 ST 0.24 TPPL 20.12 rg 0.00116643 cg 0.00128104
+	eval: perplexity 135.84
+GS 198200 LR 0.0110 ST 0.24 TPPL 20.46 rg 0.00130034 cg 0.00121008
+	eval: perplexity 146.64
+GS 198300 LR 0.0109 ST 0.24 TPPL 19.90 rg 0.00124000 cg 0.00111236
+	eval: perplexity 154.32
+GS 198400 LR 0.0109 ST 0.24 TPPL 20.18 rg 0.00124585 cg 0.00128828
+	eval: perplexity 151.81
+GS 198500 LR 0.0109 ST 0.24 TPPL 19.83 rg 0.00110768 cg 0.00115066
+	eval: perplexity 146.09
+GS 198600 LR 0.0109 ST 0.24 TPPL 20.14 rg 0.00125612 cg 0.00122168
+	eval: perplexity 138.80
+GS 198700 LR 0.0109 ST 0.24 TPPL 19.99 rg 0.00107011 cg 0.00116940
+	eval: perplexity 156.07
+GS 198800 LR 0.0109 ST 0.24 TPPL 19.90 rg 0.00124226 cg 0.00121871
+	eval: perplexity 124.66
+GS 198900 LR 0.0109 ST 0.24 TPPL 20.02 rg 0.00122343 cg 0.00131325
+	eval: perplexity 143.91
+GS 199000 LR 0.0109 ST 0.24 TPPL 19.95 rg 0.00111942 cg 0.00114709
+	eval: perplexity 156.80
+GS 199100 LR 0.0109 ST 0.24 TPPL 20.10 rg 0.00118378 cg 0.00119401
+	eval: perplexity 118.43
+GS 199200 LR 0.0108 ST 0.24 TPPL 20.36 rg 0.00123423 cg 0.00129016
+	eval: perplexity 141.02
+GS 199300 LR 0.0106 ST 0.24 TPPL 20.11 rg 0.00122802 cg 0.00107025
+	eval: perplexity 135.05
+GS 199400 LR 0.0106 ST 0.24 TPPL 20.21 rg 0.00132573 cg 0.00119957
+	eval: perplexity 99.69
+GS 199500 LR 0.0106 ST 0.24 TPPL 20.13 rg 0.00119071 cg 0.00105582
+	eval: perplexity 172.85
+GS 199600 LR 0.0106 ST 0.24 TPPL 20.28 rg 0.00117609 cg 0.00150929
+	eval: perplexity 129.11
+GS 199700 LR 0.0105 ST 0.24 TPPL 20.33 rg 0.00118388 cg 0.00122864
+	eval: perplexity 154.42
+GS 199800 LR 0.0104 ST 0.24 TPPL 20.25 rg 0.00126811 cg 0.00104168
+	eval: perplexity 134.83
+GS 199900 LR 0.0104 ST 0.24 TPPL 20.15 rg 0.00128820 cg 0.00117342
+	eval: perplexity 130.27
+GS 200000 LR 0.0104 ST 0.24 TPPL 20.20 rg 0.00113341 cg 0.00117264
+	eval: perplexity 165.64

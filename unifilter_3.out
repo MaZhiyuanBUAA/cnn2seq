@@ -1,0 +1,4133 @@
+nohup: ignoring input
+2017-11-12 15:53:29.565230: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-12 15:53:29.565267: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-12 15:53:29.565275: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-12 15:53:29.565281: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-12 15:53:29.565288: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-12 15:53:30.216341: I tensorflow/core/common_runtime/gpu/gpu_device.cc:887] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:90:00.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+2017-11-12 15:53:30.216396: I tensorflow/core/common_runtime/gpu/gpu_device.cc:908] DMA: 0 
+2017-11-12 15:53:30.216405: I tensorflow/core/common_runtime/gpu/gpu_device.cc:918] 0:   Y 
+2017-11-12 15:53:30.216419: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:90:00.0)
+Preparing dialog data in data_bpe
+Creating 3 layers of 128 units.
+(128, 1408)
+(128, 1408)
+39
+cnn2seq/Variable:0
+cnn2seq/Variable_1:0
+cnn2seq/embeddings:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_0/gru_cell/gates/weights:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_0/gru_cell/gates/biases:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_0/gru_cell/candidate/weights:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_0/gru_cell/candidate/biases:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_1/gru_cell/gates/weights:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_1/gru_cell/gates/biases:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_1/gru_cell/candidate/weights:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_1/gru_cell/candidate/biases:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_2/gru_cell/gates/weights:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_2/gru_cell/gates/biases:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_2/gru_cell/candidate/weights:0
+cnn2seq/rnn_encoder/rnn/multi_rnn_cell/cell_2/gru_cell/candidate/biases:0
+cnn2seq/cnn_encoder/filt:0
+cnn2seq/cnn_encoder/b:0
+cnn2seq/AttnW_0:0
+cnn2seq/AttnV_0:0
+cnn2seq/proj_w:0
+cnn2seq/proj_b:0
+cnn2seq/loop/Attention_0/weights:0
+cnn2seq/loop/Attention_0/biases:0
+cnn2seq/loop/weights:0
+cnn2seq/loop/biases:0
+cnn2seq/loop/multi_rnn_cell/cell_0/gru_cell/gates/weights:0
+cnn2seq/loop/multi_rnn_cell/cell_0/gru_cell/gates/biases:0
+cnn2seq/loop/multi_rnn_cell/cell_0/gru_cell/candidate/weights:0
+cnn2seq/loop/multi_rnn_cell/cell_0/gru_cell/candidate/biases:0
+cnn2seq/loop/multi_rnn_cell/cell_1/gru_cell/gates/weights:0
+cnn2seq/loop/multi_rnn_cell/cell_1/gru_cell/gates/biases:0
+cnn2seq/loop/multi_rnn_cell/cell_1/gru_cell/candidate/weights:0
+cnn2seq/loop/multi_rnn_cell/cell_1/gru_cell/candidate/biases:0
+cnn2seq/loop/multi_rnn_cell/cell_2/gru_cell/gates/weights:0
+cnn2seq/loop/multi_rnn_cell/cell_2/gru_cell/gates/biases:0
+cnn2seq/loop/multi_rnn_cell/cell_2/gru_cell/candidate/weights:0
+cnn2seq/loop/multi_rnn_cell/cell_2/gru_cell/candidate/biases:0
+cnn2seq/loop/AttnOutputProjection/weights:0
+cnn2seq/loop/AttnOutputProjection/biases:0
+Created model with fresh params.
+Reading development and training data (limit: 0).
+  reading data line 100000
+  reading data line 200000
+  reading data line 300000
+  reading data line 400000
+  reading data line 500000
+  reading data line 600000
+  reading data line 700000
+  reading data line 800000
+  reading data line 900000
+  reading data line 1000000
+  reading data line 1100000
+  reading data line 1200000
+  reading data line 1300000
+  reading data line 1400000
+  reading data line 1500000
+  reading data line 1600000
+  reading data line 1700000
+  reading data line 1800000
+  reading data line 1900000
+  reading data line 2000000
+  reading data line 2100000
+  reading data line 2200000
+  reading data line 2300000
+  reading data line 2400000
+  reading data line 2500000
+  reading data line 2600000
+  reading data line 2700000
+  reading data line 2800000
+  reading data line 2900000
+  reading data line 3000000
+  reading data line 3100000
+  reading data line 3200000
+  reading data line 3300000
+  reading data line 3400000
+  reading data line 3500000
+  reading data line 3600000
+  reading data line 3700000
+  reading data line 3800000
+  reading data line 3900000
+  reading data line 4000000
+  reading data line 4100000
+  reading data line 4200000
+  reading data line 4300000
+  reading data line 4400000
+  reading data line 4500000
+  reading data line 4600000
+  reading data line 4700000
+  reading data line 4800000
+  reading data line 4900000
+  reading data line 5000000
+  reading data line 5100000
+  reading data line 5200000
+  reading data line 5300000
+  reading data line 5400000
+  reading data line 5500000
+  reading data line 5600000
+  reading data line 5700000
+  reading data line 5800000
+  reading data line 5900000
+  reading data line 6000000
+  reading data line 6100000
+  reading data line 6200000
+  reading data line 6300000
+2017-11-12 15:56:37.444813: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 9100 get requests, put_count=9096 evicted_count=1000 eviction_rate=0.109938 and unsatisfied allocation rate=0.121319
+2017-11-12 15:56:37.444879: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+Global Step 100 LR 0.5000 Step Time 0.22 Test PPL 4240.53
+	eval: perplexity 768.22
+Global Step 200 LR 0.5000 Step Time 0.24 Test PPL 640.50
+	eval: perplexity 469.97
+Global Step 300 LR 0.5000 Step Time 0.22 Test PPL 438.43
+	eval: perplexity 861.19
+Global Step 400 LR 0.5000 Step Time 0.24 Test PPL 388.69
+	eval: perplexity 287.33
+Global Step 500 LR 0.5000 Step Time 0.21 Test PPL 346.62
+	eval: perplexity 271.32
+Global Step 600 LR 0.5000 Step Time 0.24 Test PPL 315.62
+	eval: perplexity 268.97
+Global Step 700 LR 0.5000 Step Time 0.22 Test PPL 306.56
+	eval: perplexity 301.58
+Global Step 800 LR 0.5000 Step Time 0.24 Test PPL 293.95
+	eval: perplexity 343.76
+Global Step 900 LR 0.5000 Step Time 0.22 Test PPL 280.74
+	eval: perplexity 266.09
+2017-11-12 16:00:47.994244: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 129709 get requests, put_count=129711 evicted_count=1000 eviction_rate=0.00770945 and unsatisfied allocation rate=0.00787147
+2017-11-12 16:00:47.994317: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 256 to 281
+Global Step 1000 LR 0.5000 Step Time 0.20 Test PPL 274.21
+	eval: perplexity 252.00
+Global Step 1100 LR 0.5000 Step Time 0.21 Test PPL 271.41
+	eval: perplexity 277.52
+Global Step 1200 LR 0.5000 Step Time 0.20 Test PPL 264.55
+	eval: perplexity 228.03
+Global Step 1300 LR 0.5000 Step Time 0.20 Test PPL 255.88
+	eval: perplexity 246.84
+Global Step 1400 LR 0.5000 Step Time 0.24 Test PPL 256.51
+	eval: perplexity 276.69
+Global Step 1500 LR 0.5000 Step Time 0.23 Test PPL 251.64
+	eval: perplexity 231.54
+Global Step 1600 LR 0.5000 Step Time 0.24 Test PPL 246.11
+	eval: perplexity 225.43
+Global Step 1700 LR 0.5000 Step Time 0.22 Test PPL 246.33
+	eval: perplexity 299.63
+Global Step 1800 LR 0.5000 Step Time 0.25 Test PPL 239.67
+	eval: perplexity 255.87
+Global Step 1900 LR 0.5000 Step Time 0.23 Test PPL 241.55
+	eval: perplexity 269.15
+Global Step 2000 LR 0.5000 Step Time 0.24 Test PPL 238.20
+	eval: perplexity 286.42
+Global Step 2100 LR 0.5000 Step Time 0.22 Test PPL 239.46
+	eval: perplexity 226.53
+Global Step 2200 LR 0.5000 Step Time 0.24 Test PPL 236.25
+	eval: perplexity 228.33
+Global Step 2300 LR 0.5000 Step Time 0.22 Test PPL 233.35
+	eval: perplexity 211.53
+Global Step 2400 LR 0.5000 Step Time 0.24 Test PPL 230.41
+	eval: perplexity 207.06
+Global Step 2500 LR 0.5000 Step Time 0.23 Test PPL 230.23
+	eval: perplexity 201.98
+Global Step 2600 LR 0.5000 Step Time 0.23 Test PPL 226.55
+	eval: perplexity 244.46
+Global Step 2700 LR 0.5000 Step Time 0.22 Test PPL 230.46
+	eval: perplexity 259.51
+Global Step 2800 LR 0.4950 Step Time 0.22 Test PPL 227.27
+	eval: perplexity 206.13
+Global Step 2900 LR 0.4950 Step Time 0.25 Test PPL 226.18
+	eval: perplexity 241.69
+Global Step 3000 LR 0.4950 Step Time 0.23 Test PPL 223.27
+	eval: perplexity 234.77
+Global Step 3100 LR 0.4950 Step Time 0.24 Test PPL 223.65
+	eval: perplexity 198.58
+Global Step 3200 LR 0.4950 Step Time 0.23 Test PPL 223.70
+	eval: perplexity 196.16
+Global Step 3300 LR 0.4950 Step Time 0.22 Test PPL 222.05
+	eval: perplexity 220.57
+Global Step 3400 LR 0.4950 Step Time 0.22 Test PPL 219.86
+	eval: perplexity 206.67
+Global Step 3500 LR 0.4950 Step Time 0.24 Test PPL 218.97
+	eval: perplexity 251.76
+Global Step 3600 LR 0.4950 Step Time 0.23 Test PPL 216.49
+	eval: perplexity 213.32
+Global Step 3700 LR 0.4950 Step Time 0.24 Test PPL 209.81
+	eval: perplexity 199.19
+Global Step 3800 LR 0.4950 Step Time 0.23 Test PPL 204.46
+	eval: perplexity 201.99
+Global Step 3900 LR 0.4950 Step Time 0.24 Test PPL 199.91
+	eval: perplexity 196.12
+Global Step 4000 LR 0.4950 Step Time 0.22 Test PPL 197.44
+	eval: perplexity 215.66
+Global Step 4100 LR 0.4950 Step Time 0.22 Test PPL 194.84
+	eval: perplexity 195.73
+Global Step 4200 LR 0.4950 Step Time 0.22 Test PPL 191.75
+	eval: perplexity 211.78
+Global Step 4300 LR 0.4950 Step Time 0.22 Test PPL 190.33
+	eval: perplexity 174.37
+Global Step 4400 LR 0.4950 Step Time 0.20 Test PPL 187.72
+	eval: perplexity 191.07
+Global Step 4500 LR 0.4950 Step Time 0.21 Test PPL 189.04
+	eval: perplexity 219.61
+Global Step 4600 LR 0.4950 Step Time 0.20 Test PPL 187.99
+	eval: perplexity 194.68
+Global Step 4700 LR 0.4950 Step Time 0.23 Test PPL 186.99
+	eval: perplexity 207.35
+Global Step 4800 LR 0.4950 Step Time 0.21 Test PPL 185.71
+	eval: perplexity 198.66
+Global Step 4900 LR 0.4950 Step Time 0.21 Test PPL 184.23
+	eval: perplexity 212.82
+Global Step 5000 LR 0.4950 Step Time 0.20 Test PPL 184.67
+	eval: perplexity 191.88
+Global Step 5100 LR 0.4950 Step Time 0.20 Test PPL 183.17
+	eval: perplexity 185.30
+Global Step 5200 LR 0.4950 Step Time 0.21 Test PPL 181.02
+	eval: perplexity 197.71
+Global Step 5300 LR 0.4950 Step Time 0.20 Test PPL 179.07
+	eval: perplexity 183.05
+Global Step 5400 LR 0.4950 Step Time 0.24 Test PPL 181.54
+	eval: perplexity 182.15
+Global Step 5500 LR 0.4950 Step Time 0.22 Test PPL 179.75
+	eval: perplexity 195.87
+Global Step 5600 LR 0.4950 Step Time 0.24 Test PPL 179.80
+	eval: perplexity 193.00
+Global Step 5700 LR 0.4950 Step Time 0.21 Test PPL 177.20
+	eval: perplexity 172.96
+Global Step 5800 LR 0.4950 Step Time 0.24 Test PPL 176.16
+	eval: perplexity 201.29
+Global Step 5900 LR 0.4950 Step Time 0.22 Test PPL 176.33
+	eval: perplexity 191.35
+Global Step 6000 LR 0.4950 Step Time 0.23 Test PPL 173.82
+	eval: perplexity 156.07
+Global Step 6100 LR 0.4950 Step Time 0.21 Test PPL 171.14
+	eval: perplexity 173.50
+Global Step 6200 LR 0.4950 Step Time 0.24 Test PPL 173.66
+	eval: perplexity 190.24
+Global Step 6300 LR 0.4950 Step Time 0.21 Test PPL 171.90
+	eval: perplexity 175.23
+Global Step 6400 LR 0.4950 Step Time 0.23 Test PPL 172.82
+	eval: perplexity 178.94
+Global Step 6500 LR 0.4950 Step Time 0.23 Test PPL 168.92
+	eval: perplexity 200.01
+Global Step 6600 LR 0.4950 Step Time 0.23 Test PPL 168.01
+	eval: perplexity 193.38
+Global Step 6700 LR 0.4950 Step Time 0.23 Test PPL 168.30
+	eval: perplexity 163.66
+Global Step 6800 LR 0.4950 Step Time 0.22 Test PPL 167.77
+	eval: perplexity 199.39
+Global Step 6900 LR 0.4950 Step Time 0.21 Test PPL 163.32
+	eval: perplexity 157.55
+Global Step 7000 LR 0.4950 Step Time 0.23 Test PPL 165.82
+	eval: perplexity 151.57
+Global Step 7100 LR 0.4950 Step Time 0.20 Test PPL 164.29
+	eval: perplexity 176.53
+Global Step 7200 LR 0.4950 Step Time 0.22 Test PPL 160.80
+	eval: perplexity 171.06
+Global Step 7300 LR 0.4950 Step Time 0.22 Test PPL 160.80
+	eval: perplexity 172.04
+Global Step 7400 LR 0.4950 Step Time 0.22 Test PPL 161.07
+	eval: perplexity 178.07
+Global Step 7500 LR 0.4950 Step Time 0.23 Test PPL 161.26
+	eval: perplexity 168.21
+Global Step 7600 LR 0.4901 Step Time 0.23 Test PPL 157.77
+	eval: perplexity 167.84
+Global Step 7700 LR 0.4901 Step Time 0.22 Test PPL 156.62
+	eval: perplexity 164.22
+Global Step 7800 LR 0.4901 Step Time 0.25 Test PPL 156.20
+	eval: perplexity 179.84
+Global Step 7900 LR 0.4901 Step Time 0.23 Test PPL 155.35
+	eval: perplexity 158.57
+Global Step 8000 LR 0.4901 Step Time 0.23 Test PPL 154.33
+	eval: perplexity 146.98
+Global Step 8100 LR 0.4901 Step Time 0.21 Test PPL 154.36
+	eval: perplexity 165.76
+Global Step 8200 LR 0.4901 Step Time 0.24 Test PPL 152.60
+	eval: perplexity 165.52
+Global Step 8300 LR 0.4901 Step Time 0.22 Test PPL 153.82
+	eval: perplexity 163.32
+Global Step 8400 LR 0.4901 Step Time 0.22 Test PPL 153.12
+	eval: perplexity 162.13
+Global Step 8500 LR 0.4901 Step Time 0.20 Test PPL 151.28
+	eval: perplexity 164.07
+Global Step 8600 LR 0.4901 Step Time 0.24 Test PPL 149.31
+	eval: perplexity 149.35
+Global Step 8700 LR 0.4901 Step Time 0.22 Test PPL 150.00
+	eval: perplexity 136.27
+Global Step 8800 LR 0.4901 Step Time 0.23 Test PPL 147.60
+	eval: perplexity 137.71
+Global Step 8900 LR 0.4901 Step Time 0.22 Test PPL 326.39
+	eval: perplexity 221.39
+Global Step 9000 LR 0.4851 Step Time 0.22 Test PPL 184.50
+	eval: perplexity 147.78
+Global Step 9100 LR 0.4851 Step Time 0.22 Test PPL 153.15
+	eval: perplexity 141.97
+Global Step 9200 LR 0.4851 Step Time 0.22 Test PPL 146.63
+	eval: perplexity 159.90
+Global Step 9300 LR 0.4851 Step Time 0.24 Test PPL 146.74
+	eval: perplexity 136.91
+Global Step 9400 LR 0.4851 Step Time 0.24 Test PPL 142.83
+	eval: perplexity 140.20
+Global Step 9500 LR 0.4851 Step Time 0.22 Test PPL 144.30
+	eval: perplexity 145.48
+Global Step 9600 LR 0.4851 Step Time 0.24 Test PPL 144.03
+	eval: perplexity 156.63
+Global Step 9700 LR 0.4851 Step Time 0.23 Test PPL 142.79
+	eval: perplexity 142.99
+Global Step 9800 LR 0.4851 Step Time 0.24 Test PPL 142.69
+	eval: perplexity 139.78
+Global Step 9900 LR 0.4851 Step Time 0.24 Test PPL 142.92
+	eval: perplexity 133.82
+Global Step 10000 LR 0.4851 Step Time 0.23 Test PPL 141.64
+	eval: perplexity 144.35
+Global Step 10100 LR 0.4851 Step Time 0.24 Test PPL 141.87
+	eval: perplexity 151.13
+Global Step 10200 LR 0.4851 Step Time 0.23 Test PPL 140.46
+	eval: perplexity 137.00
+Global Step 10300 LR 0.4851 Step Time 0.23 Test PPL 141.71
+	eval: perplexity 145.32
+Global Step 10400 LR 0.4851 Step Time 0.24 Test PPL 139.24
+	eval: perplexity 150.58
+Global Step 10500 LR 0.4851 Step Time 0.22 Test PPL 138.51
+	eval: perplexity 155.63
+Global Step 10600 LR 0.4851 Step Time 0.24 Test PPL 138.39
+	eval: perplexity 141.93
+Global Step 10700 LR 0.4851 Step Time 0.23 Test PPL 138.16
+	eval: perplexity 137.72
+Global Step 10800 LR 0.4851 Step Time 0.23 Test PPL 136.13
+	eval: perplexity 120.61
+Global Step 10900 LR 0.4851 Step Time 0.24 Test PPL 137.40
+	eval: perplexity 129.98
+Global Step 11000 LR 0.4851 Step Time 0.25 Test PPL 134.26
+	eval: perplexity 137.07
+Global Step 11100 LR 0.4851 Step Time 0.23 Test PPL 136.93
+	eval: perplexity 153.19
+Global Step 11200 LR 0.4851 Step Time 0.24 Test PPL 134.87
+	eval: perplexity 132.89
+Global Step 11300 LR 0.4851 Step Time 0.22 Test PPL 135.40
+	eval: perplexity 155.52
+Global Step 11400 LR 0.4851 Step Time 0.21 Test PPL 133.59
+	eval: perplexity 139.14
+Global Step 11500 LR 0.4851 Step Time 0.23 Test PPL 131.71
+	eval: perplexity 148.53
+Global Step 11600 LR 0.4851 Step Time 0.23 Test PPL 132.85
+	eval: perplexity 135.62
+Global Step 11700 LR 0.4851 Step Time 0.23 Test PPL 131.06
+	eval: perplexity 137.15
+Global Step 11800 LR 0.4851 Step Time 0.23 Test PPL 131.16
+	eval: perplexity 140.94
+Global Step 11900 LR 0.4851 Step Time 0.25 Test PPL 132.51
+	eval: perplexity 136.20
+Global Step 12000 LR 0.4851 Step Time 0.25 Test PPL 131.11
+	eval: perplexity 144.52
+Global Step 12100 LR 0.4851 Step Time 0.22 Test PPL 129.63
+	eval: perplexity 122.48
+Global Step 12200 LR 0.4851 Step Time 0.24 Test PPL 129.21
+	eval: perplexity 123.19
+Global Step 12300 LR 0.4851 Step Time 0.24 Test PPL 127.43
+	eval: perplexity 121.40
+Global Step 12400 LR 0.4851 Step Time 0.23 Test PPL 129.67
+	eval: perplexity 113.47
+Global Step 12500 LR 0.4803 Step Time 0.22 Test PPL 128.01
+	eval: perplexity 143.16
+Global Step 12600 LR 0.4803 Step Time 0.24 Test PPL 135.94
+	eval: perplexity 1072.03
+Global Step 12700 LR 0.4755 Step Time 0.24 Test PPL 429.15
+	eval: perplexity 192.86
+Global Step 12800 LR 0.4707 Step Time 0.23 Test PPL 147.84
+	eval: perplexity 140.83
+Global Step 12900 LR 0.4707 Step Time 0.23 Test PPL 130.55
+	eval: perplexity 127.19
+Global Step 13000 LR 0.4707 Step Time 0.24 Test PPL 128.17
+	eval: perplexity 171.33
+Global Step 13100 LR 0.4707 Step Time 0.22 Test PPL 128.63
+	eval: perplexity 117.92
+Global Step 13200 LR 0.4707 Step Time 0.24 Test PPL 125.59
+	eval: perplexity 130.54
+Global Step 13300 LR 0.4707 Step Time 0.22 Test PPL 124.33
+	eval: perplexity 131.03
+Global Step 13400 LR 0.4707 Step Time 0.23 Test PPL 124.57
+	eval: perplexity 126.93
+Global Step 13500 LR 0.4707 Step Time 0.22 Test PPL 123.26
+	eval: perplexity 120.10
+Global Step 13600 LR 0.4707 Step Time 0.22 Test PPL 125.74
+	eval: perplexity 139.09
+Global Step 13700 LR 0.4660 Step Time 0.23 Test PPL 125.84
+	eval: perplexity 129.00
+Global Step 13800 LR 0.4614 Step Time 0.22 Test PPL 123.56
+	eval: perplexity 131.68
+Global Step 13900 LR 0.4614 Step Time 0.24 Test PPL 120.91
+	eval: perplexity 138.19
+Global Step 14000 LR 0.4614 Step Time 0.23 Test PPL 121.90
+	eval: perplexity 140.56
+Global Step 14100 LR 0.4614 Step Time 0.23 Test PPL 122.51
+	eval: perplexity 109.91
+Global Step 14200 LR 0.4614 Step Time 0.20 Test PPL 122.23
+	eval: perplexity 118.09
+Global Step 14300 LR 0.4614 Step Time 0.23 Test PPL 121.11
+	eval: perplexity 129.50
+Global Step 14400 LR 0.4614 Step Time 0.23 Test PPL 122.21
+	eval: perplexity 118.28
+Global Step 14500 LR 0.4614 Step Time 0.21 Test PPL 119.13
+	eval: perplexity 112.82
+Global Step 14600 LR 0.4614 Step Time 0.24 Test PPL 120.11
+	eval: perplexity 120.11
+Global Step 14700 LR 0.4614 Step Time 0.23 Test PPL 119.91
+	eval: perplexity 123.73
+Global Step 14800 LR 0.4614 Step Time 0.23 Test PPL 117.22
+	eval: perplexity 116.61
+Global Step 14900 LR 0.4614 Step Time 0.25 Test PPL 117.86
+	eval: perplexity 129.37
+Global Step 15000 LR 0.4614 Step Time 0.23 Test PPL 119.26
+	eval: perplexity 121.40
+Global Step 15100 LR 0.4614 Step Time 0.23 Test PPL 118.16
+	eval: perplexity 111.28
+Global Step 15200 LR 0.4614 Step Time 0.22 Test PPL 116.38
+	eval: perplexity 124.07
+Global Step 15300 LR 0.4614 Step Time 0.21 Test PPL 116.41
+	eval: perplexity 139.52
+Global Step 15400 LR 0.4614 Step Time 0.23 Test PPL 115.85
+	eval: perplexity 114.51
+Global Step 15500 LR 0.4614 Step Time 0.24 Test PPL 115.88
+	eval: perplexity 137.67
+Global Step 15600 LR 0.4614 Step Time 0.22 Test PPL 116.09
+	eval: perplexity 115.51
+Global Step 15700 LR 0.4614 Step Time 0.23 Test PPL 115.48
+	eval: perplexity 95.91
+Global Step 15800 LR 0.4614 Step Time 0.23 Test PPL 114.21
+	eval: perplexity 126.25
+Global Step 15900 LR 0.4614 Step Time 0.24 Test PPL 114.73
+	eval: perplexity 121.74
+Global Step 16000 LR 0.4614 Step Time 0.23 Test PPL 115.52
+	eval: perplexity 102.02
+Global Step 16100 LR 0.4568 Step Time 0.24 Test PPL 114.30
+	eval: perplexity 101.33
+Global Step 16200 LR 0.4568 Step Time 0.24 Test PPL 115.06
+	eval: perplexity 112.90
+Global Step 16300 LR 0.4568 Step Time 0.23 Test PPL 113.75
+	eval: perplexity 112.32
+Global Step 16400 LR 0.4568 Step Time 0.24 Test PPL 111.84
+	eval: perplexity 118.42
+Global Step 16500 LR 0.4568 Step Time 0.23 Test PPL 113.50
+	eval: perplexity 117.65
+Global Step 16600 LR 0.4568 Step Time 0.21 Test PPL 112.07
+	eval: perplexity 111.14
+Global Step 16700 LR 0.4568 Step Time 0.23 Test PPL 112.50
+	eval: perplexity 117.62
+Global Step 16800 LR 0.4568 Step Time 0.24 Test PPL 112.67
+	eval: perplexity 109.62
+Global Step 16900 LR 0.4568 Step Time 0.23 Test PPL 111.96
+	eval: perplexity 111.35
+Global Step 17000 LR 0.4568 Step Time 0.24 Test PPL 112.30
+	eval: perplexity 127.71
+Global Step 17100 LR 0.4568 Step Time 0.23 Test PPL 113.03
+	eval: perplexity 128.05
+Global Step 17200 LR 0.4522 Step Time 0.24 Test PPL 110.27
+	eval: perplexity 119.64
+Global Step 17300 LR 0.4522 Step Time 0.25 Test PPL 110.64
+	eval: perplexity 116.63
+Global Step 17400 LR 0.4522 Step Time 0.23 Test PPL 111.89
+	eval: perplexity 114.02
+Global Step 17500 LR 0.4522 Step Time 0.23 Test PPL 109.60
+	eval: perplexity 112.69
+Global Step 17600 LR 0.4522 Step Time 0.24 Test PPL 110.43
+	eval: perplexity 105.35
+Global Step 17700 LR 0.4522 Step Time 0.23 Test PPL 110.10
+	eval: perplexity 117.23
+Global Step 17800 LR 0.4522 Step Time 0.22 Test PPL 108.38
+	eval: perplexity 135.98
+Global Step 17900 LR 0.4522 Step Time 0.24 Test PPL 109.22
+	eval: perplexity 110.02
+Global Step 18000 LR 0.4522 Step Time 0.23 Test PPL 109.31
+	eval: perplexity 129.06
+Global Step 18100 LR 0.4522 Step Time 0.23 Test PPL 111.35
+	eval: perplexity 111.20
+Global Step 18200 LR 0.4477 Step Time 0.22 Test PPL 107.98
+	eval: perplexity 110.15
+Global Step 18300 LR 0.4477 Step Time 0.22 Test PPL 108.68
+	eval: perplexity 118.24
+Global Step 18400 LR 0.4477 Step Time 0.24 Test PPL 107.27
+	eval: perplexity 105.47
+Global Step 18500 LR 0.4477 Step Time 0.23 Test PPL 106.34
+	eval: perplexity 108.56
+Global Step 18600 LR 0.4477 Step Time 0.23 Test PPL 106.74
+	eval: perplexity 127.37
+Global Step 18700 LR 0.4477 Step Time 0.23 Test PPL 107.72
+	eval: perplexity 108.77
+Global Step 18800 LR 0.4432 Step Time 0.22 Test PPL 106.68
+	eval: perplexity 109.76
+Global Step 18900 LR 0.4432 Step Time 0.21 Test PPL 105.49
+	eval: perplexity 108.38
+Global Step 19000 LR 0.4432 Step Time 0.22 Test PPL 105.62
+	eval: perplexity 111.24
+Global Step 19100 LR 0.4432 Step Time 0.21 Test PPL 104.44
+	eval: perplexity 100.12
+Global Step 19200 LR 0.4432 Step Time 0.24 Test PPL 105.71
+	eval: perplexity 106.84
+Global Step 19300 LR 0.4388 Step Time 0.22 Test PPL 105.32
+	eval: perplexity 102.50
+Global Step 19400 LR 0.4388 Step Time 0.24 Test PPL 104.84
+	eval: perplexity 103.65
+Global Step 19500 LR 0.4388 Step Time 0.24 Test PPL 105.26
+	eval: perplexity 101.55
+Global Step 19600 LR 0.4388 Step Time 0.22 Test PPL 103.89
+	eval: perplexity 107.71
+Global Step 19700 LR 0.4388 Step Time 0.22 Test PPL 104.95
+	eval: perplexity 94.99
+Global Step 19800 LR 0.4388 Step Time 0.23 Test PPL 102.97
+	eval: perplexity 98.46
+Global Step 19900 LR 0.4388 Step Time 0.22 Test PPL 103.62
+	eval: perplexity 110.06
+Global Step 20000 LR 0.4388 Step Time 0.21 Test PPL 103.80
+	eval: perplexity 120.54
+Global Step 20100 LR 0.4388 Step Time 0.19 Test PPL 103.72
+	eval: perplexity 105.31
+Global Step 20200 LR 0.4388 Step Time 0.20 Test PPL 102.46
+	eval: perplexity 98.95
+Global Step 20300 LR 0.4388 Step Time 0.19 Test PPL 103.67
+	eval: perplexity 102.04
+Global Step 20400 LR 0.4388 Step Time 0.20 Test PPL 102.53
+	eval: perplexity 116.91
+Global Step 20500 LR 0.4388 Step Time 0.24 Test PPL 102.82
+	eval: perplexity 93.74
+Global Step 20600 LR 0.4388 Step Time 0.22 Test PPL 102.34
+	eval: perplexity 100.84
+Global Step 20700 LR 0.4388 Step Time 0.24 Test PPL 99.97
+	eval: perplexity 88.54
+Global Step 20800 LR 0.4388 Step Time 0.23 Test PPL 101.32
+	eval: perplexity 100.65
+Global Step 20900 LR 0.4388 Step Time 0.24 Test PPL 100.84
+	eval: perplexity 110.47
+Global Step 21000 LR 0.4388 Step Time 0.22 Test PPL 101.13
+	eval: perplexity 96.97
+Global Step 21100 LR 0.4388 Step Time 0.24 Test PPL 100.39
+	eval: perplexity 101.39
+Global Step 21200 LR 0.4388 Step Time 0.21 Test PPL 100.93
+	eval: perplexity 91.42
+Global Step 21300 LR 0.4388 Step Time 0.25 Test PPL 100.22
+	eval: perplexity 91.40
+Global Step 21400 LR 0.4388 Step Time 0.22 Test PPL 100.90
+	eval: perplexity 101.61
+Global Step 21500 LR 0.4388 Step Time 0.24 Test PPL 99.67
+	eval: perplexity 102.59
+Global Step 21600 LR 0.4388 Step Time 0.23 Test PPL 99.21
+	eval: perplexity 95.65
+Global Step 21700 LR 0.4388 Step Time 0.23 Test PPL 99.58
+	eval: perplexity 102.93
+Global Step 21800 LR 0.4388 Step Time 0.22 Test PPL 100.72
+	eval: perplexity 98.04
+Global Step 21900 LR 0.4344 Step Time 0.23 Test PPL 98.78
+	eval: perplexity 96.14
+Global Step 22000 LR 0.4344 Step Time 0.24 Test PPL 98.45
+	eval: perplexity 112.84
+Global Step 22100 LR 0.4344 Step Time 0.24 Test PPL 99.89
+	eval: perplexity 107.99
+Global Step 22200 LR 0.4344 Step Time 0.22 Test PPL 97.28
+	eval: perplexity 105.50
+Global Step 22300 LR 0.4344 Step Time 0.23 Test PPL 99.31
+	eval: perplexity 106.96
+Global Step 22400 LR 0.4344 Step Time 0.23 Test PPL 99.30
+	eval: perplexity 113.75
+Global Step 22500 LR 0.4344 Step Time 0.22 Test PPL 98.94
+	eval: perplexity 112.14
+Global Step 22600 LR 0.4344 Step Time 0.23 Test PPL 97.11
+	eval: perplexity 89.16
+Global Step 22700 LR 0.4344 Step Time 0.23 Test PPL 96.93
+	eval: perplexity 99.83
+Global Step 22800 LR 0.4344 Step Time 0.20 Test PPL 95.99
+	eval: perplexity 92.73
+Global Step 22900 LR 0.4344 Step Time 0.23 Test PPL 97.51
+	eval: perplexity 92.61
+Global Step 23000 LR 0.4300 Step Time 0.21 Test PPL 130.31
+	eval: perplexity 85.43
+Global Step 23100 LR 0.4257 Step Time 0.24 Test PPL 99.09
+	eval: perplexity 103.76
+Global Step 23200 LR 0.4257 Step Time 0.22 Test PPL 97.43
+	eval: perplexity 88.43
+Global Step 23300 LR 0.4257 Step Time 0.23 Test PPL 97.68
+	eval: perplexity 111.10
+Global Step 23400 LR 0.4257 Step Time 0.22 Test PPL 96.00
+	eval: perplexity 86.55
+Global Step 23500 LR 0.4257 Step Time 0.24 Test PPL 98.49
+	eval: perplexity 92.62
+Global Step 23600 LR 0.4215 Step Time 0.22 Test PPL 97.37
+	eval: perplexity 94.32
+Global Step 23700 LR 0.4215 Step Time 0.24 Test PPL 95.11
+	eval: perplexity 98.00
+Global Step 23800 LR 0.4215 Step Time 0.24 Test PPL 95.54
+	eval: perplexity 89.28
+Global Step 23900 LR 0.4215 Step Time 0.22 Test PPL 96.74
+	eval: perplexity 117.79
+Global Step 24000 LR 0.4215 Step Time 0.22 Test PPL 95.59
+	eval: perplexity 87.16
+Global Step 24100 LR 0.4215 Step Time 0.23 Test PPL 95.23
+	eval: perplexity 103.42
+Global Step 24200 LR 0.4215 Step Time 0.24 Test PPL 95.53
+	eval: perplexity 87.54
+Global Step 24300 LR 0.4215 Step Time 0.24 Test PPL 95.70
+	eval: perplexity 97.68
+Global Step 24400 LR 0.4173 Step Time 0.22 Test PPL 95.31
+	eval: perplexity 109.73
+Global Step 24500 LR 0.4173 Step Time 0.24 Test PPL 95.70
+	eval: perplexity 105.23
+Global Step 24600 LR 0.4131 Step Time 0.22 Test PPL 94.29
+	eval: perplexity 93.51
+Global Step 24700 LR 0.4131 Step Time 0.23 Test PPL 94.95
+	eval: perplexity 83.17
+Global Step 24800 LR 0.4131 Step Time 0.24 Test PPL 93.99
+	eval: perplexity 95.75
+Global Step 24900 LR 0.4131 Step Time 0.23 Test PPL 95.19
+	eval: perplexity 100.17
+Global Step 25000 LR 0.4090 Step Time 0.23 Test PPL 94.11
+	eval: perplexity 98.53
+Global Step 25100 LR 0.4090 Step Time 0.23 Test PPL 95.22
+	eval: perplexity 97.25
+Global Step 25200 LR 0.4049 Step Time 0.24 Test PPL 93.33
+	eval: perplexity 91.31
+Global Step 25300 LR 0.4049 Step Time 0.23 Test PPL 93.49
+	eval: perplexity 103.81
+Global Step 25400 LR 0.4049 Step Time 0.22 Test PPL 93.58
+	eval: perplexity 86.29
+Global Step 25500 LR 0.4049 Step Time 0.25 Test PPL 93.23
+	eval: perplexity 104.09
+Global Step 25600 LR 0.4049 Step Time 0.23 Test PPL 106.39
+	eval: perplexity 102.69
+Global Step 25700 LR 0.4008 Step Time 0.24 Test PPL 92.73
+	eval: perplexity 85.99
+Global Step 25800 LR 0.4008 Step Time 0.23 Test PPL 91.47
+	eval: perplexity 97.54
+Global Step 25900 LR 0.4008 Step Time 0.24 Test PPL 92.94
+	eval: perplexity 94.47
+Global Step 26000 LR 0.4008 Step Time 0.23 Test PPL 93.68
+	eval: perplexity 95.85
+Global Step 26100 LR 0.3968 Step Time 0.23 Test PPL 91.99
+	eval: perplexity 88.09
+Global Step 26200 LR 0.3968 Step Time 0.21 Test PPL 91.58
+	eval: perplexity 90.50
+Global Step 26300 LR 0.3968 Step Time 0.24 Test PPL 92.16
+	eval: perplexity 86.19
+Global Step 26400 LR 0.3968 Step Time 0.23 Test PPL 92.73
+	eval: perplexity 97.79
+Global Step 26500 LR 0.3928 Step Time 0.22 Test PPL 92.18
+	eval: perplexity 85.90
+Global Step 26600 LR 0.3928 Step Time 0.23 Test PPL 92.03
+	eval: perplexity 95.38
+Global Step 26700 LR 0.3928 Step Time 0.23 Test PPL 90.80
+	eval: perplexity 85.42
+Global Step 26800 LR 0.3928 Step Time 0.21 Test PPL 91.10
+	eval: perplexity 107.07
+Global Step 26900 LR 0.3928 Step Time 0.24 Test PPL 92.37
+	eval: perplexity 90.31
+Global Step 27000 LR 0.3889 Step Time 0.24 Test PPL 90.36
+	eval: perplexity 98.80
+Global Step 27100 LR 0.3889 Step Time 0.24 Test PPL 91.01
+	eval: perplexity 96.11
+Global Step 27200 LR 0.3889 Step Time 0.24 Test PPL 90.95
+	eval: perplexity 107.60
+Global Step 27300 LR 0.3889 Step Time 0.22 Test PPL 89.95
+	eval: perplexity 91.03
+Global Step 27400 LR 0.3889 Step Time 0.24 Test PPL 91.22
+	eval: perplexity 94.02
+Global Step 27500 LR 0.3850 Step Time 0.24 Test PPL 89.66
+	eval: perplexity 87.23
+Global Step 27600 LR 0.3850 Step Time 0.24 Test PPL 90.29
+	eval: perplexity 99.90
+Global Step 27700 LR 0.3850 Step Time 0.24 Test PPL 89.24
+	eval: perplexity 102.34
+Global Step 27800 LR 0.3850 Step Time 0.24 Test PPL 89.74
+	eval: perplexity 81.37
+Global Step 27900 LR 0.3850 Step Time 0.23 Test PPL 88.60
+	eval: perplexity 72.13
+Global Step 28000 LR 0.3850 Step Time 0.22 Test PPL 89.00
+	eval: perplexity 72.45
+Global Step 28100 LR 0.3850 Step Time 0.23 Test PPL 89.11
+	eval: perplexity 95.04
+Global Step 28200 LR 0.3850 Step Time 0.23 Test PPL 89.66
+	eval: perplexity 97.63
+Global Step 28300 LR 0.3812 Step Time 0.23 Test PPL 89.60
+	eval: perplexity 92.42
+Global Step 28400 LR 0.3812 Step Time 0.21 Test PPL 89.08
+	eval: perplexity 93.62
+Global Step 28500 LR 0.3812 Step Time 0.23 Test PPL 87.99
+	eval: perplexity 89.70
+Global Step 28600 LR 0.3812 Step Time 0.22 Test PPL 89.75
+	eval: perplexity 76.10
+Global Step 28700 LR 0.3774 Step Time 0.23 Test PPL 88.56
+	eval: perplexity 90.90
+Global Step 28800 LR 0.3774 Step Time 0.24 Test PPL 88.51
+	eval: perplexity 93.60
+Global Step 28900 LR 0.3774 Step Time 0.24 Test PPL 87.49
+	eval: perplexity 96.80
+Global Step 29000 LR 0.3774 Step Time 0.23 Test PPL 88.51
+	eval: perplexity 85.77
+Global Step 29100 LR 0.3774 Step Time 0.24 Test PPL 87.79
+	eval: perplexity 85.52
+Global Step 29200 LR 0.3774 Step Time 0.22 Test PPL 87.44
+	eval: perplexity 92.21
+Global Step 29300 LR 0.3774 Step Time 0.22 Test PPL 87.44
+	eval: perplexity 102.89
+Global Step 29400 LR 0.3774 Step Time 0.22 Test PPL 88.23
+	eval: perplexity 88.52
+Global Step 29500 LR 0.3736 Step Time 0.22 Test PPL 88.27
+	eval: perplexity 87.91
+Global Step 29600 LR 0.3699 Step Time 0.24 Test PPL 87.57
+	eval: perplexity 87.39
+Global Step 29700 LR 0.3699 Step Time 0.23 Test PPL 87.84
+	eval: perplexity 99.10
+Global Step 29800 LR 0.3699 Step Time 0.21 Test PPL 88.74
+	eval: perplexity 94.77
+Global Step 29900 LR 0.3662 Step Time 0.23 Test PPL 86.81
+	eval: perplexity 100.25
+Global Step 30000 LR 0.3662 Step Time 0.21 Test PPL 85.80
+	eval: perplexity 104.18
+Global Step 30100 LR 0.3662 Step Time 0.22 Test PPL 86.56
+	eval: perplexity 89.75
+Global Step 30200 LR 0.3662 Step Time 0.21 Test PPL 86.00
+	eval: perplexity 92.97
+Global Step 30300 LR 0.3662 Step Time 0.23 Test PPL 87.47
+	eval: perplexity 77.38
+Global Step 30400 LR 0.3625 Step Time 0.22 Test PPL 85.72
+	eval: perplexity 88.57
+Global Step 30500 LR 0.3625 Step Time 0.23 Test PPL 86.32
+	eval: perplexity 87.83
+Global Step 30600 LR 0.3625 Step Time 0.21 Test PPL 86.38
+	eval: perplexity 95.92
+Global Step 30700 LR 0.3625 Step Time 0.24 Test PPL 85.51
+	eval: perplexity 92.10
+Global Step 30800 LR 0.3625 Step Time 0.24 Test PPL 86.91
+	eval: perplexity 95.46
+Global Step 30900 LR 0.3589 Step Time 0.23 Test PPL 86.62
+	eval: perplexity 78.28
+Global Step 31000 LR 0.3589 Step Time 0.22 Test PPL 86.39
+	eval: perplexity 78.32
+Global Step 31100 LR 0.3589 Step Time 0.22 Test PPL 85.16
+	eval: perplexity 72.91
+Global Step 31200 LR 0.3589 Step Time 0.23 Test PPL 84.77
+	eval: perplexity 91.29
+Global Step 31300 LR 0.3589 Step Time 0.21 Test PPL 85.71
+	eval: perplexity 96.43
+Global Step 31400 LR 0.3589 Step Time 0.24 Test PPL 86.30
+	eval: perplexity 88.70
+Global Step 31500 LR 0.3553 Step Time 0.23 Test PPL 84.80
+	eval: perplexity 82.58
+Global Step 31600 LR 0.3553 Step Time 0.23 Test PPL 85.81
+	eval: perplexity 83.77
+Global Step 31700 LR 0.3553 Step Time 0.22 Test PPL 84.56
+	eval: perplexity 83.74
+Global Step 31800 LR 0.3553 Step Time 0.22 Test PPL 85.57
+	eval: perplexity 88.79
+Global Step 31900 LR 0.3553 Step Time 0.24 Test PPL 85.28
+	eval: perplexity 85.49
+Global Step 32000 LR 0.3553 Step Time 0.24 Test PPL 85.61
+	eval: perplexity 86.34
+Global Step 32100 LR 0.3517 Step Time 0.24 Test PPL 84.85
+	eval: perplexity 85.16
+Global Step 32200 LR 0.3517 Step Time 0.21 Test PPL 85.68
+	eval: perplexity 84.15
+Global Step 32300 LR 0.3482 Step Time 0.23 Test PPL 85.10
+	eval: perplexity 86.75
+Global Step 32400 LR 0.3482 Step Time 0.24 Test PPL 83.68
+	eval: perplexity 93.81
+Global Step 32500 LR 0.3482 Step Time 0.24 Test PPL 82.16
+	eval: perplexity 70.98
+Global Step 32600 LR 0.3482 Step Time 0.23 Test PPL 83.00
+	eval: perplexity 97.94
+Global Step 32700 LR 0.3482 Step Time 0.23 Test PPL 84.24
+	eval: perplexity 82.75
+Global Step 32800 LR 0.3447 Step Time 0.23 Test PPL 83.83
+	eval: perplexity 77.01
+Global Step 32900 LR 0.3447 Step Time 0.24 Test PPL 84.89
+	eval: perplexity 80.20
+Global Step 33000 LR 0.3413 Step Time 0.22 Test PPL 83.23
+	eval: perplexity 88.41
+Global Step 33100 LR 0.3413 Step Time 0.23 Test PPL 84.19
+	eval: perplexity 75.13
+Global Step 33200 LR 0.3413 Step Time 0.23 Test PPL 82.96
+	eval: perplexity 97.86
+Global Step 33300 LR 0.3413 Step Time 0.22 Test PPL 82.97
+	eval: perplexity 84.11
+Global Step 33400 LR 0.3413 Step Time 0.24 Test PPL 84.08
+	eval: perplexity 81.01
+Global Step 33500 LR 0.3413 Step Time 0.23 Test PPL 83.98
+	eval: perplexity 75.57
+Global Step 33600 LR 0.3413 Step Time 0.23 Test PPL 84.25
+	eval: perplexity 88.16
+Global Step 33700 LR 0.3379 Step Time 0.22 Test PPL 83.46
+	eval: perplexity 91.94
+Global Step 33800 LR 0.3379 Step Time 0.24 Test PPL 83.81
+	eval: perplexity 96.99
+Global Step 33900 LR 0.3379 Step Time 0.22 Test PPL 84.24
+	eval: perplexity 79.86
+Global Step 34000 LR 0.3379 Step Time 0.22 Test PPL 82.30
+	eval: perplexity 83.80
+Global Step 34100 LR 0.3379 Step Time 0.22 Test PPL 82.53
+	eval: perplexity 80.25
+Global Step 34200 LR 0.3379 Step Time 0.22 Test PPL 83.16
+	eval: perplexity 92.97
+Global Step 34300 LR 0.3379 Step Time 0.21 Test PPL 82.36
+	eval: perplexity 87.25
+Global Step 34400 LR 0.3379 Step Time 0.21 Test PPL 82.16
+	eval: perplexity 90.42
+Global Step 34500 LR 0.3379 Step Time 0.23 Test PPL 82.91
+	eval: perplexity 87.46
+Global Step 34600 LR 0.3379 Step Time 0.23 Test PPL 83.28
+	eval: perplexity 84.99
+Global Step 34700 LR 0.3345 Step Time 0.23 Test PPL 82.33
+	eval: perplexity 87.86
+Global Step 34800 LR 0.3345 Step Time 0.23 Test PPL 81.18
+	eval: perplexity 76.86
+Global Step 34900 LR 0.3345 Step Time 0.21 Test PPL 81.41
+	eval: perplexity 93.70
+Global Step 35000 LR 0.3345 Step Time 0.22 Test PPL 82.47
+	eval: perplexity 76.63
+Global Step 35100 LR 0.3311 Step Time 0.24 Test PPL 80.50
+	eval: perplexity 90.38
+Global Step 35200 LR 0.3311 Step Time 0.24 Test PPL 81.88
+	eval: perplexity 94.10
+Global Step 35300 LR 0.3311 Step Time 0.23 Test PPL 82.41
+	eval: perplexity 84.87
+Global Step 35400 LR 0.3311 Step Time 0.24 Test PPL 82.77
+	eval: perplexity 81.60
+Global Step 35500 LR 0.3278 Step Time 0.23 Test PPL 82.03
+	eval: perplexity 69.88
+Global Step 35600 LR 0.3278 Step Time 0.22 Test PPL 80.93
+	eval: perplexity 89.58
+Global Step 35700 LR 0.3278 Step Time 0.24 Test PPL 82.23
+	eval: perplexity 84.71
+Global Step 35800 LR 0.3278 Step Time 0.22 Test PPL 81.59
+	eval: perplexity 80.42
+Global Step 35900 LR 0.3278 Step Time 0.24 Test PPL 81.12
+	eval: perplexity 97.37
+Global Step 36000 LR 0.3278 Step Time 0.22 Test PPL 81.61
+	eval: perplexity 78.66
+Global Step 36100 LR 0.3278 Step Time 0.23 Test PPL 80.21
+	eval: perplexity 87.85
+Global Step 36200 LR 0.3278 Step Time 0.22 Test PPL 80.86
+	eval: perplexity 71.27
+Global Step 36300 LR 0.3278 Step Time 0.23 Test PPL 82.13
+	eval: perplexity 84.81
+Global Step 36400 LR 0.3246 Step Time 0.22 Test PPL 81.76
+	eval: perplexity 93.86
+2017-11-12 19:53:44.367593: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 12122900 get requests, put_count=12122900 evicted_count=8000 eviction_rate=0.000659908 and unsatisfied allocation rate=0.000662218
+Global Step 36500 LR 0.3246 Step Time 0.24 Test PPL 79.81
+	eval: perplexity 87.66
+Global Step 36600 LR 0.3246 Step Time 0.23 Test PPL 80.00
+	eval: perplexity 86.15
+Global Step 36700 LR 0.3246 Step Time 0.25 Test PPL 80.83
+	eval: perplexity 87.12
+Global Step 36800 LR 0.3246 Step Time 0.22 Test PPL 80.77
+	eval: perplexity 84.89
+Global Step 36900 LR 0.3246 Step Time 0.25 Test PPL 81.01
+	eval: perplexity 85.49
+Global Step 37000 LR 0.3213 Step Time 0.24 Test PPL 80.31
+	eval: perplexity 77.39
+Global Step 37100 LR 0.3213 Step Time 0.22 Test PPL 81.05
+	eval: perplexity 98.41
+Global Step 37200 LR 0.3181 Step Time 0.23 Test PPL 79.94
+	eval: perplexity 73.95
+Global Step 37300 LR 0.3181 Step Time 0.21 Test PPL 79.27
+	eval: perplexity 70.02
+Global Step 37400 LR 0.3181 Step Time 0.23 Test PPL 80.40
+	eval: perplexity 95.38
+Global Step 37500 LR 0.3181 Step Time 0.22 Test PPL 80.60
+	eval: perplexity 93.37
+Global Step 37600 LR 0.3149 Step Time 0.23 Test PPL 79.92
+	eval: perplexity 86.78
+Global Step 37700 LR 0.3149 Step Time 0.23 Test PPL 80.87
+	eval: perplexity 85.31
+Global Step 37800 LR 0.3118 Step Time 0.23 Test PPL 78.83
+	eval: perplexity 75.99
+Global Step 37900 LR 0.3118 Step Time 0.24 Test PPL 78.43
+	eval: perplexity 85.64
+Global Step 38000 LR 0.3118 Step Time 0.22 Test PPL 79.30
+	eval: perplexity 76.88
+Global Step 38100 LR 0.3118 Step Time 0.25 Test PPL 80.10
+	eval: perplexity 71.63
+Global Step 38200 LR 0.3086 Step Time 0.22 Test PPL 79.95
+	eval: perplexity 90.81
+Global Step 38300 LR 0.3086 Step Time 0.22 Test PPL 79.45
+	eval: perplexity 78.70
+Global Step 38400 LR 0.3086 Step Time 0.23 Test PPL 79.68
+	eval: perplexity 77.85
+Global Step 38500 LR 0.3086 Step Time 0.22 Test PPL 77.85
+	eval: perplexity 76.08
+Global Step 38600 LR 0.3086 Step Time 0.22 Test PPL 77.58
+	eval: perplexity 82.21
+Global Step 38700 LR 0.3086 Step Time 0.23 Test PPL 79.27
+	eval: perplexity 92.14
+Global Step 38800 LR 0.3086 Step Time 0.23 Test PPL 78.50
+	eval: perplexity 85.12
+Global Step 38900 LR 0.3086 Step Time 0.22 Test PPL 78.24
+	eval: perplexity 86.17
+Global Step 39000 LR 0.3086 Step Time 0.24 Test PPL 78.85
+	eval: perplexity 85.04
+Global Step 39100 LR 0.3086 Step Time 0.24 Test PPL 77.96
+	eval: perplexity 78.58
+Global Step 39200 LR 0.3086 Step Time 0.24 Test PPL 78.95
+	eval: perplexity 83.42
+Global Step 39300 LR 0.3056 Step Time 0.22 Test PPL 78.47
+	eval: perplexity 71.03
+Global Step 39400 LR 0.3056 Step Time 0.23 Test PPL 78.89
+	eval: perplexity 73.86
+Global Step 39500 LR 0.3056 Step Time 0.23 Test PPL 78.13
+	eval: perplexity 92.67
+Global Step 39600 LR 0.3056 Step Time 0.24 Test PPL 78.80
+	eval: perplexity 92.04
+Global Step 39700 LR 0.3056 Step Time 0.23 Test PPL 79.06
+	eval: perplexity 83.19
+Global Step 39800 LR 0.3025 Step Time 0.24 Test PPL 78.06
+	eval: perplexity 78.71
+Global Step 39900 LR 0.3025 Step Time 0.23 Test PPL 77.50
+	eval: perplexity 79.44
+Global Step 40000 LR 0.3025 Step Time 0.22 Test PPL 77.39
+	eval: perplexity 81.88
+Global Step 40100 LR 0.3025 Step Time 0.22 Test PPL 77.82
+	eval: perplexity 76.97
+Global Step 40200 LR 0.3025 Step Time 0.22 Test PPL 78.86
+	eval: perplexity 83.98
+Global Step 40300 LR 0.2995 Step Time 0.24 Test PPL 78.43
+	eval: perplexity 77.69
+Global Step 40400 LR 0.2995 Step Time 0.23 Test PPL 78.22
+	eval: perplexity 78.55
+Global Step 40500 LR 0.2995 Step Time 0.24 Test PPL 77.44
+	eval: perplexity 79.99
+Global Step 40600 LR 0.2995 Step Time 0.22 Test PPL 77.36
+	eval: perplexity 76.13
+Global Step 40700 LR 0.2995 Step Time 0.24 Test PPL 77.65
+	eval: perplexity 89.46
+Global Step 40800 LR 0.2995 Step Time 0.22 Test PPL 77.88
+	eval: perplexity 82.23
+Global Step 40900 LR 0.2965 Step Time 0.23 Test PPL 77.19
+	eval: perplexity 78.66
+Global Step 41000 LR 0.2965 Step Time 0.21 Test PPL 78.03
+	eval: perplexity 78.80
+Global Step 41100 LR 0.2935 Step Time 0.23 Test PPL 76.20
+	eval: perplexity 86.94
+Global Step 41200 LR 0.2935 Step Time 0.21 Test PPL 77.01
+	eval: perplexity 68.67
+Global Step 41300 LR 0.2935 Step Time 0.22 Test PPL 77.88
+	eval: perplexity 75.11
+Global Step 41400 LR 0.2935 Step Time 0.22 Test PPL 76.22
+	eval: perplexity 85.16
+Global Step 41500 LR 0.2935 Step Time 0.22 Test PPL 77.98
+	eval: perplexity 77.32
+Global Step 41600 LR 0.2906 Step Time 0.22 Test PPL 77.32
+	eval: perplexity 74.63
+Global Step 41700 LR 0.2906 Step Time 0.23 Test PPL 77.92
+	eval: perplexity 68.20
+Global Step 41800 LR 0.2906 Step Time 0.21 Test PPL 76.27
+	eval: perplexity 78.57
+Global Step 41900 LR 0.2906 Step Time 0.22 Test PPL 77.02
+	eval: perplexity 77.68
+Global Step 42000 LR 0.2906 Step Time 0.22 Test PPL 77.67
+	eval: perplexity 80.21
+Global Step 42100 LR 0.2906 Step Time 0.23 Test PPL 76.25
+	eval: perplexity 87.34
+Global Step 42200 LR 0.2906 Step Time 0.20 Test PPL 75.87
+	eval: perplexity 82.82
+Global Step 42300 LR 0.2906 Step Time 0.24 Test PPL 76.56
+	eval: perplexity 77.67
+Global Step 42400 LR 0.2906 Step Time 0.21 Test PPL 76.47
+	eval: perplexity 78.46
+Global Step 42500 LR 0.2906 Step Time 0.23 Test PPL 75.12
+	eval: perplexity 68.49
+Global Step 42600 LR 0.2906 Step Time 0.23 Test PPL 76.06
+	eval: perplexity 79.41
+Global Step 42700 LR 0.2906 Step Time 0.21 Test PPL 75.42
+	eval: perplexity 70.27
+Global Step 42800 LR 0.2906 Step Time 0.21 Test PPL 75.68
+	eval: perplexity 75.70
+Global Step 42900 LR 0.2906 Step Time 0.21 Test PPL 75.48
+	eval: perplexity 78.68
+Global Step 43000 LR 0.2906 Step Time 0.23 Test PPL 76.68
+	eval: perplexity 79.08
+Global Step 43100 LR 0.2877 Step Time 0.23 Test PPL 75.82
+	eval: perplexity 87.10
+Global Step 43200 LR 0.2877 Step Time 0.23 Test PPL 75.39
+	eval: perplexity 67.88
+Global Step 43300 LR 0.2877 Step Time 0.22 Test PPL 76.27
+	eval: perplexity 77.93
+Global Step 43400 LR 0.2877 Step Time 0.23 Test PPL 75.77
+	eval: perplexity 77.42
+Global Step 43500 LR 0.2877 Step Time 0.23 Test PPL 75.33
+	eval: perplexity 77.78
+Global Step 43600 LR 0.2877 Step Time 0.22 Test PPL 75.02
+	eval: perplexity 80.74
+Global Step 43700 LR 0.2877 Step Time 0.24 Test PPL 75.36
+	eval: perplexity 74.38
+Global Step 43800 LR 0.2877 Step Time 0.22 Test PPL 75.97
+	eval: perplexity 62.51
+Global Step 43900 LR 0.2848 Step Time 0.20 Test PPL 75.13
+	eval: perplexity 93.13
+Global Step 44000 LR 0.2848 Step Time 0.19 Test PPL 75.47
+	eval: perplexity 76.95
+Global Step 44100 LR 0.2848 Step Time 0.24 Test PPL 75.26
+	eval: perplexity 73.11
+Global Step 44200 LR 0.2848 Step Time 0.21 Test PPL 77.28
+	eval: perplexity 83.42
+Global Step 44300 LR 0.2820 Step Time 0.23 Test PPL 75.66
+	eval: perplexity 75.76
+Global Step 44400 LR 0.2820 Step Time 0.21 Test PPL 75.73
+	eval: perplexity 77.82
+Global Step 44500 LR 0.2820 Step Time 0.21 Test PPL 74.62
+	eval: perplexity 73.04
+Global Step 44600 LR 0.2820 Step Time 0.21 Test PPL 74.99
+	eval: perplexity 83.31
+Global Step 44700 LR 0.2820 Step Time 0.22 Test PPL 76.26
+	eval: perplexity 84.01
+Global Step 44800 LR 0.2791 Step Time 0.23 Test PPL 75.15
+	eval: perplexity 77.56
+Global Step 44900 LR 0.2791 Step Time 0.23 Test PPL 74.16
+	eval: perplexity 68.67
+Global Step 45000 LR 0.2791 Step Time 0.21 Test PPL 75.40
+	eval: perplexity 71.06
+Global Step 45100 LR 0.2791 Step Time 0.23 Test PPL 75.42
+	eval: perplexity 77.45
+Global Step 45200 LR 0.2763 Step Time 0.21 Test PPL 74.38
+	eval: perplexity 72.67
+Global Step 45300 LR 0.2763 Step Time 0.24 Test PPL 73.91
+	eval: perplexity 67.13
+Global Step 45400 LR 0.2763 Step Time 0.23 Test PPL 75.71
+	eval: perplexity 72.97
+Global Step 45500 LR 0.2736 Step Time 0.23 Test PPL 73.94
+	eval: perplexity 88.35
+Global Step 45600 LR 0.2736 Step Time 0.24 Test PPL 73.99
+	eval: perplexity 77.79
+Global Step 45700 LR 0.2736 Step Time 0.25 Test PPL 74.91
+	eval: perplexity 86.81
+Global Step 45800 LR 0.2736 Step Time 0.23 Test PPL 74.92
+	eval: perplexity 83.26
+Global Step 45900 LR 0.2708 Step Time 0.23 Test PPL 74.04
+	eval: perplexity 73.39
+Global Step 46000 LR 0.2708 Step Time 0.24 Test PPL 74.58
+	eval: perplexity 77.44
+Global Step 46100 LR 0.2708 Step Time 0.23 Test PPL 74.57
+	eval: perplexity 68.49
+Global Step 46200 LR 0.2708 Step Time 0.23 Test PPL 74.24
+	eval: perplexity 78.05
+Global Step 46300 LR 0.2708 Step Time 0.22 Test PPL 73.76
+	eval: perplexity 82.16
+Global Step 46400 LR 0.2708 Step Time 0.24 Test PPL 73.23
+	eval: perplexity 67.74
+Global Step 46500 LR 0.2708 Step Time 0.23 Test PPL 73.94
+	eval: perplexity 78.69
+Global Step 46600 LR 0.2708 Step Time 0.21 Test PPL 74.41
+	eval: perplexity 78.91
+Global Step 46700 LR 0.2681 Step Time 0.24 Test PPL 74.02
+	eval: perplexity 82.30
+Global Step 46800 LR 0.2681 Step Time 0.24 Test PPL 73.88
+	eval: perplexity 78.23
+Global Step 46900 LR 0.2681 Step Time 0.22 Test PPL 74.32
+	eval: perplexity 87.45
+Global Step 47000 LR 0.2681 Step Time 0.24 Test PPL 73.71
+	eval: perplexity 100.96
+Global Step 47100 LR 0.2681 Step Time 0.22 Test PPL 74.24
+	eval: perplexity 76.38
+Global Step 47200 LR 0.2681 Step Time 0.24 Test PPL 73.87
+	eval: perplexity 69.83
+Global Step 47300 LR 0.2681 Step Time 0.23 Test PPL 72.13
+	eval: perplexity 73.49
+Global Step 47400 LR 0.2681 Step Time 0.21 Test PPL 73.39
+	eval: perplexity 69.75
+Global Step 47500 LR 0.2681 Step Time 0.21 Test PPL 73.98
+	eval: perplexity 85.20
+Global Step 47600 LR 0.2655 Step Time 0.21 Test PPL 74.22
+	eval: perplexity 74.08
+Global Step 47700 LR 0.2628 Step Time 0.21 Test PPL 73.34
+	eval: perplexity 75.98
+Global Step 47800 LR 0.2628 Step Time 0.21 Test PPL 73.00
+	eval: perplexity 68.38
+Global Step 47900 LR 0.2628 Step Time 0.22 Test PPL 72.35
+	eval: perplexity 69.57
+Global Step 48000 LR 0.2628 Step Time 0.22 Test PPL 72.21
+	eval: perplexity 68.31
+Global Step 48100 LR 0.2628 Step Time 0.24 Test PPL 71.57
+	eval: perplexity 79.72
+Global Step 48200 LR 0.2628 Step Time 0.21 Test PPL 73.25
+	eval: perplexity 72.27
+Global Step 48300 LR 0.2602 Step Time 0.23 Test PPL 73.01
+	eval: perplexity 85.32
+Global Step 48400 LR 0.2602 Step Time 0.21 Test PPL 71.97
+	eval: perplexity 79.17
+Global Step 48500 LR 0.2602 Step Time 0.22 Test PPL 73.20
+	eval: perplexity 66.09
+Global Step 48600 LR 0.2602 Step Time 0.22 Test PPL 73.10
+	eval: perplexity 84.51
+Global Step 48700 LR 0.2602 Step Time 0.22 Test PPL 72.98
+	eval: perplexity 77.35
+Global Step 48800 LR 0.2602 Step Time 0.22 Test PPL 73.61
+	eval: perplexity 79.34
+Global Step 48900 LR 0.2576 Step Time 0.23 Test PPL 72.45
+	eval: perplexity 77.32
+Global Step 49000 LR 0.2576 Step Time 0.22 Test PPL 73.36
+	eval: perplexity 80.47
+Global Step 49100 LR 0.2576 Step Time 0.22 Test PPL 72.13
+	eval: perplexity 76.64
+Global Step 49200 LR 0.2576 Step Time 0.22 Test PPL 73.35
+	eval: perplexity 76.76
+Global Step 49300 LR 0.2576 Step Time 0.22 Test PPL 72.84
+	eval: perplexity 73.72
+Global Step 49400 LR 0.2576 Step Time 0.20 Test PPL 72.84
+	eval: perplexity 66.38
+Global Step 49500 LR 0.2576 Step Time 0.21 Test PPL 72.27
+	eval: perplexity 85.35
+Global Step 49600 LR 0.2576 Step Time 0.21 Test PPL 72.04
+	eval: perplexity 68.15
+Global Step 49700 LR 0.2576 Step Time 0.20 Test PPL 72.13
+	eval: perplexity 77.79
+Global Step 49800 LR 0.2576 Step Time 0.21 Test PPL 73.74
+	eval: perplexity 74.39
+Global Step 49900 LR 0.2550 Step Time 0.22 Test PPL 72.60
+	eval: perplexity 78.46
+Global Step 50000 LR 0.2550 Step Time 0.22 Test PPL 71.41
+	eval: perplexity 73.16
+Global Step 50100 LR 0.2550 Step Time 0.23 Test PPL 71.73
+	eval: perplexity 71.88
+Global Step 50200 LR 0.2550 Step Time 0.23 Test PPL 72.07
+	eval: perplexity 71.28
+Global Step 50300 LR 0.2550 Step Time 0.22 Test PPL 72.59
+	eval: perplexity 72.43
+Global Step 50400 LR 0.2524 Step Time 0.23 Test PPL 71.05
+	eval: perplexity 82.85
+Global Step 50500 LR 0.2524 Step Time 0.23 Test PPL 71.03
+	eval: perplexity 70.44
+Global Step 50600 LR 0.2524 Step Time 0.23 Test PPL 71.30
+	eval: perplexity 66.87
+Global Step 50700 LR 0.2524 Step Time 0.21 Test PPL 73.03
+	eval: perplexity 65.79
+Global Step 50800 LR 0.2499 Step Time 0.25 Test PPL 71.43
+	eval: perplexity 80.34
+Global Step 50900 LR 0.2499 Step Time 0.24 Test PPL 72.22
+	eval: perplexity 67.19
+Global Step 51000 LR 0.2499 Step Time 0.23 Test PPL 72.64
+	eval: perplexity 75.22
+Global Step 51100 LR 0.2499 Step Time 0.23 Test PPL 70.97
+	eval: perplexity 79.79
+Global Step 51200 LR 0.2499 Step Time 0.24 Test PPL 71.10
+	eval: perplexity 82.94
+Global Step 51300 LR 0.2499 Step Time 0.22 Test PPL 71.81
+	eval: perplexity 61.35
+Global Step 51400 LR 0.2499 Step Time 0.24 Test PPL 72.07
+	eval: perplexity 70.03
+Global Step 51500 LR 0.2474 Step Time 0.23 Test PPL 71.49
+	eval: perplexity 74.49
+Global Step 51600 LR 0.2474 Step Time 0.24 Test PPL 72.57
+	eval: perplexity 76.90
+Global Step 51700 LR 0.2449 Step Time 0.24 Test PPL 70.68
+	eval: perplexity 63.90
+Global Step 51800 LR 0.2449 Step Time 0.24 Test PPL 72.05
+	eval: perplexity 72.42
+Global Step 51900 LR 0.2449 Step Time 0.24 Test PPL 70.58
+	eval: perplexity 85.92
+Global Step 52000 LR 0.2449 Step Time 0.24 Test PPL 71.76
+	eval: perplexity 79.83
+Global Step 52100 LR 0.2449 Step Time 0.21 Test PPL 70.16
+	eval: perplexity 68.40
+Global Step 52200 LR 0.2449 Step Time 0.23 Test PPL 71.72
+	eval: perplexity 61.24
+Global Step 52300 LR 0.2449 Step Time 0.24 Test PPL 70.39
+	eval: perplexity 68.21
+Global Step 52400 LR 0.2449 Step Time 0.23 Test PPL 70.91
+	eval: perplexity 68.04
+Global Step 52500 LR 0.2449 Step Time 0.23 Test PPL 71.14
+	eval: perplexity 77.30
+Global Step 52600 LR 0.2449 Step Time 0.24 Test PPL 71.64
+	eval: perplexity 76.91
+Global Step 52700 LR 0.2425 Step Time 0.21 Test PPL 70.72
+	eval: perplexity 71.42
+Global Step 52800 LR 0.2425 Step Time 0.24 Test PPL 70.48
+	eval: perplexity 65.54
+Global Step 52900 LR 0.2425 Step Time 0.23 Test PPL 71.21
+	eval: perplexity 73.97
+Global Step 53000 LR 0.2425 Step Time 0.24 Test PPL 71.35
+	eval: perplexity 73.30
+Global Step 53100 LR 0.2401 Step Time 0.23 Test PPL 71.27
+	eval: perplexity 72.16
+Global Step 53200 LR 0.2401 Step Time 0.21 Test PPL 70.62
+	eval: perplexity 73.82
+Global Step 53300 LR 0.2401 Step Time 0.22 Test PPL 69.96
+	eval: perplexity 72.73
+Global Step 53400 LR 0.2401 Step Time 0.23 Test PPL 70.55
+	eval: perplexity 71.07
+Global Step 53500 LR 0.2401 Step Time 0.22 Test PPL 70.13
+	eval: perplexity 82.61
+Global Step 53600 LR 0.2401 Step Time 0.24 Test PPL 70.72
+	eval: perplexity 66.84
+Global Step 53700 LR 0.2377 Step Time 0.21 Test PPL 71.57
+	eval: perplexity 66.45
+Global Step 53800 LR 0.2353 Step Time 0.24 Test PPL 70.41
+	eval: perplexity 70.00
+Global Step 53900 LR 0.2353 Step Time 0.24 Test PPL 70.09
+	eval: perplexity 71.75
+Global Step 54000 LR 0.2353 Step Time 0.24 Test PPL 70.07
+	eval: perplexity 60.70
+Global Step 54100 LR 0.2353 Step Time 0.23 Test PPL 70.07
+	eval: perplexity 65.05
+Global Step 54200 LR 0.2353 Step Time 0.24 Test PPL 69.60
+	eval: perplexity 63.80
+Global Step 54300 LR 0.2353 Step Time 0.23 Test PPL 70.26
+	eval: perplexity 59.80
+Global Step 54400 LR 0.2329 Step Time 0.23 Test PPL 70.12
+	eval: perplexity 74.13
+Global Step 54500 LR 0.2329 Step Time 0.24 Test PPL 71.40
+	eval: perplexity 66.88
+Global Step 54600 LR 0.2306 Step Time 0.23 Test PPL 70.25
+	eval: perplexity 68.80
+Global Step 54700 LR 0.2306 Step Time 0.24 Test PPL 70.28
+	eval: perplexity 87.13
+Global Step 54800 LR 0.2306 Step Time 0.22 Test PPL 70.30
+	eval: perplexity 67.76
+Global Step 54900 LR 0.2306 Step Time 0.23 Test PPL 70.27
+	eval: perplexity 69.10
+Global Step 55000 LR 0.2306 Step Time 0.25 Test PPL 69.82
+	eval: perplexity 58.24
+Global Step 55100 LR 0.2306 Step Time 0.23 Test PPL 68.94
+	eval: perplexity 64.85
+Global Step 55200 LR 0.2306 Step Time 0.21 Test PPL 69.18
+	eval: perplexity 75.31
+Global Step 55300 LR 0.2306 Step Time 0.22 Test PPL 70.19
+	eval: perplexity 64.12
+Global Step 55400 LR 0.2283 Step Time 0.23 Test PPL 68.94
+	eval: perplexity 63.76
+Global Step 55500 LR 0.2283 Step Time 0.21 Test PPL 68.36
+	eval: perplexity 80.78
+Global Step 55600 LR 0.2283 Step Time 0.23 Test PPL 70.01
+	eval: perplexity 78.42
+Global Step 55700 LR 0.2283 Step Time 0.23 Test PPL 69.59
+	eval: perplexity 78.16
+Global Step 55800 LR 0.2283 Step Time 0.21 Test PPL 69.37
+	eval: perplexity 73.89
+Global Step 55900 LR 0.2283 Step Time 0.24 Test PPL 69.25
+	eval: perplexity 71.94
+Global Step 56000 LR 0.2283 Step Time 0.23 Test PPL 69.44
+	eval: perplexity 67.30
+Global Step 56100 LR 0.2283 Step Time 0.22 Test PPL 69.50
+	eval: perplexity 66.62
+Global Step 56200 LR 0.2260 Step Time 0.24 Test PPL 70.44
+	eval: perplexity 70.96
+Global Step 56300 LR 0.2238 Step Time 0.24 Test PPL 68.95
+	eval: perplexity 72.83
+Global Step 56400 LR 0.2238 Step Time 0.23 Test PPL 69.42
+	eval: perplexity 62.77
+Global Step 56500 LR 0.2238 Step Time 0.22 Test PPL 69.02
+	eval: perplexity 62.21
+Global Step 56600 LR 0.2238 Step Time 0.23 Test PPL 69.59
+	eval: perplexity 68.90
+Global Step 56700 LR 0.2215 Step Time 0.24 Test PPL 69.98
+	eval: perplexity 65.82
+Global Step 56800 LR 0.2193 Step Time 0.25 Test PPL 69.32
+	eval: perplexity 66.67
+Global Step 56900 LR 0.2193 Step Time 0.25 Test PPL 68.39
+	eval: perplexity 66.39
+Global Step 57000 LR 0.2193 Step Time 0.24 Test PPL 69.02
+	eval: perplexity 63.89
+Global Step 57100 LR 0.2193 Step Time 0.23 Test PPL 69.65
+	eval: perplexity 79.06
+Global Step 57200 LR 0.2171 Step Time 0.24 Test PPL 69.46
+	eval: perplexity 66.59
+Global Step 57300 LR 0.2171 Step Time 0.22 Test PPL 68.99
+	eval: perplexity 68.27
+Global Step 57400 LR 0.2171 Step Time 0.23 Test PPL 69.52
+	eval: perplexity 78.31
+Global Step 57500 LR 0.2171 Step Time 0.23 Test PPL 68.50
+	eval: perplexity 70.47
+Global Step 57600 LR 0.2171 Step Time 0.22 Test PPL 68.72
+	eval: perplexity 63.58
+Global Step 57700 LR 0.2171 Step Time 0.21 Test PPL 68.71
+	eval: perplexity 67.79
+Global Step 57800 LR 0.2171 Step Time 0.24 Test PPL 68.30
+	eval: perplexity 70.45
+Global Step 57900 LR 0.2171 Step Time 0.22 Test PPL 68.89
+	eval: perplexity 81.94
+Global Step 58000 LR 0.2149 Step Time 0.24 Test PPL 67.91
+	eval: perplexity 79.92
+Global Step 58100 LR 0.2149 Step Time 0.24 Test PPL 68.07
+	eval: perplexity 77.00
+Global Step 58200 LR 0.2149 Step Time 0.24 Test PPL 69.38
+	eval: perplexity 59.31
+Global Step 58300 LR 0.2128 Step Time 0.23 Test PPL 68.28
+	eval: perplexity 80.33
+Global Step 58400 LR 0.2128 Step Time 0.22 Test PPL 69.08
+	eval: perplexity 67.15
+Global Step 58500 LR 0.2128 Step Time 0.21 Test PPL 68.91
+	eval: perplexity 71.58
+Global Step 58600 LR 0.2128 Step Time 0.25 Test PPL 67.52
+	eval: perplexity 74.44
+Global Step 58700 LR 0.2128 Step Time 0.23 Test PPL 67.99
+	eval: perplexity 63.03
+Global Step 58800 LR 0.2128 Step Time 0.24 Test PPL 69.33
+	eval: perplexity 56.86
+Global Step 58900 LR 0.2107 Step Time 0.24 Test PPL 68.15
+	eval: perplexity 70.05
+Global Step 59000 LR 0.2107 Step Time 0.24 Test PPL 68.44
+	eval: perplexity 88.39
+Global Step 59100 LR 0.2107 Step Time 0.23 Test PPL 67.64
+	eval: perplexity 75.95
+Global Step 59200 LR 0.2107 Step Time 0.24 Test PPL 68.31
+	eval: perplexity 74.28
+Global Step 59300 LR 0.2107 Step Time 0.24 Test PPL 69.05
+	eval: perplexity 66.00
+Global Step 59400 LR 0.2086 Step Time 0.21 Test PPL 67.91
+	eval: perplexity 66.45
+Global Step 59500 LR 0.2086 Step Time 0.23 Test PPL 68.10
+	eval: perplexity 86.46
+Global Step 59600 LR 0.2086 Step Time 0.25 Test PPL 68.37
+	eval: perplexity 69.52
+Global Step 59700 LR 0.2086 Step Time 0.25 Test PPL 68.50
+	eval: perplexity 67.05
+Global Step 59800 LR 0.2065 Step Time 0.22 Test PPL 67.87
+	eval: perplexity 80.41
+Global Step 59900 LR 0.2065 Step Time 0.24 Test PPL 67.31
+	eval: perplexity 68.12
+Global Step 60000 LR 0.2065 Step Time 0.23 Test PPL 67.62
+	eval: perplexity 70.31
+Global Step 60100 LR 0.2065 Step Time 0.24 Test PPL 67.94
+	eval: perplexity 72.25
+Global Step 60200 LR 0.2044 Step Time 0.24 Test PPL 67.44
+	eval: perplexity 65.44
+Global Step 60300 LR 0.2044 Step Time 0.22 Test PPL 67.32
+	eval: perplexity 66.09
+Global Step 60400 LR 0.2044 Step Time 0.24 Test PPL 66.80
+	eval: perplexity 87.08
+Global Step 60500 LR 0.2044 Step Time 0.23 Test PPL 67.47
+	eval: perplexity 62.94
+Global Step 60600 LR 0.2024 Step Time 0.22 Test PPL 66.86
+	eval: perplexity 68.70
+Global Step 60700 LR 0.2024 Step Time 0.23 Test PPL 68.55
+	eval: perplexity 63.89
+Global Step 60800 LR 0.2003 Step Time 0.22 Test PPL 67.13
+	eval: perplexity 80.56
+Global Step 60900 LR 0.2003 Step Time 0.22 Test PPL 67.88
+	eval: perplexity 69.04
+Global Step 61000 LR 0.2003 Step Time 0.23 Test PPL 67.53
+	eval: perplexity 61.19
+Global Step 61100 LR 0.2003 Step Time 0.22 Test PPL 66.83
+	eval: perplexity 69.62
+Global Step 61200 LR 0.2003 Step Time 0.23 Test PPL 68.04
+	eval: perplexity 61.85
+Global Step 61300 LR 0.1983 Step Time 0.22 Test PPL 67.10
+	eval: perplexity 67.67
+Global Step 61400 LR 0.1983 Step Time 0.22 Test PPL 66.75
+	eval: perplexity 68.08
+Global Step 61500 LR 0.1983 Step Time 0.23 Test PPL 67.11
+	eval: perplexity 70.87
+Global Step 61600 LR 0.1983 Step Time 0.25 Test PPL 67.48
+	eval: perplexity 66.97
+Global Step 61700 LR 0.1964 Step Time 0.25 Test PPL 67.55
+	eval: perplexity 69.05
+Global Step 61800 LR 0.1944 Step Time 0.23 Test PPL 66.95
+	eval: perplexity 73.25
+Global Step 61900 LR 0.1944 Step Time 0.24 Test PPL 66.54
+	eval: perplexity 67.31
+Global Step 62000 LR 0.1944 Step Time 0.21 Test PPL 66.60
+	eval: perplexity 64.60
+Global Step 62100 LR 0.1944 Step Time 0.23 Test PPL 67.08
+	eval: perplexity 73.34
+Global Step 62200 LR 0.1924 Step Time 0.22 Test PPL 67.37
+	eval: perplexity 59.66
+Global Step 62300 LR 0.1905 Step Time 0.24 Test PPL 67.10
+	eval: perplexity 72.41
+Global Step 62400 LR 0.1905 Step Time 0.24 Test PPL 66.98
+	eval: perplexity 67.84
+Global Step 62500 LR 0.1905 Step Time 0.23 Test PPL 67.26
+	eval: perplexity 74.06
+Global Step 62600 LR 0.1905 Step Time 0.23 Test PPL 66.42
+	eval: perplexity 80.15
+Global Step 62700 LR 0.1905 Step Time 0.22 Test PPL 67.90
+	eval: perplexity 54.68
+Global Step 62800 LR 0.1886 Step Time 0.23 Test PPL 67.11
+	eval: perplexity 67.87
+Global Step 62900 LR 0.1886 Step Time 0.24 Test PPL 65.67
+	eval: perplexity 61.85
+Global Step 63000 LR 0.1886 Step Time 0.23 Test PPL 67.49
+	eval: perplexity 62.90
+Global Step 63100 LR 0.1886 Step Time 0.24 Test PPL 67.00
+	eval: perplexity 58.16
+Global Step 63200 LR 0.1886 Step Time 0.22 Test PPL 66.48
+	eval: perplexity 70.62
+Global Step 63300 LR 0.1886 Step Time 0.24 Test PPL 66.31
+	eval: perplexity 66.76
+Global Step 63400 LR 0.1886 Step Time 0.23 Test PPL 67.54
+	eval: perplexity 69.63
+Global Step 63500 LR 0.1867 Step Time 0.24 Test PPL 66.06
+	eval: perplexity 65.48
+Global Step 63600 LR 0.1867 Step Time 0.24 Test PPL 67.39
+	eval: perplexity 81.26
+Global Step 63700 LR 0.1867 Step Time 0.22 Test PPL 67.25
+	eval: perplexity 67.69
+Global Step 63800 LR 0.1867 Step Time 0.23 Test PPL 66.50
+	eval: perplexity 78.67
+Global Step 63900 LR 0.1867 Step Time 0.24 Test PPL 67.30
+	eval: perplexity 62.10
+Global Step 64000 LR 0.1867 Step Time 0.24 Test PPL 65.88
+	eval: perplexity 66.53
+Global Step 64100 LR 0.1867 Step Time 0.22 Test PPL 66.42
+	eval: perplexity 76.05
+Global Step 64200 LR 0.1867 Step Time 0.24 Test PPL 66.44
+	eval: perplexity 59.46
+Global Step 64300 LR 0.1867 Step Time 0.24 Test PPL 65.79
+	eval: perplexity 70.95
+Global Step 64400 LR 0.1867 Step Time 0.23 Test PPL 65.42
+	eval: perplexity 61.85
+Global Step 64500 LR 0.1867 Step Time 0.24 Test PPL 65.85
+	eval: perplexity 70.42
+Global Step 64600 LR 0.1867 Step Time 0.23 Test PPL 67.10
+	eval: perplexity 86.05
+Global Step 64700 LR 0.1849 Step Time 0.24 Test PPL 66.51
+	eval: perplexity 69.18
+Global Step 64800 LR 0.1849 Step Time 0.24 Test PPL 66.66
+	eval: perplexity 65.87
+Global Step 64900 LR 0.1849 Step Time 0.24 Test PPL 66.25
+	eval: perplexity 73.33
+Global Step 65000 LR 0.1849 Step Time 0.24 Test PPL 66.85
+	eval: perplexity 69.17
+Global Step 65100 LR 0.1830 Step Time 0.23 Test PPL 66.23
+	eval: perplexity 60.31
+Global Step 65200 LR 0.1830 Step Time 0.24 Test PPL 66.52
+	eval: perplexity 82.17
+Global Step 65300 LR 0.1830 Step Time 0.24 Test PPL 66.81
+	eval: perplexity 67.18
+Global Step 65400 LR 0.1830 Step Time 0.23 Test PPL 66.03
+	eval: perplexity 69.87
+Global Step 65500 LR 0.1830 Step Time 0.23 Test PPL 67.70
+	eval: perplexity 70.44
+Global Step 65600 LR 0.1812 Step Time 0.24 Test PPL 65.84
+	eval: perplexity 60.92
+Global Step 65700 LR 0.1812 Step Time 0.24 Test PPL 65.58
+	eval: perplexity 68.63
+Global Step 65800 LR 0.1812 Step Time 0.23 Test PPL 66.02
+	eval: perplexity 66.49
+Global Step 65900 LR 0.1812 Step Time 0.23 Test PPL 65.87
+	eval: perplexity 72.46
+Global Step 66000 LR 0.1812 Step Time 0.23 Test PPL 66.13
+	eval: perplexity 69.35
+Global Step 66100 LR 0.1794 Step Time 0.25 Test PPL 66.84
+	eval: perplexity 61.29
+Global Step 66200 LR 0.1776 Step Time 0.23 Test PPL 66.72
+	eval: perplexity 75.77
+Global Step 66300 LR 0.1776 Step Time 0.24 Test PPL 65.64
+	eval: perplexity 75.06
+Global Step 66400 LR 0.1776 Step Time 0.23 Test PPL 66.46
+	eval: perplexity 58.41
+Global Step 66500 LR 0.1776 Step Time 0.22 Test PPL 65.39
+	eval: perplexity 79.75
+Global Step 66600 LR 0.1776 Step Time 0.22 Test PPL 65.06
+	eval: perplexity 66.95
+Global Step 66700 LR 0.1776 Step Time 0.21 Test PPL 66.17
+	eval: perplexity 74.15
+Global Step 66800 LR 0.1776 Step Time 0.24 Test PPL 65.80
+	eval: perplexity 64.60
+Global Step 66900 LR 0.1776 Step Time 0.24 Test PPL 66.23
+	eval: perplexity 74.56
+Global Step 67000 LR 0.1758 Step Time 0.24 Test PPL 65.90
+	eval: perplexity 67.06
+Global Step 67100 LR 0.1758 Step Time 0.23 Test PPL 65.46
+	eval: perplexity 70.09
+Global Step 67200 LR 0.1758 Step Time 0.24 Test PPL 65.04
+	eval: perplexity 60.25
+Global Step 67300 LR 0.1758 Step Time 0.24 Test PPL 66.33
+	eval: perplexity 69.16
+Global Step 67400 LR 0.1740 Step Time 0.23 Test PPL 66.40
+	eval: perplexity 65.99
+Global Step 67500 LR 0.1723 Step Time 0.22 Test PPL 67.40
+	eval: perplexity 65.95
+Global Step 67600 LR 0.1706 Step Time 0.23 Test PPL 65.37
+	eval: perplexity 63.38
+Global Step 67700 LR 0.1706 Step Time 0.24 Test PPL 64.86
+	eval: perplexity 63.66
+Global Step 67800 LR 0.1706 Step Time 0.22 Test PPL 65.44
+	eval: perplexity 65.82
+Global Step 67900 LR 0.1706 Step Time 0.23 Test PPL 65.22
+	eval: perplexity 68.65
+Global Step 68000 LR 0.1706 Step Time 0.24 Test PPL 66.54
+	eval: perplexity 79.73
+Global Step 68100 LR 0.1689 Step Time 0.24 Test PPL 64.33
+	eval: perplexity 66.50
+Global Step 68200 LR 0.1689 Step Time 0.24 Test PPL 64.27
+	eval: perplexity 75.92
+Global Step 68300 LR 0.1689 Step Time 0.22 Test PPL 65.22
+	eval: perplexity 72.74
+Global Step 68400 LR 0.1689 Step Time 0.23 Test PPL 65.08
+	eval: perplexity 72.51
+Global Step 68500 LR 0.1689 Step Time 0.24 Test PPL 64.06
+	eval: perplexity 68.46
+Global Step 68600 LR 0.1689 Step Time 0.24 Test PPL 65.33
+	eval: perplexity 66.70
+Global Step 68700 LR 0.1672 Step Time 0.24 Test PPL 64.94
+	eval: perplexity 76.66
+Global Step 68800 LR 0.1672 Step Time 0.23 Test PPL 64.64
+	eval: perplexity 69.75
+Global Step 68900 LR 0.1672 Step Time 0.23 Test PPL 65.22
+	eval: perplexity 61.52
+Global Step 69000 LR 0.1672 Step Time 0.25 Test PPL 65.11
+	eval: perplexity 65.97
+Global Step 69100 LR 0.1672 Step Time 0.24 Test PPL 64.49
+	eval: perplexity 62.49
+Global Step 69200 LR 0.1672 Step Time 0.23 Test PPL 65.75
+	eval: perplexity 66.95
+Global Step 69300 LR 0.1655 Step Time 0.23 Test PPL 65.11
+	eval: perplexity 66.03
+Global Step 69400 LR 0.1655 Step Time 0.23 Test PPL 65.50
+	eval: perplexity 65.72
+Global Step 69500 LR 0.1655 Step Time 0.24 Test PPL 64.77
+	eval: perplexity 88.36
+Global Step 69600 LR 0.1655 Step Time 0.23 Test PPL 65.13
+	eval: perplexity 70.66
+Global Step 69700 LR 0.1655 Step Time 0.24 Test PPL 65.37
+	eval: perplexity 70.00
+Global Step 69800 LR 0.1655 Step Time 0.23 Test PPL 64.70
+	eval: perplexity 59.48
+Global Step 69900 LR 0.1655 Step Time 0.24 Test PPL 64.64
+	eval: perplexity 69.19
+Global Step 70000 LR 0.1655 Step Time 0.23 Test PPL 64.99
+	eval: perplexity 57.57
+Global Step 70100 LR 0.1655 Step Time 0.24 Test PPL 64.11
+	eval: perplexity 75.39
+Global Step 70200 LR 0.1655 Step Time 0.23 Test PPL 64.81
+	eval: perplexity 64.68
+Global Step 70300 LR 0.1655 Step Time 0.25 Test PPL 64.79
+	eval: perplexity 59.12
+Global Step 70400 LR 0.1655 Step Time 0.23 Test PPL 64.70
+	eval: perplexity 69.77
+Global Step 70500 LR 0.1655 Step Time 0.22 Test PPL 64.19
+	eval: perplexity 60.40
+Global Step 70600 LR 0.1655 Step Time 0.23 Test PPL 65.45
+	eval: perplexity 67.60
+Global Step 70700 LR 0.1639 Step Time 0.22 Test PPL 64.45
+	eval: perplexity 69.12
+Global Step 70800 LR 0.1639 Step Time 0.22 Test PPL 63.55
+	eval: perplexity 62.00
+Global Step 70900 LR 0.1639 Step Time 0.24 Test PPL 63.83
+	eval: perplexity 72.87
+Global Step 71000 LR 0.1639 Step Time 0.23 Test PPL 63.51
+	eval: perplexity 61.38
+2017-11-12 23:36:57.086841: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 24770422 get requests, put_count=24770422 evicted_count=18000 eviction_rate=0.000726673 and unsatisfied allocation rate=0.000727804
+Global Step 71100 LR 0.1639 Step Time 0.21 Test PPL 64.73
+	eval: perplexity 65.90
+Global Step 71200 LR 0.1622 Step Time 0.20 Test PPL 63.96
+	eval: perplexity 71.17
+Global Step 71300 LR 0.1622 Step Time 0.24 Test PPL 64.68
+	eval: perplexity 64.42
+Global Step 71400 LR 0.1622 Step Time 0.24 Test PPL 63.90
+	eval: perplexity 57.90
+Global Step 71500 LR 0.1622 Step Time 0.24 Test PPL 66.40
+	eval: perplexity 61.18
+Global Step 71600 LR 0.1606 Step Time 0.22 Test PPL 64.07
+	eval: perplexity 66.74
+Global Step 71700 LR 0.1606 Step Time 0.22 Test PPL 64.88
+	eval: perplexity 69.07
+Global Step 71800 LR 0.1606 Step Time 0.20 Test PPL 63.89
+	eval: perplexity 64.01
+Global Step 71900 LR 0.1606 Step Time 0.23 Test PPL 64.88
+	eval: perplexity 70.01
+Global Step 72000 LR 0.1606 Step Time 0.21 Test PPL 64.66
+	eval: perplexity 66.74
+Global Step 72100 LR 0.1606 Step Time 0.23 Test PPL 64.34
+	eval: perplexity 70.46
+Global Step 72200 LR 0.1606 Step Time 0.24 Test PPL 64.47
+	eval: perplexity 60.62
+Global Step 72300 LR 0.1606 Step Time 0.23 Test PPL 64.10
+	eval: perplexity 65.66
+Global Step 72400 LR 0.1606 Step Time 0.22 Test PPL 63.66
+	eval: perplexity 61.89
+Global Step 72500 LR 0.1606 Step Time 0.24 Test PPL 64.10
+	eval: perplexity 70.31
+Global Step 72600 LR 0.1606 Step Time 0.24 Test PPL 63.51
+	eval: perplexity 78.28
+Global Step 72700 LR 0.1606 Step Time 0.23 Test PPL 64.41
+	eval: perplexity 64.53
+Global Step 72800 LR 0.1590 Step Time 0.21 Test PPL 64.44
+	eval: perplexity 65.56
+Global Step 72900 LR 0.1574 Step Time 0.22 Test PPL 63.66
+	eval: perplexity 72.97
+Global Step 73000 LR 0.1574 Step Time 0.23 Test PPL 63.22
+	eval: perplexity 69.65
+Global Step 73100 LR 0.1574 Step Time 0.24 Test PPL 64.11
+	eval: perplexity 73.59
+Global Step 73200 LR 0.1574 Step Time 0.23 Test PPL 64.86
+	eval: perplexity 57.24
+Global Step 73300 LR 0.1558 Step Time 0.23 Test PPL 64.20
+	eval: perplexity 62.77
+Global Step 73400 LR 0.1558 Step Time 0.24 Test PPL 64.10
+	eval: perplexity 62.70
+Global Step 73500 LR 0.1558 Step Time 0.22 Test PPL 64.28
+	eval: perplexity 72.91
+Global Step 73600 LR 0.1558 Step Time 0.24 Test PPL 63.58
+	eval: perplexity 65.66
+Global Step 73700 LR 0.1558 Step Time 0.23 Test PPL 63.31
+	eval: perplexity 58.64
+Global Step 73800 LR 0.1558 Step Time 0.22 Test PPL 64.26
+	eval: perplexity 66.55
+Global Step 73900 LR 0.1558 Step Time 0.23 Test PPL 64.21
+	eval: perplexity 71.92
+Global Step 74000 LR 0.1558 Step Time 0.22 Test PPL 65.02
+	eval: perplexity 68.14
+Global Step 74100 LR 0.1543 Step Time 0.23 Test PPL 63.91
+	eval: perplexity 77.53
+Global Step 74200 LR 0.1543 Step Time 0.21 Test PPL 64.50
+	eval: perplexity 56.88
+Global Step 74300 LR 0.1543 Step Time 0.23 Test PPL 64.48
+	eval: perplexity 64.71
+Global Step 74400 LR 0.1543 Step Time 0.23 Test PPL 64.33
+	eval: perplexity 62.97
+Global Step 74500 LR 0.1543 Step Time 0.23 Test PPL 64.57
+	eval: perplexity 69.53
+Global Step 74600 LR 0.1527 Step Time 0.23 Test PPL 63.83
+	eval: perplexity 66.19
+Global Step 74700 LR 0.1527 Step Time 0.23 Test PPL 63.41
+	eval: perplexity 73.33
+Global Step 74800 LR 0.1527 Step Time 0.23 Test PPL 63.44
+	eval: perplexity 74.75
+Global Step 74900 LR 0.1527 Step Time 0.23 Test PPL 63.74
+	eval: perplexity 55.98
+Global Step 75000 LR 0.1527 Step Time 0.24 Test PPL 64.23
+	eval: perplexity 56.92
+Global Step 75100 LR 0.1512 Step Time 0.22 Test PPL 63.57
+	eval: perplexity 69.19
+Global Step 75200 LR 0.1512 Step Time 0.24 Test PPL 63.67
+	eval: perplexity 67.97
+Global Step 75300 LR 0.1512 Step Time 0.22 Test PPL 64.08
+	eval: perplexity 68.15
+Global Step 75400 LR 0.1512 Step Time 0.22 Test PPL 63.65
+	eval: perplexity 68.79
+Global Step 75500 LR 0.1512 Step Time 0.20 Test PPL 64.33
+	eval: perplexity 69.33
+Global Step 75600 LR 0.1497 Step Time 0.20 Test PPL 63.15
+	eval: perplexity 54.61
+Global Step 75700 LR 0.1497 Step Time 0.24 Test PPL 63.24
+	eval: perplexity 67.42
+Global Step 75800 LR 0.1497 Step Time 0.24 Test PPL 63.10
+	eval: perplexity 68.83
+Global Step 75900 LR 0.1497 Step Time 0.22 Test PPL 63.68
+	eval: perplexity 63.77
+Global Step 76000 LR 0.1482 Step Time 0.23 Test PPL 63.34
+	eval: perplexity 79.73
+Global Step 76100 LR 0.1482 Step Time 0.21 Test PPL 63.66
+	eval: perplexity 65.04
+Global Step 76200 LR 0.1482 Step Time 0.22 Test PPL 62.92
+	eval: perplexity 75.04
+Global Step 76300 LR 0.1482 Step Time 0.23 Test PPL 64.25
+	eval: perplexity 64.82
+Global Step 76400 LR 0.1467 Step Time 0.24 Test PPL 63.76
+	eval: perplexity 61.97
+Global Step 76500 LR 0.1467 Step Time 0.24 Test PPL 64.19
+	eval: perplexity 61.35
+Global Step 76600 LR 0.1467 Step Time 0.24 Test PPL 62.70
+	eval: perplexity 71.12
+Global Step 76700 LR 0.1467 Step Time 0.22 Test PPL 63.63
+	eval: perplexity 64.08
+Global Step 76800 LR 0.1467 Step Time 0.24 Test PPL 62.90
+	eval: perplexity 59.08
+Global Step 76900 LR 0.1467 Step Time 0.22 Test PPL 63.04
+	eval: perplexity 59.01
+Global Step 77000 LR 0.1467 Step Time 0.24 Test PPL 63.78
+	eval: perplexity 70.59
+Global Step 77100 LR 0.1452 Step Time 0.24 Test PPL 62.93
+	eval: perplexity 62.94
+Global Step 77200 LR 0.1452 Step Time 0.23 Test PPL 63.36
+	eval: perplexity 64.97
+Global Step 77300 LR 0.1452 Step Time 0.22 Test PPL 62.59
+	eval: perplexity 59.36
+Global Step 77400 LR 0.1452 Step Time 0.22 Test PPL 63.14
+	eval: perplexity 61.00
+Global Step 77500 LR 0.1452 Step Time 0.21 Test PPL 62.53
+	eval: perplexity 61.35
+Global Step 77600 LR 0.1452 Step Time 0.22 Test PPL 63.58
+	eval: perplexity 64.70
+Global Step 77700 LR 0.1438 Step Time 0.21 Test PPL 62.37
+	eval: perplexity 67.80
+Global Step 77800 LR 0.1438 Step Time 0.23 Test PPL 63.29
+	eval: perplexity 65.62
+Global Step 77900 LR 0.1438 Step Time 0.21 Test PPL 63.70
+	eval: perplexity 60.04
+Global Step 78000 LR 0.1424 Step Time 0.21 Test PPL 62.71
+	eval: perplexity 66.33
+Global Step 78100 LR 0.1424 Step Time 0.24 Test PPL 62.90
+	eval: perplexity 69.47
+Global Step 78200 LR 0.1424 Step Time 0.25 Test PPL 62.61
+	eval: perplexity 63.05
+Global Step 78300 LR 0.1424 Step Time 0.23 Test PPL 62.77
+	eval: perplexity 69.20
+Global Step 78400 LR 0.1424 Step Time 0.23 Test PPL 63.01
+	eval: perplexity 67.89
+Global Step 78500 LR 0.1409 Step Time 0.22 Test PPL 63.31
+	eval: perplexity 60.31
+Global Step 78600 LR 0.1395 Step Time 0.22 Test PPL 63.32
+	eval: perplexity 64.63
+Global Step 78700 LR 0.1381 Step Time 0.20 Test PPL 61.89
+	eval: perplexity 84.41
+Global Step 78800 LR 0.1381 Step Time 0.23 Test PPL 62.47
+	eval: perplexity 62.44
+Global Step 78900 LR 0.1381 Step Time 0.23 Test PPL 63.67
+	eval: perplexity 58.20
+Global Step 79000 LR 0.1367 Step Time 0.23 Test PPL 62.58
+	eval: perplexity 71.77
+Global Step 79100 LR 0.1367 Step Time 0.24 Test PPL 61.62
+	eval: perplexity 65.43
+Global Step 79200 LR 0.1367 Step Time 0.22 Test PPL 63.17
+	eval: perplexity 79.74
+Global Step 79300 LR 0.1367 Step Time 0.22 Test PPL 62.96
+	eval: perplexity 71.22
+Global Step 79400 LR 0.1367 Step Time 0.21 Test PPL 62.17
+	eval: perplexity 57.36
+Global Step 79500 LR 0.1367 Step Time 0.22 Test PPL 62.93
+	eval: perplexity 68.37
+Global Step 79600 LR 0.1367 Step Time 0.21 Test PPL 62.88
+	eval: perplexity 67.51
+Global Step 79700 LR 0.1367 Step Time 0.23 Test PPL 63.92
+	eval: perplexity 58.94
+Global Step 79800 LR 0.1354 Step Time 0.23 Test PPL 61.96
+	eval: perplexity 65.34
+Global Step 79900 LR 0.1354 Step Time 0.23 Test PPL 61.80
+	eval: perplexity 68.61
+Global Step 80000 LR 0.1354 Step Time 0.22 Test PPL 62.24
+	eval: perplexity 60.59
+Global Step 80100 LR 0.1354 Step Time 0.23 Test PPL 62.39
+	eval: perplexity 59.08
+Global Step 80200 LR 0.1340 Step Time 0.24 Test PPL 62.19
+	eval: perplexity 64.48
+Global Step 80300 LR 0.1340 Step Time 0.24 Test PPL 62.37
+	eval: perplexity 62.89
+Global Step 80400 LR 0.1340 Step Time 0.23 Test PPL 61.92
+	eval: perplexity 74.68
+Global Step 80500 LR 0.1340 Step Time 0.23 Test PPL 63.05
+	eval: perplexity 75.32
+Global Step 80600 LR 0.1327 Step Time 0.23 Test PPL 62.97
+	eval: perplexity 61.71
+Global Step 80700 LR 0.1327 Step Time 0.21 Test PPL 63.16
+	eval: perplexity 75.87
+Global Step 80800 LR 0.1314 Step Time 0.21 Test PPL 63.32
+	eval: perplexity 62.01
+Global Step 80900 LR 0.1300 Step Time 0.24 Test PPL 63.05
+	eval: perplexity 63.91
+Global Step 81000 LR 0.1300 Step Time 0.24 Test PPL 61.68
+	eval: perplexity 68.88
+Global Step 81100 LR 0.1300 Step Time 0.22 Test PPL 62.70
+	eval: perplexity 70.92
+Global Step 81200 LR 0.1300 Step Time 0.22 Test PPL 61.97
+	eval: perplexity 58.85
+Global Step 81300 LR 0.1300 Step Time 0.20 Test PPL 62.15
+	eval: perplexity 65.55
+Global Step 81400 LR 0.1300 Step Time 0.23 Test PPL 62.19
+	eval: perplexity 65.01
+Global Step 81500 LR 0.1300 Step Time 0.24 Test PPL 62.02
+	eval: perplexity 61.03
+Global Step 81600 LR 0.1300 Step Time 0.24 Test PPL 62.29
+	eval: perplexity 75.10
+Global Step 81700 LR 0.1287 Step Time 0.24 Test PPL 62.78
+	eval: perplexity 60.72
+Global Step 81800 LR 0.1275 Step Time 0.23 Test PPL 62.12
+	eval: perplexity 58.20
+Global Step 81900 LR 0.1275 Step Time 0.24 Test PPL 62.27
+	eval: perplexity 63.76
+Global Step 82000 LR 0.1275 Step Time 0.23 Test PPL 62.15
+	eval: perplexity 55.65
+Global Step 82100 LR 0.1275 Step Time 0.24 Test PPL 62.00
+	eval: perplexity 65.76
+Global Step 82200 LR 0.1275 Step Time 0.23 Test PPL 62.72
+	eval: perplexity 58.36
+Global Step 82300 LR 0.1262 Step Time 0.22 Test PPL 61.55
+	eval: perplexity 69.81
+Global Step 82400 LR 0.1262 Step Time 0.23 Test PPL 61.85
+	eval: perplexity 54.07
+Global Step 82500 LR 0.1262 Step Time 0.23 Test PPL 61.97
+	eval: perplexity 66.49
+Global Step 82600 LR 0.1262 Step Time 0.24 Test PPL 62.44
+	eval: perplexity 64.00
+Global Step 82700 LR 0.1249 Step Time 0.24 Test PPL 61.72
+	eval: perplexity 62.05
+Global Step 82800 LR 0.1249 Step Time 0.24 Test PPL 61.36
+	eval: perplexity 62.09
+Global Step 82900 LR 0.1249 Step Time 0.24 Test PPL 61.87
+	eval: perplexity 67.09
+Global Step 83000 LR 0.1249 Step Time 0.24 Test PPL 61.50
+	eval: perplexity 60.09
+Global Step 83100 LR 0.1249 Step Time 0.22 Test PPL 62.91
+	eval: perplexity 63.29
+Global Step 83200 LR 0.1237 Step Time 0.25 Test PPL 63.31
+	eval: perplexity 71.24
+Global Step 83300 LR 0.1224 Step Time 0.24 Test PPL 62.26
+	eval: perplexity 71.32
+Global Step 83400 LR 0.1224 Step Time 0.22 Test PPL 62.21
+	eval: perplexity 72.01
+Global Step 83500 LR 0.1224 Step Time 0.21 Test PPL 61.87
+	eval: perplexity 69.08
+Global Step 83600 LR 0.1224 Step Time 0.24 Test PPL 61.79
+	eval: perplexity 65.05
+Global Step 83700 LR 0.1224 Step Time 0.23 Test PPL 62.00
+	eval: perplexity 70.34
+Global Step 83800 LR 0.1224 Step Time 0.22 Test PPL 61.78
+	eval: perplexity 65.24
+Global Step 83900 LR 0.1224 Step Time 0.22 Test PPL 61.95
+	eval: perplexity 61.66
+Global Step 84000 LR 0.1224 Step Time 0.24 Test PPL 61.81
+	eval: perplexity 71.79
+Global Step 84100 LR 0.1224 Step Time 0.21 Test PPL 61.75
+	eval: perplexity 62.01
+Global Step 84200 LR 0.1224 Step Time 0.24 Test PPL 62.77
+	eval: perplexity 65.26
+Global Step 84300 LR 0.1212 Step Time 0.22 Test PPL 61.48
+	eval: perplexity 57.26
+Global Step 84400 LR 0.1212 Step Time 0.24 Test PPL 61.20
+	eval: perplexity 67.83
+Global Step 84500 LR 0.1212 Step Time 0.23 Test PPL 61.98
+	eval: perplexity 75.23
+Global Step 84600 LR 0.1212 Step Time 0.23 Test PPL 61.62
+	eval: perplexity 70.08
+Global Step 84700 LR 0.1212 Step Time 0.23 Test PPL 62.23
+	eval: perplexity 60.19
+Global Step 84800 LR 0.1200 Step Time 0.23 Test PPL 61.82
+	eval: perplexity 65.85
+Global Step 84900 LR 0.1200 Step Time 0.21 Test PPL 61.81
+	eval: perplexity 56.98
+Global Step 85000 LR 0.1200 Step Time 0.23 Test PPL 61.71
+	eval: perplexity 75.30
+Global Step 85100 LR 0.1200 Step Time 0.20 Test PPL 61.18
+	eval: perplexity 62.80
+Global Step 85200 LR 0.1200 Step Time 0.22 Test PPL 61.11
+	eval: perplexity 62.25
+Global Step 85300 LR 0.1200 Step Time 0.20 Test PPL 61.32
+	eval: perplexity 70.59
+Global Step 85400 LR 0.1200 Step Time 0.22 Test PPL 62.01
+	eval: perplexity 58.65
+Global Step 85500 LR 0.1188 Step Time 0.21 Test PPL 61.63
+	eval: perplexity 69.04
+Global Step 85600 LR 0.1188 Step Time 0.24 Test PPL 61.91
+	eval: perplexity 65.35
+Global Step 85700 LR 0.1188 Step Time 0.22 Test PPL 61.72
+	eval: perplexity 64.50
+Global Step 85800 LR 0.1188 Step Time 0.23 Test PPL 61.43
+	eval: perplexity 62.67
+Global Step 85900 LR 0.1188 Step Time 0.22 Test PPL 60.79
+	eval: perplexity 62.06
+Global Step 86000 LR 0.1188 Step Time 0.20 Test PPL 61.74
+	eval: perplexity 62.12
+Global Step 86100 LR 0.1176 Step Time 0.24 Test PPL 60.66
+	eval: perplexity 65.41
+Global Step 86200 LR 0.1176 Step Time 0.22 Test PPL 61.58
+	eval: perplexity 60.06
+Global Step 86300 LR 0.1176 Step Time 0.23 Test PPL 61.84
+	eval: perplexity 66.20
+Global Step 86400 LR 0.1164 Step Time 0.22 Test PPL 62.02
+	eval: perplexity 56.50
+Global Step 86500 LR 0.1153 Step Time 0.24 Test PPL 61.87
+	eval: perplexity 61.18
+Global Step 86600 LR 0.1153 Step Time 0.24 Test PPL 60.90
+	eval: perplexity 63.57
+Global Step 86700 LR 0.1153 Step Time 0.23 Test PPL 61.24
+	eval: perplexity 59.79
+Global Step 86800 LR 0.1153 Step Time 0.22 Test PPL 61.86
+	eval: perplexity 60.42
+Global Step 86900 LR 0.1153 Step Time 0.23 Test PPL 60.98
+	eval: perplexity 63.74
+Global Step 87000 LR 0.1153 Step Time 0.23 Test PPL 62.09
+	eval: perplexity 71.73
+Global Step 87100 LR 0.1141 Step Time 0.24 Test PPL 60.76
+	eval: perplexity 60.74
+Global Step 87200 LR 0.1141 Step Time 0.23 Test PPL 62.11
+	eval: perplexity 60.23
+Global Step 87300 LR 0.1130 Step Time 0.25 Test PPL 60.85
+	eval: perplexity 61.27
+Global Step 87400 LR 0.1130 Step Time 0.24 Test PPL 60.94
+	eval: perplexity 64.37
+Global Step 87500 LR 0.1130 Step Time 0.24 Test PPL 61.05
+	eval: perplexity 72.19
+Global Step 87600 LR 0.1130 Step Time 0.25 Test PPL 60.82
+	eval: perplexity 73.06
+Global Step 87700 LR 0.1130 Step Time 0.23 Test PPL 61.60
+	eval: perplexity 65.85
+Global Step 87800 LR 0.1118 Step Time 0.23 Test PPL 61.93
+	eval: perplexity 62.19
+Global Step 87900 LR 0.1107 Step Time 0.23 Test PPL 60.95
+	eval: perplexity 77.69
+Global Step 88000 LR 0.1107 Step Time 0.23 Test PPL 60.66
+	eval: perplexity 51.93
+Global Step 88100 LR 0.1107 Step Time 0.22 Test PPL 61.65
+	eval: perplexity 65.99
+Global Step 88200 LR 0.1107 Step Time 0.23 Test PPL 61.35
+	eval: perplexity 68.91
+Global Step 88300 LR 0.1107 Step Time 0.24 Test PPL 61.60
+	eval: perplexity 61.80
+Global Step 88400 LR 0.1107 Step Time 0.24 Test PPL 61.38
+	eval: perplexity 66.12
+Global Step 88500 LR 0.1107 Step Time 0.23 Test PPL 61.09
+	eval: perplexity 65.00
+Global Step 88600 LR 0.1107 Step Time 0.22 Test PPL 59.66
+	eval: perplexity 51.51
+Global Step 88700 LR 0.1107 Step Time 0.25 Test PPL 61.76
+	eval: perplexity 63.07
+Global Step 88800 LR 0.1096 Step Time 0.21 Test PPL 60.32
+	eval: perplexity 72.62
+Global Step 88900 LR 0.1096 Step Time 0.22 Test PPL 60.49
+	eval: perplexity 68.39
+Global Step 89000 LR 0.1096 Step Time 0.24 Test PPL 60.86
+	eval: perplexity 56.77
+Global Step 89100 LR 0.1096 Step Time 0.24 Test PPL 60.02
+	eval: perplexity 62.35
+Global Step 89200 LR 0.1096 Step Time 0.23 Test PPL 60.62
+	eval: perplexity 59.39
+Global Step 89300 LR 0.1096 Step Time 0.25 Test PPL 61.16
+	eval: perplexity 59.37
+Global Step 89400 LR 0.1085 Step Time 0.24 Test PPL 60.20
+	eval: perplexity 65.88
+Global Step 89500 LR 0.1085 Step Time 0.25 Test PPL 61.18
+	eval: perplexity 63.31
+Global Step 89600 LR 0.1074 Step Time 0.24 Test PPL 60.47
+	eval: perplexity 56.85
+Global Step 89700 LR 0.1074 Step Time 0.23 Test PPL 61.49
+	eval: perplexity 70.53
+Global Step 89800 LR 0.1064 Step Time 0.23 Test PPL 60.43
+	eval: perplexity 68.53
+Global Step 89900 LR 0.1064 Step Time 0.23 Test PPL 61.17
+	eval: perplexity 58.97
+Global Step 90000 LR 0.1064 Step Time 0.23 Test PPL 60.53
+	eval: perplexity 67.36
+Global Step 90100 LR 0.1064 Step Time 0.23 Test PPL 60.14
+	eval: perplexity 75.65
+Global Step 90200 LR 0.1064 Step Time 0.23 Test PPL 59.96
+	eval: perplexity 66.38
+Global Step 90300 LR 0.1064 Step Time 0.23 Test PPL 60.01
+	eval: perplexity 64.24
+Global Step 90400 LR 0.1064 Step Time 0.24 Test PPL 60.66
+	eval: perplexity 61.66
+Global Step 90500 LR 0.1053 Step Time 0.23 Test PPL 60.70
+	eval: perplexity 61.80
+Global Step 90600 LR 0.1042 Step Time 0.23 Test PPL 60.98
+	eval: perplexity 55.64
+Global Step 90700 LR 0.1032 Step Time 0.21 Test PPL 60.50
+	eval: perplexity 63.52
+Global Step 90800 LR 0.1032 Step Time 0.24 Test PPL 60.47
+	eval: perplexity 62.51
+Global Step 90900 LR 0.1032 Step Time 0.24 Test PPL 59.66
+	eval: perplexity 57.25
+Global Step 91000 LR 0.1032 Step Time 0.23 Test PPL 60.03
+	eval: perplexity 66.55
+Global Step 91100 LR 0.1032 Step Time 0.23 Test PPL 60.29
+	eval: perplexity 69.27
+Global Step 91200 LR 0.1032 Step Time 0.25 Test PPL 60.03
+	eval: perplexity 66.59
+Global Step 91300 LR 0.1032 Step Time 0.24 Test PPL 61.03
+	eval: perplexity 63.89
+Global Step 91400 LR 0.1022 Step Time 0.24 Test PPL 60.78
+	eval: perplexity 67.45
+Global Step 91500 LR 0.1022 Step Time 0.23 Test PPL 61.03
+	eval: perplexity 61.03
+Global Step 91600 LR 0.1022 Step Time 0.25 Test PPL 60.45
+	eval: perplexity 60.49
+Global Step 91700 LR 0.1022 Step Time 0.24 Test PPL 60.64
+	eval: perplexity 55.36
+Global Step 91800 LR 0.1022 Step Time 0.24 Test PPL 60.57
+	eval: perplexity 57.96
+Global Step 91900 LR 0.1022 Step Time 0.24 Test PPL 60.71
+	eval: perplexity 66.60
+Global Step 92000 LR 0.1012 Step Time 0.24 Test PPL 60.37
+	eval: perplexity 55.33
+Global Step 92100 LR 0.1012 Step Time 0.24 Test PPL 60.61
+	eval: perplexity 63.89
+Global Step 92200 LR 0.1012 Step Time 0.23 Test PPL 59.89
+	eval: perplexity 66.54
+Global Step 92300 LR 0.1012 Step Time 0.23 Test PPL 60.84
+	eval: perplexity 62.24
+Global Step 92400 LR 0.1001 Step Time 0.23 Test PPL 60.31
+	eval: perplexity 63.98
+Global Step 92500 LR 0.1001 Step Time 0.23 Test PPL 60.52
+	eval: perplexity 59.13
+Global Step 92600 LR 0.1001 Step Time 0.24 Test PPL 59.69
+	eval: perplexity 71.09
+Global Step 92700 LR 0.1001 Step Time 0.23 Test PPL 60.93
+	eval: perplexity 73.06
+Global Step 92800 LR 0.0991 Step Time 0.24 Test PPL 60.16
+	eval: perplexity 69.20
+Global Step 92900 LR 0.0991 Step Time 0.23 Test PPL 60.46
+	eval: perplexity 62.39
+Global Step 93000 LR 0.0991 Step Time 0.24 Test PPL 59.85
+	eval: perplexity 59.96
+Global Step 93100 LR 0.0991 Step Time 0.23 Test PPL 60.43
+	eval: perplexity 57.27
+Global Step 93200 LR 0.0991 Step Time 0.23 Test PPL 60.84
+	eval: perplexity 64.34
+Global Step 93300 LR 0.0981 Step Time 0.24 Test PPL 60.99
+	eval: perplexity 66.88
+Global Step 93400 LR 0.0972 Step Time 0.23 Test PPL 60.99
+	eval: perplexity 66.01
+Global Step 93500 LR 0.0962 Step Time 0.22 Test PPL 60.36
+	eval: perplexity 64.83
+Global Step 93600 LR 0.0962 Step Time 0.24 Test PPL 60.83
+	eval: perplexity 59.07
+Global Step 93700 LR 0.0962 Step Time 0.23 Test PPL 60.74
+	eval: perplexity 64.14
+Global Step 93800 LR 0.0962 Step Time 0.23 Test PPL 60.51
+	eval: perplexity 56.40
+Global Step 93900 LR 0.0962 Step Time 0.22 Test PPL 59.83
+	eval: perplexity 62.41
+Global Step 94000 LR 0.0962 Step Time 0.23 Test PPL 60.08
+	eval: perplexity 64.45
+Global Step 94100 LR 0.0962 Step Time 0.24 Test PPL 60.72
+	eval: perplexity 59.61
+Global Step 94200 LR 0.0952 Step Time 0.23 Test PPL 59.29
+	eval: perplexity 71.36
+Global Step 94300 LR 0.0952 Step Time 0.24 Test PPL 60.06
+	eval: perplexity 58.72
+Global Step 94400 LR 0.0952 Step Time 0.24 Test PPL 60.75
+	eval: perplexity 65.36
+Global Step 94500 LR 0.0943 Step Time 0.25 Test PPL 60.33
+	eval: perplexity 69.62
+Global Step 94600 LR 0.0943 Step Time 0.23 Test PPL 61.39
+	eval: perplexity 65.23
+Global Step 94700 LR 0.0933 Step Time 0.24 Test PPL 59.74
+	eval: perplexity 64.54
+Global Step 94800 LR 0.0933 Step Time 0.21 Test PPL 59.57
+	eval: perplexity 55.55
+Global Step 94900 LR 0.0933 Step Time 0.24 Test PPL 59.73
+	eval: perplexity 71.46
+Global Step 95000 LR 0.0933 Step Time 0.23 Test PPL 60.90
+	eval: perplexity 56.98
+Global Step 95100 LR 0.0924 Step Time 0.25 Test PPL 60.39
+	eval: perplexity 56.38
+Global Step 95200 LR 0.0924 Step Time 0.24 Test PPL 60.53
+	eval: perplexity 67.93
+Global Step 95300 LR 0.0924 Step Time 0.22 Test PPL 59.75
+	eval: perplexity 60.85
+Global Step 95400 LR 0.0924 Step Time 0.23 Test PPL 58.88
+	eval: perplexity 56.46
+Global Step 95500 LR 0.0924 Step Time 0.22 Test PPL 60.22
+	eval: perplexity 65.70
+Global Step 95600 LR 0.0924 Step Time 0.22 Test PPL 59.38
+	eval: perplexity 59.70
+Global Step 95700 LR 0.0924 Step Time 0.24 Test PPL 59.42
+	eval: perplexity 60.64
+Global Step 95800 LR 0.0924 Step Time 0.24 Test PPL 60.28
+	eval: perplexity 71.66
+Global Step 95900 LR 0.0915 Step Time 0.25 Test PPL 59.13
+	eval: perplexity 76.39
+Global Step 96000 LR 0.0915 Step Time 0.24 Test PPL 60.24
+	eval: perplexity 60.17
+Global Step 96100 LR 0.0915 Step Time 0.24 Test PPL 59.71
+	eval: perplexity 64.06
+Global Step 96200 LR 0.0915 Step Time 0.23 Test PPL 60.45
+	eval: perplexity 68.90
+Global Step 96300 LR 0.0906 Step Time 0.23 Test PPL 60.19
+	eval: perplexity 67.89
+Global Step 96400 LR 0.0906 Step Time 0.24 Test PPL 60.15
+	eval: perplexity 66.52
+Global Step 96500 LR 0.0906 Step Time 0.23 Test PPL 59.37
+	eval: perplexity 63.47
+Global Step 96600 LR 0.0906 Step Time 0.23 Test PPL 61.23
+	eval: perplexity 56.41
+Global Step 96700 LR 0.0897 Step Time 0.24 Test PPL 59.88
+	eval: perplexity 70.70
+Global Step 96800 LR 0.0897 Step Time 0.24 Test PPL 58.84
+	eval: perplexity 70.70
+Global Step 96900 LR 0.0897 Step Time 0.24 Test PPL 59.37
+	eval: perplexity 58.14
+Global Step 97000 LR 0.0897 Step Time 0.23 Test PPL 58.96
+	eval: perplexity 65.32
+Global Step 97100 LR 0.0897 Step Time 0.20 Test PPL 59.81
+	eval: perplexity 74.11
+Global Step 97200 LR 0.0888 Step Time 0.22 Test PPL 60.30
+	eval: perplexity 60.98
+Global Step 97300 LR 0.0879 Step Time 0.22 Test PPL 59.77
+	eval: perplexity 56.78
+Global Step 97400 LR 0.0879 Step Time 0.22 Test PPL 59.43
+	eval: perplexity 61.29
+Global Step 97500 LR 0.0879 Step Time 0.23 Test PPL 59.94
+	eval: perplexity 64.71
+Global Step 97600 LR 0.0879 Step Time 0.24 Test PPL 59.89
+	eval: perplexity 56.69
+Global Step 97700 LR 0.0879 Step Time 0.24 Test PPL 59.25
+	eval: perplexity 57.88
+Global Step 97800 LR 0.0879 Step Time 0.24 Test PPL 59.22
+	eval: perplexity 56.81
+Global Step 97900 LR 0.0879 Step Time 0.22 Test PPL 59.78
+	eval: perplexity 60.33
+Global Step 98000 LR 0.0879 Step Time 0.24 Test PPL 60.02
+	eval: perplexity 64.04
+Global Step 98100 LR 0.0870 Step Time 0.23 Test PPL 59.50
+	eval: perplexity 65.19
+Global Step 98200 LR 0.0870 Step Time 0.24 Test PPL 59.31
+	eval: perplexity 65.72
+Global Step 98300 LR 0.0870 Step Time 0.24 Test PPL 59.42
+	eval: perplexity 66.10
+Global Step 98400 LR 0.0870 Step Time 0.24 Test PPL 59.71
+	eval: perplexity 60.52
+Global Step 98500 LR 0.0861 Step Time 0.25 Test PPL 59.62
+	eval: perplexity 66.82
+Global Step 98600 LR 0.0861 Step Time 0.23 Test PPL 59.23
+	eval: perplexity 65.31
+Global Step 98700 LR 0.0861 Step Time 0.24 Test PPL 59.76
+	eval: perplexity 65.42
+Global Step 98800 LR 0.0853 Step Time 0.23 Test PPL 60.12
+	eval: perplexity 60.86
+Global Step 98900 LR 0.0844 Step Time 0.22 Test PPL 59.94
+	eval: perplexity 57.93
+Global Step 99000 LR 0.0844 Step Time 0.23 Test PPL 59.24
+	eval: perplexity 66.23
+Global Step 99100 LR 0.0844 Step Time 0.24 Test PPL 58.99
+	eval: perplexity 67.34
+Global Step 99200 LR 0.0844 Step Time 0.21 Test PPL 59.35
+	eval: perplexity 58.04
+Global Step 99300 LR 0.0844 Step Time 0.23 Test PPL 60.06
+	eval: perplexity 65.49
+Global Step 99400 LR 0.0836 Step Time 0.25 Test PPL 59.34
+	eval: perplexity 66.32
+Global Step 99500 LR 0.0836 Step Time 0.25 Test PPL 59.11
+	eval: perplexity 57.11
+Global Step 99600 LR 0.0836 Step Time 0.24 Test PPL 59.40
+	eval: perplexity 56.05
+Global Step 99700 LR 0.0836 Step Time 0.25 Test PPL 59.04
+	eval: perplexity 70.37
+Global Step 99800 LR 0.0836 Step Time 0.24 Test PPL 58.98
+	eval: perplexity 62.75
+Global Step 99900 LR 0.0836 Step Time 0.24 Test PPL 58.91
+	eval: perplexity 59.10
+Global Step 100000 LR 0.0836 Step Time 0.24 Test PPL 59.69
+	eval: perplexity 55.89
+Global Step 100100 LR 0.0827 Step Time 0.23 Test PPL 60.40
+	eval: perplexity 55.79
+Global Step 100200 LR 0.0819 Step Time 0.24 Test PPL 59.35
+	eval: perplexity 66.81
+Global Step 100300 LR 0.0819 Step Time 0.22 Test PPL 60.07
+	eval: perplexity 60.29
+Global Step 100400 LR 0.0819 Step Time 0.25 Test PPL 60.45
+	eval: perplexity 60.00
+Global Step 100500 LR 0.0811 Step Time 0.24 Test PPL 60.35
+	eval: perplexity 61.15
+Global Step 100600 LR 0.0811 Step Time 0.24 Test PPL 59.13
+	eval: perplexity 59.56
+Global Step 100700 LR 0.0811 Step Time 0.23 Test PPL 60.34
+	eval: perplexity 62.40
+Global Step 100800 LR 0.0811 Step Time 0.23 Test PPL 59.77
+	eval: perplexity 65.22
+Global Step 100900 LR 0.0811 Step Time 0.23 Test PPL 59.57
+	eval: perplexity 66.21
+Global Step 101000 LR 0.0811 Step Time 0.24 Test PPL 58.82
+	eval: perplexity 64.14
+Global Step 101100 LR 0.0811 Step Time 0.24 Test PPL 59.74
+	eval: perplexity 65.42
+Global Step 101200 LR 0.0811 Step Time 0.24 Test PPL 59.58
+	eval: perplexity 67.66
+Global Step 101300 LR 0.0811 Step Time 0.24 Test PPL 59.37
+	eval: perplexity 68.36
+Global Step 101400 LR 0.0811 Step Time 0.24 Test PPL 59.01
+	eval: perplexity 62.40
+Global Step 101500 LR 0.0811 Step Time 0.24 Test PPL 59.20
+	eval: perplexity 62.38
+Global Step 101600 LR 0.0811 Step Time 0.23 Test PPL 58.84
+	eval: perplexity 65.57
+Global Step 101700 LR 0.0811 Step Time 0.24 Test PPL 59.25
+	eval: perplexity 60.29
+Global Step 101800 LR 0.0803 Step Time 0.23 Test PPL 58.99
+	eval: perplexity 63.14
+Global Step 101900 LR 0.0803 Step Time 0.23 Test PPL 59.01
+	eval: perplexity 58.17
+Global Step 102000 LR 0.0803 Step Time 0.23 Test PPL 60.04
+	eval: perplexity 65.89
+Global Step 102100 LR 0.0795 Step Time 0.25 Test PPL 59.08
+	eval: perplexity 58.14
+Global Step 102200 LR 0.0795 Step Time 0.24 Test PPL 58.79
+	eval: perplexity 68.19
+Global Step 102300 LR 0.0795 Step Time 0.24 Test PPL 58.96
+	eval: perplexity 59.07
+Global Step 102400 LR 0.0795 Step Time 0.22 Test PPL 59.23
+	eval: perplexity 65.40
+Global Step 102500 LR 0.0787 Step Time 0.25 Test PPL 59.19
+	eval: perplexity 58.14
+Global Step 102600 LR 0.0787 Step Time 0.22 Test PPL 59.30
+	eval: perplexity 58.68
+Global Step 102700 LR 0.0779 Step Time 0.23 Test PPL 58.42
+	eval: perplexity 65.23
+Global Step 102800 LR 0.0779 Step Time 0.23 Test PPL 59.57
+	eval: perplexity 63.59
+Global Step 102900 LR 0.0771 Step Time 0.24 Test PPL 58.01
+	eval: perplexity 65.46
+Global Step 103000 LR 0.0771 Step Time 0.24 Test PPL 57.85
+	eval: perplexity 67.05
+Global Step 103100 LR 0.0771 Step Time 0.24 Test PPL 58.43
+	eval: perplexity 66.40
+Global Step 103200 LR 0.0771 Step Time 0.24 Test PPL 57.71
+	eval: perplexity 57.69
+Global Step 103300 LR 0.0771 Step Time 0.22 Test PPL 58.27
+	eval: perplexity 61.92
+Global Step 103400 LR 0.0771 Step Time 0.24 Test PPL 58.83
+	eval: perplexity 58.40
+Global Step 103500 LR 0.0763 Step Time 0.22 Test PPL 59.98
+	eval: perplexity 59.64
+Global Step 103600 LR 0.0756 Step Time 0.22 Test PPL 59.11
+	eval: perplexity 59.91
+Global Step 103700 LR 0.0756 Step Time 0.22 Test PPL 59.34
+	eval: perplexity 55.16
+Global Step 103800 LR 0.0756 Step Time 0.23 Test PPL 58.69
+	eval: perplexity 47.91
+Global Step 103900 LR 0.0756 Step Time 0.24 Test PPL 59.52
+	eval: perplexity 57.99
+Global Step 104000 LR 0.0748 Step Time 0.23 Test PPL 59.20
+	eval: perplexity 55.06
+2017-11-13 03:32:07.876895: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 36853320 get requests, put_count=36853320 evicted_count=28000 eviction_rate=0.000759769 and unsatisfied allocation rate=0.000760528
+Global Step 104100 LR 0.0748 Step Time 0.23 Test PPL 58.36
+	eval: perplexity 60.94
+Global Step 104200 LR 0.0748 Step Time 0.24 Test PPL 59.05
+	eval: perplexity 69.92
+Global Step 104300 LR 0.0748 Step Time 0.24 Test PPL 59.43
+	eval: perplexity 57.46
+Global Step 104400 LR 0.0741 Step Time 0.23 Test PPL 59.37
+	eval: perplexity 64.77
+Global Step 104500 LR 0.0741 Step Time 0.24 Test PPL 58.30
+	eval: perplexity 74.73
+Global Step 104600 LR 0.0741 Step Time 0.23 Test PPL 59.09
+	eval: perplexity 64.85
+Global Step 104700 LR 0.0741 Step Time 0.23 Test PPL 59.14
+	eval: perplexity 60.54
+Global Step 104800 LR 0.0741 Step Time 0.24 Test PPL 60.02
+	eval: perplexity 68.89
+Global Step 104900 LR 0.0733 Step Time 0.22 Test PPL 58.77
+	eval: perplexity 69.65
+Global Step 105000 LR 0.0733 Step Time 0.24 Test PPL 57.88
+	eval: perplexity 65.79
+Global Step 105100 LR 0.0733 Step Time 0.24 Test PPL 58.47
+	eval: perplexity 57.04
+Global Step 105200 LR 0.0733 Step Time 0.23 Test PPL 58.15
+	eval: perplexity 58.00
+Global Step 105300 LR 0.0733 Step Time 0.23 Test PPL 59.33
+	eval: perplexity 65.50
+Global Step 105400 LR 0.0726 Step Time 0.24 Test PPL 58.99
+	eval: perplexity 66.14
+Global Step 105500 LR 0.0726 Step Time 0.24 Test PPL 59.05
+	eval: perplexity 57.26
+Global Step 105600 LR 0.0726 Step Time 0.23 Test PPL 58.59
+	eval: perplexity 65.27
+Global Step 105700 LR 0.0726 Step Time 0.24 Test PPL 57.91
+	eval: perplexity 65.59
+Global Step 105800 LR 0.0726 Step Time 0.23 Test PPL 58.53
+	eval: perplexity 61.92
+Global Step 105900 LR 0.0726 Step Time 0.24 Test PPL 58.63
+	eval: perplexity 74.94
+Global Step 106000 LR 0.0719 Step Time 0.24 Test PPL 58.87
+	eval: perplexity 62.63
+Global Step 106100 LR 0.0712 Step Time 0.24 Test PPL 59.29
+	eval: perplexity 65.55
+Global Step 106200 LR 0.0704 Step Time 0.22 Test PPL 59.06
+	eval: perplexity 62.60
+Global Step 106300 LR 0.0704 Step Time 0.25 Test PPL 58.42
+	eval: perplexity 68.60
+Global Step 106400 LR 0.0704 Step Time 0.24 Test PPL 58.74
+	eval: perplexity 61.37
+Global Step 106500 LR 0.0704 Step Time 0.23 Test PPL 59.34
+	eval: perplexity 62.41
+Global Step 106600 LR 0.0697 Step Time 0.23 Test PPL 58.84
+	eval: perplexity 51.99
+Global Step 106700 LR 0.0697 Step Time 0.25 Test PPL 59.20
+	eval: perplexity 68.82
+Global Step 106800 LR 0.0697 Step Time 0.24 Test PPL 59.05
+	eval: perplexity 65.08
+Global Step 106900 LR 0.0697 Step Time 0.23 Test PPL 58.54
+	eval: perplexity 71.95
+Global Step 107000 LR 0.0697 Step Time 0.24 Test PPL 59.52
+	eval: perplexity 64.98
+Global Step 107100 LR 0.0690 Step Time 0.22 Test PPL 59.13
+	eval: perplexity 55.81
+Global Step 107200 LR 0.0690 Step Time 0.24 Test PPL 58.67
+	eval: perplexity 50.30
+Global Step 107300 LR 0.0690 Step Time 0.22 Test PPL 58.90
+	eval: perplexity 59.59
+Global Step 107400 LR 0.0690 Step Time 0.23 Test PPL 59.05
+	eval: perplexity 59.63
+Global Step 107500 LR 0.0690 Step Time 0.22 Test PPL 59.14
+	eval: perplexity 67.41
+Global Step 107600 LR 0.0684 Step Time 0.23 Test PPL 57.61
+	eval: perplexity 58.37
+Global Step 107700 LR 0.0684 Step Time 0.23 Test PPL 57.71
+	eval: perplexity 65.15
+Global Step 107800 LR 0.0684 Step Time 0.23 Test PPL 57.71
+	eval: perplexity 66.83
+Global Step 107900 LR 0.0684 Step Time 0.23 Test PPL 59.17
+	eval: perplexity 54.46
+Global Step 108000 LR 0.0677 Step Time 0.24 Test PPL 59.56
+	eval: perplexity 66.15
+Global Step 108100 LR 0.0670 Step Time 0.23 Test PPL 58.78
+	eval: perplexity 54.47
+Global Step 108200 LR 0.0670 Step Time 0.23 Test PPL 58.88
+	eval: perplexity 57.38
+Global Step 108300 LR 0.0670 Step Time 0.23 Test PPL 58.13
+	eval: perplexity 81.58
+Global Step 108400 LR 0.0670 Step Time 0.23 Test PPL 58.44
+	eval: perplexity 56.73
+Global Step 108500 LR 0.0670 Step Time 0.24 Test PPL 58.32
+	eval: perplexity 56.53
+Global Step 108600 LR 0.0670 Step Time 0.23 Test PPL 58.35
+	eval: perplexity 57.32
+Global Step 108700 LR 0.0670 Step Time 0.21 Test PPL 59.16
+	eval: perplexity 65.50
+Global Step 108800 LR 0.0663 Step Time 0.23 Test PPL 59.32
+	eval: perplexity 62.22
+Global Step 108900 LR 0.0657 Step Time 0.22 Test PPL 59.85
+	eval: perplexity 60.74
+Global Step 109000 LR 0.0650 Step Time 0.24 Test PPL 58.74
+	eval: perplexity 64.36
+Global Step 109100 LR 0.0650 Step Time 0.21 Test PPL 58.44
+	eval: perplexity 73.39
+Global Step 109200 LR 0.0650 Step Time 0.22 Test PPL 58.28
+	eval: perplexity 64.52
+Global Step 109300 LR 0.0650 Step Time 0.20 Test PPL 58.22
+	eval: perplexity 62.18
+Global Step 109400 LR 0.0650 Step Time 0.21 Test PPL 58.85
+	eval: perplexity 62.54
+Global Step 109500 LR 0.0644 Step Time 0.20 Test PPL 58.15
+	eval: perplexity 55.87
+Global Step 109600 LR 0.0644 Step Time 0.20 Test PPL 59.38
+	eval: perplexity 58.15
+Global Step 109700 LR 0.0637 Step Time 0.23 Test PPL 58.06
+	eval: perplexity 55.85
+Global Step 109800 LR 0.0637 Step Time 0.24 Test PPL 59.29
+	eval: perplexity 58.66
+Global Step 109900 LR 0.0637 Step Time 0.24 Test PPL 59.01
+	eval: perplexity 59.77
+Global Step 110000 LR 0.0637 Step Time 0.23 Test PPL 58.89
+	eval: perplexity 64.33
+Global Step 110100 LR 0.0637 Step Time 0.23 Test PPL 58.91
+	eval: perplexity 59.99
+Global Step 110200 LR 0.0637 Step Time 0.24 Test PPL 58.47
+	eval: perplexity 61.07
+Global Step 110300 LR 0.0637 Step Time 0.23 Test PPL 58.45
+	eval: perplexity 71.26
+Global Step 110400 LR 0.0637 Step Time 0.23 Test PPL 57.72
+	eval: perplexity 60.83
+Global Step 110500 LR 0.0637 Step Time 0.23 Test PPL 57.57
+	eval: perplexity 61.61
+Global Step 110600 LR 0.0637 Step Time 0.24 Test PPL 58.15
+	eval: perplexity 57.75
+Global Step 110700 LR 0.0637 Step Time 0.24 Test PPL 57.48
+	eval: perplexity 74.09
+Global Step 110800 LR 0.0637 Step Time 0.22 Test PPL 58.15
+	eval: perplexity 62.90
+Global Step 110900 LR 0.0637 Step Time 0.23 Test PPL 58.46
+	eval: perplexity 59.12
+Global Step 111000 LR 0.0631 Step Time 0.23 Test PPL 58.11
+	eval: perplexity 66.68
+Global Step 111100 LR 0.0631 Step Time 0.24 Test PPL 57.75
+	eval: perplexity 63.20
+Global Step 111200 LR 0.0631 Step Time 0.24 Test PPL 57.95
+	eval: perplexity 63.69
+Global Step 111300 LR 0.0631 Step Time 0.25 Test PPL 58.83
+	eval: perplexity 59.63
+Global Step 111400 LR 0.0624 Step Time 0.24 Test PPL 57.30
+	eval: perplexity 69.89
+Global Step 111500 LR 0.0624 Step Time 0.23 Test PPL 58.72
+	eval: perplexity 71.27
+Global Step 111600 LR 0.0624 Step Time 0.25 Test PPL 58.52
+	eval: perplexity 69.52
+Global Step 111700 LR 0.0624 Step Time 0.24 Test PPL 58.64
+	eval: perplexity 62.92
+Global Step 111800 LR 0.0624 Step Time 0.24 Test PPL 58.76
+	eval: perplexity 61.05
+Global Step 111900 LR 0.0618 Step Time 0.24 Test PPL 57.97
+	eval: perplexity 58.14
+Global Step 112000 LR 0.0618 Step Time 0.23 Test PPL 58.02
+	eval: perplexity 57.90
+Global Step 112100 LR 0.0618 Step Time 0.24 Test PPL 59.08
+	eval: perplexity 59.89
+Global Step 112200 LR 0.0612 Step Time 0.23 Test PPL 57.65
+	eval: perplexity 53.69
+Global Step 112300 LR 0.0612 Step Time 0.23 Test PPL 58.06
+	eval: perplexity 53.76
+Global Step 112400 LR 0.0612 Step Time 0.24 Test PPL 58.29
+	eval: perplexity 79.41
+Global Step 112500 LR 0.0612 Step Time 0.23 Test PPL 58.58
+	eval: perplexity 67.41
+Global Step 112600 LR 0.0606 Step Time 0.23 Test PPL 58.80
+	eval: perplexity 51.99
+Global Step 112700 LR 0.0600 Step Time 0.23 Test PPL 57.22
+	eval: perplexity 52.74
+Global Step 112800 LR 0.0600 Step Time 0.23 Test PPL 58.48
+	eval: perplexity 58.74
+Global Step 112900 LR 0.0600 Step Time 0.22 Test PPL 58.36
+	eval: perplexity 64.62
+Global Step 113000 LR 0.0600 Step Time 0.22 Test PPL 57.60
+	eval: perplexity 55.29
+Global Step 113100 LR 0.0600 Step Time 0.24 Test PPL 57.02
+	eval: perplexity 61.27
+Global Step 113200 LR 0.0600 Step Time 0.24 Test PPL 58.13
+	eval: perplexity 76.07
+Global Step 113300 LR 0.0600 Step Time 0.24 Test PPL 58.48
+	eval: perplexity 68.86
+Global Step 113400 LR 0.0594 Step Time 0.24 Test PPL 58.05
+	eval: perplexity 61.91
+Global Step 113500 LR 0.0594 Step Time 0.23 Test PPL 58.35
+	eval: perplexity 58.34
+Global Step 113600 LR 0.0594 Step Time 0.22 Test PPL 58.24
+	eval: perplexity 61.26
+Global Step 113700 LR 0.0594 Step Time 0.22 Test PPL 57.21
+	eval: perplexity 62.16
+Global Step 113800 LR 0.0594 Step Time 0.23 Test PPL 58.00
+	eval: perplexity 58.11
+Global Step 113900 LR 0.0594 Step Time 0.22 Test PPL 58.48
+	eval: perplexity 55.58
+Global Step 114000 LR 0.0588 Step Time 0.23 Test PPL 57.05
+	eval: perplexity 54.87
+Global Step 114100 LR 0.0588 Step Time 0.23 Test PPL 58.38
+	eval: perplexity 64.70
+Global Step 114200 LR 0.0588 Step Time 0.24 Test PPL 57.54
+	eval: perplexity 59.11
+Global Step 114300 LR 0.0588 Step Time 0.22 Test PPL 57.93
+	eval: perplexity 63.01
+Global Step 114400 LR 0.0588 Step Time 0.22 Test PPL 57.61
+	eval: perplexity 66.10
+Global Step 114500 LR 0.0588 Step Time 0.24 Test PPL 57.79
+	eval: perplexity 48.77
+Global Step 114600 LR 0.0588 Step Time 0.21 Test PPL 58.46
+	eval: perplexity 64.92
+Global Step 114700 LR 0.0582 Step Time 0.23 Test PPL 57.70
+	eval: perplexity 64.02
+Global Step 114800 LR 0.0582 Step Time 0.24 Test PPL 58.55
+	eval: perplexity 48.57
+Global Step 114900 LR 0.0576 Step Time 0.23 Test PPL 58.43
+	eval: perplexity 65.26
+Global Step 115000 LR 0.0576 Step Time 0.24 Test PPL 58.96
+	eval: perplexity 56.80
+Global Step 115100 LR 0.0570 Step Time 0.22 Test PPL 58.08
+	eval: perplexity 56.42
+Global Step 115200 LR 0.0570 Step Time 0.24 Test PPL 58.29
+	eval: perplexity 58.40
+Global Step 115300 LR 0.0570 Step Time 0.24 Test PPL 58.19
+	eval: perplexity 57.41
+Global Step 115400 LR 0.0570 Step Time 0.25 Test PPL 57.75
+	eval: perplexity 55.61
+Global Step 115500 LR 0.0570 Step Time 0.23 Test PPL 58.27
+	eval: perplexity 57.92
+Global Step 115600 LR 0.0570 Step Time 0.23 Test PPL 58.47
+	eval: perplexity 67.05
+Global Step 115700 LR 0.0565 Step Time 0.24 Test PPL 57.14
+	eval: perplexity 63.88
+Global Step 115800 LR 0.0565 Step Time 0.22 Test PPL 58.20
+	eval: perplexity 56.31
+Global Step 115900 LR 0.0565 Step Time 0.24 Test PPL 58.14
+	eval: perplexity 55.53
+Global Step 116000 LR 0.0565 Step Time 0.24 Test PPL 57.61
+	eval: perplexity 59.75
+Global Step 116100 LR 0.0565 Step Time 0.25 Test PPL 58.04
+	eval: perplexity 64.51
+Global Step 116200 LR 0.0565 Step Time 0.22 Test PPL 57.62
+	eval: perplexity 58.87
+Global Step 116300 LR 0.0565 Step Time 0.25 Test PPL 58.53
+	eval: perplexity 59.80
+Global Step 116400 LR 0.0559 Step Time 0.25 Test PPL 57.75
+	eval: perplexity 58.65
+Global Step 116500 LR 0.0559 Step Time 0.24 Test PPL 57.09
+	eval: perplexity 63.00
+Global Step 116600 LR 0.0559 Step Time 0.24 Test PPL 58.31
+	eval: perplexity 56.55
+Global Step 116700 LR 0.0559 Step Time 0.25 Test PPL 56.84
+	eval: perplexity 57.64
+Global Step 116800 LR 0.0559 Step Time 0.23 Test PPL 58.70
+	eval: perplexity 65.39
+Global Step 116900 LR 0.0553 Step Time 0.23 Test PPL 57.41
+	eval: perplexity 60.51
+Global Step 117000 LR 0.0553 Step Time 0.25 Test PPL 57.33
+	eval: perplexity 58.46
+Global Step 117100 LR 0.0553 Step Time 0.23 Test PPL 57.51
+	eval: perplexity 67.49
+Global Step 117200 LR 0.0553 Step Time 0.23 Test PPL 57.98
+	eval: perplexity 63.52
+Global Step 117300 LR 0.0548 Step Time 0.24 Test PPL 56.92
+	eval: perplexity 54.69
+Global Step 117400 LR 0.0548 Step Time 0.24 Test PPL 57.17
+	eval: perplexity 68.12
+Global Step 117500 LR 0.0548 Step Time 0.22 Test PPL 57.95
+	eval: perplexity 58.40
+Global Step 117600 LR 0.0548 Step Time 0.20 Test PPL 57.03
+	eval: perplexity 55.99
+Global Step 117700 LR 0.0548 Step Time 0.23 Test PPL 58.22
+	eval: perplexity 57.64
+Global Step 117800 LR 0.0542 Step Time 0.24 Test PPL 57.24
+	eval: perplexity 56.72
+Global Step 117900 LR 0.0542 Step Time 0.22 Test PPL 58.81
+	eval: perplexity 64.84
+Global Step 118000 LR 0.0537 Step Time 0.22 Test PPL 57.67
+	eval: perplexity 53.88
+Global Step 118100 LR 0.0537 Step Time 0.21 Test PPL 58.06
+	eval: perplexity 51.03
+Global Step 118200 LR 0.0537 Step Time 0.24 Test PPL 57.97
+	eval: perplexity 62.55
+Global Step 118300 LR 0.0537 Step Time 0.24 Test PPL 58.14
+	eval: perplexity 60.47
+Global Step 118400 LR 0.0532 Step Time 0.22 Test PPL 58.17
+	eval: perplexity 63.13
+Global Step 118500 LR 0.0526 Step Time 0.24 Test PPL 56.62
+	eval: perplexity 61.36
+Global Step 118600 LR 0.0526 Step Time 0.22 Test PPL 57.93
+	eval: perplexity 56.28
+Global Step 118700 LR 0.0526 Step Time 0.23 Test PPL 57.81
+	eval: perplexity 58.35
+Global Step 118800 LR 0.0526 Step Time 0.23 Test PPL 57.71
+	eval: perplexity 65.21
+Global Step 118900 LR 0.0526 Step Time 0.24 Test PPL 57.59
+	eval: perplexity 52.57
+Global Step 119000 LR 0.0526 Step Time 0.25 Test PPL 58.03
+	eval: perplexity 56.78
+Global Step 119100 LR 0.0521 Step Time 0.24 Test PPL 57.83
+	eval: perplexity 65.76
+Global Step 119200 LR 0.0521 Step Time 0.23 Test PPL 57.56
+	eval: perplexity 65.89
+Global Step 119300 LR 0.0521 Step Time 0.23 Test PPL 57.12
+	eval: perplexity 60.80
+Global Step 119400 LR 0.0521 Step Time 0.24 Test PPL 57.89
+	eval: perplexity 57.61
+Global Step 119500 LR 0.0516 Step Time 0.22 Test PPL 57.78
+	eval: perplexity 73.40
+Global Step 119600 LR 0.0516 Step Time 0.24 Test PPL 57.73
+	eval: perplexity 60.45
+Global Step 119700 LR 0.0516 Step Time 0.24 Test PPL 57.70
+	eval: perplexity 54.92
+Global Step 119800 LR 0.0516 Step Time 0.23 Test PPL 58.24
+	eval: perplexity 64.40
+Global Step 119900 LR 0.0511 Step Time 0.22 Test PPL 57.61
+	eval: perplexity 71.90
+Global Step 120000 LR 0.0511 Step Time 0.23 Test PPL 57.66
+	eval: perplexity 65.28
+Global Step 120100 LR 0.0511 Step Time 0.23 Test PPL 58.01
+	eval: perplexity 65.36
+Global Step 120200 LR 0.0511 Step Time 0.23 Test PPL 57.01
+	eval: perplexity 62.97
+Global Step 120300 LR 0.0511 Step Time 0.22 Test PPL 58.16
+	eval: perplexity 62.20
+Global Step 120400 LR 0.0506 Step Time 0.21 Test PPL 57.54
+	eval: perplexity 70.88
+Global Step 120500 LR 0.0506 Step Time 0.23 Test PPL 56.98
+	eval: perplexity 57.63
+Global Step 120600 LR 0.0506 Step Time 0.24 Test PPL 57.60
+	eval: perplexity 58.51
+Global Step 120700 LR 0.0506 Step Time 0.24 Test PPL 57.95
+	eval: perplexity 52.52
+Global Step 120800 LR 0.0501 Step Time 0.24 Test PPL 57.49
+	eval: perplexity 61.73
+Global Step 120900 LR 0.0501 Step Time 0.24 Test PPL 57.57
+	eval: perplexity 59.70
+Global Step 121000 LR 0.0501 Step Time 0.24 Test PPL 58.28
+	eval: perplexity 58.09
+Global Step 121100 LR 0.0496 Step Time 0.23 Test PPL 57.22
+	eval: perplexity 55.56
+Global Step 121200 LR 0.0496 Step Time 0.24 Test PPL 57.01
+	eval: perplexity 63.65
+Global Step 121300 LR 0.0496 Step Time 0.24 Test PPL 57.28
+	eval: perplexity 59.25
+Global Step 121400 LR 0.0496 Step Time 0.23 Test PPL 57.84
+	eval: perplexity 61.22
+Global Step 121500 LR 0.0491 Step Time 0.24 Test PPL 57.39
+	eval: perplexity 52.32
+Global Step 121600 LR 0.0491 Step Time 0.21 Test PPL 56.89
+	eval: perplexity 67.87
+Global Step 121700 LR 0.0491 Step Time 0.24 Test PPL 57.55
+	eval: perplexity 65.25
+Global Step 121800 LR 0.0491 Step Time 0.23 Test PPL 57.25
+	eval: perplexity 64.69
+Global Step 121900 LR 0.0491 Step Time 0.23 Test PPL 56.58
+	eval: perplexity 70.28
+Global Step 122000 LR 0.0491 Step Time 0.22 Test PPL 56.52
+	eval: perplexity 62.16
+Global Step 122100 LR 0.0491 Step Time 0.23 Test PPL 58.01
+	eval: perplexity 55.94
+Global Step 122200 LR 0.0486 Step Time 0.22 Test PPL 57.51
+	eval: perplexity 56.29
+Global Step 122300 LR 0.0486 Step Time 0.20 Test PPL 57.01
+	eval: perplexity 57.09
+Global Step 122400 LR 0.0486 Step Time 0.24 Test PPL 58.52
+	eval: perplexity 58.53
+Global Step 122500 LR 0.0481 Step Time 0.23 Test PPL 57.35
+	eval: perplexity 55.73
+Global Step 122600 LR 0.0481 Step Time 0.24 Test PPL 57.38
+	eval: perplexity 66.13
+Global Step 122700 LR 0.0481 Step Time 0.23 Test PPL 57.29
+	eval: perplexity 58.71
+Global Step 122800 LR 0.0481 Step Time 0.25 Test PPL 57.76
+	eval: perplexity 60.00
+Global Step 122900 LR 0.0476 Step Time 0.22 Test PPL 57.56
+	eval: perplexity 59.48
+Global Step 123000 LR 0.0476 Step Time 0.24 Test PPL 56.99
+	eval: perplexity 59.65
+Global Step 123100 LR 0.0476 Step Time 0.24 Test PPL 57.62
+	eval: perplexity 61.11
+Global Step 123200 LR 0.0476 Step Time 0.24 Test PPL 57.61
+	eval: perplexity 60.74
+Global Step 123300 LR 0.0476 Step Time 0.23 Test PPL 56.98
+	eval: perplexity 66.87
+Global Step 123400 LR 0.0476 Step Time 0.23 Test PPL 57.11
+	eval: perplexity 58.62
+Global Step 123500 LR 0.0476 Step Time 0.24 Test PPL 57.54
+	eval: perplexity 51.80
+Global Step 123600 LR 0.0476 Step Time 0.22 Test PPL 57.46
+	eval: perplexity 64.66
+Global Step 123700 LR 0.0476 Step Time 0.23 Test PPL 57.90
+	eval: perplexity 61.45
+Global Step 123800 LR 0.0471 Step Time 0.21 Test PPL 57.19
+	eval: perplexity 53.53
+Global Step 123900 LR 0.0471 Step Time 0.23 Test PPL 57.03
+	eval: perplexity 69.72
+Global Step 124000 LR 0.0471 Step Time 0.23 Test PPL 57.85
+	eval: perplexity 59.57
+Global Step 124100 LR 0.0471 Step Time 0.24 Test PPL 57.55
+	eval: perplexity 63.03
+Global Step 124200 LR 0.0471 Step Time 0.23 Test PPL 57.62
+	eval: perplexity 72.07
+Global Step 124300 LR 0.0471 Step Time 0.23 Test PPL 57.58
+	eval: perplexity 63.88
+Global Step 124400 LR 0.0471 Step Time 0.22 Test PPL 56.80
+	eval: perplexity 59.04
+Global Step 124500 LR 0.0471 Step Time 0.23 Test PPL 57.51
+	eval: perplexity 75.30
+Global Step 124600 LR 0.0471 Step Time 0.23 Test PPL 56.85
+	eval: perplexity 66.07
+Global Step 124700 LR 0.0471 Step Time 0.22 Test PPL 57.06
+	eval: perplexity 65.45
+Global Step 124800 LR 0.0471 Step Time 0.21 Test PPL 56.43
+	eval: perplexity 63.83
+Global Step 124900 LR 0.0471 Step Time 0.23 Test PPL 57.65
+	eval: perplexity 58.13
+Global Step 125000 LR 0.0467 Step Time 0.21 Test PPL 56.74
+	eval: perplexity 57.84
+Global Step 125100 LR 0.0467 Step Time 0.20 Test PPL 58.25
+	eval: perplexity 58.10
+Global Step 125200 LR 0.0462 Step Time 0.20 Test PPL 57.56
+	eval: perplexity 63.73
+Global Step 125300 LR 0.0462 Step Time 0.22 Test PPL 56.90
+	eval: perplexity 58.94
+Global Step 125400 LR 0.0462 Step Time 0.24 Test PPL 57.02
+	eval: perplexity 52.58
+Global Step 125500 LR 0.0462 Step Time 0.24 Test PPL 57.50
+	eval: perplexity 58.54
+Global Step 125600 LR 0.0462 Step Time 0.23 Test PPL 57.29
+	eval: perplexity 55.41
+Global Step 125700 LR 0.0462 Step Time 0.23 Test PPL 57.15
+	eval: perplexity 64.96
+Global Step 125800 LR 0.0462 Step Time 0.23 Test PPL 57.49
+	eval: perplexity 69.57
+Global Step 125900 LR 0.0462 Step Time 0.24 Test PPL 57.07
+	eval: perplexity 58.23
+Global Step 126000 LR 0.0462 Step Time 0.22 Test PPL 57.15
+	eval: perplexity 62.33
+Global Step 126100 LR 0.0462 Step Time 0.22 Test PPL 57.34
+	eval: perplexity 65.32
+Global Step 126200 LR 0.0462 Step Time 0.22 Test PPL 56.82
+	eval: perplexity 63.44
+Global Step 126300 LR 0.0462 Step Time 0.22 Test PPL 56.62
+	eval: perplexity 73.61
+Global Step 126400 LR 0.0462 Step Time 0.21 Test PPL 57.21
+	eval: perplexity 50.11
+Global Step 126500 LR 0.0462 Step Time 0.23 Test PPL 57.28
+	eval: perplexity 67.43
+Global Step 126600 LR 0.0457 Step Time 0.23 Test PPL 57.12
+	eval: perplexity 68.90
+Global Step 126700 LR 0.0457 Step Time 0.22 Test PPL 57.47
+	eval: perplexity 56.92
+Global Step 126800 LR 0.0453 Step Time 0.24 Test PPL 56.77
+	eval: perplexity 68.43
+Global Step 126900 LR 0.0453 Step Time 0.22 Test PPL 57.25
+	eval: perplexity 61.39
+Global Step 127000 LR 0.0453 Step Time 0.24 Test PPL 57.26
+	eval: perplexity 60.28
+Global Step 127100 LR 0.0453 Step Time 0.21 Test PPL 57.00
+	eval: perplexity 45.05
+Global Step 127200 LR 0.0453 Step Time 0.23 Test PPL 56.89
+	eval: perplexity 47.28
+Global Step 127300 LR 0.0453 Step Time 0.23 Test PPL 56.87
+	eval: perplexity 63.92
+Global Step 127400 LR 0.0453 Step Time 0.24 Test PPL 56.04
+	eval: perplexity 60.04
+Global Step 127500 LR 0.0453 Step Time 0.22 Test PPL 56.95
+	eval: perplexity 66.47
+Global Step 127600 LR 0.0448 Step Time 0.24 Test PPL 56.66
+	eval: perplexity 53.94
+Global Step 127700 LR 0.0448 Step Time 0.22 Test PPL 58.47
+	eval: perplexity 56.03
+Global Step 127800 LR 0.0444 Step Time 0.23 Test PPL 57.80
+	eval: perplexity 64.14
+Global Step 127900 LR 0.0444 Step Time 0.21 Test PPL 57.06
+	eval: perplexity 59.79
+Global Step 128000 LR 0.0444 Step Time 0.24 Test PPL 57.60
+	eval: perplexity 59.68
+Global Step 128100 LR 0.0444 Step Time 0.22 Test PPL 57.27
+	eval: perplexity 72.63
+Global Step 128200 LR 0.0444 Step Time 0.23 Test PPL 55.69
+	eval: perplexity 62.52
+Global Step 128300 LR 0.0444 Step Time 0.22 Test PPL 56.73
+	eval: perplexity 64.67
+Global Step 128400 LR 0.0444 Step Time 0.24 Test PPL 56.39
+	eval: perplexity 55.90
+Global Step 128500 LR 0.0444 Step Time 0.24 Test PPL 57.35
+	eval: perplexity 55.04
+Global Step 128600 LR 0.0439 Step Time 0.24 Test PPL 56.89
+	eval: perplexity 58.63
+Global Step 128700 LR 0.0439 Step Time 0.24 Test PPL 57.28
+	eval: perplexity 54.73
+Global Step 128800 LR 0.0439 Step Time 0.24 Test PPL 56.99
+	eval: perplexity 57.65
+Global Step 128900 LR 0.0439 Step Time 0.24 Test PPL 57.67
+	eval: perplexity 50.12
+Global Step 129000 LR 0.0435 Step Time 0.24 Test PPL 57.36
+	eval: perplexity 73.49
+Global Step 129100 LR 0.0435 Step Time 0.24 Test PPL 56.07
+	eval: perplexity 62.38
+Global Step 129200 LR 0.0435 Step Time 0.23 Test PPL 56.42
+	eval: perplexity 58.71
+Global Step 129300 LR 0.0435 Step Time 0.23 Test PPL 57.24
+	eval: perplexity 54.08
+Global Step 129400 LR 0.0435 Step Time 0.24 Test PPL 57.33
+	eval: perplexity 64.72
+Global Step 129500 LR 0.0430 Step Time 0.24 Test PPL 56.74
+	eval: perplexity 56.39
+Global Step 129600 LR 0.0430 Step Time 0.22 Test PPL 57.66
+	eval: perplexity 57.29
+Global Step 129700 LR 0.0426 Step Time 0.22 Test PPL 57.29
+	eval: perplexity 59.61
+Global Step 129800 LR 0.0426 Step Time 0.24 Test PPL 56.33
+	eval: perplexity 49.92
+Global Step 129900 LR 0.0426 Step Time 0.24 Test PPL 56.87
+	eval: perplexity 58.15
+Global Step 130000 LR 0.0426 Step Time 0.24 Test PPL 57.39
+	eval: perplexity 54.43
+Global Step 130100 LR 0.0422 Step Time 0.22 Test PPL 58.07
+	eval: perplexity 60.88
+Global Step 130200 LR 0.0418 Step Time 0.23 Test PPL 57.75
+	eval: perplexity 58.51
+Global Step 130300 LR 0.0418 Step Time 0.24 Test PPL 56.08
+	eval: perplexity 59.68
+Global Step 130400 LR 0.0418 Step Time 0.24 Test PPL 56.84
+	eval: perplexity 64.67
+Global Step 130500 LR 0.0418 Step Time 0.24 Test PPL 56.66
+	eval: perplexity 63.02
+Global Step 130600 LR 0.0418 Step Time 0.24 Test PPL 56.74
+	eval: perplexity 59.93
+Global Step 130700 LR 0.0418 Step Time 0.22 Test PPL 56.88
+	eval: perplexity 64.05
+Global Step 130800 LR 0.0414 Step Time 0.22 Test PPL 56.54
+	eval: perplexity 59.02
+Global Step 130900 LR 0.0414 Step Time 0.24 Test PPL 56.53
+	eval: perplexity 58.68
+Global Step 131000 LR 0.0414 Step Time 0.22 Test PPL 56.80
+	eval: perplexity 62.93
+Global Step 131100 LR 0.0414 Step Time 0.23 Test PPL 56.49
+	eval: perplexity 54.00
+Global Step 131200 LR 0.0414 Step Time 0.22 Test PPL 57.18
+	eval: perplexity 56.14
+Global Step 131300 LR 0.0409 Step Time 0.24 Test PPL 57.05
+	eval: perplexity 57.33
+Global Step 131400 LR 0.0409 Step Time 0.22 Test PPL 55.92
+	eval: perplexity 57.85
+Global Step 131500 LR 0.0409 Step Time 0.23 Test PPL 57.55
+	eval: perplexity 54.39
+Global Step 131600 LR 0.0405 Step Time 0.22 Test PPL 56.08
+	eval: perplexity 58.52
+Global Step 131700 LR 0.0405 Step Time 0.23 Test PPL 55.86
+	eval: perplexity 59.58
+Global Step 131800 LR 0.0405 Step Time 0.25 Test PPL 57.31
+	eval: perplexity 74.08
+Global Step 131900 LR 0.0405 Step Time 0.24 Test PPL 56.65
+	eval: perplexity 57.06
+Global Step 132000 LR 0.0405 Step Time 0.23 Test PPL 57.16
+	eval: perplexity 61.18
+Global Step 132100 LR 0.0405 Step Time 0.24 Test PPL 56.95
+	eval: perplexity 63.43
+Global Step 132200 LR 0.0405 Step Time 0.24 Test PPL 56.33
+	eval: perplexity 61.23
+Global Step 132300 LR 0.0405 Step Time 0.24 Test PPL 56.53
+	eval: perplexity 66.20
+Global Step 132400 LR 0.0405 Step Time 0.24 Test PPL 56.33
+	eval: perplexity 53.27
+Global Step 132500 LR 0.0405 Step Time 0.24 Test PPL 56.37
+	eval: perplexity 53.95
+Global Step 132600 LR 0.0405 Step Time 0.24 Test PPL 57.09
+	eval: perplexity 59.44
+Global Step 132700 LR 0.0401 Step Time 0.23 Test PPL 58.11
+	eval: perplexity 62.56
+Global Step 132800 LR 0.0397 Step Time 0.23 Test PPL 57.48
+	eval: perplexity 57.36
+Global Step 132900 LR 0.0397 Step Time 0.22 Test PPL 57.48
+	eval: perplexity 49.43
+Global Step 133000 LR 0.0397 Step Time 0.24 Test PPL 57.05
+	eval: perplexity 65.98
+Global Step 133100 LR 0.0397 Step Time 0.24 Test PPL 56.79
+	eval: perplexity 57.98
+Global Step 133200 LR 0.0397 Step Time 0.23 Test PPL 56.14
+	eval: perplexity 60.79
+Global Step 133300 LR 0.0397 Step Time 0.22 Test PPL 57.40
+	eval: perplexity 58.20
+Global Step 133400 LR 0.0393 Step Time 0.22 Test PPL 56.62
+	eval: perplexity 54.91
+Global Step 133500 LR 0.0393 Step Time 0.25 Test PPL 56.63
+	eval: perplexity 63.15
+Global Step 133600 LR 0.0393 Step Time 0.22 Test PPL 56.99
+	eval: perplexity 61.22
+Global Step 133700 LR 0.0393 Step Time 0.22 Test PPL 56.73
+	eval: perplexity 62.96
+Global Step 133800 LR 0.0393 Step Time 0.22 Test PPL 56.51
+	eval: perplexity 59.94
+Global Step 133900 LR 0.0393 Step Time 0.22 Test PPL 57.44
+	eval: perplexity 71.64
+Global Step 134000 LR 0.0389 Step Time 0.25 Test PPL 57.33
+	eval: perplexity 50.82
+Global Step 134100 LR 0.0389 Step Time 0.24 Test PPL 55.61
+	eval: perplexity 54.59
+Global Step 134200 LR 0.0389 Step Time 0.23 Test PPL 57.99
+	eval: perplexity 55.55
+Global Step 134300 LR 0.0385 Step Time 0.24 Test PPL 56.27
+	eval: perplexity 58.08
+Global Step 134400 LR 0.0385 Step Time 0.24 Test PPL 56.36
+	eval: perplexity 57.70
+Global Step 134500 LR 0.0385 Step Time 0.24 Test PPL 56.08
+	eval: perplexity 58.55
+Global Step 134600 LR 0.0385 Step Time 0.24 Test PPL 57.15
+	eval: perplexity 60.38
+Global Step 134700 LR 0.0382 Step Time 0.21 Test PPL 57.09
+	eval: perplexity 53.38
+Global Step 134800 LR 0.0382 Step Time 0.22 Test PPL 57.44
+	eval: perplexity 60.32
+Global Step 134900 LR 0.0378 Step Time 0.23 Test PPL 57.03
+	eval: perplexity 50.91
+Global Step 135000 LR 0.0378 Step Time 0.21 Test PPL 57.00
+	eval: perplexity 61.49
+Global Step 135100 LR 0.0378 Step Time 0.25 Test PPL 57.61
+	eval: perplexity 48.88
+Global Step 135200 LR 0.0374 Step Time 0.24 Test PPL 56.96
+	eval: perplexity 68.96
+Global Step 135300 LR 0.0374 Step Time 0.22 Test PPL 56.42
+	eval: perplexity 56.27
+Global Step 135400 LR 0.0374 Step Time 0.24 Test PPL 56.25
+	eval: perplexity 55.45
+Global Step 135500 LR 0.0374 Step Time 0.21 Test PPL 56.64
+	eval: perplexity 58.78
+Global Step 135600 LR 0.0374 Step Time 0.24 Test PPL 57.07
+	eval: perplexity 57.33
+Global Step 135700 LR 0.0370 Step Time 0.24 Test PPL 56.44
+	eval: perplexity 62.63
+Global Step 135800 LR 0.0370 Step Time 0.22 Test PPL 57.06
+	eval: perplexity 55.91
+Global Step 135900 LR 0.0370 Step Time 0.24 Test PPL 56.66
+	eval: perplexity 69.66
+Global Step 136000 LR 0.0370 Step Time 0.25 Test PPL 56.82
+	eval: perplexity 64.80
+Global Step 136100 LR 0.0370 Step Time 0.24 Test PPL 56.24
+	eval: perplexity 57.73
+Global Step 136200 LR 0.0370 Step Time 0.25 Test PPL 56.36
+	eval: perplexity 54.56
+Global Step 136300 LR 0.0370 Step Time 0.23 Test PPL 57.13
+	eval: perplexity 61.03
+Global Step 136400 LR 0.0367 Step Time 0.24 Test PPL 56.16
+	eval: perplexity 59.69
+Global Step 136500 LR 0.0367 Step Time 0.23 Test PPL 56.85
+	eval: perplexity 62.86
+Global Step 136600 LR 0.0367 Step Time 0.24 Test PPL 56.91
+	eval: perplexity 53.78
+Global Step 136700 LR 0.0367 Step Time 0.23 Test PPL 56.41
+	eval: perplexity 63.67
+Global Step 136800 LR 0.0367 Step Time 0.23 Test PPL 56.94
+	eval: perplexity 58.05
+Global Step 136900 LR 0.0363 Step Time 0.23 Test PPL 56.41
+	eval: perplexity 55.36
+Global Step 137000 LR 0.0363 Step Time 0.22 Test PPL 56.31
+	eval: perplexity 65.40
+Global Step 137100 LR 0.0363 Step Time 0.22 Test PPL 56.60
+	eval: perplexity 64.58
+Global Step 137200 LR 0.0363 Step Time 0.22 Test PPL 56.94
+	eval: perplexity 57.63
+Global Step 137300 LR 0.0359 Step Time 0.22 Test PPL 55.86
+	eval: perplexity 52.66
+Global Step 137400 LR 0.0359 Step Time 0.22 Test PPL 56.10
+	eval: perplexity 61.59
+Global Step 137500 LR 0.0359 Step Time 0.24 Test PPL 57.45
+	eval: perplexity 51.79
+Global Step 137600 LR 0.0356 Step Time 0.24 Test PPL 56.22
+	eval: perplexity 64.35
+Global Step 137700 LR 0.0356 Step Time 0.24 Test PPL 57.07
+	eval: perplexity 59.40
+Global Step 137800 LR 0.0356 Step Time 0.24 Test PPL 56.71
+	eval: perplexity 68.16
+Global Step 137900 LR 0.0356 Step Time 0.23 Test PPL 56.71
+	eval: perplexity 64.72
+Global Step 138000 LR 0.0356 Step Time 0.22 Test PPL 56.15
+	eval: perplexity 57.63
+Global Step 138100 LR 0.0356 Step Time 0.24 Test PPL 56.82
+	eval: perplexity 60.00
+Global Step 138200 LR 0.0352 Step Time 0.24 Test PPL 56.80
+	eval: perplexity 62.33
+Global Step 138300 LR 0.0352 Step Time 0.24 Test PPL 56.77
+	eval: perplexity 52.82
+Global Step 138400 LR 0.0352 Step Time 0.23 Test PPL 56.83
+	eval: perplexity 60.53
+Global Step 138500 LR 0.0349 Step Time 0.24 Test PPL 55.32
+	eval: perplexity 60.29
+Global Step 138600 LR 0.0349 Step Time 0.24 Test PPL 56.51
+	eval: perplexity 60.85
+2017-11-13 07:18:10.572375: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 49474998 get requests, put_count=49474998 evicted_count=38000 eviction_rate=0.000768065 and unsatisfied allocation rate=0.000768631
+Global Step 138700 LR 0.0349 Step Time 0.22 Test PPL 57.40
+	eval: perplexity 61.01
+Global Step 138800 LR 0.0345 Step Time 0.22 Test PPL 56.67
+	eval: perplexity 63.92
+Global Step 138900 LR 0.0345 Step Time 0.23 Test PPL 55.78
+	eval: perplexity 52.30
+Global Step 139000 LR 0.0345 Step Time 0.23 Test PPL 56.52
+	eval: perplexity 59.36
+Global Step 139100 LR 0.0345 Step Time 0.24 Test PPL 57.10
+	eval: perplexity 58.66
+Global Step 139200 LR 0.0342 Step Time 0.25 Test PPL 57.15
+	eval: perplexity 57.86
+Global Step 139300 LR 0.0338 Step Time 0.24 Test PPL 56.39
+	eval: perplexity 42.81
+Global Step 139400 LR 0.0338 Step Time 0.24 Test PPL 56.43
+	eval: perplexity 60.74
+Global Step 139500 LR 0.0338 Step Time 0.22 Test PPL 56.63
+	eval: perplexity 52.31
+Global Step 139600 LR 0.0338 Step Time 0.24 Test PPL 56.68
+	eval: perplexity 56.32
+Global Step 139700 LR 0.0335 Step Time 0.24 Test PPL 56.20
+	eval: perplexity 61.23
+Global Step 139800 LR 0.0335 Step Time 0.22 Test PPL 56.84
+	eval: perplexity 54.61
+Global Step 139900 LR 0.0331 Step Time 0.25 Test PPL 56.21
+	eval: perplexity 60.48
+Global Step 140000 LR 0.0331 Step Time 0.23 Test PPL 56.66
+	eval: perplexity 56.23
+Global Step 140100 LR 0.0331 Step Time 0.22 Test PPL 56.50
+	eval: perplexity 57.54
+Global Step 140200 LR 0.0331 Step Time 0.24 Test PPL 56.17
+	eval: perplexity 57.83
+Global Step 140300 LR 0.0331 Step Time 0.23 Test PPL 56.84
+	eval: perplexity 55.83
+Global Step 140400 LR 0.0328 Step Time 0.23 Test PPL 56.51
+	eval: perplexity 63.14
+Global Step 140500 LR 0.0328 Step Time 0.23 Test PPL 56.71
+	eval: perplexity 57.20
+Global Step 140600 LR 0.0328 Step Time 0.22 Test PPL 56.14
+	eval: perplexity 56.70
+Global Step 140700 LR 0.0328 Step Time 0.22 Test PPL 55.75
+	eval: perplexity 64.76
+Global Step 140800 LR 0.0328 Step Time 0.24 Test PPL 56.43
+	eval: perplexity 61.49
+Global Step 140900 LR 0.0328 Step Time 0.23 Test PPL 57.14
+	eval: perplexity 61.18
+Global Step 141000 LR 0.0325 Step Time 0.24 Test PPL 55.54
+	eval: perplexity 65.51
+Global Step 141100 LR 0.0325 Step Time 0.24 Test PPL 56.29
+	eval: perplexity 59.87
+Global Step 141200 LR 0.0325 Step Time 0.22 Test PPL 57.07
+	eval: perplexity 56.59
+Global Step 141300 LR 0.0325 Step Time 0.23 Test PPL 57.11
+	eval: perplexity 54.40
+Global Step 141400 LR 0.0322 Step Time 0.21 Test PPL 55.63
+	eval: perplexity 57.25
+Global Step 141500 LR 0.0322 Step Time 0.22 Test PPL 56.94
+	eval: perplexity 54.67
+Global Step 141600 LR 0.0322 Step Time 0.23 Test PPL 56.83
+	eval: perplexity 61.05
+Global Step 141700 LR 0.0322 Step Time 0.22 Test PPL 56.60
+	eval: perplexity 53.38
+Global Step 141800 LR 0.0322 Step Time 0.22 Test PPL 56.27
+	eval: perplexity 55.21
+Global Step 141900 LR 0.0322 Step Time 0.23 Test PPL 56.12
+	eval: perplexity 62.47
+Global Step 142000 LR 0.0322 Step Time 0.24 Test PPL 56.70
+	eval: perplexity 64.39
+Global Step 142100 LR 0.0318 Step Time 0.22 Test PPL 56.37
+	eval: perplexity 56.85
+Global Step 142200 LR 0.0318 Step Time 0.24 Test PPL 56.32
+	eval: perplexity 65.82
+Global Step 142300 LR 0.0318 Step Time 0.24 Test PPL 56.42
+	eval: perplexity 67.05
+Global Step 142400 LR 0.0318 Step Time 0.22 Test PPL 57.51
+	eval: perplexity 55.35
+Global Step 142500 LR 0.0315 Step Time 0.23 Test PPL 56.36
+	eval: perplexity 57.20
+Global Step 142600 LR 0.0315 Step Time 0.23 Test PPL 57.03
+	eval: perplexity 54.93
+Global Step 142700 LR 0.0315 Step Time 0.25 Test PPL 56.45
+	eval: perplexity 57.98
+Global Step 142800 LR 0.0315 Step Time 0.25 Test PPL 56.74
+	eval: perplexity 56.83
+Global Step 142900 LR 0.0315 Step Time 0.22 Test PPL 56.35
+	eval: perplexity 54.21
+Global Step 143000 LR 0.0315 Step Time 0.23 Test PPL 55.62
+	eval: perplexity 55.21
+Global Step 143100 LR 0.0315 Step Time 0.23 Test PPL 56.38
+	eval: perplexity 58.01
+Global Step 143200 LR 0.0315 Step Time 0.24 Test PPL 56.08
+	eval: perplexity 60.77
+Global Step 143300 LR 0.0315 Step Time 0.23 Test PPL 57.19
+	eval: perplexity 55.43
+Global Step 143400 LR 0.0312 Step Time 0.23 Test PPL 55.92
+	eval: perplexity 54.71
+Global Step 143500 LR 0.0312 Step Time 0.21 Test PPL 57.05
+	eval: perplexity 57.74
+Global Step 143600 LR 0.0312 Step Time 0.24 Test PPL 56.28
+	eval: perplexity 56.82
+Global Step 143700 LR 0.0312 Step Time 0.23 Test PPL 56.24
+	eval: perplexity 63.58
+Global Step 143800 LR 0.0312 Step Time 0.25 Test PPL 56.48
+	eval: perplexity 68.39
+Global Step 143900 LR 0.0312 Step Time 0.23 Test PPL 55.60
+	eval: perplexity 57.53
+Global Step 144000 LR 0.0312 Step Time 0.24 Test PPL 56.16
+	eval: perplexity 46.37
+Global Step 144100 LR 0.0312 Step Time 0.24 Test PPL 55.88
+	eval: perplexity 58.97
+Global Step 144200 LR 0.0312 Step Time 0.24 Test PPL 56.14
+	eval: perplexity 55.40
+Global Step 144300 LR 0.0312 Step Time 0.22 Test PPL 56.52
+	eval: perplexity 54.39
+Global Step 144400 LR 0.0309 Step Time 0.23 Test PPL 57.80
+	eval: perplexity 53.46
+Global Step 144500 LR 0.0306 Step Time 0.24 Test PPL 56.25
+	eval: perplexity 52.72
+Global Step 144600 LR 0.0306 Step Time 0.22 Test PPL 56.74
+	eval: perplexity 61.17
+Global Step 144700 LR 0.0306 Step Time 0.22 Test PPL 56.16
+	eval: perplexity 54.07
+Global Step 144800 LR 0.0306 Step Time 0.21 Test PPL 55.59
+	eval: perplexity 61.50
+Global Step 144900 LR 0.0306 Step Time 0.23 Test PPL 55.57
+	eval: perplexity 59.45
+Global Step 145000 LR 0.0306 Step Time 0.25 Test PPL 56.86
+	eval: perplexity 75.79
+Global Step 145100 LR 0.0303 Step Time 0.24 Test PPL 55.66
+	eval: perplexity 63.82
+Global Step 145200 LR 0.0303 Step Time 0.25 Test PPL 56.15
+	eval: perplexity 59.84
+Global Step 145300 LR 0.0303 Step Time 0.25 Test PPL 56.09
+	eval: perplexity 57.77
+Global Step 145400 LR 0.0303 Step Time 0.24 Test PPL 56.33
+	eval: perplexity 56.45
+Global Step 145500 LR 0.0300 Step Time 0.23 Test PPL 55.94
+	eval: perplexity 63.94
+Global Step 145600 LR 0.0300 Step Time 0.24 Test PPL 56.68
+	eval: perplexity 53.97
+Global Step 145700 LR 0.0297 Step Time 0.24 Test PPL 55.91
+	eval: perplexity 55.23
+Global Step 145800 LR 0.0297 Step Time 0.24 Test PPL 55.49
+	eval: perplexity 65.11
+Global Step 145900 LR 0.0297 Step Time 0.25 Test PPL 56.71
+	eval: perplexity 63.18
+Global Step 146000 LR 0.0294 Step Time 0.23 Test PPL 55.90
+	eval: perplexity 69.25
+Global Step 146100 LR 0.0294 Step Time 0.23 Test PPL 56.99
+	eval: perplexity 60.49
+Global Step 146200 LR 0.0291 Step Time 0.22 Test PPL 55.68
+	eval: perplexity 58.10
+Global Step 146300 LR 0.0291 Step Time 0.24 Test PPL 56.28
+	eval: perplexity 74.82
+Global Step 146400 LR 0.0291 Step Time 0.24 Test PPL 55.66
+	eval: perplexity 55.08
+Global Step 146500 LR 0.0291 Step Time 0.24 Test PPL 55.57
+	eval: perplexity 52.71
+Global Step 146600 LR 0.0291 Step Time 0.22 Test PPL 56.56
+	eval: perplexity 58.84
+Global Step 146700 LR 0.0288 Step Time 0.22 Test PPL 56.96
+	eval: perplexity 56.30
+Global Step 146800 LR 0.0285 Step Time 0.24 Test PPL 56.25
+	eval: perplexity 57.18
+Global Step 146900 LR 0.0285 Step Time 0.24 Test PPL 56.10
+	eval: perplexity 65.25
+Global Step 147000 LR 0.0285 Step Time 0.24 Test PPL 55.87
+	eval: perplexity 59.19
+Global Step 147100 LR 0.0285 Step Time 0.23 Test PPL 56.34
+	eval: perplexity 61.82
+Global Step 147200 LR 0.0282 Step Time 0.22 Test PPL 56.49
+	eval: perplexity 61.98
+Global Step 147300 LR 0.0279 Step Time 0.23 Test PPL 56.20
+	eval: perplexity 64.88
+Global Step 147400 LR 0.0279 Step Time 0.24 Test PPL 56.37
+	eval: perplexity 60.90
+Global Step 147500 LR 0.0279 Step Time 0.23 Test PPL 56.38
+	eval: perplexity 57.02
+Global Step 147600 LR 0.0279 Step Time 0.21 Test PPL 56.66
+	eval: perplexity 55.35
+Global Step 147700 LR 0.0277 Step Time 0.24 Test PPL 56.17
+	eval: perplexity 57.34
+Global Step 147800 LR 0.0277 Step Time 0.24 Test PPL 56.91
+	eval: perplexity 54.98
+Global Step 147900 LR 0.0274 Step Time 0.22 Test PPL 56.31
+	eval: perplexity 58.08
+Global Step 148000 LR 0.0274 Step Time 0.24 Test PPL 56.65
+	eval: perplexity 65.81
+Global Step 148100 LR 0.0274 Step Time 0.24 Test PPL 56.30
+	eval: perplexity 54.36
+Global Step 148200 LR 0.0274 Step Time 0.22 Test PPL 55.58
+	eval: perplexity 50.76
+Global Step 148300 LR 0.0274 Step Time 0.23 Test PPL 56.98
+	eval: perplexity 59.94
+Global Step 148400 LR 0.0271 Step Time 0.25 Test PPL 55.55
+	eval: perplexity 61.10
+Global Step 148500 LR 0.0271 Step Time 0.23 Test PPL 55.90
+	eval: perplexity 58.33
+Global Step 148600 LR 0.0271 Step Time 0.24 Test PPL 56.40
+	eval: perplexity 58.79
+Global Step 148700 LR 0.0271 Step Time 0.22 Test PPL 55.92
+	eval: perplexity 63.03
+Global Step 148800 LR 0.0271 Step Time 0.24 Test PPL 56.48
+	eval: perplexity 69.71
+Global Step 148900 LR 0.0268 Step Time 0.24 Test PPL 56.16
+	eval: perplexity 53.06
+Global Step 149000 LR 0.0268 Step Time 0.22 Test PPL 55.38
+	eval: perplexity 54.77
+Global Step 149100 LR 0.0268 Step Time 0.23 Test PPL 56.57
+	eval: perplexity 60.08
+Global Step 149200 LR 0.0266 Step Time 0.23 Test PPL 55.99
+	eval: perplexity 49.36
+Global Step 149300 LR 0.0266 Step Time 0.23 Test PPL 56.21
+	eval: perplexity 56.55
+Global Step 149400 LR 0.0266 Step Time 0.25 Test PPL 56.85
+	eval: perplexity 51.01
+Global Step 149500 LR 0.0263 Step Time 0.23 Test PPL 56.41
+	eval: perplexity 62.11
+Global Step 149600 LR 0.0263 Step Time 0.23 Test PPL 56.52
+	eval: perplexity 53.57
+Global Step 149700 LR 0.0263 Step Time 0.23 Test PPL 55.41
+	eval: perplexity 53.33
+Global Step 149800 LR 0.0263 Step Time 0.23 Test PPL 56.06
+	eval: perplexity 60.66
+Global Step 149900 LR 0.0263 Step Time 0.24 Test PPL 55.52
+	eval: perplexity 51.86
+Global Step 150000 LR 0.0263 Step Time 0.22 Test PPL 56.41
+	eval: perplexity 53.04
+Global Step 150100 LR 0.0260 Step Time 0.25 Test PPL 56.63
+	eval: perplexity 62.23
+Global Step 150200 LR 0.0258 Step Time 0.24 Test PPL 56.78
+	eval: perplexity 56.44
+Global Step 150300 LR 0.0255 Step Time 0.23 Test PPL 55.63
+	eval: perplexity 54.21
+Global Step 150400 LR 0.0255 Step Time 0.24 Test PPL 55.46
+	eval: perplexity 62.73
+Global Step 150500 LR 0.0255 Step Time 0.24 Test PPL 56.57
+	eval: perplexity 61.60
+Global Step 150600 LR 0.0255 Step Time 0.24 Test PPL 56.07
+	eval: perplexity 60.99
+Global Step 150700 LR 0.0255 Step Time 0.23 Test PPL 56.48
+	eval: perplexity 64.47
+Global Step 150800 LR 0.0255 Step Time 0.24 Test PPL 56.07
+	eval: perplexity 55.57
+Global Step 150900 LR 0.0255 Step Time 0.22 Test PPL 56.20
+	eval: perplexity 59.40
+Global Step 151000 LR 0.0255 Step Time 0.24 Test PPL 56.50
+	eval: perplexity 63.23
+Global Step 151100 LR 0.0253 Step Time 0.21 Test PPL 55.82
+	eval: perplexity 57.68
+Global Step 151200 LR 0.0253 Step Time 0.22 Test PPL 56.98
+	eval: perplexity 54.12
+Global Step 151300 LR 0.0250 Step Time 0.24 Test PPL 55.80
+	eval: perplexity 49.79
+Global Step 151400 LR 0.0250 Step Time 0.21 Test PPL 55.78
+	eval: perplexity 60.79
+Global Step 151500 LR 0.0250 Step Time 0.24 Test PPL 56.32
+	eval: perplexity 54.44
+Global Step 151600 LR 0.0250 Step Time 0.23 Test PPL 55.83
+	eval: perplexity 53.37
+Global Step 151700 LR 0.0250 Step Time 0.23 Test PPL 54.98
+	eval: perplexity 57.59
+Global Step 151800 LR 0.0250 Step Time 0.23 Test PPL 55.81
+	eval: perplexity 57.78
+Global Step 151900 LR 0.0250 Step Time 0.24 Test PPL 55.47
+	eval: perplexity 60.89
+Global Step 152000 LR 0.0250 Step Time 0.23 Test PPL 56.03
+	eval: perplexity 60.40
+Global Step 152100 LR 0.0248 Step Time 0.21 Test PPL 55.61
+	eval: perplexity 70.90
+Global Step 152200 LR 0.0248 Step Time 0.23 Test PPL 56.24
+	eval: perplexity 53.15
+Global Step 152300 LR 0.0245 Step Time 0.22 Test PPL 56.48
+	eval: perplexity 55.89
+Global Step 152400 LR 0.0243 Step Time 0.23 Test PPL 56.50
+	eval: perplexity 56.09
+Global Step 152500 LR 0.0240 Step Time 0.24 Test PPL 55.93
+	eval: perplexity 56.10
+Global Step 152600 LR 0.0240 Step Time 0.24 Test PPL 56.31
+	eval: perplexity 58.30
+Global Step 152700 LR 0.0240 Step Time 0.23 Test PPL 55.67
+	eval: perplexity 65.55
+Global Step 152800 LR 0.0240 Step Time 0.25 Test PPL 56.87
+	eval: perplexity 60.16
+Global Step 152900 LR 0.0238 Step Time 0.25 Test PPL 56.88
+	eval: perplexity 62.38
+Global Step 153000 LR 0.0236 Step Time 0.24 Test PPL 55.62
+	eval: perplexity 57.89
+Global Step 153100 LR 0.0236 Step Time 0.25 Test PPL 56.26
+	eval: perplexity 48.53
+Global Step 153200 LR 0.0236 Step Time 0.24 Test PPL 57.15
+	eval: perplexity 70.07
+Global Step 153300 LR 0.0233 Step Time 0.21 Test PPL 56.94
+	eval: perplexity 57.48
+Global Step 153400 LR 0.0233 Step Time 0.22 Test PPL 56.81
+	eval: perplexity 60.73
+Global Step 153500 LR 0.0233 Step Time 0.22 Test PPL 55.72
+	eval: perplexity 61.02
+Global Step 153600 LR 0.0233 Step Time 0.22 Test PPL 55.57
+	eval: perplexity 73.63
+Global Step 153700 LR 0.0233 Step Time 0.22 Test PPL 56.04
+	eval: perplexity 57.55
+Global Step 153800 LR 0.0233 Step Time 0.20 Test PPL 55.23
+	eval: perplexity 59.17
+Global Step 153900 LR 0.0233 Step Time 0.23 Test PPL 56.35
+	eval: perplexity 56.31
+Global Step 154000 LR 0.0231 Step Time 0.23 Test PPL 55.91
+	eval: perplexity 58.50
+Global Step 154100 LR 0.0231 Step Time 0.23 Test PPL 56.10
+	eval: perplexity 58.48
+Global Step 154200 LR 0.0231 Step Time 0.23 Test PPL 55.03
+	eval: perplexity 47.40
+Global Step 154300 LR 0.0231 Step Time 0.23 Test PPL 54.94
+	eval: perplexity 57.40
+Global Step 154400 LR 0.0231 Step Time 0.24 Test PPL 55.56
+	eval: perplexity 55.93
+Global Step 154500 LR 0.0231 Step Time 0.22 Test PPL 55.85
+	eval: perplexity 57.38
+Global Step 154600 LR 0.0229 Step Time 0.19 Test PPL 55.58
+	eval: perplexity 58.33
+Global Step 154700 LR 0.0229 Step Time 0.20 Test PPL 55.95
+	eval: perplexity 57.02
+Global Step 154800 LR 0.0226 Step Time 0.20 Test PPL 56.12
+	eval: perplexity 58.12
+Global Step 154900 LR 0.0224 Step Time 0.20 Test PPL 56.03
+	eval: perplexity 60.99
+Global Step 155000 LR 0.0224 Step Time 0.22 Test PPL 55.59
+	eval: perplexity 69.55
+Global Step 155100 LR 0.0224 Step Time 0.20 Test PPL 55.90
+	eval: perplexity 53.14
+Global Step 155200 LR 0.0224 Step Time 0.19 Test PPL 55.15
+	eval: perplexity 62.73
+Global Step 155300 LR 0.0224 Step Time 0.20 Test PPL 55.70
+	eval: perplexity 61.45
+Global Step 155400 LR 0.0224 Step Time 0.19 Test PPL 55.89
+	eval: perplexity 53.48
+Global Step 155500 LR 0.0224 Step Time 0.18 Test PPL 55.57
+	eval: perplexity 64.94
+Global Step 155600 LR 0.0224 Step Time 0.21 Test PPL 56.11
+	eval: perplexity 56.17
+Global Step 155700 LR 0.0222 Step Time 0.20 Test PPL 55.97
+	eval: perplexity 51.99
+Global Step 155800 LR 0.0222 Step Time 0.19 Test PPL 55.23
+	eval: perplexity 54.18
+Global Step 155900 LR 0.0222 Step Time 0.21 Test PPL 56.17
+	eval: perplexity 60.64
+Global Step 156000 LR 0.0220 Step Time 0.21 Test PPL 55.38
+	eval: perplexity 61.62
+Global Step 156100 LR 0.0220 Step Time 0.21 Test PPL 55.38
+	eval: perplexity 61.05
+Global Step 156200 LR 0.0220 Step Time 0.20 Test PPL 55.68
+	eval: perplexity 59.69
+Global Step 156300 LR 0.0220 Step Time 0.22 Test PPL 55.80
+	eval: perplexity 61.77
+Global Step 156400 LR 0.0217 Step Time 0.22 Test PPL 55.85
+	eval: perplexity 54.31
+Global Step 156500 LR 0.0215 Step Time 0.20 Test PPL 55.83
+	eval: perplexity 56.83
+Global Step 156600 LR 0.0215 Step Time 0.20 Test PPL 56.27
+	eval: perplexity 57.12
+Global Step 156700 LR 0.0213 Step Time 0.19 Test PPL 56.23
+	eval: perplexity 61.94
+Global Step 156800 LR 0.0213 Step Time 0.20 Test PPL 55.45
+	eval: perplexity 60.16
+Global Step 156900 LR 0.0213 Step Time 0.19 Test PPL 55.32
+	eval: perplexity 56.64
+Global Step 157000 LR 0.0213 Step Time 0.20 Test PPL 56.32
+	eval: perplexity 59.40
+Global Step 157100 LR 0.0211 Step Time 0.20 Test PPL 55.94
+	eval: perplexity 50.93
+Global Step 157200 LR 0.0211 Step Time 0.20 Test PPL 56.13
+	eval: perplexity 60.90
+Global Step 157300 LR 0.0211 Step Time 0.19 Test PPL 56.59
+	eval: perplexity 59.23
+Global Step 157400 LR 0.0209 Step Time 0.20 Test PPL 56.08
+	eval: perplexity 55.62
+Global Step 157500 LR 0.0209 Step Time 0.23 Test PPL 55.00
+	eval: perplexity 62.47
+Global Step 157600 LR 0.0209 Step Time 0.23 Test PPL 55.79
+	eval: perplexity 54.52
+Global Step 157700 LR 0.0209 Step Time 0.24 Test PPL 56.13
+	eval: perplexity 58.85
+Global Step 157800 LR 0.0207 Step Time 0.23 Test PPL 55.61
+	eval: perplexity 51.33
+Global Step 157900 LR 0.0207 Step Time 0.22 Test PPL 55.93
+	eval: perplexity 66.55
+Global Step 158000 LR 0.0207 Step Time 0.21 Test PPL 55.64
+	eval: perplexity 57.14
+Global Step 158100 LR 0.0207 Step Time 0.23 Test PPL 55.97
+	eval: perplexity 64.24
+Global Step 158200 LR 0.0205 Step Time 0.20 Test PPL 55.59
+	eval: perplexity 59.07
+Global Step 158300 LR 0.0205 Step Time 0.22 Test PPL 56.74
+	eval: perplexity 66.23
+Global Step 158400 LR 0.0203 Step Time 0.22 Test PPL 56.17
+	eval: perplexity 57.95
+Global Step 158500 LR 0.0203 Step Time 0.20 Test PPL 56.34
+	eval: perplexity 56.86
+Global Step 158600 LR 0.0203 Step Time 0.20 Test PPL 56.07
+	eval: perplexity 57.97
+Global Step 158700 LR 0.0203 Step Time 0.19 Test PPL 55.38
+	eval: perplexity 68.05
+Global Step 158800 LR 0.0203 Step Time 0.19 Test PPL 56.22
+	eval: perplexity 63.29
+Global Step 158900 LR 0.0203 Step Time 0.21 Test PPL 55.00
+	eval: perplexity 62.69
+Global Step 159000 LR 0.0203 Step Time 0.20 Test PPL 56.02
+	eval: perplexity 53.41
+Global Step 159100 LR 0.0203 Step Time 0.20 Test PPL 55.97
+	eval: perplexity 58.02
+Global Step 159200 LR 0.0203 Step Time 0.23 Test PPL 55.63
+	eval: perplexity 65.33
+Global Step 159300 LR 0.0203 Step Time 0.21 Test PPL 56.16
+	eval: perplexity 56.06
+Global Step 159400 LR 0.0201 Step Time 0.20 Test PPL 56.06
+	eval: perplexity 58.18
+Global Step 159500 LR 0.0201 Step Time 0.21 Test PPL 55.95
+	eval: perplexity 57.25
+Global Step 159600 LR 0.0201 Step Time 0.21 Test PPL 55.28
+	eval: perplexity 65.05
+Global Step 159700 LR 0.0201 Step Time 0.20 Test PPL 56.06
+	eval: perplexity 57.46
+Global Step 159800 LR 0.0199 Step Time 0.19 Test PPL 55.84
+	eval: perplexity 49.50
+Global Step 159900 LR 0.0199 Step Time 0.20 Test PPL 55.99
+	eval: perplexity 55.26
+Global Step 160000 LR 0.0199 Step Time 0.19 Test PPL 55.32
+	eval: perplexity 57.02
+Global Step 160100 LR 0.0199 Step Time 0.21 Test PPL 55.99
+	eval: perplexity 58.17
+Global Step 160200 LR 0.0197 Step Time 0.19 Test PPL 55.07
+	eval: perplexity 74.46
+Global Step 160300 LR 0.0197 Step Time 0.20 Test PPL 55.45
+	eval: perplexity 49.47
+Global Step 160400 LR 0.0197 Step Time 0.19 Test PPL 55.44
+	eval: perplexity 58.24
+Global Step 160500 LR 0.0197 Step Time 0.20 Test PPL 55.61
+	eval: perplexity 56.79
+Global Step 160600 LR 0.0195 Step Time 0.20 Test PPL 55.46
+	eval: perplexity 50.59
+Global Step 160700 LR 0.0195 Step Time 0.23 Test PPL 56.07
+	eval: perplexity 54.81
+Global Step 160800 LR 0.0193 Step Time 0.21 Test PPL 56.35
+	eval: perplexity 56.17
+Global Step 160900 LR 0.0191 Step Time 0.23 Test PPL 55.75
+	eval: perplexity 63.27
+Global Step 161000 LR 0.0191 Step Time 0.22 Test PPL 54.77
+	eval: perplexity 55.68
+Global Step 161100 LR 0.0191 Step Time 0.23 Test PPL 55.95
+	eval: perplexity 45.34
+Global Step 161200 LR 0.0191 Step Time 0.21 Test PPL 56.18
+	eval: perplexity 64.59
+Global Step 161300 LR 0.0189 Step Time 0.21 Test PPL 56.36
+	eval: perplexity 61.65
+Global Step 161400 LR 0.0187 Step Time 0.19 Test PPL 55.34
+	eval: perplexity 56.39
+Global Step 161500 LR 0.0187 Step Time 0.24 Test PPL 55.68
+	eval: perplexity 60.11
+Global Step 161600 LR 0.0187 Step Time 0.22 Test PPL 55.94
+	eval: perplexity 64.42
+Global Step 161700 LR 0.0187 Step Time 0.23 Test PPL 56.81
+	eval: perplexity 64.95
+Global Step 161800 LR 0.0185 Step Time 0.22 Test PPL 54.93
+	eval: perplexity 58.98
+Global Step 161900 LR 0.0185 Step Time 0.24 Test PPL 55.36
+	eval: perplexity 61.67
+Global Step 162000 LR 0.0185 Step Time 0.24 Test PPL 56.24
+	eval: perplexity 59.05
+Global Step 162100 LR 0.0185 Step Time 0.20 Test PPL 55.70
+	eval: perplexity 51.38
+Global Step 162200 LR 0.0185 Step Time 0.23 Test PPL 56.15
+	eval: perplexity 62.06
+Global Step 162300 LR 0.0185 Step Time 0.21 Test PPL 56.09
+	eval: perplexity 54.90
+Global Step 162400 LR 0.0185 Step Time 0.23 Test PPL 56.91
+	eval: perplexity 58.26
+Global Step 162500 LR 0.0183 Step Time 0.22 Test PPL 55.72
+	eval: perplexity 64.50
+Global Step 162600 LR 0.0183 Step Time 0.24 Test PPL 55.87
+	eval: perplexity 55.86
+Global Step 162700 LR 0.0183 Step Time 0.22 Test PPL 55.10
+	eval: perplexity 57.85
+Global Step 162800 LR 0.0183 Step Time 0.24 Test PPL 55.87
+	eval: perplexity 51.93
+Global Step 162900 LR 0.0183 Step Time 0.22 Test PPL 54.40
+	eval: perplexity 55.12
+Global Step 163000 LR 0.0183 Step Time 0.24 Test PPL 55.08
+	eval: perplexity 53.51
+Global Step 163100 LR 0.0183 Step Time 0.22 Test PPL 56.13
+	eval: perplexity 53.77
+Global Step 163200 LR 0.0181 Step Time 0.22 Test PPL 55.98
+	eval: perplexity 52.90
+Global Step 163300 LR 0.0181 Step Time 0.24 Test PPL 55.93
+	eval: perplexity 54.80
+Global Step 163400 LR 0.0181 Step Time 0.23 Test PPL 56.10
+	eval: perplexity 69.60
+Global Step 163500 LR 0.0181 Step Time 0.24 Test PPL 55.95
+	eval: perplexity 57.85
+Global Step 163600 LR 0.0181 Step Time 0.23 Test PPL 55.37
+	eval: perplexity 60.88
+Global Step 163700 LR 0.0181 Step Time 0.24 Test PPL 55.01
+	eval: perplexity 66.00
+Global Step 163800 LR 0.0181 Step Time 0.25 Test PPL 56.21
+	eval: perplexity 51.72
+Global Step 163900 LR 0.0180 Step Time 0.24 Test PPL 56.38
+	eval: perplexity 58.82
+Global Step 164000 LR 0.0178 Step Time 0.22 Test PPL 55.05
+	eval: perplexity 59.88
+Global Step 164100 LR 0.0178 Step Time 0.24 Test PPL 55.93
+	eval: perplexity 57.40
+Global Step 164200 LR 0.0178 Step Time 0.24 Test PPL 56.34
+	eval: perplexity 61.34
+Global Step 164300 LR 0.0178 Step Time 0.23 Test PPL 55.68
+	eval: perplexity 64.79
+Global Step 164400 LR 0.0178 Step Time 0.22 Test PPL 55.01
+	eval: perplexity 52.73
+Global Step 164500 LR 0.0178 Step Time 0.23 Test PPL 55.64
+	eval: perplexity 48.45
+Global Step 164600 LR 0.0178 Step Time 0.21 Test PPL 55.46
+	eval: perplexity 56.02
+Global Step 164700 LR 0.0178 Step Time 0.22 Test PPL 55.90
+	eval: perplexity 61.48
+Global Step 164800 LR 0.0176 Step Time 0.21 Test PPL 56.20
+	eval: perplexity 56.12
+Global Step 164900 LR 0.0174 Step Time 0.22 Test PPL 56.13
+	eval: perplexity 55.20
+Global Step 165000 LR 0.0174 Step Time 0.23 Test PPL 54.99
+	eval: perplexity 58.10
+Global Step 165100 LR 0.0174 Step Time 0.21 Test PPL 55.82
+	eval: perplexity 63.03
+Global Step 165200 LR 0.0174 Step Time 0.23 Test PPL 56.41
+	eval: perplexity 52.53
+Global Step 165300 LR 0.0172 Step Time 0.22 Test PPL 55.83
+	eval: perplexity 58.21
+Global Step 165400 LR 0.0172 Step Time 0.23 Test PPL 55.67
+	eval: perplexity 47.03
+Global Step 165500 LR 0.0172 Step Time 0.21 Test PPL 55.62
+	eval: perplexity 55.81
+Global Step 165600 LR 0.0172 Step Time 0.23 Test PPL 55.47
+	eval: perplexity 57.52
+Global Step 165700 LR 0.0172 Step Time 0.23 Test PPL 55.29
+	eval: perplexity 56.06
+Global Step 165800 LR 0.0172 Step Time 0.24 Test PPL 56.06
+	eval: perplexity 57.89
+Global Step 165900 LR 0.0171 Step Time 0.23 Test PPL 56.24
+	eval: perplexity 58.89
+Global Step 166000 LR 0.0169 Step Time 0.24 Test PPL 55.27
+	eval: perplexity 57.11
+Global Step 166100 LR 0.0169 Step Time 0.23 Test PPL 56.30
+	eval: perplexity 55.45
+Global Step 166200 LR 0.0167 Step Time 0.23 Test PPL 55.31
+	eval: perplexity 61.57
+Global Step 166300 LR 0.0167 Step Time 0.22 Test PPL 55.87
+	eval: perplexity 63.92
+Global Step 166400 LR 0.0167 Step Time 0.24 Test PPL 55.70
+	eval: perplexity 53.33
+Global Step 166500 LR 0.0167 Step Time 0.22 Test PPL 56.18
+	eval: perplexity 58.78
+Global Step 166600 LR 0.0166 Step Time 0.25 Test PPL 56.56
+	eval: perplexity 61.32
+Global Step 166700 LR 0.0164 Step Time 0.23 Test PPL 55.86
+	eval: perplexity 55.48
+Global Step 166800 LR 0.0164 Step Time 0.25 Test PPL 55.08
+	eval: perplexity 56.55
+Global Step 166900 LR 0.0164 Step Time 0.24 Test PPL 55.39
+	eval: perplexity 62.44
+Global Step 167000 LR 0.0164 Step Time 0.23 Test PPL 56.17
+	eval: perplexity 57.43
+Global Step 167100 LR 0.0162 Step Time 0.24 Test PPL 54.72
+	eval: perplexity 65.71
+Global Step 167200 LR 0.0162 Step Time 0.25 Test PPL 56.53
+	eval: perplexity 61.21
+Global Step 167300 LR 0.0161 Step Time 0.23 Test PPL 56.46
+	eval: perplexity 64.71
+Global Step 167400 LR 0.0161 Step Time 0.24 Test PPL 55.15
+	eval: perplexity 60.48
+Global Step 167500 LR 0.0161 Step Time 0.23 Test PPL 55.23
+	eval: perplexity 61.43
+Global Step 167600 LR 0.0161 Step Time 0.22 Test PPL 56.04
+	eval: perplexity 59.46
+Global Step 167700 LR 0.0161 Step Time 0.22 Test PPL 55.55
+	eval: perplexity 62.82
+Global Step 167800 LR 0.0161 Step Time 0.24 Test PPL 55.96
+	eval: perplexity 61.12
+Global Step 167900 LR 0.0161 Step Time 0.24 Test PPL 55.16
+	eval: perplexity 59.78
+Global Step 168000 LR 0.0161 Step Time 0.23 Test PPL 54.86
+	eval: perplexity 56.72
+Global Step 168100 LR 0.0161 Step Time 0.24 Test PPL 55.99
+	eval: perplexity 56.10
+Global Step 168200 LR 0.0159 Step Time 0.21 Test PPL 56.01
+	eval: perplexity 55.87
+Global Step 168300 LR 0.0158 Step Time 0.23 Test PPL 55.79
+	eval: perplexity 57.24
+Global Step 168400 LR 0.0158 Step Time 0.22 Test PPL 54.99
+	eval: perplexity 60.21
+Global Step 168500 LR 0.0158 Step Time 0.22 Test PPL 54.04
+	eval: perplexity 59.49
+Global Step 168600 LR 0.0158 Step Time 0.22 Test PPL 55.67
+	eval: perplexity 53.56
+Global Step 168700 LR 0.0158 Step Time 0.24 Test PPL 55.66
+	eval: perplexity 56.79
+Global Step 168800 LR 0.0158 Step Time 0.25 Test PPL 54.91
+	eval: perplexity 61.47
+Global Step 168900 LR 0.0158 Step Time 0.24 Test PPL 54.58
+	eval: perplexity 56.77
+Global Step 169000 LR 0.0158 Step Time 0.23 Test PPL 56.37
+	eval: perplexity 54.63
+Global Step 169100 LR 0.0156 Step Time 0.23 Test PPL 55.14
+	eval: perplexity 55.11
+Global Step 169200 LR 0.0156 Step Time 0.23 Test PPL 55.67
+	eval: perplexity 48.94
+Global Step 169300 LR 0.0156 Step Time 0.24 Test PPL 55.88
+	eval: perplexity 60.27
+Global Step 169400 LR 0.0156 Step Time 0.22 Test PPL 55.37
+	eval: perplexity 57.55
+Global Step 169500 LR 0.0156 Step Time 0.23 Test PPL 55.56
+	eval: perplexity 54.46
+Global Step 169600 LR 0.0156 Step Time 0.23 Test PPL 55.50
+	eval: perplexity 57.43
+Global Step 169700 LR 0.0156 Step Time 0.22 Test PPL 55.36
+	eval: perplexity 58.35
+Global Step 169800 LR 0.0156 Step Time 0.24 Test PPL 55.61
+	eval: perplexity 54.33
+Global Step 169900 LR 0.0154 Step Time 0.23 Test PPL 56.09
+	eval: perplexity 58.36
+Global Step 170000 LR 0.0153 Step Time 0.22 Test PPL 55.86
+	eval: perplexity 50.64
+Global Step 170100 LR 0.0153 Step Time 0.24 Test PPL 54.30
+	eval: perplexity 55.51
+Global Step 170200 LR 0.0153 Step Time 0.23 Test PPL 55.55
+	eval: perplexity 55.96
+Global Step 170300 LR 0.0153 Step Time 0.23 Test PPL 55.18
+	eval: perplexity 58.34
+Global Step 170400 LR 0.0153 Step Time 0.22 Test PPL 55.16
+	eval: perplexity 59.45
+Global Step 170500 LR 0.0153 Step Time 0.21 Test PPL 56.04
+	eval: perplexity 58.24
+Global Step 170600 LR 0.0151 Step Time 0.24 Test PPL 55.45
+	eval: perplexity 47.67
+Global Step 170700 LR 0.0151 Step Time 0.25 Test PPL 55.76
+	eval: perplexity 61.23
+Global Step 170800 LR 0.0151 Step Time 0.22 Test PPL 55.98
+	eval: perplexity 54.33
+Global Step 170900 LR 0.0151 Step Time 0.23 Test PPL 55.38
+	eval: perplexity 60.45
+Global Step 171000 LR 0.0151 Step Time 0.21 Test PPL 55.93
+	eval: perplexity 62.86
+Global Step 171100 LR 0.0151 Step Time 0.22 Test PPL 55.44
+	eval: perplexity 58.40
+Global Step 171200 LR 0.0151 Step Time 0.23 Test PPL 54.67
+	eval: perplexity 52.07
+Global Step 171300 LR 0.0151 Step Time 0.22 Test PPL 56.18
+	eval: perplexity 54.94
+Global Step 171400 LR 0.0150 Step Time 0.25 Test PPL 56.47
+	eval: perplexity 52.86
+Global Step 171500 LR 0.0148 Step Time 0.24 Test PPL 55.24
+	eval: perplexity 66.91
+Global Step 171600 LR 0.0148 Step Time 0.24 Test PPL 56.21
+	eval: perplexity 65.69
+Global Step 171700 LR 0.0148 Step Time 0.23 Test PPL 56.18
+	eval: perplexity 58.35
+Global Step 171800 LR 0.0148 Step Time 0.24 Test PPL 55.80
+	eval: perplexity 55.09
+Global Step 171900 LR 0.0148 Step Time 0.23 Test PPL 55.27
+	eval: perplexity 67.24
+Global Step 172000 LR 0.0148 Step Time 0.24 Test PPL 56.03
+	eval: perplexity 59.97
+Global Step 172100 LR 0.0148 Step Time 0.25 Test PPL 55.26
+	eval: perplexity 59.77
+Global Step 172200 LR 0.0148 Step Time 0.23 Test PPL 55.51
+	eval: perplexity 58.57
+Global Step 172300 LR 0.0148 Step Time 0.23 Test PPL 55.29
+	eval: perplexity 53.63
+Global Step 172400 LR 0.0148 Step Time 0.24 Test PPL 55.16
+	eval: perplexity 52.43
+Global Step 172500 LR 0.0148 Step Time 0.24 Test PPL 55.28
+	eval: perplexity 55.09
+Global Step 172600 LR 0.0148 Step Time 0.22 Test PPL 55.18
+	eval: perplexity 56.71
+Global Step 172700 LR 0.0148 Step Time 0.24 Test PPL 55.19
+	eval: perplexity 58.17
+Global Step 172800 LR 0.0148 Step Time 0.24 Test PPL 55.53
+	eval: perplexity 51.02
+Global Step 172900 LR 0.0147 Step Time 0.23 Test PPL 55.70
+	eval: perplexity 58.43
+Global Step 173000 LR 0.0145 Step Time 0.24 Test PPL 55.84
+	eval: perplexity 53.92
+Global Step 173100 LR 0.0144 Step Time 0.24 Test PPL 55.91
+	eval: perplexity 53.35
+Global Step 173200 LR 0.0143 Step Time 0.22 Test PPL 55.74
+	eval: perplexity 57.57
+Global Step 173300 LR 0.0143 Step Time 0.24 Test PPL 54.72
+	eval: perplexity 49.08
+Global Step 173400 LR 0.0143 Step Time 0.22 Test PPL 56.27
+	eval: perplexity 59.30
+Global Step 173500 LR 0.0141 Step Time 0.24 Test PPL 55.47
+	eval: perplexity 55.70
+Global Step 173600 LR 0.0141 Step Time 0.22 Test PPL 55.70
+	eval: perplexity 66.88
+Global Step 173700 LR 0.0141 Step Time 0.23 Test PPL 55.01
+	eval: perplexity 57.58
+Global Step 173800 LR 0.0141 Step Time 0.24 Test PPL 55.26
+	eval: perplexity 52.83
+Global Step 173900 LR 0.0141 Step Time 0.24 Test PPL 55.83
+	eval: perplexity 59.75
+Global Step 174000 LR 0.0140 Step Time 0.23 Test PPL 55.34
+	eval: perplexity 64.72
+Global Step 174100 LR 0.0140 Step Time 0.23 Test PPL 55.98
+	eval: perplexity 48.73
+Global Step 174200 LR 0.0138 Step Time 0.24 Test PPL 56.31
+	eval: perplexity 70.59
+Global Step 174300 LR 0.0137 Step Time 0.24 Test PPL 55.02
+	eval: perplexity 72.59
+Global Step 174400 LR 0.0137 Step Time 0.23 Test PPL 55.29
+	eval: perplexity 63.61
+Global Step 174500 LR 0.0137 Step Time 0.24 Test PPL 55.90
+	eval: perplexity 54.67
+Global Step 174600 LR 0.0137 Step Time 0.24 Test PPL 55.26
+	eval: perplexity 62.13
+2017-11-13 10:48:31.595476: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 62648234 get requests, put_count=62648234 evicted_count=48000 eviction_rate=0.000766183 and unsatisfied allocation rate=0.00076663
+Global Step 174700 LR 0.0137 Step Time 0.23 Test PPL 55.32
+	eval: perplexity 58.07
+Global Step 174800 LR 0.0137 Step Time 0.24 Test PPL 55.50
+	eval: perplexity 55.38
+Global Step 174900 LR 0.0137 Step Time 0.21 Test PPL 55.08
+	eval: perplexity 59.73
+Global Step 175000 LR 0.0137 Step Time 0.23 Test PPL 55.75
+	eval: perplexity 53.79
+Global Step 175100 LR 0.0136 Step Time 0.23 Test PPL 55.15
+	eval: perplexity 65.99
+Global Step 175200 LR 0.0136 Step Time 0.23 Test PPL 56.16
+	eval: perplexity 61.12
+Global Step 175300 LR 0.0134 Step Time 0.22 Test PPL 56.15
+	eval: perplexity 60.83
+Global Step 175400 LR 0.0134 Step Time 0.23 Test PPL 55.07
+	eval: perplexity 50.71
+Global Step 175500 LR 0.0134 Step Time 0.23 Test PPL 55.75
+	eval: perplexity 66.73
+Global Step 175600 LR 0.0134 Step Time 0.23 Test PPL 54.47
+	eval: perplexity 52.59
+Global Step 175700 LR 0.0134 Step Time 0.22 Test PPL 55.09
+	eval: perplexity 54.94
+Global Step 175800 LR 0.0134 Step Time 0.22 Test PPL 55.67
+	eval: perplexity 53.39
+Global Step 175900 LR 0.0134 Step Time 0.23 Test PPL 55.30
+	eval: perplexity 63.45
+Global Step 176000 LR 0.0134 Step Time 0.24 Test PPL 55.30
+	eval: perplexity 61.33
+Global Step 176100 LR 0.0134 Step Time 0.23 Test PPL 55.56
+	eval: perplexity 51.86
+Global Step 176200 LR 0.0134 Step Time 0.23 Test PPL 54.96
+	eval: perplexity 61.14
+Global Step 176300 LR 0.0134 Step Time 0.25 Test PPL 55.57
+	eval: perplexity 66.27
+Global Step 176400 LR 0.0133 Step Time 0.24 Test PPL 54.72
+	eval: perplexity 48.47
+Global Step 176500 LR 0.0133 Step Time 0.22 Test PPL 55.99
+	eval: perplexity 57.69
+Global Step 176600 LR 0.0131 Step Time 0.24 Test PPL 55.17
+	eval: perplexity 55.62
+Global Step 176700 LR 0.0131 Step Time 0.22 Test PPL 55.89
+	eval: perplexity 58.27
+Global Step 176800 LR 0.0131 Step Time 0.23 Test PPL 54.97
+	eval: perplexity 64.07
+Global Step 176900 LR 0.0131 Step Time 0.23 Test PPL 55.65
+	eval: perplexity 59.36
+Global Step 177000 LR 0.0131 Step Time 0.24 Test PPL 55.36
+	eval: perplexity 66.77
+Global Step 177100 LR 0.0131 Step Time 0.24 Test PPL 55.13
+	eval: perplexity 55.27
+Global Step 177200 LR 0.0131 Step Time 0.23 Test PPL 55.86
+	eval: perplexity 70.12
+Global Step 177300 LR 0.0130 Step Time 0.24 Test PPL 55.60
+	eval: perplexity 67.77
+Global Step 177400 LR 0.0130 Step Time 0.24 Test PPL 54.85
+	eval: perplexity 61.69
+Global Step 177500 LR 0.0130 Step Time 0.24 Test PPL 55.57
+	eval: perplexity 57.07
+Global Step 177600 LR 0.0130 Step Time 0.24 Test PPL 56.18
+	eval: perplexity 55.88
+Global Step 177700 LR 0.0129 Step Time 0.22 Test PPL 54.49
+	eval: perplexity 59.05
+Global Step 177800 LR 0.0129 Step Time 0.22 Test PPL 54.76
+	eval: perplexity 55.89
+Global Step 177900 LR 0.0129 Step Time 0.23 Test PPL 55.04
+	eval: perplexity 53.55
+Global Step 178000 LR 0.0129 Step Time 0.23 Test PPL 55.37
+	eval: perplexity 66.44
+Global Step 178100 LR 0.0128 Step Time 0.23 Test PPL 55.18
+	eval: perplexity 59.24
+Global Step 178200 LR 0.0128 Step Time 0.24 Test PPL 55.04
+	eval: perplexity 56.89
+Global Step 178300 LR 0.0128 Step Time 0.24 Test PPL 54.98
+	eval: perplexity 61.36
+Global Step 178400 LR 0.0128 Step Time 0.23 Test PPL 55.81
+	eval: perplexity 58.99
+Global Step 178500 LR 0.0126 Step Time 0.24 Test PPL 54.98
+	eval: perplexity 57.69
+Global Step 178600 LR 0.0126 Step Time 0.24 Test PPL 54.52
+	eval: perplexity 55.54
+Global Step 178700 LR 0.0126 Step Time 0.24 Test PPL 56.08
+	eval: perplexity 69.52
+Global Step 178800 LR 0.0125 Step Time 0.23 Test PPL 56.42
+	eval: perplexity 63.16
+Global Step 178900 LR 0.0124 Step Time 0.23 Test PPL 55.75
+	eval: perplexity 58.49
+Global Step 179000 LR 0.0124 Step Time 0.23 Test PPL 56.35
+	eval: perplexity 54.45
+Global Step 179100 LR 0.0124 Step Time 0.23 Test PPL 55.21
+	eval: perplexity 55.61
+Global Step 179200 LR 0.0124 Step Time 0.24 Test PPL 54.86
+	eval: perplexity 56.62
+Global Step 179300 LR 0.0124 Step Time 0.24 Test PPL 55.61
+	eval: perplexity 55.84
+Global Step 179400 LR 0.0124 Step Time 0.22 Test PPL 54.86
+	eval: perplexity 55.39
+Global Step 179500 LR 0.0124 Step Time 0.21 Test PPL 54.79
+	eval: perplexity 56.19
+Global Step 179600 LR 0.0124 Step Time 0.24 Test PPL 55.25
+	eval: perplexity 57.81
+Global Step 179700 LR 0.0124 Step Time 0.22 Test PPL 54.69
+	eval: perplexity 57.47
+Global Step 179800 LR 0.0124 Step Time 0.22 Test PPL 54.83
+	eval: perplexity 57.08
+Global Step 179900 LR 0.0124 Step Time 0.24 Test PPL 55.00
+	eval: perplexity 56.07
+Global Step 180000 LR 0.0124 Step Time 0.23 Test PPL 55.03
+	eval: perplexity 54.96
+Global Step 180100 LR 0.0123 Step Time 0.25 Test PPL 55.23
+	eval: perplexity 52.65
+Global Step 180200 LR 0.0121 Step Time 0.23 Test PPL 56.36
+	eval: perplexity 65.19
+Global Step 180300 LR 0.0120 Step Time 0.22 Test PPL 55.99
+	eval: perplexity 70.52
+Global Step 180400 LR 0.0120 Step Time 0.25 Test PPL 55.66
+	eval: perplexity 59.25
+Global Step 180500 LR 0.0120 Step Time 0.24 Test PPL 54.78
+	eval: perplexity 60.05
+Global Step 180600 LR 0.0120 Step Time 0.25 Test PPL 55.54
+	eval: perplexity 55.34
+Global Step 180700 LR 0.0120 Step Time 0.24 Test PPL 55.60
+	eval: perplexity 62.61
+Global Step 180800 LR 0.0120 Step Time 0.25 Test PPL 55.62
+	eval: perplexity 56.01
+Global Step 180900 LR 0.0119 Step Time 0.23 Test PPL 55.91
+	eval: perplexity 59.59
+Global Step 181000 LR 0.0118 Step Time 0.25 Test PPL 55.43
+	eval: perplexity 61.69
+Global Step 181100 LR 0.0118 Step Time 0.22 Test PPL 55.32
+	eval: perplexity 55.46
+Global Step 181200 LR 0.0118 Step Time 0.25 Test PPL 54.65
+	eval: perplexity 67.82
+Global Step 181300 LR 0.0118 Step Time 0.24 Test PPL 56.00
+	eval: perplexity 54.39
+Global Step 181400 LR 0.0117 Step Time 0.22 Test PPL 55.63
+	eval: perplexity 57.22
+Global Step 181500 LR 0.0117 Step Time 0.22 Test PPL 54.96
+	eval: perplexity 66.85
+Global Step 181600 LR 0.0117 Step Time 0.24 Test PPL 55.07
+	eval: perplexity 52.60
+Global Step 181700 LR 0.0117 Step Time 0.23 Test PPL 55.50
+	eval: perplexity 60.75
+Global Step 181800 LR 0.0117 Step Time 0.24 Test PPL 55.28
+	eval: perplexity 67.05
+Global Step 181900 LR 0.0117 Step Time 0.24 Test PPL 55.18
+	eval: perplexity 67.50
+Global Step 182000 LR 0.0117 Step Time 0.22 Test PPL 55.37
+	eval: perplexity 57.53
+Global Step 182100 LR 0.0117 Step Time 0.24 Test PPL 55.19
+	eval: perplexity 58.43
+Global Step 182200 LR 0.0117 Step Time 0.23 Test PPL 54.75
+	eval: perplexity 56.65
+Global Step 182300 LR 0.0117 Step Time 0.24 Test PPL 54.59
+	eval: perplexity 51.67
+Global Step 182400 LR 0.0117 Step Time 0.23 Test PPL 54.50
+	eval: perplexity 62.03
+Global Step 182500 LR 0.0117 Step Time 0.24 Test PPL 55.36
+	eval: perplexity 57.29
+Global Step 182600 LR 0.0115 Step Time 0.24 Test PPL 55.10
+	eval: perplexity 61.38
+Global Step 182700 LR 0.0115 Step Time 0.24 Test PPL 55.69
+	eval: perplexity 56.82
+Global Step 182800 LR 0.0114 Step Time 0.22 Test PPL 55.32
+	eval: perplexity 62.23
+Global Step 182900 LR 0.0114 Step Time 0.24 Test PPL 55.44
+	eval: perplexity 53.49
+Global Step 183000 LR 0.0114 Step Time 0.23 Test PPL 55.02
+	eval: perplexity 59.98
+Global Step 183100 LR 0.0114 Step Time 0.25 Test PPL 54.61
+	eval: perplexity 56.68
+Global Step 183200 LR 0.0114 Step Time 0.23 Test PPL 55.38
+	eval: perplexity 51.57
+Global Step 183300 LR 0.0114 Step Time 0.23 Test PPL 55.32
+	eval: perplexity 63.45
+Global Step 183400 LR 0.0114 Step Time 0.23 Test PPL 55.17
+	eval: perplexity 61.08
+Global Step 183500 LR 0.0114 Step Time 0.24 Test PPL 55.56
+	eval: perplexity 65.69
+Global Step 183600 LR 0.0113 Step Time 0.23 Test PPL 54.98
+	eval: perplexity 53.71
+Global Step 183700 LR 0.0113 Step Time 0.23 Test PPL 55.87
+	eval: perplexity 66.03
+Global Step 183800 LR 0.0112 Step Time 0.24 Test PPL 55.41
+	eval: perplexity 58.48
+Global Step 183900 LR 0.0112 Step Time 0.23 Test PPL 54.63
+	eval: perplexity 57.60
+Global Step 184000 LR 0.0112 Step Time 0.23 Test PPL 55.38
+	eval: perplexity 58.27
+Global Step 184100 LR 0.0112 Step Time 0.25 Test PPL 55.17
+	eval: perplexity 60.82
+Global Step 184200 LR 0.0112 Step Time 0.22 Test PPL 55.29
+	eval: perplexity 58.13
+Global Step 184300 LR 0.0112 Step Time 0.24 Test PPL 55.70
+	eval: perplexity 63.17
+Global Step 184400 LR 0.0111 Step Time 0.24 Test PPL 56.29
+	eval: perplexity 57.37
+Global Step 184500 LR 0.0110 Step Time 0.22 Test PPL 54.63
+	eval: perplexity 59.97
+Global Step 184600 LR 0.0110 Step Time 0.22 Test PPL 55.53
+	eval: perplexity 62.44
+Global Step 184700 LR 0.0110 Step Time 0.22 Test PPL 54.92
+	eval: perplexity 63.09
+Global Step 184800 LR 0.0110 Step Time 0.23 Test PPL 54.43
+	eval: perplexity 55.77
+Global Step 184900 LR 0.0110 Step Time 0.21 Test PPL 55.13
+	eval: perplexity 62.29
+Global Step 185000 LR 0.0110 Step Time 0.24 Test PPL 55.68
+	eval: perplexity 52.45
+Global Step 185100 LR 0.0109 Step Time 0.23 Test PPL 55.76
+	eval: perplexity 60.88
+Global Step 185200 LR 0.0108 Step Time 0.24 Test PPL 55.18
+	eval: perplexity 76.74
+Global Step 185300 LR 0.0108 Step Time 0.23 Test PPL 55.47
+	eval: perplexity 62.05
+Global Step 185400 LR 0.0108 Step Time 0.21 Test PPL 55.10
+	eval: perplexity 57.30
+Global Step 185500 LR 0.0108 Step Time 0.24 Test PPL 54.47
+	eval: perplexity 65.10
+Global Step 185600 LR 0.0108 Step Time 0.22 Test PPL 55.65
+	eval: perplexity 65.94
+Global Step 185700 LR 0.0106 Step Time 0.24 Test PPL 54.83
+	eval: perplexity 61.71
+Global Step 185800 LR 0.0106 Step Time 0.23 Test PPL 56.23
+	eval: perplexity 67.39
+Global Step 185900 LR 0.0105 Step Time 0.24 Test PPL 55.20
+	eval: perplexity 55.30
+Global Step 186000 LR 0.0105 Step Time 0.22 Test PPL 54.93
+	eval: perplexity 51.83
+Global Step 186100 LR 0.0105 Step Time 0.23 Test PPL 54.88
+	eval: perplexity 59.19
+Global Step 186200 LR 0.0105 Step Time 0.23 Test PPL 55.53
+	eval: perplexity 54.69
+Global Step 186300 LR 0.0104 Step Time 0.24 Test PPL 55.58
+	eval: perplexity 58.05
+Global Step 186400 LR 0.0103 Step Time 0.21 Test PPL 55.41
+	eval: perplexity 47.60
+Global Step 186500 LR 0.0103 Step Time 0.22 Test PPL 55.11
+	eval: perplexity 60.53
+Global Step 186600 LR 0.0103 Step Time 0.22 Test PPL 55.12
+	eval: perplexity 66.56
+Global Step 186700 LR 0.0103 Step Time 0.24 Test PPL 55.16
+	eval: perplexity 55.03
+Global Step 186800 LR 0.0103 Step Time 0.23 Test PPL 54.40
+	eval: perplexity 54.29
+Global Step 186900 LR 0.0103 Step Time 0.24 Test PPL 55.12
+	eval: perplexity 44.80
+Global Step 187000 LR 0.0103 Step Time 0.23 Test PPL 55.55
+	eval: perplexity 48.26
+Global Step 187100 LR 0.0102 Step Time 0.23 Test PPL 55.23
+	eval: perplexity 55.01
+Global Step 187200 LR 0.0102 Step Time 0.21 Test PPL 54.57
+	eval: perplexity 47.19
+Global Step 187300 LR 0.0102 Step Time 0.21 Test PPL 55.21
+	eval: perplexity 56.08
+Global Step 187400 LR 0.0102 Step Time 0.19 Test PPL 54.82
+	eval: perplexity 66.03
+Global Step 187500 LR 0.0102 Step Time 0.20 Test PPL 55.22
+	eval: perplexity 52.24
+Global Step 187600 LR 0.0101 Step Time 0.20 Test PPL 54.75
+	eval: perplexity 57.35
+Global Step 187700 LR 0.0101 Step Time 0.23 Test PPL 54.32
+	eval: perplexity 61.42
+Global Step 187800 LR 0.0101 Step Time 0.23 Test PPL 55.53
+	eval: perplexity 61.89
+Global Step 187900 LR 0.0100 Step Time 0.22 Test PPL 55.52
+	eval: perplexity 57.05
+Global Step 188000 LR 0.0100 Step Time 0.22 Test PPL 55.59
+	eval: perplexity 52.93
+Global Step 188100 LR 0.0099 Step Time 0.25 Test PPL 55.31
+	eval: perplexity 59.20
+Global Step 188200 LR 0.0099 Step Time 0.22 Test PPL 55.99
+	eval: perplexity 74.81
+Global Step 188300 LR 0.0098 Step Time 0.21 Test PPL 54.76
+	eval: perplexity 63.80
+Global Step 188400 LR 0.0098 Step Time 0.24 Test PPL 55.39
+	eval: perplexity 62.28
+Global Step 188500 LR 0.0098 Step Time 0.23 Test PPL 55.00
+	eval: perplexity 60.27
+Global Step 188600 LR 0.0098 Step Time 0.24 Test PPL 55.34
+	eval: perplexity 52.77
+Global Step 188700 LR 0.0098 Step Time 0.23 Test PPL 54.93
+	eval: perplexity 62.79
+Global Step 188800 LR 0.0098 Step Time 0.21 Test PPL 55.01
+	eval: perplexity 62.30
+Global Step 188900 LR 0.0098 Step Time 0.24 Test PPL 55.40
+	eval: perplexity 56.83
+Global Step 189000 LR 0.0097 Step Time 0.24 Test PPL 55.57
+	eval: perplexity 59.69
+Global Step 189100 LR 0.0096 Step Time 0.22 Test PPL 55.06
+	eval: perplexity 61.97
+Global Step 189200 LR 0.0096 Step Time 0.20 Test PPL 54.66
+	eval: perplexity 53.21
+Global Step 189300 LR 0.0096 Step Time 0.24 Test PPL 55.34
+	eval: perplexity 62.77
+Global Step 189400 LR 0.0096 Step Time 0.22 Test PPL 54.05
+	eval: perplexity 56.60
+Global Step 189500 LR 0.0096 Step Time 0.23 Test PPL 54.99
+	eval: perplexity 52.38
+Global Step 189600 LR 0.0096 Step Time 0.21 Test PPL 55.58
+	eval: perplexity 51.75
+Global Step 189700 LR 0.0095 Step Time 0.23 Test PPL 55.23
+	eval: perplexity 56.79
+Global Step 189800 LR 0.0095 Step Time 0.21 Test PPL 55.21
+	eval: perplexity 53.44
+Global Step 189900 LR 0.0095 Step Time 0.23 Test PPL 55.14
+	eval: perplexity 48.28
+Global Step 190000 LR 0.0095 Step Time 0.22 Test PPL 54.95
+	eval: perplexity 65.55
+Global Step 190100 LR 0.0095 Step Time 0.24 Test PPL 55.48
+	eval: perplexity 55.52
+Global Step 190200 LR 0.0094 Step Time 0.24 Test PPL 54.82
+	eval: perplexity 59.76
+Global Step 190300 LR 0.0094 Step Time 0.24 Test PPL 56.28
+	eval: perplexity 53.43
+Global Step 190400 LR 0.0093 Step Time 0.23 Test PPL 55.53
+	eval: perplexity 65.26
+Global Step 190500 LR 0.0093 Step Time 0.23 Test PPL 54.73
+	eval: perplexity 65.82
+Global Step 190600 LR 0.0093 Step Time 0.24 Test PPL 54.57
+	eval: perplexity 49.98
+Global Step 190700 LR 0.0093 Step Time 0.24 Test PPL 55.11
+	eval: perplexity 52.16
+Global Step 190800 LR 0.0093 Step Time 0.24 Test PPL 55.15
+	eval: perplexity 51.30
+Global Step 190900 LR 0.0093 Step Time 0.24 Test PPL 55.06
+	eval: perplexity 60.70
+Global Step 191000 LR 0.0093 Step Time 0.24 Test PPL 54.98
+	eval: perplexity 62.55
+Global Step 191100 LR 0.0093 Step Time 0.23 Test PPL 54.47
+	eval: perplexity 58.05
+Global Step 191200 LR 0.0093 Step Time 0.23 Test PPL 56.57
+	eval: perplexity 56.66
+Global Step 191300 LR 0.0092 Step Time 0.21 Test PPL 56.27
+	eval: perplexity 61.18
+Global Step 191400 LR 0.0092 Step Time 0.23 Test PPL 56.13
+	eval: perplexity 56.74
+Global Step 191500 LR 0.0092 Step Time 0.21 Test PPL 55.12
+	eval: perplexity 59.86
+Global Step 191600 LR 0.0092 Step Time 0.20 Test PPL 55.64
+	eval: perplexity 53.45
+Global Step 191700 LR 0.0092 Step Time 0.22 Test PPL 54.22
+	eval: perplexity 60.30
+Global Step 191800 LR 0.0092 Step Time 0.23 Test PPL 55.81
+	eval: perplexity 54.19
+Global Step 191900 LR 0.0091 Step Time 0.21 Test PPL 54.83
+	eval: perplexity 59.06
+Global Step 192000 LR 0.0091 Step Time 0.24 Test PPL 55.80
+	eval: perplexity 54.85
+Global Step 192100 LR 0.0091 Step Time 0.24 Test PPL 55.33
+	eval: perplexity 56.62
+Global Step 192200 LR 0.0091 Step Time 0.24 Test PPL 54.95
+	eval: perplexity 61.35
+Global Step 192300 LR 0.0091 Step Time 0.23 Test PPL 55.80
+	eval: perplexity 61.06
+Global Step 192400 LR 0.0091 Step Time 0.23 Test PPL 55.65
+	eval: perplexity 55.50
+Global Step 192500 LR 0.0091 Step Time 0.23 Test PPL 54.85
+	eval: perplexity 55.56
+Global Step 192600 LR 0.0091 Step Time 0.21 Test PPL 55.64
+	eval: perplexity 55.87
+Global Step 192700 LR 0.0091 Step Time 0.22 Test PPL 54.60
+	eval: perplexity 63.34
+Global Step 192800 LR 0.0091 Step Time 0.21 Test PPL 54.33
+	eval: perplexity 68.62
+Global Step 192900 LR 0.0091 Step Time 0.24 Test PPL 54.20
+	eval: perplexity 56.89
+Global Step 193000 LR 0.0091 Step Time 0.24 Test PPL 55.55
+	eval: perplexity 53.39
+Global Step 193100 LR 0.0090 Step Time 0.25 Test PPL 54.63
+	eval: perplexity 56.38
+Global Step 193200 LR 0.0090 Step Time 0.24 Test PPL 54.89
+	eval: perplexity 54.48
+Global Step 193300 LR 0.0090 Step Time 0.24 Test PPL 55.01
+	eval: perplexity 60.40
+Global Step 193400 LR 0.0090 Step Time 0.23 Test PPL 55.31
+	eval: perplexity 58.83
+Global Step 193500 LR 0.0089 Step Time 0.24 Test PPL 55.63
+	eval: perplexity 64.73
+Global Step 193600 LR 0.0088 Step Time 0.24 Test PPL 55.18
+	eval: perplexity 59.05
+Global Step 193700 LR 0.0088 Step Time 0.21 Test PPL 54.93
+	eval: perplexity 52.94
+Global Step 193800 LR 0.0088 Step Time 0.21 Test PPL 55.43
+	eval: perplexity 59.43
+Global Step 193900 LR 0.0088 Step Time 0.20 Test PPL 53.74
+	eval: perplexity 62.99
+Global Step 194000 LR 0.0088 Step Time 0.23 Test PPL 55.06
+	eval: perplexity 69.65
+Global Step 194100 LR 0.0088 Step Time 0.22 Test PPL 55.15
+	eval: perplexity 63.33
+Global Step 194200 LR 0.0088 Step Time 0.25 Test PPL 55.21
+	eval: perplexity 67.34
+Global Step 194300 LR 0.0087 Step Time 0.22 Test PPL 54.81
+	eval: perplexity 57.95
+Global Step 194400 LR 0.0087 Step Time 0.22 Test PPL 55.17
+	eval: perplexity 53.19
+Global Step 194500 LR 0.0087 Step Time 0.24 Test PPL 55.15
+	eval: perplexity 58.15
+Global Step 194600 LR 0.0087 Step Time 0.21 Test PPL 55.26
+	eval: perplexity 59.99
+Global Step 194700 LR 0.0086 Step Time 0.23 Test PPL 55.26
+	eval: perplexity 53.13
+Global Step 194800 LR 0.0086 Step Time 0.22 Test PPL 55.29
+	eval: perplexity 43.19
+Global Step 194900 LR 0.0085 Step Time 0.23 Test PPL 56.23
+	eval: perplexity 55.87
+Global Step 195000 LR 0.0085 Step Time 0.21 Test PPL 55.47
+	eval: perplexity 52.59
+Global Step 195100 LR 0.0085 Step Time 0.21 Test PPL 55.34
+	eval: perplexity 53.16
+Global Step 195200 LR 0.0085 Step Time 0.20 Test PPL 55.21
+	eval: perplexity 57.37
+Global Step 195300 LR 0.0085 Step Time 0.24 Test PPL 54.50
+	eval: perplexity 59.79
+Global Step 195400 LR 0.0085 Step Time 0.25 Test PPL 55.48
+	eval: perplexity 59.12
+Global Step 195500 LR 0.0084 Step Time 0.25 Test PPL 54.61
+	eval: perplexity 52.50
+Global Step 195600 LR 0.0084 Step Time 0.22 Test PPL 55.20
+	eval: perplexity 59.96
+Global Step 195700 LR 0.0084 Step Time 0.22 Test PPL 55.08
+	eval: perplexity 65.06
+Global Step 195800 LR 0.0084 Step Time 0.22 Test PPL 54.74
+	eval: perplexity 58.28
+Global Step 195900 LR 0.0084 Step Time 0.22 Test PPL 55.50
+	eval: perplexity 54.20
+Global Step 196000 LR 0.0083 Step Time 0.22 Test PPL 55.12
+	eval: perplexity 55.15
+Global Step 196100 LR 0.0083 Step Time 0.22 Test PPL 55.13
+	eval: perplexity 66.23
+Global Step 196200 LR 0.0083 Step Time 0.21 Test PPL 55.15
+	eval: perplexity 57.89
+Global Step 196300 LR 0.0083 Step Time 0.24 Test PPL 55.23
+	eval: perplexity 54.81
+Global Step 196400 LR 0.0082 Step Time 0.22 Test PPL 54.83
+	eval: perplexity 53.57
+Global Step 196500 LR 0.0082 Step Time 0.24 Test PPL 54.67
+	eval: perplexity 55.52
+Global Step 196600 LR 0.0082 Step Time 0.23 Test PPL 55.64
+	eval: perplexity 53.74
+Global Step 196700 LR 0.0081 Step Time 0.23 Test PPL 54.90
+	eval: perplexity 58.57
+Global Step 196800 LR 0.0081 Step Time 0.22 Test PPL 54.99
+	eval: perplexity 55.08
+Global Step 196900 LR 0.0081 Step Time 0.23 Test PPL 54.80
+	eval: perplexity 56.39
+Global Step 197000 LR 0.0081 Step Time 0.23 Test PPL 55.07
+	eval: perplexity 54.19
+Global Step 197100 LR 0.0080 Step Time 0.23 Test PPL 55.17
+	eval: perplexity 59.73
+Global Step 197200 LR 0.0080 Step Time 0.23 Test PPL 54.62
+	eval: perplexity 59.71
+Global Step 197300 LR 0.0080 Step Time 0.24 Test PPL 55.51
+	eval: perplexity 54.57
+Global Step 197400 LR 0.0079 Step Time 0.22 Test PPL 55.24
+	eval: perplexity 56.10
+Global Step 197500 LR 0.0079 Step Time 0.22 Test PPL 55.30
+	eval: perplexity 56.29
+Global Step 197600 LR 0.0079 Step Time 0.20 Test PPL 55.51
+	eval: perplexity 52.93
+Global Step 197700 LR 0.0078 Step Time 0.21 Test PPL 55.00
+	eval: perplexity 52.84
+Global Step 197800 LR 0.0078 Step Time 0.24 Test PPL 54.20
+	eval: perplexity 52.02
+Global Step 197900 LR 0.0078 Step Time 0.23 Test PPL 56.11
+	eval: perplexity 49.62
+Global Step 198000 LR 0.0077 Step Time 0.23 Test PPL 55.02
+	eval: perplexity 60.52
+Global Step 198100 LR 0.0077 Step Time 0.22 Test PPL 54.98
+	eval: perplexity 58.22
+Global Step 198200 LR 0.0077 Step Time 0.24 Test PPL 54.94
+	eval: perplexity 47.85
+Global Step 198300 LR 0.0077 Step Time 0.21 Test PPL 55.14
+	eval: perplexity 59.46
+Global Step 198400 LR 0.0076 Step Time 0.23 Test PPL 55.95
+	eval: perplexity 58.49
+Global Step 198500 LR 0.0076 Step Time 0.23 Test PPL 54.67
+	eval: perplexity 61.04
+Global Step 198600 LR 0.0076 Step Time 0.23 Test PPL 55.10
+	eval: perplexity 59.51
+Global Step 198700 LR 0.0076 Step Time 0.21 Test PPL 55.41
+	eval: perplexity 59.75
+Global Step 198800 LR 0.0076 Step Time 0.23 Test PPL 55.46
+	eval: perplexity 61.16
+Global Step 198900 LR 0.0075 Step Time 0.24 Test PPL 55.60
+	eval: perplexity 59.56
+Global Step 199000 LR 0.0074 Step Time 0.21 Test PPL 55.60
+	eval: perplexity 47.92
+Global Step 199100 LR 0.0074 Step Time 0.24 Test PPL 55.11
+	eval: perplexity 60.21
+Global Step 199200 LR 0.0074 Step Time 0.24 Test PPL 54.96
+	eval: perplexity 59.04
+Global Step 199300 LR 0.0074 Step Time 0.23 Test PPL 55.48
+	eval: perplexity 56.64
+Global Step 199400 LR 0.0074 Step Time 0.24 Test PPL 55.55
+	eval: perplexity 53.73
+Global Step 199500 LR 0.0073 Step Time 0.21 Test PPL 54.52
+	eval: perplexity 52.37
+Global Step 199600 LR 0.0073 Step Time 0.22 Test PPL 54.94
+	eval: perplexity 55.74
+Global Step 199700 LR 0.0073 Step Time 0.24 Test PPL 55.32
+	eval: perplexity 47.41
+Global Step 199800 LR 0.0073 Step Time 0.24 Test PPL 56.08
+	eval: perplexity 51.90
+Global Step 199900 LR 0.0073 Step Time 0.23 Test PPL 54.39
+	eval: perplexity 61.35
+Global Step 200000 LR 0.0073 Step Time 0.22 Test PPL 54.13
+	eval: perplexity 54.11
