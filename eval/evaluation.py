@@ -136,22 +136,37 @@ def embeddingBasedEvaluation(predicts,targets,emb,vocab):
     VE += dVE
   return GM/lp,EA/lp,VE/lp
 def read():
-  f = open(path['pred_path'])
-  predicts = f.readlines()
-  f.close()
-  f = open(path['target_path'])
-  targets = f.readlines()
-  f.close()
-  f = open(path['emb_path'])
-  emb = pickle.load(f)
-  f.close()
-  f = open(path['vocab_path'])
-  vocab = f.readlines()
-  f.close()
-  vocab = dict([(ele.strip(),ind) for ind,ele in enumerate(vocab)])
-  f = open(path['idf_path'])
-  idfTable = pickle.load(f)
-  f.close()
+  try:
+    f = open(path['pred_path'])
+    predicts = f.readlines()
+    f.close()
+  except:
+    predicts = None
+  try:
+    f = open(path['target_path'])
+    targets = f.readlines()
+    f.close()
+  except:
+    targets = None
+  try:
+    f = open(path['emb_path'])
+    emb = pickle.load(f)
+    f.close()
+  except:
+    emb = None
+  try:
+    f = open(path['vocab_path'])
+    vocab = f.readlines()
+    f.close()
+    vocab = dict([(ele.strip(),ind) for ind,ele in enumerate(vocab)])
+  except:
+    vocab = None
+  try:
+    f = open(path['idf_path'])
+    idfTable = pickle.load(f)
+    f.close()
+  except:
+    idfTable = None
   return predicts,targets,emb,vocab,idfTable
 #size = 100
 #s_num = 1000
@@ -160,9 +175,9 @@ if __name__=='__main__':
   #fpath = '/home/zyma/work/source.txt'
   #build_idfTable(fpath)
   predicts,targets,emb,vocab,idfTable = read()
-  print('mean_length:%f'%mean_length(predicts))
+  #print('mean_length:%f'%mean_length(predicts))
   for ele in distinct_config:
     print('test_size:%d,mean_num_dictinct1:%d,mean_total_word:%d,distinct1:%f'%(distinct1(predicts,ele['test_size'],ele['test_times'])))
-  print('mean_max_idf:%f'%mean_max_idf(predicts,idfTable))
+  #print('mean_max_idf:%f'%mean_max_idf(predicts,idfTable))
   print('GM=%f,EA=%f,VE=%f'%embeddingBasedEvaluation(predicts,targets,emb,vocab))
 

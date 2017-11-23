@@ -1,9 +1,9 @@
 #evaluation configuration
 path = {
-	'pred_path':'/home/zyma/work/models/gans/result.txt',
-	'target_path':'/home/zyma/work/models/seq2BF/results/results_3_128_110000',
-	'emb_path':'/home/zyma/work/models/algr_opt/nn_models/embeddings.pkl',
-	'vocab_path':'/home/zyma/work/models/gans/gen_data/vocab110000.all',
+	'pred_path':'../data_bpe/test1k.resp',
+	'target_path':'../data_bpe/test1k.resp',
+	'emb_path':'../unifilter_8_models/embeddings.pkl',
+	'vocab_path':'../data_bpe/vocab60000.in',
 	'idf_path':'daily_idf.pkl',
 	'post_path':'std_test.post'
 	}
