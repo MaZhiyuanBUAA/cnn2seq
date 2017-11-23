@@ -1,0 +1,4000 @@
+Global Step 100 LR 0.5000 Step Time 0.09 Test loss 0.811565
+     eval: loss 1.313262
+Global Step 200 LR 0.5000 Step Time 0.04 Test loss 0.813262
+     eval: loss 1.313262
+Global Step 300 LR 0.5000 Step Time 0.04 Test loss 0.812794
+     eval: loss 1.313262
+Global Step 400 LR 0.5000 Step Time 0.04 Test loss 0.813027
+     eval: loss 1.305449
+Global Step 500 LR 0.5000 Step Time 0.05 Test loss 0.812787
+     eval: loss 1.297637
+Global Step 600 LR 0.5000 Step Time 0.05 Test loss 0.812871
+     eval: loss 1.313262
+Global Step 700 LR 0.5000 Step Time 0.05 Test loss 0.812559
+     eval: loss 1.313262
+Global Step 800 LR 0.5000 Step Time 0.05 Test loss 0.812871
+     eval: loss 1.313262
+Global Step 900 LR 0.5000 Step Time 0.05 Test loss 0.812559
+     eval: loss 1.313262
+Global Step 1000 LR 0.5000 Step Time 0.05 Test loss 0.813340
+     eval: loss 1.313262
+Global Step 1100 LR 0.4950 Step Time 0.05 Test loss 0.813340
+     eval: loss 1.313262
+Global Step 1200 LR 0.4950 Step Time 0.05 Test loss 0.812480
+     eval: loss 1.305449
+Global Step 1300 LR 0.4950 Step Time 0.04 Test loss 0.812793
+     eval: loss 1.305449
+Global Step 1400 LR 0.4950 Step Time 0.04 Test loss 0.813027
+     eval: loss 1.313262
+Global Step 1500 LR 0.4950 Step Time 0.04 Test loss 0.812793
+     eval: loss 1.305449
+Global Step 1600 LR 0.4950 Step Time 0.04 Test loss 0.813027
+     eval: loss 1.313262
+Global Step 1700 LR 0.4950 Step Time 0.05 Test loss 0.812559
+     eval: loss 1.313262
+Global Step 1800 LR 0.4950 Step Time 0.05 Test loss 0.812090
+     eval: loss 1.313262
+Global Step 1900 LR 0.4950 Step Time 0.05 Test loss 0.813106
+     eval: loss 1.297637
+Global Step 2000 LR 0.4901 Step Time 0.04 Test loss 0.814822
+     eval: loss 1.242949
+Global Step 2100 LR 0.4851 Step Time 0.04 Test loss 0.813036
+     eval: loss 1.289824
+Global Step 2200 LR 0.4851 Step Time 0.04 Test loss 0.813574
+     eval: loss 1.274199
+Global Step 2300 LR 0.4851 Step Time 0.04 Test loss 0.813550
+     eval: loss 1.227324
+Global Step 2400 LR 0.4851 Step Time 0.06 Test loss 0.815174
+     eval: loss 1.262480
+Global Step 2500 LR 0.4851 Step Time 0.05 Test loss 0.814941
+     eval: loss 1.246855
+Global Step 2600 LR 0.4851 Step Time 0.05 Test loss 0.811619
+     eval: loss 1.246855
+Global Step 2700 LR 0.4851 Step Time 0.06 Test loss 0.811029
+     eval: loss 1.235137
+Global Step 2800 LR 0.4851 Step Time 0.05 Test loss 0.814291
+     eval: loss 1.258574
+Global Step 2900 LR 0.4851 Step Time 0.05 Test loss 0.812898
+     eval: loss 1.254668
+Global Step 3000 LR 0.4851 Step Time 0.06 Test loss 0.811778
+     eval: loss 0.461699
+Global Step 3100 LR 0.4851 Step Time 0.05 Test loss 0.812488
+     eval: loss 0.418730
+Global Step 3200 LR 0.4851 Step Time 0.05 Test loss 0.810844
+     eval: loss 0.449980
+Global Step 3300 LR 0.4851 Step Time 0.05 Test loss 0.815787
+     eval: loss 0.375762
+Global Step 3400 LR 0.4803 Step Time 0.05 Test loss 0.812243
+     eval: loss 0.469512
+Global Step 3500 LR 0.4803 Step Time 0.05 Test loss 0.814108
+     eval: loss 1.137480
+Global Step 3600 LR 0.4803 Step Time 0.05 Test loss 0.813601
+     eval: loss 0.395293
+Global Step 3700 LR 0.4803 Step Time 0.05 Test loss 0.808927
+     eval: loss 0.360137
+Global Step 3800 LR 0.4803 Step Time 0.05 Test loss 0.814760
+     eval: loss 0.383117
+Global Step 3900 LR 0.4755 Step Time 0.05 Test loss 0.814199
+     eval: loss 0.344512
+Global Step 4000 LR 0.4755 Step Time 0.06 Test loss 0.813183
+     eval: loss 0.360137
+Global Step 4100 LR 0.4755 Step Time 0.06 Test loss 0.811757
+     eval: loss 0.387480
+Global Step 4200 LR 0.4755 Step Time 0.05 Test loss 0.813893
+     eval: loss 0.352324
+Global Step 4300 LR 0.4755 Step Time 0.05 Test loss 0.813379
+     eval: loss 0.367949
+Global Step 4400 LR 0.4755 Step Time 0.05 Test loss 0.815033
+     eval: loss 0.383574
+Global Step 4500 LR 0.4707 Step Time 0.05 Test loss 0.815535
+     eval: loss 0.336699
+Global Step 4600 LR 0.4660 Step Time 0.05 Test loss 0.811813
+     eval: loss 0.383574
+Global Step 4700 LR 0.4660 Step Time 0.05 Test loss 0.812910
+     eval: loss 0.348418
+Global Step 4800 LR 0.4660 Step Time 0.05 Test loss 0.814208
+     eval: loss 0.371855
+Global Step 4900 LR 0.4660 Step Time 0.05 Test loss 0.814367
+     eval: loss 0.356230
+Global Step 5000 LR 0.4614 Step Time 0.05 Test loss 0.815295
+     eval: loss 0.348418
+Global Step 5100 LR 0.4568 Step Time 0.05 Test loss 0.814088
+     eval: loss 0.403105
+Global Step 5200 LR 0.4568 Step Time 0.05 Test loss 0.812870
+     eval: loss 0.356230
+Global Step 5300 LR 0.4568 Step Time 0.06 Test loss 0.814187
+     eval: loss 0.332793
+Global Step 5400 LR 0.4568 Step Time 0.05 Test loss 0.812988
+     eval: loss 0.328887
+Global Step 5500 LR 0.4568 Step Time 0.05 Test loss 0.813226
+     eval: loss 0.328887
+Global Step 5600 LR 0.4568 Step Time 0.06 Test loss 0.814586
+     eval: loss 0.344512
+Global Step 5700 LR 0.4522 Step Time 0.05 Test loss 0.812090
+     eval: loss 0.352324
+Global Step 5800 LR 0.4522 Step Time 0.05 Test loss 0.814678
+     eval: loss 0.348418
+Global Step 5900 LR 0.4477 Step Time 0.07 Test loss 0.812603
+     eval: loss 0.348418
+Global Step 6000 LR 0.4477 Step Time 0.06 Test loss 0.812708
+     eval: loss 0.348418
+Global Step 6100 LR 0.4477 Step Time 0.06 Test loss 0.813926
+     eval: loss 0.352324
+Global Step 6200 LR 0.4477 Step Time 0.06 Test loss 0.812050
+     eval: loss 0.336699
+Global Step 6300 LR 0.4477 Step Time 0.06 Test loss 0.815021
+     eval: loss 0.383574
+Global Step 6400 LR 0.4432 Step Time 0.06 Test loss 0.813649
+     eval: loss 0.367949
+Global Step 6500 LR 0.4432 Step Time 0.05 Test loss 0.815737
+     eval: loss 0.356230
+Global Step 6600 LR 0.4388 Step Time 0.05 Test loss 0.816191
+     eval: loss 0.371855
+Global Step 6700 LR 0.4344 Step Time 0.05 Test loss 0.813011
+     eval: loss 0.340605
+Global Step 6800 LR 0.4344 Step Time 0.06 Test loss 0.813213
+     eval: loss 0.348418
+Global Step 6900 LR 0.4344 Step Time 0.05 Test loss 0.813048
+     eval: loss 0.336699
+Global Step 7000 LR 0.4344 Step Time 0.05 Test loss 0.813762
+     eval: loss 0.340605
+Global Step 7100 LR 0.4300 Step Time 0.05 Test loss 0.814160
+     eval: loss 0.352324
+Global Step 7200 LR 0.4257 Step Time 0.05 Test loss 0.809764
+     eval: loss 0.360137
+Global Step 7300 LR 0.4257 Step Time 0.06 Test loss 0.812793
+     eval: loss 0.348418
+Global Step 7400 LR 0.4257 Step Time 0.05 Test loss 0.812677
+     eval: loss 0.360137
+Global Step 7500 LR 0.4257 Step Time 0.05 Test loss 0.814516
+     eval: loss 0.367949
+Global Step 7600 LR 0.4215 Step Time 0.05 Test loss 0.813678
+     eval: loss 0.371855
+Global Step 7700 LR 0.4215 Step Time 0.05 Test loss 0.811325
+     eval: loss 0.352324
+Global Step 7800 LR 0.4215 Step Time 0.06 Test loss 0.813730
+     eval: loss 0.364043
+Global Step 7900 LR 0.4215 Step Time 0.05 Test loss 0.813692
+     eval: loss 0.344512
+Global Step 8000 LR 0.4215 Step Time 0.05 Test loss 0.815371
+     eval: loss 0.367949
+Global Step 8100 LR 0.4173 Step Time 0.05 Test loss 0.813691
+     eval: loss 0.348418
+Global Step 8200 LR 0.4173 Step Time 0.05 Test loss 0.815644
+     eval: loss 0.364043
+Global Step 8300 LR 0.4131 Step Time 0.05 Test loss 0.813414
+     eval: loss 0.340605
+Global Step 8400 LR 0.4131 Step Time 0.06 Test loss 0.814902
+     eval: loss 0.336699
+Global Step 8500 LR 0.4131 Step Time 0.06 Test loss 0.815057
+     eval: loss 0.352324
+Global Step 8600 LR 0.4131 Step Time 0.07 Test loss 0.813222
+     eval: loss 0.336699
+Global Step 8700 LR 0.4131 Step Time 0.06 Test loss 0.811474
+     eval: loss 0.360137
+Global Step 8800 LR 0.4131 Step Time 0.06 Test loss 0.814747
+     eval: loss 0.352324
+Global Step 8900 LR 0.4131 Step Time 0.05 Test loss 0.813319
+     eval: loss 0.375762
+Global Step 9000 LR 0.4131 Step Time 0.07 Test loss 0.812007
+     eval: loss 0.883574
+Global Step 9100 LR 0.4131 Step Time 0.05 Test loss 0.816579
+     eval: loss 0.383574
+Global Step 9200 LR 0.4090 Step Time 0.06 Test loss 0.813674
+     eval: loss 0.364043
+Global Step 9300 LR 0.4090 Step Time 0.06 Test loss 0.813643
+     eval: loss 0.399199
+Global Step 9400 LR 0.4090 Step Time 0.06 Test loss 0.814880
+     eval: loss 0.387480
+Global Step 9500 LR 0.4090 Step Time 0.05 Test loss 0.813797
+     eval: loss 0.352324
+Global Step 9600 LR 0.4090 Step Time 0.06 Test loss 0.811518
+     eval: loss 0.352324
+Global Step 9700 LR 0.4090 Step Time 0.06 Test loss 0.813806
+     eval: loss 0.340605
+Global Step 9800 LR 0.4090 Step Time 0.06 Test loss 0.814475
+     eval: loss 0.328887
+Global Step 9900 LR 0.4049 Step Time 0.06 Test loss 0.813240
+     eval: loss 0.348418
+Global Step 10000 LR 0.4049 Step Time 0.05 Test loss 0.813766
+     eval: loss 0.348418
+Global Step 10100 LR 0.4049 Step Time 0.06 Test loss 0.813072
+     eval: loss 0.336699
+Global Step 10200 LR 0.4049 Step Time 0.05 Test loss 0.813848
+     eval: loss 0.336699
+Global Step 10300 LR 0.4008 Step Time 0.06 Test loss 0.812892
+     eval: loss 0.328887
+Global Step 10400 LR 0.4008 Step Time 0.06 Test loss 0.814716
+     eval: loss 0.352324
+Global Step 10500 LR 0.3968 Step Time 0.06 Test loss 0.813714
+     eval: loss 0.336699
+Global Step 10600 LR 0.3968 Step Time 0.05 Test loss 0.812994
+     eval: loss 0.383574
+Global Step 10700 LR 0.3968 Step Time 0.05 Test loss 0.811059
+     eval: loss 0.485345
+Global Step 10800 LR 0.3968 Step Time 0.07 Test loss 0.812833
+     eval: loss 0.407012
+Global Step 10900 LR 0.3968 Step Time 0.05 Test loss 0.813219
+     eval: loss 0.430449
+Global Step 11000 LR 0.3928 Step Time 0.06 Test loss 0.815236
+     eval: loss 1.184355
+Global Step 11100 LR 0.3889 Step Time 0.05 Test loss 0.812686
+     eval: loss 1.242949
+Global Step 11200 LR 0.3889 Step Time 0.06 Test loss 0.811952
+     eval: loss 1.207793
+Global Step 11300 LR 0.3889 Step Time 0.06 Test loss 0.807935
+     eval: loss 1.008574
+Global Step 11400 LR 0.3889 Step Time 0.05 Test loss 0.811301
+     eval: loss 1.153105
+Global Step 11500 LR 0.3889 Step Time 0.06 Test loss 0.814263
+     eval: loss 0.848418
+Global Step 11600 LR 0.3850 Step Time 0.05 Test loss 0.811663
+     eval: loss 0.824980
+Global Step 11700 LR 0.3850 Step Time 0.07 Test loss 0.812637
+     eval: loss 0.590605
+Global Step 11800 LR 0.3850 Step Time 0.05 Test loss 0.808027
+     eval: loss 0.739027
+Global Step 11900 LR 0.3850 Step Time 0.05 Test loss 0.809373
+     eval: loss 1.219512
+Global Step 12000 LR 0.3850 Step Time 0.06 Test loss 0.813814
+     eval: loss 1.219512
+Global Step 12100 LR 0.3812 Step Time 0.06 Test loss 0.811439
+     eval: loss 1.199980
+Global Step 12200 LR 0.3812 Step Time 0.06 Test loss 0.814618
+     eval: loss 1.153105
+Global Step 12300 LR 0.3774 Step Time 0.06 Test loss 0.811413
+     eval: loss 1.180449
+Global Step 12400 LR 0.3774 Step Time 0.07 Test loss 0.814638
+     eval: loss 1.008652
+Global Step 12500 LR 0.3736 Step Time 0.07 Test loss 0.814399
+     eval: loss 1.004668
+Global Step 12600 LR 0.3736 Step Time 0.06 Test loss 0.814335
+     eval: loss 1.157012
+Global Step 12700 LR 0.3736 Step Time 0.05 Test loss 0.816276
+     eval: loss 1.094611
+Global Step 12800 LR 0.3699 Step Time 0.07 Test loss 0.811967
+     eval: loss 1.070968
+Global Step 12900 LR 0.3699 Step Time 0.06 Test loss 0.814331
+     eval: loss 1.145293
+Global Step 13000 LR 0.3699 Step Time 0.06 Test loss 0.817572
+     eval: loss 1.188262
+Global Step 13100 LR 0.3662 Step Time 0.06 Test loss 0.814828
+     eval: loss 1.211699
+Global Step 13200 LR 0.3662 Step Time 0.06 Test loss 0.813641
+     eval: loss 1.242949
+Global Step 13300 LR 0.3662 Step Time 0.06 Test loss 0.811533
+     eval: loss 1.235137
+Global Step 13400 LR 0.3662 Step Time 0.05 Test loss 0.811720
+     eval: loss 1.234633
+Global Step 13500 LR 0.3662 Step Time 0.05 Test loss 0.811933
+     eval: loss 1.250762
+Global Step 13600 LR 0.3662 Step Time 0.05 Test loss 0.815527
+     eval: loss 1.239043
+Global Step 13700 LR 0.3625 Step Time 0.05 Test loss 0.811901
+     eval: loss 1.223418
+Global Step 13800 LR 0.3625 Step Time 0.05 Test loss 0.815917
+     eval: loss 1.219512
+Global Step 13900 LR 0.3589 Step Time 0.05 Test loss 0.813098
+     eval: loss 1.235137
+Global Step 14000 LR 0.3589 Step Time 0.06 Test loss 0.812274
+     eval: loss 1.250762
+Global Step 14100 LR 0.3589 Step Time 0.06 Test loss 0.815649
+     eval: loss 1.254668
+Global Step 14200 LR 0.3589 Step Time 0.06 Test loss 0.814198
+     eval: loss 1.242949
+Global Step 14300 LR 0.3589 Step Time 0.05 Test loss 0.815096
+     eval: loss 1.258574
+Global Step 14400 LR 0.3589 Step Time 0.06 Test loss 0.814279
+     eval: loss 1.242949
+Global Step 14500 LR 0.3589 Step Time 0.07 Test loss 0.814834
+     eval: loss 1.199980
+Global Step 14600 LR 0.3589 Step Time 0.07 Test loss 0.813613
+     eval: loss 1.250762
+Global Step 14700 LR 0.3589 Step Time 0.06 Test loss 0.814433
+     eval: loss 1.250762
+Global Step 14800 LR 0.3589 Step Time 0.06 Test loss 0.811938
+     eval: loss 1.215605
+Global Step 14900 LR 0.3589 Step Time 0.06 Test loss 0.811465
+     eval: loss 1.219512
+Global Step 15000 LR 0.3589 Step Time 0.07 Test loss 0.814706
+     eval: loss 1.270293
+Global Step 15100 LR 0.3553 Step Time 0.06 Test loss 0.810962
+     eval: loss 1.242949
+Global Step 15200 LR 0.3553 Step Time 0.06 Test loss 0.814137
+     eval: loss 1.250762
+Global Step 15300 LR 0.3553 Step Time 0.07 Test loss 0.813636
+     eval: loss 1.227324
+Global Step 15400 LR 0.3553 Step Time 0.06 Test loss 0.814512
+     eval: loss 1.215605
+Global Step 15500 LR 0.3517 Step Time 0.06 Test loss 0.812913
+     eval: loss 1.242949
+Global Step 15600 LR 0.3517 Step Time 0.05 Test loss 0.811511
+     eval: loss 1.254668
+Global Step 15700 LR 0.3517 Step Time 0.06 Test loss 0.814468
+     eval: loss 1.258574
+Global Step 15800 LR 0.3517 Step Time 0.05 Test loss 0.814329
+     eval: loss 1.235137
+Global Step 15900 LR 0.3517 Step Time 0.06 Test loss 0.812047
+     eval: loss 1.239043
+Global Step 16000 LR 0.3517 Step Time 0.06 Test loss 0.813305
+     eval: loss 1.211699
+Global Step 16100 LR 0.3517 Step Time 0.05 Test loss 0.815197
+     eval: loss 1.231230
+Global Step 16200 LR 0.3482 Step Time 0.06 Test loss 0.813971
+     eval: loss 1.242949
+Global Step 16300 LR 0.3482 Step Time 0.05 Test loss 0.813650
+     eval: loss 1.246855
+Global Step 16400 LR 0.3482 Step Time 0.05 Test loss 0.814363
+     eval: loss 1.250762
+Global Step 16500 LR 0.3482 Step Time 0.05 Test loss 0.815957
+     eval: loss 1.246855
+Global Step 16600 LR 0.3447 Step Time 0.05 Test loss 0.810774
+     eval: loss 1.227324
+Global Step 16700 LR 0.3447 Step Time 0.05 Test loss 0.813331
+     eval: loss 1.211699
+Global Step 16800 LR 0.3447 Step Time 0.06 Test loss 0.807257
+     eval: loss 1.145293
+Global Step 16900 LR 0.3447 Step Time 0.05 Test loss 0.812666
+     eval: loss 1.219512
+Global Step 17000 LR 0.3447 Step Time 0.05 Test loss 0.818064
+     eval: loss 1.219512
+Global Step 17100 LR 0.3413 Step Time 0.05 Test loss 0.812309
+     eval: loss 1.211699
+Global Step 17200 LR 0.3413 Step Time 0.05 Test loss 0.815293
+     eval: loss 1.129668
+Global Step 17300 LR 0.3413 Step Time 0.05 Test loss 0.811053
+     eval: loss 1.211699
+Global Step 17400 LR 0.3413 Step Time 0.05 Test loss 0.816015
+     eval: loss 1.207793
+Global Step 17500 LR 0.3379 Step Time 0.05 Test loss 0.813218
+     eval: loss 1.172637
+Global Step 17600 LR 0.3379 Step Time 0.05 Test loss 0.814376
+     eval: loss 1.211699
+Global Step 17700 LR 0.3379 Step Time 0.05 Test loss 0.815839
+     eval: loss 1.223418
+Global Step 17800 LR 0.3379 Step Time 0.06 Test loss 0.815589
+     eval: loss 1.164824
+Global Step 17900 LR 0.3379 Step Time 0.06 Test loss 0.816111
+     eval: loss 1.192168
+Global Step 18000 LR 0.3345 Step Time 0.06 Test loss 0.816164
+     eval: loss 1.192168
+Global Step 18100 LR 0.3311 Step Time 0.05 Test loss 0.815343
+     eval: loss 1.265267
+Global Step 18200 LR 0.3311 Step Time 0.06 Test loss 0.812301
+     eval: loss 1.231230
+Global Step 18300 LR 0.3311 Step Time 0.06 Test loss 0.811919
+     eval: loss 1.164824
+Global Step 18400 LR 0.3311 Step Time 0.06 Test loss 0.815147
+     eval: loss 1.078887
+Global Step 18500 LR 0.3311 Step Time 0.05 Test loss 0.811326
+     eval: loss 1.223418
+Global Step 18600 LR 0.3311 Step Time 0.05 Test loss 0.813024
+     eval: loss 1.254668
+Global Step 18700 LR 0.3311 Step Time 0.06 Test loss 0.811567
+     eval: loss 0.981230
+Global Step 18800 LR 0.3311 Step Time 0.05 Test loss 0.811340
+     eval: loss 0.793730
+Global Step 18900 LR 0.3311 Step Time 0.05 Test loss 0.808729
+     eval: loss 0.543730
+Global Step 19000 LR 0.3311 Step Time 0.05 Test loss 0.809651
+     eval: loss 0.711699
+Global Step 19100 LR 0.3311 Step Time 0.05 Test loss 0.811758
+     eval: loss 0.594512
+Global Step 19200 LR 0.3278 Step Time 0.05 Test loss 0.808277
+     eval: loss 0.528105
+Global Step 19300 LR 0.3278 Step Time 0.05 Test loss 0.812633
+     eval: loss 0.481230
+Global Step 19400 LR 0.3246 Step Time 0.05 Test loss 0.815634
+     eval: loss 0.399199
+Global Step 19500 LR 0.3213 Step Time 0.05 Test loss 0.814598
+     eval: loss 0.352324
+Global Step 19600 LR 0.3213 Step Time 0.05 Test loss 0.812743
+     eval: loss 0.367949
+Global Step 19700 LR 0.3213 Step Time 0.05 Test loss 0.813457
+     eval: loss 0.375762
+Global Step 19800 LR 0.3213 Step Time 0.06 Test loss 0.813056
+     eval: loss 0.360137
+Global Step 19900 LR 0.3213 Step Time 0.05 Test loss 0.814981
+     eval: loss 0.364043
+Global Step 20000 LR 0.3181 Step Time 0.07 Test loss 0.812118
+     eval: loss 0.360120
+Global Step 20100 LR 0.3181 Step Time 0.06 Test loss 0.812151
+     eval: loss 0.364043
+Global Step 20200 LR 0.3181 Step Time 0.06 Test loss 0.813373
+     eval: loss 0.387480
+Global Step 20300 LR 0.3181 Step Time 0.05 Test loss 0.811664
+     eval: loss 0.410918
+Global Step 20400 LR 0.3181 Step Time 0.06 Test loss 0.811728
+     eval: loss 0.414824
+Global Step 20500 LR 0.3181 Step Time 0.06 Test loss 0.814785
+     eval: loss 0.387480
+Global Step 20600 LR 0.3149 Step Time 0.06 Test loss 0.814637
+     eval: loss 0.379668
+Global Step 20700 LR 0.3149 Step Time 0.06 Test loss 0.812325
+     eval: loss 0.407011
+Global Step 20800 LR 0.3149 Step Time 0.05 Test loss 0.812392
+     eval: loss 0.473418
+Global Step 20900 LR 0.3149 Step Time 0.06 Test loss 0.815218
+     eval: loss 0.742949
+Global Step 21000 LR 0.3118 Step Time 0.05 Test loss 0.813973
+     eval: loss 1.063262
+Global Step 21100 LR 0.3118 Step Time 0.05 Test loss 0.813523
+     eval: loss 1.258574
+Global Step 21200 LR 0.3118 Step Time 0.05 Test loss 0.814732
+     eval: loss 1.231230
+Global Step 21300 LR 0.3118 Step Time 0.05 Test loss 0.812245
+     eval: loss 1.258574
+Global Step 21400 LR 0.3118 Step Time 0.05 Test loss 0.811964
+     eval: loss 1.250762
+Global Step 21500 LR 0.3118 Step Time 0.06 Test loss 0.814360
+     eval: loss 1.235137
+Global Step 21600 LR 0.3118 Step Time 0.05 Test loss 0.812971
+     eval: loss 1.227324
+Global Step 21700 LR 0.3118 Step Time 0.05 Test loss 0.814143
+     eval: loss 1.246855
+Global Step 21800 LR 0.3118 Step Time 0.06 Test loss 0.817196
+     eval: loss 1.239043
+Global Step 21900 LR 0.3086 Step Time 0.05 Test loss 0.812635
+     eval: loss 1.227324
+Global Step 22000 LR 0.3086 Step Time 0.05 Test loss 0.812322
+     eval: loss 1.250762
+Global Step 22100 LR 0.3086 Step Time 0.05 Test loss 0.812599
+     eval: loss 1.219512
+Global Step 22200 LR 0.3086 Step Time 0.05 Test loss 0.814680
+     eval: loss 1.239043
+Global Step 22300 LR 0.3056 Step Time 0.05 Test loss 0.813925
+     eval: loss 1.223418
+Global Step 22400 LR 0.3056 Step Time 0.06 Test loss 0.816924
+     eval: loss 0.887480
+Global Step 22500 LR 0.3025 Step Time 0.05 Test loss 0.816193
+     eval: loss 0.821828
+Global Step 22600 LR 0.3025 Step Time 0.07 Test loss 0.816219
+     eval: loss 0.535918
+Global Step 22700 LR 0.3025 Step Time 0.05 Test loss 0.813040
+     eval: loss 0.403105
+Global Step 22800 LR 0.3025 Step Time 0.05 Test loss 0.813184
+     eval: loss 0.395426
+Global Step 22900 LR 0.3025 Step Time 0.05 Test loss 0.812555
+     eval: loss 0.426543
+Global Step 23000 LR 0.3025 Step Time 0.06 Test loss 0.815457
+     eval: loss 0.395293
+Global Step 23100 LR 0.2995 Step Time 0.06 Test loss 0.812598
+     eval: loss 0.430449
+Global Step 23200 LR 0.2995 Step Time 0.05 Test loss 0.811780
+     eval: loss 0.395293
+Global Step 23300 LR 0.2995 Step Time 0.06 Test loss 0.816794
+     eval: loss 0.855713
+Global Step 23400 LR 0.2965 Step Time 0.05 Test loss 0.814182
+     eval: loss 0.985137
+Global Step 23500 LR 0.2965 Step Time 0.05 Test loss 0.813693
+     eval: loss 1.094512
+Global Step 23600 LR 0.2965 Step Time 0.05 Test loss 0.813983
+     eval: loss 1.207793
+Global Step 23700 LR 0.2965 Step Time 0.05 Test loss 0.814692
+     eval: loss 1.192168
+Global Step 23800 LR 0.2935 Step Time 0.05 Test loss 0.814269
+     eval: loss 1.180449
+Global Step 23900 LR 0.2935 Step Time 0.05 Test loss 0.815222
+     eval: loss 1.153105
+Global Step 24000 LR 0.2906 Step Time 0.05 Test loss 0.815488
+     eval: loss 0.610137
+Global Step 24100 LR 0.2877 Step Time 0.06 Test loss 0.809943
+     eval: loss 0.692168
+Global Step 24200 LR 0.2877 Step Time 0.05 Test loss 0.816456
+     eval: loss 0.699980
+Global Step 24300 LR 0.2848 Step Time 0.05 Test loss 0.813454
+     eval: loss 0.707793
+Global Step 24400 LR 0.2848 Step Time 0.05 Test loss 0.808345
+     eval: loss 1.012472
+Global Step 24500 LR 0.2848 Step Time 0.05 Test loss 0.814769
+     eval: loss 1.078887
+Global Step 24600 LR 0.2848 Step Time 0.05 Test loss 0.816547
+     eval: loss 1.094512
+Global Step 24700 LR 0.2820 Step Time 0.06 Test loss 0.811870
+     eval: loss 1.090605
+Global Step 24800 LR 0.2820 Step Time 0.06 Test loss 0.815306
+     eval: loss 1.129668
+Global Step 24900 LR 0.2820 Step Time 0.06 Test loss 0.814564
+     eval: loss 1.211699
+Global Step 25000 LR 0.2820 Step Time 0.06 Test loss 0.810116
+     eval: loss 1.203887
+Global Step 25100 LR 0.2820 Step Time 0.06 Test loss 0.812466
+     eval: loss 1.239043
+Global Step 25200 LR 0.2820 Step Time 0.05 Test loss 0.813911
+     eval: loss 1.164824
+Global Step 25300 LR 0.2820 Step Time 0.06 Test loss 0.810200
+     eval: loss 1.160918
+Global Step 25400 LR 0.2820 Step Time 0.07 Test loss 0.808771
+     eval: loss 1.203887
+Global Step 25500 LR 0.2820 Step Time 0.07 Test loss 0.813678
+     eval: loss 1.121855
+Global Step 25600 LR 0.2820 Step Time 0.05 Test loss 0.817772
+     eval: loss 1.153105
+Global Step 25700 LR 0.2791 Step Time 0.06 Test loss 0.814989
+     eval: loss 1.044640
+Global Step 25800 LR 0.2791 Step Time 0.06 Test loss 0.809659
+     eval: loss 1.231230
+Global Step 25900 LR 0.2791 Step Time 0.06 Test loss 0.812498
+     eval: loss 1.223418
+Global Step 26000 LR 0.2791 Step Time 0.06 Test loss 0.814614
+     eval: loss 1.149199
+Global Step 26100 LR 0.2791 Step Time 0.05 Test loss 0.811287
+     eval: loss 1.211699
+Global Step 26200 LR 0.2791 Step Time 0.06 Test loss 0.814392
+     eval: loss 1.203887
+Global Step 26300 LR 0.2791 Step Time 0.07 Test loss 0.814746
+     eval: loss 1.223418
+Global Step 26400 LR 0.2763 Step Time 0.06 Test loss 0.814203
+     eval: loss 1.219512
+Global Step 26500 LR 0.2763 Step Time 0.06 Test loss 0.813454
+     eval: loss 1.227324
+Global Step 26600 LR 0.2763 Step Time 0.06 Test loss 0.812039
+     eval: loss 1.242949
+Global Step 26700 LR 0.2763 Step Time 0.07 Test loss 0.813373
+     eval: loss 1.254668
+Global Step 26800 LR 0.2763 Step Time 0.06 Test loss 0.811934
+     eval: loss 1.239043
+Global Step 26900 LR 0.2763 Step Time 0.06 Test loss 0.813446
+     eval: loss 1.231230
+Global Step 27000 LR 0.2736 Step Time 0.06 Test loss 0.815644
+     eval: loss 1.266387
+Global Step 27100 LR 0.2708 Step Time 0.06 Test loss 0.814343
+     eval: loss 1.246855
+Global Step 27200 LR 0.2708 Step Time 0.05 Test loss 0.814245
+     eval: loss 1.250762
+Global Step 27300 LR 0.2708 Step Time 0.05 Test loss 0.808538
+     eval: loss 1.242949
+Global Step 27400 LR 0.2708 Step Time 0.05 Test loss 0.811529
+     eval: loss 1.262480
+Global Step 27500 LR 0.2708 Step Time 0.05 Test loss 0.817252
+     eval: loss 1.250762
+Global Step 27600 LR 0.2681 Step Time 0.05 Test loss 0.813585
+     eval: loss 1.250762
+Global Step 27700 LR 0.2681 Step Time 0.05 Test loss 0.814073
+     eval: loss 1.239043
+Global Step 27800 LR 0.2681 Step Time 0.05 Test loss 0.815849
+     eval: loss 1.215605
+Global Step 27900 LR 0.2681 Step Time 0.06 Test loss 0.812279
+     eval: loss 1.239043
+Global Step 28000 LR 0.2681 Step Time 0.05 Test loss 0.814101
+     eval: loss 1.239043
+Global Step 28100 LR 0.2681 Step Time 0.05 Test loss 0.817871
+     eval: loss 1.168730
+Global Step 28200 LR 0.2655 Step Time 0.05 Test loss 0.813268
+     eval: loss 1.250762
+Global Step 28300 LR 0.2655 Step Time 0.05 Test loss 0.814004
+     eval: loss 1.227324
+Global Step 28400 LR 0.2655 Step Time 0.05 Test loss 0.812603
+     eval: loss 1.254668
+Global Step 28500 LR 0.2655 Step Time 0.05 Test loss 0.813411
+     eval: loss 1.235137
+Global Step 28600 LR 0.2655 Step Time 0.06 Test loss 0.812286
+     eval: loss 1.235137
+Global Step 28700 LR 0.2655 Step Time 0.05 Test loss 0.811894
+     eval: loss 1.227324
+Global Step 28800 LR 0.2655 Step Time 0.05 Test loss 0.812141
+     eval: loss 1.227324
+Global Step 28900 LR 0.2655 Step Time 0.05 Test loss 0.817907
+     eval: loss 1.254668
+Global Step 29000 LR 0.2628 Step Time 0.05 Test loss 0.813741
+     eval: loss 1.250762
+Global Step 29100 LR 0.2628 Step Time 0.05 Test loss 0.810647
+     eval: loss 1.246855
+Global Step 29200 LR 0.2628 Step Time 0.05 Test loss 0.812549
+     eval: loss 1.250762
+Global Step 29300 LR 0.2628 Step Time 0.05 Test loss 0.813952
+     eval: loss 1.215605
+Global Step 29400 LR 0.2602 Step Time 0.05 Test loss 0.812168
+     eval: loss 1.235137
+Global Step 29500 LR 0.2602 Step Time 0.05 Test loss 0.815801
+     eval: loss 1.239043
+Global Step 29600 LR 0.2576 Step Time 0.05 Test loss 0.813535
+     eval: loss 1.235137
+Global Step 29700 LR 0.2576 Step Time 0.05 Test loss 0.814829
+     eval: loss 1.231230
+Global Step 29800 LR 0.2576 Step Time 0.05 Test loss 0.813093
+     eval: loss 1.211699
+Global Step 29900 LR 0.2576 Step Time 0.05 Test loss 0.814394
+     eval: loss 1.235137
+Global Step 30000 LR 0.2576 Step Time 0.05 Test loss 0.811855
+     eval: loss 1.239043
+Global Step 30100 LR 0.2576 Step Time 0.05 Test loss 0.813701
+     eval: loss 1.203887
+Global Step 30200 LR 0.2576 Step Time 0.05 Test loss 0.811145
+     eval: loss 1.258574
+Global Step 30300 LR 0.2576 Step Time 0.05 Test loss 0.812129
+     eval: loss 1.282012
+Global Step 30400 LR 0.2576 Step Time 0.05 Test loss 0.816191
+     eval: loss 1.258574
+Global Step 30500 LR 0.2550 Step Time 0.05 Test loss 0.813867
+     eval: loss 1.242949
+Global Step 30600 LR 0.2550 Step Time 0.05 Test loss 0.812950
+     eval: loss 1.242949
+Global Step 30700 LR 0.2550 Step Time 0.05 Test loss 0.812358
+     eval: loss 1.254668
+Global Step 30800 LR 0.2550 Step Time 0.05 Test loss 0.813502
+     eval: loss 1.242949
+Global Step 30900 LR 0.2550 Step Time 0.05 Test loss 0.813184
+     eval: loss 1.207793
+Global Step 31000 LR 0.2550 Step Time 0.05 Test loss 0.814017
+     eval: loss 1.242949
+Global Step 31100 LR 0.2524 Step Time 0.05 Test loss 0.811543
+     eval: loss 1.227324
+Global Step 31200 LR 0.2524 Step Time 0.06 Test loss 0.814238
+     eval: loss 1.242949
+Global Step 31300 LR 0.2499 Step Time 0.06 Test loss 0.813272
+     eval: loss 1.219512
+Global Step 31400 LR 0.2499 Step Time 0.05 Test loss 0.812363
+     eval: loss 1.242949
+Global Step 31500 LR 0.2499 Step Time 0.06 Test loss 0.813809
+     eval: loss 1.270293
+Global Step 31600 LR 0.2499 Step Time 0.05 Test loss 0.811895
+     eval: loss 1.227324
+Global Step 31700 LR 0.2499 Step Time 0.05 Test loss 0.814316
+     eval: loss 1.223418
+Global Step 31800 LR 0.2474 Step Time 0.06 Test loss 0.812284
+     eval: loss 1.223418
+Global Step 31900 LR 0.2474 Step Time 0.06 Test loss 0.813183
+     eval: loss 1.235137
+Global Step 32000 LR 0.2474 Step Time 0.06 Test loss 0.813898
+     eval: loss 1.227324
+Global Step 32100 LR 0.2474 Step Time 0.05 Test loss 0.812398
+     eval: loss 1.250762
+Global Step 32200 LR 0.2474 Step Time 0.06 Test loss 0.813341
+     eval: loss 1.250762
+Global Step 32300 LR 0.2474 Step Time 0.06 Test loss 0.812479
+     eval: loss 1.254668
+Global Step 32400 LR 0.2474 Step Time 0.05 Test loss 0.811995
+     eval: loss 1.250762
+Global Step 32500 LR 0.2474 Step Time 0.06 Test loss 0.812167
+     eval: loss 1.266387
+Global Step 32600 LR 0.2474 Step Time 0.05 Test loss 0.810527
+     eval: loss 1.207793
+Global Step 32700 LR 0.2474 Step Time 0.07 Test loss 0.812048
+     eval: loss 1.250762
+Global Step 32800 LR 0.2474 Step Time 0.06 Test loss 0.812441
+     eval: loss 1.242949
+Global Step 32900 LR 0.2449 Step Time 0.06 Test loss 0.812749
+     eval: loss 1.235137
+Global Step 33000 LR 0.2425 Step Time 0.06 Test loss 0.813967
+     eval: loss 1.254668
+Global Step 33100 LR 0.2401 Step Time 0.05 Test loss 0.811596
+     eval: loss 1.254668
+Global Step 33200 LR 0.2401 Step Time 0.05 Test loss 0.813221
+     eval: loss 1.254668
+Global Step 33300 LR 0.2401 Step Time 0.05 Test loss 0.815532
+     eval: loss 1.246915
+Global Step 33400 LR 0.2377 Step Time 0.06 Test loss 0.813157
+     eval: loss 1.239043
+Global Step 33500 LR 0.2377 Step Time 0.05 Test loss 0.811900
+     eval: loss 1.239043
+Global Step 33600 LR 0.2377 Step Time 0.06 Test loss 0.815969
+     eval: loss 1.215605
+Global Step 33700 LR 0.2353 Step Time 0.05 Test loss 0.811772
+     eval: loss 1.227324
+Global Step 33800 LR 0.2353 Step Time 0.05 Test loss 0.812125
+     eval: loss 1.227324
+Global Step 33900 LR 0.2353 Step Time 0.05 Test loss 0.813457
+     eval: loss 1.242949
+Global Step 34000 LR 0.2353 Step Time 0.05 Test loss 0.815038
+     eval: loss 1.262480
+Global Step 34100 LR 0.2329 Step Time 0.05 Test loss 0.814001
+     eval: loss 1.211699
+Global Step 34200 LR 0.2329 Step Time 0.05 Test loss 0.813345
+     eval: loss 1.160918
+Global Step 34300 LR 0.2329 Step Time 0.05 Test loss 0.813910
+     eval: loss 1.254668
+Global Step 34400 LR 0.2329 Step Time 0.05 Test loss 0.814262
+     eval: loss 1.227324
+Global Step 34500 LR 0.2306 Step Time 0.05 Test loss 0.812521
+     eval: loss 1.192168
+Global Step 34600 LR 0.2306 Step Time 0.05 Test loss 0.814785
+     eval: loss 1.254668
+Global Step 34700 LR 0.2283 Step Time 0.05 Test loss 0.815122
+     eval: loss 1.223414
+Global Step 34800 LR 0.2260 Step Time 0.05 Test loss 0.814789
+     eval: loss 1.250762
+Global Step 34900 LR 0.2260 Step Time 0.05 Test loss 0.812832
+     eval: loss 1.239043
+Global Step 35000 LR 0.2260 Step Time 0.05 Test loss 0.812246
+     eval: loss 1.207793
+Global Step 35100 LR 0.2260 Step Time 0.05 Test loss 0.814649
+     eval: loss 1.235137
+Global Step 35200 LR 0.2260 Step Time 0.05 Test loss 0.814756
+     eval: loss 1.250762
+Global Step 35300 LR 0.2238 Step Time 0.05 Test loss 0.811833
+     eval: loss 1.250762
+Global Step 35400 LR 0.2238 Step Time 0.05 Test loss 0.814159
+     eval: loss 1.254668
+Global Step 35500 LR 0.2238 Step Time 0.05 Test loss 0.814567
+     eval: loss 1.235137
+Global Step 35600 LR 0.2238 Step Time 0.05 Test loss 0.810684
+     eval: loss 1.227324
+Global Step 35700 LR 0.2238 Step Time 0.05 Test loss 0.815718
+     eval: loss 1.231230
+Global Step 35800 LR 0.2215 Step Time 0.05 Test loss 0.811776
+     eval: loss 1.242949
+Global Step 35900 LR 0.2215 Step Time 0.05 Test loss 0.814902
+     eval: loss 1.250762
+Global Step 36000 LR 0.2215 Step Time 0.05 Test loss 0.813418
+     eval: loss 1.262480
+Global Step 36100 LR 0.2215 Step Time 0.05 Test loss 0.810332
+     eval: loss 1.258589
+Global Step 36200 LR 0.2215 Step Time 0.05 Test loss 0.812559
+     eval: loss 1.239043
+Global Step 36300 LR 0.2215 Step Time 0.05 Test loss 0.814512
+     eval: loss 1.246855
+Global Step 36400 LR 0.2193 Step Time 0.05 Test loss 0.812924
+     eval: loss 1.227324
+Global Step 36500 LR 0.2193 Step Time 0.05 Test loss 0.815566
+     eval: loss 1.240725
+Global Step 36600 LR 0.2171 Step Time 0.05 Test loss 0.813769
+     eval: loss 1.254668
+Global Step 36700 LR 0.2171 Step Time 0.05 Test loss 0.813221
+     eval: loss 1.246855
+Global Step 36800 LR 0.2171 Step Time 0.05 Test loss 0.815136
+     eval: loss 1.266387
+Global Step 36900 LR 0.2171 Step Time 0.05 Test loss 0.812949
+     eval: loss 1.254668
+Global Step 37000 LR 0.2171 Step Time 0.05 Test loss 0.815355
+     eval: loss 1.250762
+Global Step 37100 LR 0.2149 Step Time 0.05 Test loss 0.810193
+     eval: loss 1.254668
+Global Step 37200 LR 0.2149 Step Time 0.05 Test loss 0.812457
+     eval: loss 1.242949
+Global Step 37300 LR 0.2149 Step Time 0.06 Test loss 0.816347
+     eval: loss 1.278105
+Global Step 37400 LR 0.2128 Step Time 0.05 Test loss 0.812996
+     eval: loss 1.254668
+Global Step 37500 LR 0.2128 Step Time 0.06 Test loss 0.813503
+     eval: loss 1.258574
+Global Step 37600 LR 0.2128 Step Time 0.06 Test loss 0.813266
+     eval: loss 1.262480
+Global Step 37700 LR 0.2128 Step Time 0.06 Test loss 0.814121
+     eval: loss 1.235137
+Global Step 37800 LR 0.2107 Step Time 0.06 Test loss 0.812441
+     eval: loss 1.262480
+Global Step 37900 LR 0.2107 Step Time 0.06 Test loss 0.813535
+     eval: loss 1.250762
+Global Step 38000 LR 0.2107 Step Time 0.05 Test loss 0.814434
+     eval: loss 1.235137
+Global Step 38100 LR 0.2086 Step Time 0.06 Test loss 0.816508
+     eval: loss 1.231230
+Global Step 38200 LR 0.2065 Step Time 0.05 Test loss 0.810880
+     eval: loss 1.235137
+Global Step 38300 LR 0.2065 Step Time 0.05 Test loss 0.811968
+     eval: loss 1.231230
+Global Step 38400 LR 0.2065 Step Time 0.06 Test loss 0.811139
+     eval: loss 1.266387
+Global Step 38500 LR 0.2065 Step Time 0.06 Test loss 0.810940
+     eval: loss 1.250762
+Global Step 38600 LR 0.2065 Step Time 0.05 Test loss 0.811647
+     eval: loss 1.199980
+Global Step 38700 LR 0.2065 Step Time 0.06 Test loss 0.813810
+     eval: loss 1.246855
+Global Step 38800 LR 0.2044 Step Time 0.05 Test loss 0.814316
+     eval: loss 1.235137
+Global Step 38900 LR 0.2024 Step Time 0.07 Test loss 0.812318
+     eval: loss 1.223418
+Global Step 39000 LR 0.2024 Step Time 0.05 Test loss 0.814616
+     eval: loss 1.219512
+Global Step 39100 LR 0.2003 Step Time 0.05 Test loss 0.813286
+     eval: loss 1.250762
+Global Step 39200 LR 0.2003 Step Time 0.05 Test loss 0.811941
+     eval: loss 1.246855
+Global Step 39300 LR 0.2003 Step Time 0.05 Test loss 0.811895
+     eval: loss 1.227324
+Global Step 39400 LR 0.2003 Step Time 0.05 Test loss 0.811895
+     eval: loss 1.262480
+Global Step 39500 LR 0.2003 Step Time 0.05 Test loss 0.814939
+     eval: loss 1.254668
+Global Step 39600 LR 0.1983 Step Time 0.06 Test loss 0.811382
+     eval: loss 1.223418
+Global Step 39700 LR 0.1983 Step Time 0.05 Test loss 0.812904
+     eval: loss 1.258574
+Global Step 39800 LR 0.1983 Step Time 0.05 Test loss 0.811777
+     eval: loss 1.254668
+Global Step 39900 LR 0.1983 Step Time 0.06 Test loss 0.814550
+     eval: loss 1.231230
+Global Step 40000 LR 0.1964 Step Time 0.05 Test loss 0.813057
+     eval: loss 1.227324
+Global Step 40100 LR 0.1964 Step Time 0.05 Test loss 0.812607
+     eval: loss 1.227324
+Global Step 40200 LR 0.1964 Step Time 0.05 Test loss 0.811973
+     eval: loss 1.258574
+Global Step 40300 LR 0.1964 Step Time 0.05 Test loss 0.814491
+     eval: loss 1.218207
+Global Step 40400 LR 0.1944 Step Time 0.05 Test loss 0.812639
+     eval: loss 1.231230
+Global Step 40500 LR 0.1944 Step Time 0.05 Test loss 0.813118
+     eval: loss 1.262480
+Global Step 40600 LR 0.1944 Step Time 0.05 Test loss 0.813262
+     eval: loss 1.219512
+Global Step 40700 LR 0.1944 Step Time 0.05 Test loss 0.812986
+     eval: loss 1.230798
+Global Step 40800 LR 0.1944 Step Time 0.05 Test loss 0.817287
+     eval: loss 1.227324
+Global Step 40900 LR 0.1924 Step Time 0.05 Test loss 0.818079
+     eval: loss 1.242949
+Global Step 41000 LR 0.1905 Step Time 0.05 Test loss 0.813987
+     eval: loss 1.215605
+Global Step 41100 LR 0.1905 Step Time 0.05 Test loss 0.810938
+     eval: loss 1.094512
+Global Step 41200 LR 0.1905 Step Time 0.05 Test loss 0.817149
+     eval: loss 0.893367
+Global Step 41300 LR 0.1905 Step Time 0.06 Test loss 0.811475
+     eval: loss 0.961699
+Global Step 41400 LR 0.1905 Step Time 0.05 Test loss 0.814668
+     eval: loss 1.059355
+Global Step 41500 LR 0.1905 Step Time 0.05 Test loss 0.812454
+     eval: loss 1.032012
+Global Step 41600 LR 0.1905 Step Time 0.05 Test loss 0.810875
+     eval: loss 1.145293
+Global Step 41700 LR 0.1905 Step Time 0.05 Test loss 0.811588
+     eval: loss 1.137480
+Global Step 41800 LR 0.1905 Step Time 0.05 Test loss 0.811340
+     eval: loss 1.153105
+Global Step 41900 LR 0.1905 Step Time 0.05 Test loss 0.816231
+     eval: loss 1.176543
+Global Step 42000 LR 0.1886 Step Time 0.05 Test loss 0.810548
+     eval: loss 1.153105
+Global Step 42100 LR 0.1886 Step Time 0.05 Test loss 0.812714
+     eval: loss 1.227324
+Global Step 42200 LR 0.1886 Step Time 0.06 Test loss 0.807246
+     eval: loss 1.160918
+Global Step 42300 LR 0.1886 Step Time 0.07 Test loss 0.814832
+     eval: loss 1.196074
+Global Step 42400 LR 0.1867 Step Time 0.06 Test loss 0.810046
+     eval: loss 1.211699
+Global Step 42500 LR 0.1867 Step Time 0.05 Test loss 0.811464
+     eval: loss 1.250762
+Global Step 42600 LR 0.1867 Step Time 0.06 Test loss 0.814880
+     eval: loss 1.192168
+Global Step 42700 LR 0.1849 Step Time 0.05 Test loss 0.814765
+     eval: loss 1.211699
+Global Step 42800 LR 0.1849 Step Time 0.06 Test loss 0.812492
+     eval: loss 1.141387
+Global Step 42900 LR 0.1849 Step Time 0.05 Test loss 0.809856
+     eval: loss 1.168730
+Global Step 43000 LR 0.1849 Step Time 0.06 Test loss 0.812307
+     eval: loss 1.133574
+Global Step 43100 LR 0.1849 Step Time 0.05 Test loss 0.813286
+     eval: loss 1.133574
+Global Step 43200 LR 0.1830 Step Time 0.06 Test loss 0.813961
+     eval: loss 1.133574
+Global Step 43300 LR 0.1812 Step Time 0.05 Test loss 0.813372
+     eval: loss 1.059355
+Global Step 43400 LR 0.1812 Step Time 0.05 Test loss 0.809048
+     eval: loss 1.125762
+Global Step 43500 LR 0.1812 Step Time 0.06 Test loss 0.817356
+     eval: loss 1.067168
+Global Step 43600 LR 0.1794 Step Time 0.06 Test loss 0.807560
+     eval: loss 1.008574
+Global Step 43700 LR 0.1794 Step Time 0.05 Test loss 0.810004
+     eval: loss 0.977324
+Global Step 43800 LR 0.1794 Step Time 0.05 Test loss 0.812261
+     eval: loss 1.083102
+Global Step 43900 LR 0.1794 Step Time 0.05 Test loss 0.811421
+     eval: loss 1.110137
+Global Step 44000 LR 0.1794 Step Time 0.05 Test loss 0.806385
+     eval: loss 1.055449
+Global Step 44100 LR 0.1794 Step Time 0.05 Test loss 0.815413
+     eval: loss 1.039824
+Global Step 44200 LR 0.1776 Step Time 0.05 Test loss 0.815394
+     eval: loss 0.914824
+Global Step 44300 LR 0.1776 Step Time 0.05 Test loss 0.815317
+     eval: loss 0.985137
+Global Step 44400 LR 0.1776 Step Time 0.05 Test loss 0.813474
+     eval: loss 1.032012
+Global Step 44500 LR 0.1776 Step Time 0.05 Test loss 0.810589
+     eval: loss 1.008574
+Global Step 44600 LR 0.1776 Step Time 0.05 Test loss 0.811229
+     eval: loss 0.981230
+Global Step 44700 LR 0.1776 Step Time 0.05 Test loss 0.815534
+     eval: loss 1.008574
+Global Step 44800 LR 0.1758 Step Time 0.05 Test loss 0.814377
+     eval: loss 0.981230
+Global Step 44900 LR 0.1758 Step Time 0.05 Test loss 0.806463
+     eval: loss 1.032012
+Global Step 45000 LR 0.1758 Step Time 0.05 Test loss 0.811292
+     eval: loss 1.121855
+Global Step 45100 LR 0.1758 Step Time 0.05 Test loss 0.815054
+     eval: loss 1.094490
+Global Step 45200 LR 0.1740 Step Time 0.05 Test loss 0.808272
+     eval: loss 1.094512
+Global Step 45300 LR 0.1740 Step Time 0.05 Test loss 0.814542
+     eval: loss 1.039824
+Global Step 45400 LR 0.1740 Step Time 0.05 Test loss 0.811727
+     eval: loss 0.887480
+Global Step 45500 LR 0.1740 Step Time 0.05 Test loss 0.811853
+     eval: loss 0.899199
+Global Step 45600 LR 0.1740 Step Time 0.05 Test loss 0.808523
+     eval: loss 0.918730
+Global Step 45700 LR 0.1740 Step Time 0.05 Test loss 0.817453
+     eval: loss 0.914824
+Global Step 45800 LR 0.1723 Step Time 0.05 Test loss 0.812796
+     eval: loss 0.910918
+Global Step 45900 LR 0.1723 Step Time 0.05 Test loss 0.814660
+     eval: loss 0.895293
+Global Step 46000 LR 0.1723 Step Time 0.05 Test loss 0.815455
+     eval: loss 0.926543
+Global Step 46100 LR 0.1723 Step Time 0.05 Test loss 0.815480
+     eval: loss 0.985137
+Global Step 46200 LR 0.1706 Step Time 0.05 Test loss 0.816586
+     eval: loss 0.969512
+Global Step 46300 LR 0.1689 Step Time 0.05 Test loss 0.811476
+     eval: loss 0.938262
+Global Step 46400 LR 0.1689 Step Time 0.05 Test loss 0.816260
+     eval: loss 1.098418
+Global Step 46500 LR 0.1689 Step Time 0.05 Test loss 0.809933
+     eval: loss 1.078887
+Global Step 46600 LR 0.1689 Step Time 0.05 Test loss 0.811315
+     eval: loss 1.020293
+Global Step 46700 LR 0.1689 Step Time 0.06 Test loss 0.814800
+     eval: loss 1.000762
+Global Step 46800 LR 0.1689 Step Time 0.05 Test loss 0.818302
+     eval: loss 0.922637
+Global Step 46900 LR 0.1672 Step Time 0.05 Test loss 0.810371
+     eval: loss 1.028105
+Global Step 47000 LR 0.1672 Step Time 0.05 Test loss 0.816640
+     eval: loss 1.024199
+Global Step 47100 LR 0.1672 Step Time 0.05 Test loss 0.814042
+     eval: loss 1.094512
+Global Step 47200 LR 0.1672 Step Time 0.05 Test loss 0.813817
+     eval: loss 1.071044
+Global Step 47300 LR 0.1672 Step Time 0.06 Test loss 0.809832
+     eval: loss 1.059355
+Global Step 47400 LR 0.1672 Step Time 0.11 Test loss 0.808698
+     eval: loss 1.000762
+Global Step 47500 LR 0.1672 Step Time 0.05 Test loss 0.812820
+     eval: loss 0.985137
+Global Step 47600 LR 0.1672 Step Time 0.06 Test loss 0.815190
+     eval: loss 1.059355
+Global Step 47700 LR 0.1655 Step Time 0.06 Test loss 0.814271
+     eval: loss 1.067168
+Global Step 47800 LR 0.1655 Step Time 0.05 Test loss 0.815275
+     eval: loss 1.063262
+Global Step 47900 LR 0.1639 Step Time 0.06 Test loss 0.808358
+     eval: loss 1.098418
+Global Step 48000 LR 0.1639 Step Time 0.06 Test loss 0.813786
+     eval: loss 1.153105
+Global Step 48100 LR 0.1639 Step Time 0.06 Test loss 0.816284
+     eval: loss 1.207793
+Global Step 48200 LR 0.1622 Step Time 0.06 Test loss 0.813342
+     eval: loss 1.223418
+Global Step 48300 LR 0.1622 Step Time 0.05 Test loss 0.811758
+     eval: loss 1.184356
+Global Step 48400 LR 0.1622 Step Time 0.05 Test loss 0.811073
+     eval: loss 1.157012
+Global Step 48500 LR 0.1622 Step Time 0.06 Test loss 0.814189
+     eval: loss 1.153105
+Global Step 48600 LR 0.1606 Step Time 0.06 Test loss 0.812914
+     eval: loss 1.145293
+Global Step 48700 LR 0.1606 Step Time 0.06 Test loss 0.815097
+     eval: loss 1.188262
+Global Step 48800 LR 0.1590 Step Time 0.05 Test loss 0.813125
+     eval: loss 1.211699
+Global Step 48900 LR 0.1590 Step Time 0.05 Test loss 0.810414
+     eval: loss 1.168730
+Global Step 49000 LR 0.1590 Step Time 0.06 Test loss 0.812008
+     eval: loss 1.184355
+Global Step 49100 LR 0.1590 Step Time 0.05 Test loss 0.815569
+     eval: loss 1.184355
+Global Step 49200 LR 0.1574 Step Time 0.05 Test loss 0.815329
+     eval: loss 1.188262
+Global Step 49300 LR 0.1574 Step Time 0.05 Test loss 0.812993
+     eval: loss 1.168730
+Global Step 49400 LR 0.1574 Step Time 0.05 Test loss 0.808578
+     eval: loss 1.133574
+Global Step 49500 LR 0.1574 Step Time 0.05 Test loss 0.809906
+     eval: loss 1.160918
+Global Step 49600 LR 0.1574 Step Time 0.05 Test loss 0.813957
+     eval: loss 1.160918
+Global Step 49700 LR 0.1558 Step Time 0.05 Test loss 0.813308
+     eval: loss 1.168730
+Global Step 49800 LR 0.1558 Step Time 0.05 Test loss 0.809304
+     eval: loss 1.129668
+Global Step 49900 LR 0.1558 Step Time 0.05 Test loss 0.812839
+     eval: loss 1.153105
+Global Step 50000 LR 0.1558 Step Time 0.05 Test loss 0.813939
+     eval: loss 1.106230
+Global Step 50100 LR 0.1543 Step Time 0.05 Test loss 0.812717
+     eval: loss 1.168732
+Global Step 50200 LR 0.1543 Step Time 0.05 Test loss 0.814986
+     eval: loss 1.172637
+Global Step 50300 LR 0.1527 Step Time 0.05 Test loss 0.811785
+     eval: loss 1.164824
+Global Step 50400 LR 0.1527 Step Time 0.05 Test loss 0.811272
+     eval: loss 1.192168
+Global Step 50500 LR 0.1527 Step Time 0.05 Test loss 0.813026
+     eval: loss 1.176543
+Global Step 50600 LR 0.1527 Step Time 0.05 Test loss 0.815490
+     eval: loss 1.199980
+Global Step 50700 LR 0.1512 Step Time 0.05 Test loss 0.811525
+     eval: loss 1.203887
+Global Step 50800 LR 0.1512 Step Time 0.05 Test loss 0.814824
+     eval: loss 1.188262
+Global Step 50900 LR 0.1512 Step Time 0.05 Test loss 0.813016
+     eval: loss 1.192168
+Global Step 51000 LR 0.1512 Step Time 0.05 Test loss 0.816502
+     eval: loss 1.180449
+Global Step 51100 LR 0.1497 Step Time 0.05 Test loss 0.812839
+     eval: loss 1.207793
+Global Step 51200 LR 0.1497 Step Time 0.05 Test loss 0.815059
+     eval: loss 1.219512
+Global Step 51300 LR 0.1497 Step Time 0.05 Test loss 0.814825
+     eval: loss 1.196074
+Global Step 51400 LR 0.1497 Step Time 0.05 Test loss 0.812732
+     eval: loss 1.184355
+Global Step 51500 LR 0.1497 Step Time 0.05 Test loss 0.814976
+     eval: loss 1.227324
+Global Step 51600 LR 0.1497 Step Time 0.05 Test loss 0.813010
+     eval: loss 1.211699
+Global Step 51700 LR 0.1497 Step Time 0.05 Test loss 0.814551
+     eval: loss 1.211699
+Global Step 51800 LR 0.1497 Step Time 0.05 Test loss 0.810811
+     eval: loss 1.192168
+Global Step 51900 LR 0.1497 Step Time 0.05 Test loss 0.810020
+     eval: loss 1.192168
+Global Step 52000 LR 0.1497 Step Time 0.05 Test loss 0.811308
+     eval: loss 1.231230
+Global Step 52100 LR 0.1497 Step Time 0.05 Test loss 0.813771
+     eval: loss 1.164824
+Global Step 52200 LR 0.1482 Step Time 0.05 Test loss 0.812788
+     eval: loss 1.219512
+Global Step 52300 LR 0.1482 Step Time 0.06 Test loss 0.810476
+     eval: loss 1.203887
+Global Step 52400 LR 0.1482 Step Time 0.05 Test loss 0.810918
+     eval: loss 1.219512
+Global Step 52500 LR 0.1482 Step Time 0.05 Test loss 0.813971
+     eval: loss 1.239043
+Global Step 52600 LR 0.1467 Step Time 0.05 Test loss 0.812310
+     eval: loss 1.188262
+Global Step 52700 LR 0.1467 Step Time 0.05 Test loss 0.811504
+     eval: loss 1.219512
+Global Step 52800 LR 0.1467 Step Time 0.05 Test loss 0.814931
+     eval: loss 1.211699
+Global Step 52900 LR 0.1452 Step Time 0.05 Test loss 0.815098
+     eval: loss 1.160918
+Global Step 53000 LR 0.1438 Step Time 0.06 Test loss 0.812684
+     eval: loss 1.203887
+Global Step 53100 LR 0.1438 Step Time 0.05 Test loss 0.815654
+     eval: loss 1.223417
+Global Step 53200 LR 0.1424 Step Time 0.05 Test loss 0.816669
+     eval: loss 1.219512
+Global Step 53300 LR 0.1409 Step Time 0.05 Test loss 0.816771
+     eval: loss 1.160918
+Global Step 53400 LR 0.1395 Step Time 0.06 Test loss 0.814216
+     eval: loss 1.246855
+Global Step 53500 LR 0.1395 Step Time 0.05 Test loss 0.813374
+     eval: loss 1.250762
+Global Step 53600 LR 0.1395 Step Time 0.05 Test loss 0.815216
+     eval: loss 1.211699
+Global Step 53700 LR 0.1395 Step Time 0.05 Test loss 0.812832
+     eval: loss 1.199980
+Global Step 53800 LR 0.1395 Step Time 0.05 Test loss 0.814433
+     eval: loss 1.223418
+Global Step 53900 LR 0.1395 Step Time 0.05 Test loss 0.815410
+     eval: loss 1.203887
+Global Step 54000 LR 0.1381 Step Time 0.05 Test loss 0.814044
+     eval: loss 1.196074
+Global Step 54100 LR 0.1381 Step Time 0.05 Test loss 0.812481
+     eval: loss 1.258574
+Global Step 54200 LR 0.1381 Step Time 0.05 Test loss 0.813287
+     eval: loss 1.239043
+Global Step 54300 LR 0.1381 Step Time 0.05 Test loss 0.815882
+     eval: loss 1.199980
+Global Step 54400 LR 0.1367 Step Time 0.05 Test loss 0.814085
+     eval: loss 1.231230
+Global Step 54500 LR 0.1367 Step Time 0.05 Test loss 0.811113
+     eval: loss 1.231230
+Global Step 54600 LR 0.1367 Step Time 0.05 Test loss 0.814160
+     eval: loss 1.231230
+Global Step 54700 LR 0.1367 Step Time 0.05 Test loss 0.808775
+     eval: loss 1.203887
+Global Step 54800 LR 0.1367 Step Time 0.05 Test loss 0.812363
+     eval: loss 1.266387
+Global Step 54900 LR 0.1367 Step Time 0.05 Test loss 0.813692
+     eval: loss 1.239043
+Global Step 55000 LR 0.1367 Step Time 0.05 Test loss 0.813654
+     eval: loss 1.211699
+Global Step 55100 LR 0.1367 Step Time 0.05 Test loss 0.814581
+     eval: loss 1.219512
+Global Step 55200 LR 0.1354 Step Time 0.05 Test loss 0.814434
+     eval: loss 1.239043
+Global Step 55300 LR 0.1354 Step Time 0.05 Test loss 0.813808
+     eval: loss 1.246855
+Global Step 55400 LR 0.1354 Step Time 0.06 Test loss 0.813415
+     eval: loss 1.211699
+Global Step 55500 LR 0.1354 Step Time 0.05 Test loss 0.811719
+     eval: loss 1.246855
+Global Step 55600 LR 0.1354 Step Time 0.05 Test loss 0.813574
+     eval: loss 1.199980
+Global Step 55700 LR 0.1354 Step Time 0.05 Test loss 0.810803
+     eval: loss 1.199980
+Global Step 55800 LR 0.1354 Step Time 0.05 Test loss 0.812475
+     eval: loss 1.239043
+Global Step 55900 LR 0.1354 Step Time 0.05 Test loss 0.814607
+     eval: loss 1.223418
+Global Step 56000 LR 0.1340 Step Time 0.05 Test loss 0.814120
+     eval: loss 1.215605
+Global Step 56100 LR 0.1340 Step Time 0.05 Test loss 0.811504
+     eval: loss 1.215605
+Global Step 56200 LR 0.1340 Step Time 0.05 Test loss 0.813456
+     eval: loss 1.207793
+Global Step 56300 LR 0.1340 Step Time 0.05 Test loss 0.816924
+     eval: loss 1.219512
+Global Step 56400 LR 0.1327 Step Time 0.05 Test loss 0.818470
+     eval: loss 1.227324
+Global Step 56500 LR 0.1314 Step Time 0.05 Test loss 0.811778
+     eval: loss 1.207793
+Global Step 56600 LR 0.1314 Step Time 0.06 Test loss 0.813887
+     eval: loss 1.223418
+Global Step 56700 LR 0.1314 Step Time 0.06 Test loss 0.813542
+     eval: loss 1.196074
+Global Step 56800 LR 0.1314 Step Time 0.05 Test loss 0.816249
+     eval: loss 1.211699
+Global Step 56900 LR 0.1300 Step Time 0.05 Test loss 0.813848
+     eval: loss 1.231230
+Global Step 57000 LR 0.1300 Step Time 0.05 Test loss 0.815992
+     eval: loss 1.223418
+Global Step 57100 LR 0.1300 Step Time 0.05 Test loss 0.812285
+     eval: loss 1.254668
+Global Step 57200 LR 0.1300 Step Time 0.05 Test loss 0.811816
+     eval: loss 1.223418
+Global Step 57300 LR 0.1300 Step Time 0.05 Test loss 0.811193
+     eval: loss 1.227324
+Global Step 57400 LR 0.1300 Step Time 0.05 Test loss 0.813315
+     eval: loss 1.235137
+Global Step 57500 LR 0.1287 Step Time 0.05 Test loss 0.813230
+     eval: loss 1.211699
+Global Step 57600 LR 0.1287 Step Time 0.05 Test loss 0.815918
+     eval: loss 1.219512
+Global Step 57700 LR 0.1275 Step Time 0.05 Test loss 0.811748
+     eval: loss 1.239043
+Global Step 57800 LR 0.1275 Step Time 0.05 Test loss 0.813769
+     eval: loss 1.219512
+Global Step 57900 LR 0.1275 Step Time 0.05 Test loss 0.814614
+     eval: loss 1.223418
+Global Step 58000 LR 0.1275 Step Time 0.05 Test loss 0.811894
+     eval: loss 1.207793
+Global Step 58100 LR 0.1275 Step Time 0.05 Test loss 0.813574
+     eval: loss 1.203887
+Global Step 58200 LR 0.1275 Step Time 0.05 Test loss 0.816777
+     eval: loss 1.231230
+Global Step 58300 LR 0.1262 Step Time 0.05 Test loss 0.812232
+     eval: loss 1.250762
+Global Step 58400 LR 0.1262 Step Time 0.05 Test loss 0.814244
+     eval: loss 1.235137
+Global Step 58500 LR 0.1262 Step Time 0.05 Test loss 0.815918
+     eval: loss 1.207793
+Global Step 58600 LR 0.1262 Step Time 0.05 Test loss 0.812044
+     eval: loss 1.242949
+Global Step 58700 LR 0.1262 Step Time 0.05 Test loss 0.815178
+     eval: loss 1.227324
+Global Step 58800 LR 0.1262 Step Time 0.05 Test loss 0.816582
+     eval: loss 1.188262
+Global Step 58900 LR 0.1249 Step Time 0.06 Test loss 0.816113
+     eval: loss 1.246855
+Global Step 59000 LR 0.1249 Step Time 0.05 Test loss 0.812637
+     eval: loss 1.246855
+Global Step 59100 LR 0.1249 Step Time 0.05 Test loss 0.813848
+     eval: loss 1.235137
+Global Step 59200 LR 0.1249 Step Time 0.05 Test loss 0.814355
+     eval: loss 1.211699
+Global Step 59300 LR 0.1249 Step Time 0.05 Test loss 0.814173
+     eval: loss 1.235137
+Global Step 59400 LR 0.1249 Step Time 0.05 Test loss 0.816348
+     eval: loss 1.239043
+Global Step 59500 LR 0.1237 Step Time 0.05 Test loss 0.814009
+     eval: loss 1.223418
+Global Step 59600 LR 0.1237 Step Time 0.05 Test loss 0.813472
+     eval: loss 1.235137
+Global Step 59700 LR 0.1237 Step Time 0.06 Test loss 0.812090
+     eval: loss 1.246855
+Global Step 59800 LR 0.1237 Step Time 0.05 Test loss 0.810302
+     eval: loss 1.262480
+Global Step 59900 LR 0.1237 Step Time 0.05 Test loss 0.815879
+     eval: loss 1.242949
+Global Step 60000 LR 0.1224 Step Time 0.06 Test loss 0.813262
+     eval: loss 1.239043
+Global Step 60100 LR 0.1224 Step Time 0.05 Test loss 0.810879
+     eval: loss 1.239043
+Global Step 60200 LR 0.1224 Step Time 0.05 Test loss 0.811269
+     eval: loss 1.211699
+Global Step 60300 LR 0.1224 Step Time 0.06 Test loss 0.812129
+     eval: loss 1.250762
+Global Step 60400 LR 0.1224 Step Time 0.05 Test loss 0.814705
+     eval: loss 1.219512
+Global Step 60500 LR 0.1212 Step Time 0.05 Test loss 0.810367
+     eval: loss 1.235137
+Global Step 60600 LR 0.1212 Step Time 0.05 Test loss 0.814433
+     eval: loss 1.219512
+Global Step 60700 LR 0.1212 Step Time 0.05 Test loss 0.811348
+     eval: loss 1.254668
+Global Step 60800 LR 0.1212 Step Time 0.05 Test loss 0.813315
+     eval: loss 1.192168
+Global Step 60900 LR 0.1212 Step Time 0.05 Test loss 0.815371
+     eval: loss 1.235137
+Global Step 61000 LR 0.1200 Step Time 0.05 Test loss 0.813299
+     eval: loss 1.211699
+Global Step 61100 LR 0.1200 Step Time 0.05 Test loss 0.811894
+     eval: loss 1.239043
+Global Step 61200 LR 0.1200 Step Time 0.05 Test loss 0.812129
+     eval: loss 1.235137
+Global Step 61300 LR 0.1200 Step Time 0.05 Test loss 0.810707
+     eval: loss 1.242949
+Global Step 61400 LR 0.1200 Step Time 0.05 Test loss 0.813418
+     eval: loss 1.239043
+Global Step 61500 LR 0.1188 Step Time 0.05 Test loss 0.811189
+     eval: loss 1.223418
+Global Step 61600 LR 0.1188 Step Time 0.05 Test loss 0.815605
+     eval: loss 1.203887
+Global Step 61700 LR 0.1176 Step Time 0.05 Test loss 0.811255
+     eval: loss 1.239043
+Global Step 61800 LR 0.1176 Step Time 0.05 Test loss 0.816614
+     eval: loss 1.254668
+Global Step 61900 LR 0.1164 Step Time 0.05 Test loss 0.812555
+     eval: loss 1.196074
+Global Step 62000 LR 0.1164 Step Time 0.05 Test loss 0.813418
+     eval: loss 1.270293
+Global Step 62100 LR 0.1164 Step Time 0.05 Test loss 0.812093
+     eval: loss 1.176543
+Global Step 62200 LR 0.1164 Step Time 0.05 Test loss 0.813494
+     eval: loss 1.227324
+Global Step 62300 LR 0.1153 Step Time 0.05 Test loss 0.815610
+     eval: loss 1.239043
+Global Step 62400 LR 0.1141 Step Time 0.05 Test loss 0.814512
+     eval: loss 1.231230
+Global Step 62500 LR 0.1141 Step Time 0.05 Test loss 0.814673
+     eval: loss 1.235137
+Global Step 62600 LR 0.1141 Step Time 0.05 Test loss 0.812289
+     eval: loss 1.227324
+Global Step 62700 LR 0.1141 Step Time 0.05 Test loss 0.811057
+     eval: loss 1.199980
+Global Step 62800 LR 0.1141 Step Time 0.05 Test loss 0.810920
+     eval: loss 1.235137
+Global Step 62900 LR 0.1141 Step Time 0.05 Test loss 0.814785
+     eval: loss 1.239043
+Global Step 63000 LR 0.1130 Step Time 0.05 Test loss 0.811212
+     eval: loss 1.211699
+Global Step 63100 LR 0.1130 Step Time 0.05 Test loss 0.814043
+     eval: loss 1.235137
+Global Step 63200 LR 0.1130 Step Time 0.05 Test loss 0.814785
+     eval: loss 1.215605
+Global Step 63300 LR 0.1118 Step Time 0.05 Test loss 0.816109
+     eval: loss 1.223418
+Global Step 63400 LR 0.1107 Step Time 0.05 Test loss 0.812381
+     eval: loss 1.235137
+Global Step 63500 LR 0.1107 Step Time 0.05 Test loss 0.812285
+     eval: loss 1.227324
+Global Step 63600 LR 0.1107 Step Time 0.05 Test loss 0.815259
+     eval: loss 1.239043
+Global Step 63700 LR 0.1107 Step Time 0.05 Test loss 0.814004
+     eval: loss 1.242949
+Global Step 63800 LR 0.1107 Step Time 0.05 Test loss 0.815020
+     eval: loss 1.223418
+Global Step 63900 LR 0.1107 Step Time 0.05 Test loss 0.810611
+     eval: loss 1.227324
+Global Step 64000 LR 0.1107 Step Time 0.07 Test loss 0.814582
+     eval: loss 1.242949
+Global Step 64100 LR 0.1107 Step Time 0.05 Test loss 0.811973
+     eval: loss 1.215605
+Global Step 64200 LR 0.1107 Step Time 0.05 Test loss 0.812401
+     eval: loss 1.223418
+Global Step 64300 LR 0.1107 Step Time 0.05 Test loss 0.809746
+     eval: loss 1.223418
+Global Step 64400 LR 0.1107 Step Time 0.05 Test loss 0.815697
+     eval: loss 1.258574
+Global Step 64500 LR 0.1096 Step Time 0.05 Test loss 0.810879
+     eval: loss 1.242949
+Global Step 64600 LR 0.1096 Step Time 0.05 Test loss 0.814703
+     eval: loss 1.250762
+Global Step 64700 LR 0.1096 Step Time 0.05 Test loss 0.810568
+     eval: loss 1.219511
+Global Step 64800 LR 0.1096 Step Time 0.05 Test loss 0.812462
+     eval: loss 1.223418
+Global Step 64900 LR 0.1096 Step Time 0.06 Test loss 0.814043
+     eval: loss 1.246855
+Global Step 65000 LR 0.1096 Step Time 0.05 Test loss 0.812129
+     eval: loss 1.235137
+Global Step 65100 LR 0.1096 Step Time 0.05 Test loss 0.815918
+     eval: loss 1.254667
+Global Step 65200 LR 0.1085 Step Time 0.05 Test loss 0.812597
+     eval: loss 1.250762
+Global Step 65300 LR 0.1085 Step Time 0.05 Test loss 0.812051
+     eval: loss 1.258574
+Global Step 65400 LR 0.1085 Step Time 0.05 Test loss 0.814434
+     eval: loss 1.215605
+Global Step 65500 LR 0.1085 Step Time 0.06 Test loss 0.813105
+     eval: loss 1.215605
+Global Step 65600 LR 0.1085 Step Time 0.05 Test loss 0.813301
+     eval: loss 1.211699
+Global Step 65700 LR 0.1085 Step Time 0.05 Test loss 0.811933
+     eval: loss 1.231230
+Global Step 65800 LR 0.1085 Step Time 0.05 Test loss 0.814863
+     eval: loss 1.207793
+Global Step 65900 LR 0.1074 Step Time 0.05 Test loss 0.814041
+     eval: loss 1.246855
+Global Step 66000 LR 0.1074 Step Time 0.05 Test loss 0.812439
+     eval: loss 1.250762
+Global Step 66100 LR 0.1074 Step Time 0.05 Test loss 0.812547
+     eval: loss 1.219512
+Global Step 66200 LR 0.1074 Step Time 0.05 Test loss 0.812444
+     eval: loss 1.242949
+Global Step 66300 LR 0.1074 Step Time 0.05 Test loss 0.813808
+     eval: loss 1.235137
+Global Step 66400 LR 0.1064 Step Time 0.05 Test loss 0.810879
+     eval: loss 1.250762
+Global Step 66500 LR 0.1064 Step Time 0.05 Test loss 0.815137
+     eval: loss 1.258574
+Global Step 66600 LR 0.1053 Step Time 0.05 Test loss 0.812992
+     eval: loss 1.239043
+Global Step 66700 LR 0.1053 Step Time 0.05 Test loss 0.813682
+     eval: loss 1.235137
+Global Step 66800 LR 0.1053 Step Time 0.05 Test loss 0.815605
+     eval: loss 1.223418
+Global Step 66900 LR 0.1042 Step Time 0.05 Test loss 0.811641
+     eval: loss 1.235137
+Global Step 67000 LR 0.1042 Step Time 0.05 Test loss 0.812676
+     eval: loss 1.262480
+Global Step 67100 LR 0.1042 Step Time 0.05 Test loss 0.813965
+     eval: loss 1.254668
+Global Step 67200 LR 0.1042 Step Time 0.05 Test loss 0.809643
+     eval: loss 1.215605
+Global Step 67300 LR 0.1042 Step Time 0.05 Test loss 0.814121
+     eval: loss 1.227324
+Global Step 67400 LR 0.1032 Step Time 0.05 Test loss 0.813887
+     eval: loss 1.211699
+Global Step 67500 LR 0.1032 Step Time 0.05 Test loss 0.811504
+     eval: loss 1.254668
+Global Step 67600 LR 0.1032 Step Time 0.05 Test loss 0.811348
+     eval: loss 1.207793
+Global Step 67700 LR 0.1032 Step Time 0.05 Test loss 0.811770
+     eval: loss 1.227324
+Global Step 67800 LR 0.1032 Step Time 0.05 Test loss 0.813223
+     eval: loss 1.262480
+Global Step 67900 LR 0.1022 Step Time 0.05 Test loss 0.812012
+     eval: loss 1.246855
+Global Step 68000 LR 0.1022 Step Time 0.06 Test loss 0.811702
+     eval: loss 1.266387
+Global Step 68100 LR 0.1022 Step Time 0.06 Test loss 0.816727
+     eval: loss 1.231230
+Global Step 68200 LR 0.1012 Step Time 0.06 Test loss 0.813343
+     eval: loss 1.246855
+Global Step 68300 LR 0.1012 Step Time 0.05 Test loss 0.814257
+     eval: loss 1.258574
+Global Step 68400 LR 0.1012 Step Time 0.05 Test loss 0.812207
+     eval: loss 1.239043
+Global Step 68500 LR 0.1012 Step Time 0.05 Test loss 0.815971
+     eval: loss 1.231230
+Global Step 68600 LR 0.1001 Step Time 0.05 Test loss 0.813992
+     eval: loss 1.246855
+Global Step 68700 LR 0.1001 Step Time 0.05 Test loss 0.812674
+     eval: loss 1.227324
+Global Step 68800 LR 0.1001 Step Time 0.05 Test loss 0.813082
+     eval: loss 1.266387
+Global Step 68900 LR 0.1001 Step Time 0.05 Test loss 0.814043
+     eval: loss 1.215605
+Global Step 69000 LR 0.0991 Step Time 0.05 Test loss 0.815700
+     eval: loss 1.235137
+Global Step 69100 LR 0.0981 Step Time 0.05 Test loss 0.812207
+     eval: loss 1.246855
+Global Step 69200 LR 0.0981 Step Time 0.05 Test loss 0.813106
+     eval: loss 1.215605
+Global Step 69300 LR 0.0981 Step Time 0.05 Test loss 0.812234
+     eval: loss 1.215605
+Global Step 69400 LR 0.0981 Step Time 0.05 Test loss 0.813182
+     eval: loss 1.235137
+Global Step 69500 LR 0.0972 Step Time 0.05 Test loss 0.811863
+     eval: loss 1.227324
+Global Step 69600 LR 0.0972 Step Time 0.05 Test loss 0.810447
+     eval: loss 1.246855
+Global Step 69700 LR 0.0972 Step Time 0.05 Test loss 0.811359
+     eval: loss 1.239043
+Global Step 69800 LR 0.0972 Step Time 0.05 Test loss 0.815057
+     eval: loss 1.231230
+Global Step 69900 LR 0.0962 Step Time 0.05 Test loss 0.812637
+     eval: loss 1.227324
+Global Step 70000 LR 0.0962 Step Time 0.05 Test loss 0.814599
+     eval: loss 1.250762
+Global Step 70100 LR 0.0962 Step Time 0.05 Test loss 0.813378
+     eval: loss 1.239043
+Global Step 70200 LR 0.0962 Step Time 0.05 Test loss 0.814551
+     eval: loss 1.250762
+Global Step 70300 LR 0.0962 Step Time 0.05 Test loss 0.812407
+     eval: loss 1.231084
+Global Step 70400 LR 0.0962 Step Time 0.05 Test loss 0.814069
+     eval: loss 1.215605
+Global Step 70500 LR 0.0962 Step Time 0.05 Test loss 0.814665
+     eval: loss 1.242949
+Global Step 70600 LR 0.0952 Step Time 0.05 Test loss 0.814473
+     eval: loss 1.246855
+Global Step 70700 LR 0.0952 Step Time 0.05 Test loss 0.812168
+     eval: loss 1.223418
+Global Step 70800 LR 0.0952 Step Time 0.05 Test loss 0.812566
+     eval: loss 1.231230
+Global Step 70900 LR 0.0952 Step Time 0.05 Test loss 0.812754
+     eval: loss 1.215605
+Global Step 71000 LR 0.0952 Step Time 0.05 Test loss 0.813186
+     eval: loss 1.231230
+Global Step 71100 LR 0.0943 Step Time 0.05 Test loss 0.813730
+     eval: loss 1.223418
+Global Step 71200 LR 0.0933 Step Time 0.05 Test loss 0.814903
+     eval: loss 1.227324
+Global Step 71300 LR 0.0924 Step Time 0.06 Test loss 0.813338
+     eval: loss 1.211699
+Global Step 71400 LR 0.0924 Step Time 0.05 Test loss 0.814238
+     eval: loss 1.223418
+Global Step 71500 LR 0.0924 Step Time 0.05 Test loss 0.814077
+     eval: loss 1.219512
+Global Step 71600 LR 0.0924 Step Time 0.05 Test loss 0.813980
+     eval: loss 1.211699
+Global Step 71700 LR 0.0924 Step Time 0.06 Test loss 0.813106
+     eval: loss 1.242949
+Global Step 71800 LR 0.0924 Step Time 0.05 Test loss 0.811895
+     eval: loss 1.250762
+Global Step 71900 LR 0.0924 Step Time 0.05 Test loss 0.815645
+     eval: loss 1.188262
+Global Step 72000 LR 0.0915 Step Time 0.05 Test loss 0.810808
+     eval: loss 1.231230
+Global Step 72100 LR 0.0915 Step Time 0.05 Test loss 0.813262
+     eval: loss 1.258574
+Global Step 72200 LR 0.0915 Step Time 0.05 Test loss 0.814434
+     eval: loss 1.203887
+Global Step 72300 LR 0.0915 Step Time 0.05 Test loss 0.815379
+     eval: loss 1.211699
+Global Step 72400 LR 0.0906 Step Time 0.05 Test loss 0.812120
+     eval: loss 1.242949
+Global Step 72500 LR 0.0906 Step Time 0.05 Test loss 0.813543
+     eval: loss 1.239043
+Global Step 72600 LR 0.0906 Step Time 0.05 Test loss 0.813182
+     eval: loss 1.203887
+Global Step 72700 LR 0.0906 Step Time 0.05 Test loss 0.810061
+     eval: loss 1.203887
+Global Step 72800 LR 0.0906 Step Time 0.05 Test loss 0.811933
+     eval: loss 1.219512
+Global Step 72900 LR 0.0906 Step Time 0.05 Test loss 0.813808
+     eval: loss 1.215605
+Global Step 73000 LR 0.0897 Step Time 0.05 Test loss 0.811237
+     eval: loss 1.203887
+Global Step 73100 LR 0.0897 Step Time 0.05 Test loss 0.814001
+     eval: loss 1.227324
+Global Step 73200 LR 0.0888 Step Time 0.05 Test loss 0.812391
+     eval: loss 1.219512
+Global Step 73300 LR 0.0888 Step Time 0.05 Test loss 0.814984
+     eval: loss 1.239043
+Global Step 73400 LR 0.0879 Step Time 0.05 Test loss 0.814704
+     eval: loss 1.250762
+Global Step 73500 LR 0.0879 Step Time 0.05 Test loss 0.813348
+     eval: loss 1.227324
+Global Step 73600 LR 0.0879 Step Time 0.05 Test loss 0.815597
+     eval: loss 1.242949
+Global Step 73700 LR 0.0870 Step Time 0.05 Test loss 0.814656
+     eval: loss 1.219512
+Global Step 73800 LR 0.0870 Step Time 0.05 Test loss 0.812391
+     eval: loss 1.207793
+Global Step 73900 LR 0.0870 Step Time 0.05 Test loss 0.815214
+     eval: loss 1.227321
+Global Step 74000 LR 0.0870 Step Time 0.05 Test loss 0.813764
+     eval: loss 1.242949
+Global Step 74100 LR 0.0870 Step Time 0.05 Test loss 0.812996
+     eval: loss 1.219512
+Global Step 74200 LR 0.0870 Step Time 0.05 Test loss 0.810798
+     eval: loss 1.262480
+Global Step 74300 LR 0.0870 Step Time 0.05 Test loss 0.812318
+     eval: loss 1.250762
+Global Step 74400 LR 0.0870 Step Time 0.05 Test loss 0.810254
+     eval: loss 1.223418
+Global Step 74500 LR 0.0870 Step Time 0.05 Test loss 0.812931
+     eval: loss 1.211699
+Global Step 74600 LR 0.0861 Step Time 0.05 Test loss 0.811241
+     eval: loss 1.227324
+Global Step 74700 LR 0.0861 Step Time 0.05 Test loss 0.811504
+     eval: loss 1.242949
+Global Step 74800 LR 0.0861 Step Time 0.05 Test loss 0.814746
+     eval: loss 1.239043
+Global Step 74900 LR 0.0853 Step Time 0.05 Test loss 0.811471
+     eval: loss 1.254668
+Global Step 75000 LR 0.0853 Step Time 0.05 Test loss 0.811894
+     eval: loss 1.203887
+Global Step 75100 LR 0.0853 Step Time 0.05 Test loss 0.812675
+     eval: loss 1.250762
+Global Step 75200 LR 0.0853 Step Time 0.05 Test loss 0.811855
+     eval: loss 1.250762
+Global Step 75300 LR 0.0853 Step Time 0.05 Test loss 0.815060
+     eval: loss 1.196074
+Global Step 75400 LR 0.0844 Step Time 0.05 Test loss 0.814166
+     eval: loss 1.258574
+Global Step 75500 LR 0.0844 Step Time 0.05 Test loss 0.814081
+     eval: loss 1.250762
+Global Step 75600 LR 0.0844 Step Time 0.05 Test loss 0.814355
+     eval: loss 1.227324
+Global Step 75700 LR 0.0844 Step Time 0.08 Test loss 0.812832
+     eval: loss 1.246855
+Global Step 75800 LR 0.0844 Step Time 0.05 Test loss 0.815058
+     eval: loss 1.231230
+Global Step 75900 LR 0.0836 Step Time 0.05 Test loss 0.812167
+     eval: loss 1.254668
+Global Step 76000 LR 0.0836 Step Time 0.05 Test loss 0.813245
+     eval: loss 1.239043
+Global Step 76100 LR 0.0836 Step Time 0.05 Test loss 0.813630
+     eval: loss 1.250762
+Global Step 76200 LR 0.0836 Step Time 0.05 Test loss 0.809902
+     eval: loss 1.227324
+Global Step 76300 LR 0.0836 Step Time 0.05 Test loss 0.814652
+     eval: loss 1.254668
+Global Step 76400 LR 0.0827 Step Time 0.05 Test loss 0.813535
+     eval: loss 1.211699
+Global Step 76500 LR 0.0827 Step Time 0.05 Test loss 0.812257
+     eval: loss 1.235137
+Global Step 76600 LR 0.0827 Step Time 0.05 Test loss 0.812637
+     eval: loss 1.242949
+Global Step 76700 LR 0.0827 Step Time 0.05 Test loss 0.815644
+     eval: loss 1.250762
+Global Step 76800 LR 0.0819 Step Time 0.05 Test loss 0.813301
+     eval: loss 1.242879
+Global Step 76900 LR 0.0819 Step Time 0.05 Test loss 0.813233
+     eval: loss 1.250762
+Global Step 77000 LR 0.0819 Step Time 0.05 Test loss 0.813535
+     eval: loss 1.207793
+Global Step 77100 LR 0.0819 Step Time 0.05 Test loss 0.814939
+     eval: loss 1.223418
+Global Step 77200 LR 0.0811 Step Time 0.05 Test loss 0.815731
+     eval: loss 1.215605
+Global Step 77300 LR 0.0803 Step Time 0.05 Test loss 0.811438
+     eval: loss 1.219512
+Global Step 77400 LR 0.0803 Step Time 0.05 Test loss 0.813336
+     eval: loss 1.184355
+Global Step 77500 LR 0.0803 Step Time 0.05 Test loss 0.813808
+     eval: loss 1.219512
+Global Step 77600 LR 0.0803 Step Time 0.05 Test loss 0.812750
+     eval: loss 1.227324
+Global Step 77700 LR 0.0803 Step Time 0.05 Test loss 0.816543
+     eval: loss 1.211699
+Global Step 77800 LR 0.0795 Step Time 0.05 Test loss 0.811347
+     eval: loss 1.223418
+Global Step 77900 LR 0.0795 Step Time 0.05 Test loss 0.814467
+     eval: loss 1.239043
+Global Step 78000 LR 0.0795 Step Time 0.05 Test loss 0.812521
+     eval: loss 1.196074
+Global Step 78100 LR 0.0795 Step Time 0.05 Test loss 0.811760
+     eval: loss 1.235137
+Global Step 78200 LR 0.0795 Step Time 0.06 Test loss 0.811582
+     eval: loss 1.219512
+Global Step 78300 LR 0.0795 Step Time 0.05 Test loss 0.813274
+     eval: loss 1.254668
+Global Step 78400 LR 0.0787 Step Time 0.05 Test loss 0.814097
+     eval: loss 1.223418
+Global Step 78500 LR 0.0779 Step Time 0.05 Test loss 0.815294
+     eval: loss 1.266387
+Global Step 78600 LR 0.0771 Step Time 0.05 Test loss 0.814356
+     eval: loss 1.223418
+Global Step 78700 LR 0.0771 Step Time 0.05 Test loss 0.812637
+     eval: loss 1.215605
+Global Step 78800 LR 0.0771 Step Time 0.05 Test loss 0.814590
+     eval: loss 1.196074
+Global Step 78900 LR 0.0771 Step Time 0.05 Test loss 0.814590
+     eval: loss 1.231544
+Global Step 79000 LR 0.0763 Step Time 0.05 Test loss 0.813255
+     eval: loss 1.250762
+Global Step 79100 LR 0.0763 Step Time 0.05 Test loss 0.812108
+     eval: loss 1.250762
+Global Step 79200 LR 0.0763 Step Time 0.05 Test loss 0.811426
+     eval: loss 1.239043
+Global Step 79300 LR 0.0763 Step Time 0.05 Test loss 0.812090
+     eval: loss 1.223418
+Global Step 79400 LR 0.0763 Step Time 0.05 Test loss 0.813807
+     eval: loss 1.246855
+Global Step 79500 LR 0.0756 Step Time 0.05 Test loss 0.812832
+     eval: loss 1.235137
+Global Step 79600 LR 0.0756 Step Time 0.05 Test loss 0.812246
+     eval: loss 1.223418
+Global Step 79700 LR 0.0756 Step Time 0.05 Test loss 0.813496
+     eval: loss 1.235137
+Global Step 79800 LR 0.0756 Step Time 0.05 Test loss 0.812118
+     eval: loss 1.199980
+Global Step 79900 LR 0.0756 Step Time 0.05 Test loss 0.814431
+     eval: loss 1.231230
+Global Step 80000 LR 0.0748 Step Time 0.05 Test loss 0.813255
+     eval: loss 1.231230
+Global Step 80100 LR 0.0748 Step Time 0.05 Test loss 0.817895
+     eval: loss 1.242949
+Global Step 80200 LR 0.0741 Step Time 0.05 Test loss 0.813891
+     eval: loss 1.211699
+Global Step 80300 LR 0.0741 Step Time 0.05 Test loss 0.811671
+     eval: loss 1.207793
+Global Step 80400 LR 0.0741 Step Time 0.05 Test loss 0.812252
+     eval: loss 1.207793
+Global Step 80500 LR 0.0741 Step Time 0.05 Test loss 0.816936
+     eval: loss 1.211699
+Global Step 80600 LR 0.0733 Step Time 0.05 Test loss 0.812052
+     eval: loss 1.219512
+Global Step 80700 LR 0.0733 Step Time 0.05 Test loss 0.816152
+     eval: loss 1.227324
+Global Step 80800 LR 0.0733 Step Time 0.05 Test loss 0.811899
+     eval: loss 1.227324
+Global Step 80900 LR 0.0733 Step Time 0.05 Test loss 0.814235
+     eval: loss 1.219512
+Global Step 81000 LR 0.0733 Step Time 0.05 Test loss 0.815326
+     eval: loss 1.223418
+Global Step 81100 LR 0.0733 Step Time 0.06 Test loss 0.808769
+     eval: loss 1.227324
+Global Step 81200 LR 0.0733 Step Time 0.05 Test loss 0.811543
+     eval: loss 1.215605
+Global Step 81300 LR 0.0733 Step Time 0.05 Test loss 0.812788
+     eval: loss 1.184355
+Global Step 81400 LR 0.0733 Step Time 0.05 Test loss 0.812672
+     eval: loss 1.223418
+Global Step 81500 LR 0.0733 Step Time 0.05 Test loss 0.815170
+     eval: loss 1.235137
+Global Step 81600 LR 0.0726 Step Time 0.05 Test loss 0.813339
+     eval: loss 1.207793
+Global Step 81700 LR 0.0726 Step Time 0.05 Test loss 0.814703
+     eval: loss 1.223418
+Global Step 81800 LR 0.0726 Step Time 0.05 Test loss 0.812597
+     eval: loss 1.246855
+Global Step 81900 LR 0.0726 Step Time 0.05 Test loss 0.815644
+     eval: loss 1.239043
+Global Step 82000 LR 0.0719 Step Time 0.05 Test loss 0.813973
+     eval: loss 1.235137
+Global Step 82100 LR 0.0719 Step Time 0.05 Test loss 0.814819
+     eval: loss 1.258574
+Global Step 82200 LR 0.0719 Step Time 0.05 Test loss 0.813734
+     eval: loss 1.254668
+Global Step 82300 LR 0.0719 Step Time 0.05 Test loss 0.808767
+     eval: loss 1.223418
+Global Step 82400 LR 0.0719 Step Time 0.05 Test loss 0.813965
+     eval: loss 1.266387
+Global Step 82500 LR 0.0719 Step Time 0.05 Test loss 0.814641
+     eval: loss 1.242949
+Global Step 82600 LR 0.0712 Step Time 0.05 Test loss 0.813416
+     eval: loss 1.223418
+Global Step 82700 LR 0.0712 Step Time 0.05 Test loss 0.814004
+     eval: loss 1.203887
+Global Step 82800 LR 0.0712 Step Time 0.05 Test loss 0.814628
+     eval: loss 1.254668
+Global Step 82900 LR 0.0712 Step Time 0.05 Test loss 0.813356
+     eval: loss 1.235137
+Global Step 83000 LR 0.0712 Step Time 0.05 Test loss 0.818066
+     eval: loss 1.223418
+Global Step 83100 LR 0.0704 Step Time 0.05 Test loss 0.812404
+     eval: loss 1.262480
+Global Step 83200 LR 0.0704 Step Time 0.05 Test loss 0.813776
+     eval: loss 1.250762
+Global Step 83300 LR 0.0704 Step Time 0.05 Test loss 0.815566
+     eval: loss 1.246855
+Global Step 83400 LR 0.0704 Step Time 0.05 Test loss 0.812010
+     eval: loss 1.239043
+Global Step 83500 LR 0.0704 Step Time 0.05 Test loss 0.811778
+     eval: loss 1.235137
+Global Step 83600 LR 0.0704 Step Time 0.05 Test loss 0.812760
+     eval: loss 1.246808
+Global Step 83700 LR 0.0704 Step Time 0.05 Test loss 0.814003
+     eval: loss 1.242949
+Global Step 83800 LR 0.0697 Step Time 0.05 Test loss 0.811625
+     eval: loss 1.223418
+Global Step 83900 LR 0.0697 Step Time 0.05 Test loss 0.810762
+     eval: loss 1.250762
+Global Step 84000 LR 0.0697 Step Time 0.05 Test loss 0.811201
+     eval: loss 1.219512
+Global Step 84100 LR 0.0697 Step Time 0.05 Test loss 0.817812
+     eval: loss 1.239043
+Global Step 84200 LR 0.0690 Step Time 0.05 Test loss 0.811035
+     eval: loss 1.207793
+Global Step 84300 LR 0.0690 Step Time 0.05 Test loss 0.812441
+     eval: loss 1.262480
+Global Step 84400 LR 0.0690 Step Time 0.05 Test loss 0.812128
+     eval: loss 1.215605
+Global Step 84500 LR 0.0690 Step Time 0.05 Test loss 0.811621
+     eval: loss 1.246855
+Global Step 84600 LR 0.0690 Step Time 0.05 Test loss 0.813385
+     eval: loss 1.207793
+Global Step 84700 LR 0.0684 Step Time 0.05 Test loss 0.811935
+     eval: loss 1.270293
+Global Step 84800 LR 0.0684 Step Time 0.05 Test loss 0.812639
+     eval: loss 1.235137
+Global Step 84900 LR 0.0684 Step Time 0.05 Test loss 0.814551
+     eval: loss 1.246855
+Global Step 85000 LR 0.0677 Step Time 0.05 Test loss 0.811154
+     eval: loss 1.258574
+Global Step 85100 LR 0.0677 Step Time 0.05 Test loss 0.813574
+     eval: loss 1.231230
+Global Step 85200 LR 0.0677 Step Time 0.05 Test loss 0.812293
+     eval: loss 1.235137
+Global Step 85300 LR 0.0677 Step Time 0.05 Test loss 0.812207
+     eval: loss 1.219512
+Global Step 85400 LR 0.0677 Step Time 0.05 Test loss 0.811973
+     eval: loss 1.239043
+Global Step 85500 LR 0.0677 Step Time 0.06 Test loss 0.814121
+     eval: loss 1.219512
+Global Step 85600 LR 0.0670 Step Time 0.05 Test loss 0.814199
+     eval: loss 1.258574
+Global Step 85700 LR 0.0663 Step Time 0.05 Test loss 0.813496
+     eval: loss 1.207793
+Global Step 85800 LR 0.0663 Step Time 0.05 Test loss 0.814089
+     eval: loss 1.219512
+Global Step 85900 LR 0.0663 Step Time 0.05 Test loss 0.812443
+     eval: loss 1.239043
+Global Step 86000 LR 0.0663 Step Time 0.05 Test loss 0.812559
+     eval: loss 1.207793
+Global Step 86100 LR 0.0663 Step Time 0.05 Test loss 0.812736
+     eval: loss 1.231230
+Global Step 86200 LR 0.0663 Step Time 0.05 Test loss 0.814729
+     eval: loss 1.215605
+Global Step 86300 LR 0.0657 Step Time 0.05 Test loss 0.814977
+     eval: loss 1.199980
+Global Step 86400 LR 0.0650 Step Time 0.05 Test loss 0.812871
+     eval: loss 1.254668
+Global Step 86500 LR 0.0650 Step Time 0.05 Test loss 0.812090
+     eval: loss 1.199980
+Global Step 86600 LR 0.0650 Step Time 0.05 Test loss 0.810770
+     eval: loss 1.227324
+Global Step 86700 LR 0.0650 Step Time 0.05 Test loss 0.812434
+     eval: loss 1.223418
+Global Step 86800 LR 0.0650 Step Time 0.05 Test loss 0.811543
+     eval: loss 1.203887
+Global Step 86900 LR 0.0650 Step Time 0.06 Test loss 0.810996
+     eval: loss 1.250762
+Global Step 87000 LR 0.0650 Step Time 0.05 Test loss 0.814003
+     eval: loss 1.254668
+Global Step 87100 LR 0.0644 Step Time 0.07 Test loss 0.811844
+     eval: loss 1.223418
+Global Step 87200 LR 0.0644 Step Time 0.05 Test loss 0.812680
+     eval: loss 1.246855
+Global Step 87300 LR 0.0644 Step Time 0.05 Test loss 0.810606
+     eval: loss 1.215605
+Global Step 87400 LR 0.0644 Step Time 0.05 Test loss 0.815345
+     eval: loss 1.262480
+Global Step 87500 LR 0.0637 Step Time 0.05 Test loss 0.815332
+     eval: loss 1.239043
+Global Step 87600 LR 0.0637 Step Time 0.05 Test loss 0.814239
+     eval: loss 1.235137
+Global Step 87700 LR 0.0637 Step Time 0.05 Test loss 0.809059
+     eval: loss 1.274199
+Global Step 87800 LR 0.0637 Step Time 0.05 Test loss 0.812338
+     eval: loss 1.258574
+Global Step 87900 LR 0.0637 Step Time 0.05 Test loss 0.814628
+     eval: loss 1.184355
+Global Step 88000 LR 0.0631 Step Time 0.05 Test loss 0.813105
+     eval: loss 1.239043
+Global Step 88100 LR 0.0631 Step Time 0.05 Test loss 0.815069
+     eval: loss 1.207793
+Global Step 88200 LR 0.0624 Step Time 0.05 Test loss 0.812989
+     eval: loss 1.254668
+Global Step 88300 LR 0.0624 Step Time 0.05 Test loss 0.813845
+     eval: loss 1.258574
+Global Step 88400 LR 0.0624 Step Time 0.05 Test loss 0.813953
+     eval: loss 1.242949
+Global Step 88500 LR 0.0624 Step Time 0.06 Test loss 0.815176
+     eval: loss 1.239043
+Global Step 88600 LR 0.0618 Step Time 0.05 Test loss 0.810852
+     eval: loss 1.250762
+Global Step 88700 LR 0.0618 Step Time 0.05 Test loss 0.813301
+     eval: loss 1.235137
+Global Step 88800 LR 0.0618 Step Time 0.05 Test loss 0.815766
+     eval: loss 1.219512
+Global Step 88900 LR 0.0612 Step Time 0.05 Test loss 0.815605
+     eval: loss 1.246855
+Global Step 89000 LR 0.0612 Step Time 0.05 Test loss 0.812079
+     eval: loss 1.235137
+Global Step 89100 LR 0.0612 Step Time 0.05 Test loss 0.814472
+     eval: loss 1.239043
+Global Step 89200 LR 0.0612 Step Time 0.05 Test loss 0.814038
+     eval: loss 1.246855
+Global Step 89300 LR 0.0612 Step Time 0.05 Test loss 0.810844
+     eval: loss 1.239043
+Global Step 89400 LR 0.0612 Step Time 0.05 Test loss 0.815371
+     eval: loss 1.254668
+Global Step 89500 LR 0.0606 Step Time 0.05 Test loss 0.814391
+     eval: loss 1.207793
+Global Step 89600 LR 0.0606 Step Time 0.05 Test loss 0.813223
+     eval: loss 1.211699
+Global Step 89700 LR 0.0606 Step Time 0.05 Test loss 0.811541
+     eval: loss 1.223418
+Global Step 89800 LR 0.0606 Step Time 0.05 Test loss 0.810762
+     eval: loss 1.242949
+Global Step 89900 LR 0.0606 Step Time 0.05 Test loss 0.811660
+     eval: loss 1.235137
+Global Step 90000 LR 0.0606 Step Time 0.05 Test loss 0.813140
+     eval: loss 1.235137
+Global Step 90100 LR 0.0600 Step Time 0.05 Test loss 0.811308
+     eval: loss 1.211699
+Global Step 90200 LR 0.0600 Step Time 0.05 Test loss 0.811307
+     eval: loss 1.235137
+Global Step 90300 LR 0.0600 Step Time 0.05 Test loss 0.811896
+     eval: loss 1.250762
+Global Step 90400 LR 0.0600 Step Time 0.05 Test loss 0.813106
+     eval: loss 1.254668
+Global Step 90500 LR 0.0594 Step Time 0.05 Test loss 0.812284
+     eval: loss 1.227324
+Global Step 90600 LR 0.0594 Step Time 0.05 Test loss 0.814320
+     eval: loss 1.227324
+Global Step 90700 LR 0.0588 Step Time 0.05 Test loss 0.815575
+     eval: loss 1.254668
+Global Step 90800 LR 0.0582 Step Time 0.05 Test loss 0.812871
+     eval: loss 1.219512
+Global Step 90900 LR 0.0582 Step Time 0.05 Test loss 0.815176
+     eval: loss 1.250762
+Global Step 91000 LR 0.0582 Step Time 0.05 Test loss 0.813525
+     eval: loss 1.231230
+Global Step 91100 LR 0.0582 Step Time 0.05 Test loss 0.813965
+     eval: loss 1.242949
+Global Step 91200 LR 0.0582 Step Time 0.05 Test loss 0.808526
+     eval: loss 1.231230
+Global Step 91300 LR 0.0582 Step Time 0.05 Test loss 0.811115
+     eval: loss 1.207793
+Global Step 91400 LR 0.0582 Step Time 0.05 Test loss 0.813413
+     eval: loss 1.227324
+Global Step 91500 LR 0.0582 Step Time 0.05 Test loss 0.810757
+     eval: loss 1.239043
+Global Step 91600 LR 0.0582 Step Time 0.05 Test loss 0.811700
+     eval: loss 1.246855
+Global Step 91700 LR 0.0582 Step Time 0.05 Test loss 0.815957
+     eval: loss 1.239043
+Global Step 91800 LR 0.0576 Step Time 0.05 Test loss 0.811153
+     eval: loss 1.219512
+Global Step 91900 LR 0.0576 Step Time 0.05 Test loss 0.813496
+     eval: loss 1.219512
+Global Step 92000 LR 0.0576 Step Time 0.05 Test loss 0.815013
+     eval: loss 1.235137
+Global Step 92100 LR 0.0576 Step Time 0.05 Test loss 0.811855
+     eval: loss 1.203887
+Global Step 92200 LR 0.0576 Step Time 0.05 Test loss 0.812406
+     eval: loss 1.235137
+Global Step 92300 LR 0.0576 Step Time 0.05 Test loss 0.811426
+     eval: loss 1.242949
+Global Step 92400 LR 0.0576 Step Time 0.05 Test loss 0.814784
+     eval: loss 1.242949
+Global Step 92500 LR 0.0570 Step Time 0.06 Test loss 0.814512
+     eval: loss 1.211699
+Global Step 92600 LR 0.0570 Step Time 0.05 Test loss 0.812625
+     eval: loss 1.235137
+Global Step 92700 LR 0.0570 Step Time 0.05 Test loss 0.814558
+     eval: loss 1.215605
+Global Step 92800 LR 0.0570 Step Time 0.05 Test loss 0.811777
+     eval: loss 1.242949
+Global Step 92900 LR 0.0570 Step Time 0.05 Test loss 0.814517
+     eval: loss 1.231230
+Global Step 93000 LR 0.0570 Step Time 0.05 Test loss 0.811385
+     eval: loss 1.246855
+Global Step 93100 LR 0.0570 Step Time 0.05 Test loss 0.815098
+     eval: loss 1.262480
+Global Step 93200 LR 0.0565 Step Time 0.05 Test loss 0.813613
+     eval: loss 1.223418
+Global Step 93300 LR 0.0565 Step Time 0.05 Test loss 0.809121
+     eval: loss 1.223418
+Global Step 93400 LR 0.0565 Step Time 0.05 Test loss 0.811152
+     eval: loss 1.219512
+Global Step 93500 LR 0.0565 Step Time 0.05 Test loss 0.811621
+     eval: loss 1.223418
+Global Step 93600 LR 0.0565 Step Time 0.05 Test loss 0.813184
+     eval: loss 1.266387
+Global Step 93700 LR 0.0559 Step Time 0.05 Test loss 0.811209
+     eval: loss 1.207793
+Global Step 93800 LR 0.0559 Step Time 0.05 Test loss 0.813226
+     eval: loss 1.219512
+Global Step 93900 LR 0.0553 Step Time 0.05 Test loss 0.813503
+     eval: loss 1.219512
+Global Step 94000 LR 0.0548 Step Time 0.05 Test loss 0.814860
+     eval: loss 1.207793
+Global Step 94100 LR 0.0542 Step Time 0.05 Test loss 0.815840
+     eval: loss 1.254668
+Global Step 94200 LR 0.0537 Step Time 0.05 Test loss 0.813661
+     eval: loss 1.227324
+Global Step 94300 LR 0.0537 Step Time 0.05 Test loss 0.813541
+     eval: loss 1.239043
+Global Step 94400 LR 0.0537 Step Time 0.05 Test loss 0.813033
+     eval: loss 1.250762
+Global Step 94500 LR 0.0537 Step Time 0.06 Test loss 0.813105
+     eval: loss 1.250762
+Global Step 94600 LR 0.0537 Step Time 0.05 Test loss 0.813374
+     eval: loss 1.203887
+Global Step 94700 LR 0.0537 Step Time 0.05 Test loss 0.815059
+     eval: loss 1.211699
+Global Step 94800 LR 0.0532 Step Time 0.05 Test loss 0.811509
+     eval: loss 1.254668
+Global Step 94900 LR 0.0532 Step Time 0.05 Test loss 0.812715
+     eval: loss 1.235137
+Global Step 95000 LR 0.0532 Step Time 0.05 Test loss 0.813105
+     eval: loss 1.235137
+Global Step 95100 LR 0.0532 Step Time 0.05 Test loss 0.814866
+     eval: loss 1.231230
+Global Step 95200 LR 0.0526 Step Time 0.05 Test loss 0.814277
+     eval: loss 1.211699
+Global Step 95300 LR 0.0526 Step Time 0.05 Test loss 0.815333
+     eval: loss 1.219512
+Global Step 95400 LR 0.0521 Step Time 0.05 Test loss 0.813213
+     eval: loss 1.254668
+Global Step 95500 LR 0.0521 Step Time 0.05 Test loss 0.811933
+     eval: loss 1.246855
+Global Step 95600 LR 0.0521 Step Time 0.05 Test loss 0.812825
+     eval: loss 1.262480
+Global Step 95700 LR 0.0521 Step Time 0.05 Test loss 0.813769
+     eval: loss 1.254668
+Global Step 95800 LR 0.0516 Step Time 0.05 Test loss 0.810059
+     eval: loss 1.258574
+Global Step 95900 LR 0.0516 Step Time 0.05 Test loss 0.814349
+     eval: loss 1.199980
+Global Step 96000 LR 0.0511 Step Time 0.05 Test loss 0.816061
+     eval: loss 1.239043
+Global Step 96100 LR 0.0506 Step Time 0.05 Test loss 0.814746
+     eval: loss 1.199980
+Global Step 96200 LR 0.0506 Step Time 0.05 Test loss 0.811934
+     eval: loss 1.235137
+Global Step 96300 LR 0.0506 Step Time 0.05 Test loss 0.811050
+     eval: loss 1.227439
+Global Step 96400 LR 0.0506 Step Time 0.05 Test loss 0.815441
+     eval: loss 1.250762
+Global Step 96500 LR 0.0501 Step Time 0.05 Test loss 0.812207
+     eval: loss 1.242949
+Global Step 96600 LR 0.0501 Step Time 0.05 Test loss 0.812598
+     eval: loss 1.235137
+Global Step 96700 LR 0.0501 Step Time 0.05 Test loss 0.809597
+     eval: loss 1.270293
+Global Step 96800 LR 0.0501 Step Time 0.05 Test loss 0.812393
+     eval: loss 1.246855
+Global Step 96900 LR 0.0501 Step Time 0.05 Test loss 0.809920
+     eval: loss 1.246855
+Global Step 97000 LR 0.0501 Step Time 0.05 Test loss 0.812754
+     eval: loss 1.242949
+Global Step 97100 LR 0.0496 Step Time 0.05 Test loss 0.814966
+     eval: loss 1.211699
+Global Step 97200 LR 0.0491 Step Time 0.05 Test loss 0.816602
+     eval: loss 1.235137
+Global Step 97300 LR 0.0486 Step Time 0.05 Test loss 0.811696
+     eval: loss 1.227324
+Global Step 97400 LR 0.0486 Step Time 0.05 Test loss 0.815565
+     eval: loss 1.270293
+Global Step 97500 LR 0.0486 Step Time 0.05 Test loss 0.813932
+     eval: loss 1.266387
+Global Step 97600 LR 0.0486 Step Time 0.05 Test loss 0.812324
+     eval: loss 1.207793
+Global Step 97700 LR 0.0486 Step Time 0.05 Test loss 0.810565
+     eval: loss 1.246855
+Global Step 97800 LR 0.0486 Step Time 0.05 Test loss 0.813887
+     eval: loss 1.258574
+Global Step 97900 LR 0.0486 Step Time 0.05 Test loss 0.810203
+     eval: loss 1.211699
+Global Step 98000 LR 0.0486 Step Time 0.05 Test loss 0.813536
+     eval: loss 1.262480
+Global Step 98100 LR 0.0486 Step Time 0.05 Test loss 0.812324
+     eval: loss 1.235137
+Global Step 98200 LR 0.0486 Step Time 0.06 Test loss 0.811700
+     eval: loss 1.254668
+Global Step 98300 LR 0.0486 Step Time 0.05 Test loss 0.811293
+     eval: loss 1.227324
+Global Step 98400 LR 0.0486 Step Time 0.05 Test loss 0.812871
+     eval: loss 1.207793
+Global Step 98500 LR 0.0481 Step Time 0.05 Test loss 0.814512
+     eval: loss 1.262480
+Global Step 98600 LR 0.0476 Step Time 0.05 Test loss 0.814941
+     eval: loss 1.235137
+Global Step 98700 LR 0.0471 Step Time 0.05 Test loss 0.811894
+     eval: loss 1.239043
+Global Step 98800 LR 0.0471 Step Time 0.05 Test loss 0.813652
+     eval: loss 1.270293
+Global Step 98900 LR 0.0471 Step Time 0.05 Test loss 0.812519
+     eval: loss 1.250762
+Global Step 99000 LR 0.0471 Step Time 0.05 Test loss 0.811894
+     eval: loss 1.239043
+Global Step 99100 LR 0.0471 Step Time 0.05 Test loss 0.815311
+     eval: loss 1.254668
+Global Step 99200 LR 0.0467 Step Time 0.05 Test loss 0.812012
+     eval: loss 1.258574
+Global Step 99300 LR 0.0467 Step Time 0.05 Test loss 0.815137
+     eval: loss 1.278105
+Global Step 99400 LR 0.0467 Step Time 0.05 Test loss 0.813644
+     eval: loss 1.235137
+Global Step 99500 LR 0.0467 Step Time 0.05 Test loss 0.814707
+     eval: loss 1.219512
+Global Step 99600 LR 0.0467 Step Time 0.05 Test loss 0.812754
+     eval: loss 1.239043
+Global Step 99700 LR 0.0467 Step Time 0.05 Test loss 0.810915
+     eval: loss 1.196078
+Global Step 99800 LR 0.0467 Step Time 0.05 Test loss 0.814043
+     eval: loss 1.227324
+Global Step 99900 LR 0.0467 Step Time 0.05 Test loss 0.813996
+     eval: loss 1.211699
+Global Step 100000 LR 0.0467 Step Time 0.05 Test loss 0.812481
+     eval: loss 1.262480
+Global Step 100100 LR 0.0467 Step Time 0.05 Test loss 0.812480
+     eval: loss 1.235137
+Global Step 100200 LR 0.0467 Step Time 0.05 Test loss 0.816671
+     eval: loss 1.211699
+Global Step 100300 LR 0.0462 Step Time 0.05 Test loss 0.814902
+     eval: loss 1.270293
+Global Step 100400 LR 0.0462 Step Time 0.05 Test loss 0.814512
+     eval: loss 1.254668
+Global Step 100500 LR 0.0462 Step Time 0.05 Test loss 0.812034
+     eval: loss 1.239043
+Global Step 100600 LR 0.0462 Step Time 0.05 Test loss 0.813184
+     eval: loss 1.254668
+Global Step 100700 LR 0.0462 Step Time 0.05 Test loss 0.814224
+     eval: loss 1.231230
+Global Step 100800 LR 0.0462 Step Time 0.05 Test loss 0.813920
+     eval: loss 1.235137
+Global Step 100900 LR 0.0462 Step Time 0.05 Test loss 0.811543
+     eval: loss 1.239043
+Global Step 101000 LR 0.0462 Step Time 0.05 Test loss 0.812246
+     eval: loss 1.207793
+Global Step 101100 LR 0.0462 Step Time 0.05 Test loss 0.810723
+     eval: loss 1.242949
+Global Step 101200 LR 0.0462 Step Time 0.05 Test loss 0.815892
+     eval: loss 1.246855
+Global Step 101300 LR 0.0457 Step Time 0.05 Test loss 0.814512
+     eval: loss 1.199980
+Global Step 101400 LR 0.0457 Step Time 0.05 Test loss 0.814309
+     eval: loss 1.254668
+Global Step 101500 LR 0.0457 Step Time 0.06 Test loss 0.810449
+     eval: loss 1.239043
+Global Step 101600 LR 0.0457 Step Time 0.05 Test loss 0.811639
+     eval: loss 1.246855
+Global Step 101700 LR 0.0457 Step Time 0.05 Test loss 0.813334
+     eval: loss 1.231230
+Global Step 101800 LR 0.0457 Step Time 0.05 Test loss 0.814590
+     eval: loss 1.231230
+Global Step 101900 LR 0.0453 Step Time 0.05 Test loss 0.812065
+     eval: loss 1.242949
+Global Step 102000 LR 0.0453 Step Time 0.05 Test loss 0.810059
+     eval: loss 1.211699
+Global Step 102100 LR 0.0453 Step Time 0.05 Test loss 0.810091
+     eval: loss 1.242949
+Global Step 102200 LR 0.0453 Step Time 0.05 Test loss 0.815362
+     eval: loss 1.274199
+Global Step 102300 LR 0.0448 Step Time 0.05 Test loss 0.812553
+     eval: loss 1.242949
+Global Step 102400 LR 0.0448 Step Time 0.05 Test loss 0.812555
+     eval: loss 1.219512
+Global Step 102500 LR 0.0448 Step Time 0.05 Test loss 0.813020
+     eval: loss 1.223418
+Global Step 102600 LR 0.0448 Step Time 0.05 Test loss 0.812336
+     eval: loss 1.242949
+Global Step 102700 LR 0.0448 Step Time 0.05 Test loss 0.812676
+     eval: loss 1.242949
+Global Step 102800 LR 0.0448 Step Time 0.06 Test loss 0.814395
+     eval: loss 1.242949
+Global Step 102900 LR 0.0444 Step Time 0.06 Test loss 0.812302
+     eval: loss 1.215605
+Global Step 103000 LR 0.0444 Step Time 0.05 Test loss 0.814627
+     eval: loss 1.262480
+Global Step 103100 LR 0.0439 Step Time 0.05 Test loss 0.814004
+     eval: loss 1.242949
+Global Step 103200 LR 0.0439 Step Time 0.05 Test loss 0.813962
+     eval: loss 1.239043
+Global Step 103300 LR 0.0439 Step Time 0.05 Test loss 0.813468
+     eval: loss 1.215605
+Global Step 103400 LR 0.0439 Step Time 0.05 Test loss 0.809911
+     eval: loss 1.242949
+Global Step 103500 LR 0.0439 Step Time 0.05 Test loss 0.813158
+     eval: loss 1.235137
+Global Step 103600 LR 0.0439 Step Time 0.05 Test loss 0.812338
+     eval: loss 1.246855
+Global Step 103700 LR 0.0439 Step Time 0.05 Test loss 0.811660
+     eval: loss 1.231230
+Global Step 103800 LR 0.0439 Step Time 0.05 Test loss 0.814644
+     eval: loss 1.199991
+Global Step 103900 LR 0.0435 Step Time 0.05 Test loss 0.813809
+     eval: loss 1.258574
+Global Step 104000 LR 0.0435 Step Time 0.05 Test loss 0.811074
+     eval: loss 1.246855
+Global Step 104100 LR 0.0435 Step Time 0.05 Test loss 0.813749
+     eval: loss 1.250762
+Global Step 104200 LR 0.0435 Step Time 0.05 Test loss 0.815202
+     eval: loss 1.242949
+Global Step 104300 LR 0.0430 Step Time 0.06 Test loss 0.811251
+     eval: loss 1.231230
+Global Step 104400 LR 0.0430 Step Time 0.05 Test loss 0.816930
+     eval: loss 1.258574
+Global Step 104500 LR 0.0426 Step Time 0.05 Test loss 0.815604
+     eval: loss 1.223418
+Global Step 104600 LR 0.0426 Step Time 0.05 Test loss 0.813887
+     eval: loss 1.239043
+Global Step 104700 LR 0.0426 Step Time 0.05 Test loss 0.812246
+     eval: loss 1.231230
+Global Step 104800 LR 0.0426 Step Time 0.05 Test loss 0.816582
+     eval: loss 1.223418
+Global Step 104900 LR 0.0422 Step Time 0.05 Test loss 0.812324
+     eval: loss 1.219512
+Global Step 105000 LR 0.0422 Step Time 0.05 Test loss 0.812714
+     eval: loss 1.203887
+Global Step 105100 LR 0.0422 Step Time 0.05 Test loss 0.813144
+     eval: loss 1.242949
+Global Step 105200 LR 0.0422 Step Time 0.05 Test loss 0.813652
+     eval: loss 1.266387
+Global Step 105300 LR 0.0418 Step Time 0.05 Test loss 0.814003
+     eval: loss 1.250762
+Global Step 105400 LR 0.0414 Step Time 0.05 Test loss 0.813378
+     eval: loss 1.223418
+Global Step 105500 LR 0.0414 Step Time 0.05 Test loss 0.809902
+     eval: loss 1.215605
+Global Step 105600 LR 0.0414 Step Time 0.05 Test loss 0.814551
+     eval: loss 1.262480
+Global Step 105700 LR 0.0409 Step Time 0.05 Test loss 0.812946
+     eval: loss 1.262454
+Global Step 105800 LR 0.0409 Step Time 0.05 Test loss 0.812363
+     eval: loss 1.239043
+Global Step 105900 LR 0.0409 Step Time 0.05 Test loss 0.816207
+     eval: loss 1.266387
+Global Step 106000 LR 0.0405 Step Time 0.05 Test loss 0.815801
+     eval: loss 1.211730
+Global Step 106100 LR 0.0405 Step Time 0.05 Test loss 0.815683
+     eval: loss 1.231230
+Global Step 106200 LR 0.0405 Step Time 0.05 Test loss 0.814703
+     eval: loss 1.246855
+Global Step 106300 LR 0.0405 Step Time 0.05 Test loss 0.814004
+     eval: loss 1.211699
+Global Step 106400 LR 0.0405 Step Time 0.05 Test loss 0.813262
+     eval: loss 1.282012
+Global Step 106500 LR 0.0405 Step Time 0.05 Test loss 0.810721
+     eval: loss 1.203887
+Global Step 106600 LR 0.0405 Step Time 0.05 Test loss 0.812262
+     eval: loss 1.239043
+Global Step 106700 LR 0.0405 Step Time 0.05 Test loss 0.813066
+     eval: loss 1.250762
+Global Step 106800 LR 0.0405 Step Time 0.05 Test loss 0.812953
+     eval: loss 1.176543
+Global Step 106900 LR 0.0405 Step Time 0.05 Test loss 0.814745
+     eval: loss 1.242949
+Global Step 107000 LR 0.0401 Step Time 0.05 Test loss 0.815335
+     eval: loss 1.231230
+Global Step 107100 LR 0.0397 Step Time 0.05 Test loss 0.813938
+     eval: loss 1.219512
+Global Step 107200 LR 0.0397 Step Time 0.05 Test loss 0.816030
+     eval: loss 1.235137
+Global Step 107300 LR 0.0393 Step Time 0.05 Test loss 0.809437
+     eval: loss 1.215605
+Global Step 107400 LR 0.0393 Step Time 0.05 Test loss 0.814119
+     eval: loss 1.231230
+Global Step 107500 LR 0.0393 Step Time 0.05 Test loss 0.812793
+     eval: loss 1.254668
+Global Step 107600 LR 0.0393 Step Time 0.05 Test loss 0.813093
+     eval: loss 1.246855
+Global Step 107700 LR 0.0393 Step Time 0.05 Test loss 0.815293
+     eval: loss 1.188262
+Global Step 107800 LR 0.0389 Step Time 0.05 Test loss 0.815028
+     eval: loss 1.235137
+Global Step 107900 LR 0.0389 Step Time 0.05 Test loss 0.811894
+     eval: loss 1.250762
+Global Step 108000 LR 0.0389 Step Time 0.05 Test loss 0.817067
+     eval: loss 1.219512
+Global Step 108100 LR 0.0385 Step Time 0.05 Test loss 0.815219
+     eval: loss 1.246855
+Global Step 108200 LR 0.0385 Step Time 0.05 Test loss 0.814551
+     eval: loss 1.246855
+Global Step 108300 LR 0.0385 Step Time 0.05 Test loss 0.813925
+     eval: loss 1.215605
+Global Step 108400 LR 0.0385 Step Time 0.05 Test loss 0.813937
+     eval: loss 1.219512
+Global Step 108500 LR 0.0385 Step Time 0.05 Test loss 0.812989
+     eval: loss 1.188262
+Global Step 108600 LR 0.0385 Step Time 0.05 Test loss 0.813739
+     eval: loss 1.223418
+Global Step 108700 LR 0.0385 Step Time 0.05 Test loss 0.812692
+     eval: loss 1.250762
+Global Step 108800 LR 0.0385 Step Time 0.05 Test loss 0.814392
+     eval: loss 1.215605
+Global Step 108900 LR 0.0382 Step Time 0.05 Test loss 0.812441
+     eval: loss 1.239043
+Global Step 109000 LR 0.0382 Step Time 0.05 Test loss 0.811660
+     eval: loss 1.219512
+Global Step 109100 LR 0.0382 Step Time 0.05 Test loss 0.815727
+     eval: loss 1.258574
+Global Step 109200 LR 0.0378 Step Time 0.05 Test loss 0.812793
+     eval: loss 1.270293
+Global Step 109300 LR 0.0378 Step Time 0.05 Test loss 0.809356
+     eval: loss 1.227324
+Global Step 109400 LR 0.0378 Step Time 0.05 Test loss 0.813965
+     eval: loss 1.227324
+Global Step 109500 LR 0.0378 Step Time 0.05 Test loss 0.815179
+     eval: loss 1.239043
+Global Step 109600 LR 0.0374 Step Time 0.05 Test loss 0.812598
+     eval: loss 1.223418
+Global Step 109700 LR 0.0374 Step Time 0.05 Test loss 0.814629
+     eval: loss 1.219512
+Global Step 109800 LR 0.0374 Step Time 0.05 Test loss 0.815058
+     eval: loss 1.223418
+Global Step 109900 LR 0.0374 Step Time 0.05 Test loss 0.812920
+     eval: loss 1.215605
+Global Step 110000 LR 0.0374 Step Time 0.05 Test loss 0.813185
+     eval: loss 1.235137
+Global Step 110100 LR 0.0374 Step Time 0.05 Test loss 0.811894
+     eval: loss 1.219512
+Global Step 110200 LR 0.0374 Step Time 0.05 Test loss 0.811816
+     eval: loss 1.219512
+Global Step 110300 LR 0.0374 Step Time 0.05 Test loss 0.813403
+     eval: loss 1.239043
+Global Step 110400 LR 0.0370 Step Time 0.05 Test loss 0.811273
+     eval: loss 1.223418
+Global Step 110500 LR 0.0370 Step Time 0.05 Test loss 0.813379
+     eval: loss 1.250762
+Global Step 110600 LR 0.0370 Step Time 0.05 Test loss 0.812480
+     eval: loss 1.223418
+Global Step 110700 LR 0.0370 Step Time 0.06 Test loss 0.814424
+     eval: loss 1.266387
+Global Step 110800 LR 0.0367 Step Time 0.05 Test loss 0.814902
+     eval: loss 1.235137
+Global Step 110900 LR 0.0363 Step Time 0.06 Test loss 0.813186
+     eval: loss 1.223418
+Global Step 111000 LR 0.0363 Step Time 0.05 Test loss 0.814743
+     eval: loss 1.274199
+Global Step 111100 LR 0.0363 Step Time 0.05 Test loss 0.810660
+     eval: loss 1.203887
+Global Step 111200 LR 0.0363 Step Time 0.05 Test loss 0.811582
+     eval: loss 1.211699
+Global Step 111300 LR 0.0363 Step Time 0.05 Test loss 0.812441
+     eval: loss 1.246855
+Global Step 111400 LR 0.0363 Step Time 0.05 Test loss 0.812168
+     eval: loss 1.250762
+Global Step 111500 LR 0.0363 Step Time 0.05 Test loss 0.814201
+     eval: loss 1.223418
+Global Step 111600 LR 0.0359 Step Time 0.05 Test loss 0.815332
+     eval: loss 1.211699
+Global Step 111700 LR 0.0356 Step Time 0.05 Test loss 0.808998
+     eval: loss 1.242949
+Global Step 111800 LR 0.0356 Step Time 0.05 Test loss 0.815567
+     eval: loss 1.226570
+Global Step 111900 LR 0.0352 Step Time 0.05 Test loss 0.811257
+     eval: loss 1.258574
+Global Step 112000 LR 0.0352 Step Time 0.05 Test loss 0.814020
+     eval: loss 1.239043
+Global Step 112100 LR 0.0352 Step Time 0.05 Test loss 0.811032
+     eval: loss 1.246855
+Global Step 112200 LR 0.0352 Step Time 0.05 Test loss 0.813360
+     eval: loss 1.242949
+Global Step 112300 LR 0.0352 Step Time 0.05 Test loss 0.811746
+     eval: loss 1.219512
+Global Step 112400 LR 0.0352 Step Time 0.05 Test loss 0.809360
+     eval: loss 1.239043
+Global Step 112500 LR 0.0352 Step Time 0.05 Test loss 0.813850
+     eval: loss 1.242949
+Global Step 112600 LR 0.0349 Step Time 0.05 Test loss 0.812308
+     eval: loss 1.246855
+Global Step 112700 LR 0.0349 Step Time 0.05 Test loss 0.810906
+     eval: loss 1.262480
+Global Step 112800 LR 0.0349 Step Time 0.05 Test loss 0.810149
+     eval: loss 1.231230
+Global Step 112900 LR 0.0349 Step Time 0.05 Test loss 0.814588
+     eval: loss 1.242949
+Global Step 113000 LR 0.0345 Step Time 0.05 Test loss 0.813106
+     eval: loss 1.258574
+Global Step 113100 LR 0.0345 Step Time 0.05 Test loss 0.815573
+     eval: loss 1.231230
+Global Step 113200 LR 0.0342 Step Time 0.06 Test loss 0.813542
+     eval: loss 1.266387
+Global Step 113300 LR 0.0342 Step Time 0.05 Test loss 0.814512
+     eval: loss 1.235137
+Global Step 113400 LR 0.0342 Step Time 0.05 Test loss 0.812558
+     eval: loss 1.262480
+Global Step 113500 LR 0.0342 Step Time 0.05 Test loss 0.810759
+     eval: loss 1.203887
+Global Step 113600 LR 0.0342 Step Time 0.05 Test loss 0.814972
+     eval: loss 1.250762
+Global Step 113700 LR 0.0338 Step Time 0.05 Test loss 0.809666
+     eval: loss 1.235137
+Global Step 113800 LR 0.0338 Step Time 0.05 Test loss 0.811521
+     eval: loss 1.274199
+Global Step 113900 LR 0.0338 Step Time 0.05 Test loss 0.807402
+     eval: loss 1.235137
+Global Step 114000 LR 0.0338 Step Time 0.05 Test loss 0.812011
+     eval: loss 1.227324
+Global Step 114100 LR 0.0335 Step Time 0.06 Test loss 0.814160
+     eval: loss 1.235137
+Global Step 114200 LR 0.0331 Step Time 0.05 Test loss 0.811113
+     eval: loss 1.254668
+Global Step 114300 LR 0.0331 Step Time 0.05 Test loss 0.813300
+     eval: loss 1.227324
+Global Step 114400 LR 0.0331 Step Time 0.05 Test loss 0.813375
+     eval: loss 1.215605
+Global Step 114500 LR 0.0331 Step Time 0.05 Test loss 0.810996
+     eval: loss 1.231230
+Global Step 114600 LR 0.0331 Step Time 0.05 Test loss 0.812638
+     eval: loss 1.246855
+Global Step 114700 LR 0.0331 Step Time 0.05 Test loss 0.813457
+     eval: loss 1.231230
+Global Step 114800 LR 0.0328 Step Time 0.05 Test loss 0.813806
+     eval: loss 1.242949
+Global Step 114900 LR 0.0325 Step Time 0.05 Test loss 0.812528
+     eval: loss 1.239043
+Global Step 115000 LR 0.0325 Step Time 0.05 Test loss 0.810488
+     eval: loss 1.239043
+Global Step 115100 LR 0.0325 Step Time 0.05 Test loss 0.813301
+     eval: loss 1.246855
+Global Step 115200 LR 0.0325 Step Time 0.05 Test loss 0.813921
+     eval: loss 1.203887
+Global Step 115300 LR 0.0322 Step Time 0.05 Test loss 0.812129
+     eval: loss 1.239043
+Global Step 115400 LR 0.0322 Step Time 0.05 Test loss 0.813644
+     eval: loss 1.231232
+Global Step 115500 LR 0.0322 Step Time 0.05 Test loss 0.814642
+     eval: loss 1.242949
+Global Step 115600 LR 0.0318 Step Time 0.05 Test loss 0.814245
+     eval: loss 1.227324
+Global Step 115700 LR 0.0318 Step Time 0.05 Test loss 0.814742
+     eval: loss 1.235137
+Global Step 115800 LR 0.0315 Step Time 0.05 Test loss 0.814103
+     eval: loss 1.258574
+Global Step 115900 LR 0.0315 Step Time 0.05 Test loss 0.813926
+     eval: loss 1.242949
+Global Step 116000 LR 0.0315 Step Time 0.05 Test loss 0.810274
+     eval: loss 1.239043
+Global Step 116100 LR 0.0315 Step Time 0.05 Test loss 0.811978
+     eval: loss 1.250762
+Global Step 116200 LR 0.0315 Step Time 0.05 Test loss 0.812152
+     eval: loss 1.211699
+Global Step 116300 LR 0.0315 Step Time 0.05 Test loss 0.814785
+     eval: loss 1.227324
+Global Step 116400 LR 0.0312 Step Time 0.05 Test loss 0.816387
+     eval: loss 1.239043
+Global Step 116500 LR 0.0309 Step Time 0.05 Test loss 0.813816
+     eval: loss 1.227324
+Global Step 116600 LR 0.0309 Step Time 0.05 Test loss 0.815130
+     eval: loss 1.258574
+Global Step 116700 LR 0.0309 Step Time 0.05 Test loss 0.812164
+     eval: loss 1.227324
+Global Step 116800 LR 0.0309 Step Time 0.05 Test loss 0.812792
+     eval: loss 1.223418
+Global Step 116900 LR 0.0309 Step Time 0.05 Test loss 0.812430
+     eval: loss 1.246855
+Global Step 117000 LR 0.0309 Step Time 0.05 Test loss 0.813613
+     eval: loss 1.246855
+Global Step 117100 LR 0.0306 Step Time 0.05 Test loss 0.810059
+     eval: loss 1.227324
+Global Step 117200 LR 0.0306 Step Time 0.05 Test loss 0.812715
+     eval: loss 1.227324
+Global Step 117300 LR 0.0306 Step Time 0.05 Test loss 0.813531
+     eval: loss 1.207793
+Global Step 117400 LR 0.0306 Step Time 0.05 Test loss 0.814003
+     eval: loss 1.262480
+Global Step 117500 LR 0.0303 Step Time 0.05 Test loss 0.815098
+     eval: loss 1.207793
+Global Step 117600 LR 0.0300 Step Time 0.05 Test loss 0.813144
+     eval: loss 1.258574
+Global Step 117700 LR 0.0300 Step Time 0.05 Test loss 0.810997
+     eval: loss 1.242949
+Global Step 117800 LR 0.0300 Step Time 0.05 Test loss 0.812984
+     eval: loss 1.219512
+Global Step 117900 LR 0.0300 Step Time 0.05 Test loss 0.815371
+     eval: loss 1.246855
+Global Step 118000 LR 0.0297 Step Time 0.05 Test loss 0.812363
+     eval: loss 1.231230
+Global Step 118100 LR 0.0297 Step Time 0.05 Test loss 0.811504
+     eval: loss 1.196074
+Global Step 118200 LR 0.0297 Step Time 0.05 Test loss 0.813773
+     eval: loss 1.203887
+Global Step 118300 LR 0.0297 Step Time 0.05 Test loss 0.814316
+     eval: loss 1.231230
+Global Step 118400 LR 0.0294 Step Time 0.05 Test loss 0.811191
+     eval: loss 1.227324
+Global Step 118500 LR 0.0294 Step Time 0.05 Test loss 0.818926
+     eval: loss 1.231230
+Global Step 118600 LR 0.0291 Step Time 0.05 Test loss 0.812598
+     eval: loss 1.239043
+Global Step 118700 LR 0.0291 Step Time 0.05 Test loss 0.813690
+     eval: loss 1.262480
+Global Step 118800 LR 0.0291 Step Time 0.05 Test loss 0.812200
+     eval: loss 1.227324
+Global Step 118900 LR 0.0291 Step Time 0.05 Test loss 0.812168
+     eval: loss 1.199980
+Global Step 119000 LR 0.0291 Step Time 0.05 Test loss 0.810914
+     eval: loss 1.242949
+Global Step 119100 LR 0.0291 Step Time 0.05 Test loss 0.810104
+     eval: loss 1.246855
+Global Step 119200 LR 0.0291 Step Time 0.05 Test loss 0.813189
+     eval: loss 1.231230
+Global Step 119300 LR 0.0288 Step Time 0.05 Test loss 0.810153
+     eval: loss 1.254668
+Global Step 119400 LR 0.0288 Step Time 0.05 Test loss 0.813438
+     eval: loss 1.227324
+Global Step 119500 LR 0.0285 Step Time 0.05 Test loss 0.812090
+     eval: loss 1.235137
+Global Step 119600 LR 0.0285 Step Time 0.05 Test loss 0.814117
+     eval: loss 1.235137
+Global Step 119700 LR 0.0282 Step Time 0.05 Test loss 0.809431
+     eval: loss 1.223418
+Global Step 119800 LR 0.0282 Step Time 0.05 Test loss 0.816113
+     eval: loss 1.235137
+Global Step 119900 LR 0.0279 Step Time 0.05 Test loss 0.812247
+     eval: loss 1.239043
+Global Step 120000 LR 0.0279 Step Time 0.05 Test loss 0.811482
+     eval: loss 1.262480
+Global Step 120100 LR 0.0279 Step Time 0.05 Test loss 0.812285
+     eval: loss 1.239043
+Global Step 120200 LR 0.0279 Step Time 0.05 Test loss 0.817007
+     eval: loss 1.192168
+Global Step 120300 LR 0.0277 Step Time 0.05 Test loss 0.810879
+     eval: loss 1.262480
+Global Step 120400 LR 0.0277 Step Time 0.05 Test loss 0.811973
+     eval: loss 1.227324
+Global Step 120500 LR 0.0277 Step Time 0.05 Test loss 0.812923
+     eval: loss 1.266387
+Global Step 120600 LR 0.0277 Step Time 0.05 Test loss 0.812363
+     eval: loss 1.282012
+Global Step 120700 LR 0.0277 Step Time 0.05 Test loss 0.816243
+     eval: loss 1.242949
+Global Step 120800 LR 0.0274 Step Time 0.05 Test loss 0.814668
+     eval: loss 1.188864
+Global Step 120900 LR 0.0274 Step Time 0.05 Test loss 0.814316
+     eval: loss 1.254668
+Global Step 121000 LR 0.0274 Step Time 0.05 Test loss 0.811827
+     eval: loss 1.250762
+Global Step 121100 LR 0.0274 Step Time 0.05 Test loss 0.810449
+     eval: loss 1.231230
+Global Step 121200 LR 0.0274 Step Time 0.05 Test loss 0.811875
+     eval: loss 1.239043
+Global Step 121300 LR 0.0274 Step Time 0.05 Test loss 0.816738
+     eval: loss 1.242949
+Global Step 121400 LR 0.0271 Step Time 0.05 Test loss 0.813073
+     eval: loss 1.235137
+Global Step 121500 LR 0.0271 Step Time 0.05 Test loss 0.813506
+     eval: loss 1.254668
+Global Step 121600 LR 0.0271 Step Time 0.05 Test loss 0.813260
+     eval: loss 1.231230
+Global Step 121700 LR 0.0271 Step Time 0.05 Test loss 0.813418
+     eval: loss 1.239043
+Global Step 121800 LR 0.0271 Step Time 0.05 Test loss 0.815291
+     eval: loss 1.246855
+Global Step 121900 LR 0.0268 Step Time 0.05 Test loss 0.811898
+     eval: loss 1.215605
+Global Step 122000 LR 0.0268 Step Time 0.05 Test loss 0.816230
+     eval: loss 1.231230
+Global Step 122100 LR 0.0266 Step Time 0.05 Test loss 0.813169
+     eval: loss 1.207793
+Global Step 122200 LR 0.0266 Step Time 0.05 Test loss 0.814002
+     eval: loss 1.227324
+Global Step 122300 LR 0.0266 Step Time 0.05 Test loss 0.814037
+     eval: loss 1.274199
+Global Step 122400 LR 0.0266 Step Time 0.05 Test loss 0.813717
+     eval: loss 1.246855
+Global Step 122500 LR 0.0266 Step Time 0.05 Test loss 0.813223
+     eval: loss 1.246855
+Global Step 122600 LR 0.0266 Step Time 0.05 Test loss 0.811926
+     eval: loss 1.242949
+Global Step 122700 LR 0.0266 Step Time 0.05 Test loss 0.811345
+     eval: loss 1.246855
+Global Step 122800 LR 0.0266 Step Time 0.05 Test loss 0.811192
+     eval: loss 1.246855
+Global Step 122900 LR 0.0266 Step Time 0.05 Test loss 0.817090
+     eval: loss 1.219512
+Global Step 123000 LR 0.0263 Step Time 0.05 Test loss 0.813379
+     eval: loss 1.223418
+Global Step 123100 LR 0.0263 Step Time 0.05 Test loss 0.813641
+     eval: loss 1.223418
+Global Step 123200 LR 0.0263 Step Time 0.05 Test loss 0.812363
+     eval: loss 1.254668
+Global Step 123300 LR 0.0263 Step Time 0.05 Test loss 0.811582
+     eval: loss 1.242949
+Global Step 123400 LR 0.0263 Step Time 0.06 Test loss 0.813147
+     eval: loss 1.242949
+Global Step 123500 LR 0.0263 Step Time 0.05 Test loss 0.813144
+     eval: loss 1.251191
+Global Step 123600 LR 0.0263 Step Time 0.05 Test loss 0.816034
+     eval: loss 1.239043
+Global Step 123700 LR 0.0260 Step Time 0.05 Test loss 0.814991
+     eval: loss 1.266387
+Global Step 123800 LR 0.0260 Step Time 0.05 Test loss 0.816095
+     eval: loss 1.235137
+Global Step 123900 LR 0.0258 Step Time 0.05 Test loss 0.813612
+     eval: loss 1.235137
+Global Step 124000 LR 0.0258 Step Time 0.05 Test loss 0.810019
+     eval: loss 1.231230
+Global Step 124100 LR 0.0258 Step Time 0.05 Test loss 0.815419
+     eval: loss 1.254668
+Global Step 124200 LR 0.0258 Step Time 0.05 Test loss 0.816035
+     eval: loss 1.207793
+Global Step 124300 LR 0.0255 Step Time 0.05 Test loss 0.812285
+     eval: loss 1.262480
+Global Step 124400 LR 0.0255 Step Time 0.05 Test loss 0.813270
+     eval: loss 1.242949
+Global Step 124500 LR 0.0255 Step Time 0.05 Test loss 0.810715
+     eval: loss 1.231230
+Global Step 124600 LR 0.0255 Step Time 0.05 Test loss 0.813061
+     eval: loss 1.250762
+Global Step 124700 LR 0.0255 Step Time 0.05 Test loss 0.812083
+     eval: loss 1.262480
+Global Step 124800 LR 0.0255 Step Time 0.05 Test loss 0.816398
+     eval: loss 1.199980
+Global Step 124900 LR 0.0253 Step Time 0.05 Test loss 0.812675
+     eval: loss 1.223418
+Global Step 125000 LR 0.0253 Step Time 0.05 Test loss 0.814973
+     eval: loss 1.242949
+Global Step 125100 LR 0.0253 Step Time 0.05 Test loss 0.814316
+     eval: loss 1.231230
+Global Step 125200 LR 0.0253 Step Time 0.05 Test loss 0.815255
+     eval: loss 1.231230
+Global Step 125300 LR 0.0250 Step Time 0.05 Test loss 0.810250
+     eval: loss 1.239043
+Global Step 125400 LR 0.0250 Step Time 0.05 Test loss 0.809887
+     eval: loss 1.246855
+Global Step 125500 LR 0.0250 Step Time 0.05 Test loss 0.811735
+     eval: loss 1.215605
+Global Step 125600 LR 0.0250 Step Time 0.05 Test loss 0.814824
+     eval: loss 1.227324
+Global Step 125700 LR 0.0248 Step Time 0.05 Test loss 0.811928
+     eval: loss 1.258574
+Global Step 125800 LR 0.0248 Step Time 0.05 Test loss 0.814316
+     eval: loss 1.235137
+Global Step 125900 LR 0.0248 Step Time 0.05 Test loss 0.811191
+     eval: loss 1.239043
+Global Step 126000 LR 0.0248 Step Time 0.05 Test loss 0.812779
+     eval: loss 1.215605
+Global Step 126100 LR 0.0248 Step Time 0.05 Test loss 0.815098
+     eval: loss 1.262480
+Global Step 126200 LR 0.0245 Step Time 0.05 Test loss 0.813418
+     eval: loss 1.235137
+Global Step 126300 LR 0.0245 Step Time 0.05 Test loss 0.811896
+     eval: loss 1.258574
+Global Step 126400 LR 0.0245 Step Time 0.05 Test loss 0.814398
+     eval: loss 1.250762
+Global Step 126500 LR 0.0245 Step Time 0.05 Test loss 0.813972
+     eval: loss 1.242949
+Global Step 126600 LR 0.0245 Step Time 0.05 Test loss 0.810658
+     eval: loss 1.207793
+Global Step 126700 LR 0.0245 Step Time 0.05 Test loss 0.810647
+     eval: loss 1.242949
+Global Step 126800 LR 0.0245 Step Time 0.05 Test loss 0.812315
+     eval: loss 1.258594
+Global Step 126900 LR 0.0245 Step Time 0.05 Test loss 0.812925
+     eval: loss 1.211699
+Global Step 127000 LR 0.0243 Step Time 0.05 Test loss 0.812715
+     eval: loss 1.235137
+Global Step 127100 LR 0.0243 Step Time 0.05 Test loss 0.810209
+     eval: loss 1.239043
+Global Step 127200 LR 0.0243 Step Time 0.05 Test loss 0.812012
+     eval: loss 1.227324
+Global Step 127300 LR 0.0243 Step Time 0.05 Test loss 0.813145
+     eval: loss 1.219512
+Global Step 127400 LR 0.0240 Step Time 0.05 Test loss 0.814592
+     eval: loss 1.266387
+Global Step 127500 LR 0.0238 Step Time 0.05 Test loss 0.813800
+     eval: loss 1.223418
+Global Step 127600 LR 0.0238 Step Time 0.05 Test loss 0.815713
+     eval: loss 1.227324
+Global Step 127700 LR 0.0236 Step Time 0.05 Test loss 0.813535
+     eval: loss 1.242949
+Global Step 127800 LR 0.0236 Step Time 0.06 Test loss 0.815605
+     eval: loss 1.246855
+Global Step 127900 LR 0.0236 Step Time 0.05 Test loss 0.815176
+     eval: loss 1.239043
+Global Step 128000 LR 0.0236 Step Time 0.05 Test loss 0.812641
+     eval: loss 1.239043
+Global Step 128100 LR 0.0236 Step Time 0.05 Test loss 0.811894
+     eval: loss 1.262480
+Global Step 128200 LR 0.0236 Step Time 0.05 Test loss 0.814003
+     eval: loss 1.215605
+Global Step 128300 LR 0.0236 Step Time 0.05 Test loss 0.812715
+     eval: loss 1.223418
+Global Step 128400 LR 0.0236 Step Time 0.05 Test loss 0.812676
+     eval: loss 1.262480
+Global Step 128500 LR 0.0236 Step Time 0.05 Test loss 0.815605
+     eval: loss 1.239043
+Global Step 128600 LR 0.0233 Step Time 0.05 Test loss 0.812207
+     eval: loss 1.207793
+Global Step 128700 LR 0.0233 Step Time 0.05 Test loss 0.810757
+     eval: loss 1.239043
+Global Step 128800 LR 0.0233 Step Time 0.05 Test loss 0.811347
+     eval: loss 1.246855
+Global Step 128900 LR 0.0233 Step Time 0.05 Test loss 0.815446
+     eval: loss 1.235137
+Global Step 129000 LR 0.0231 Step Time 0.05 Test loss 0.812710
+     eval: loss 1.270293
+Global Step 129100 LR 0.0231 Step Time 0.05 Test loss 0.814824
+     eval: loss 1.219512
+Global Step 129200 LR 0.0231 Step Time 0.05 Test loss 0.813351
+     eval: loss 1.231230
+Global Step 129300 LR 0.0231 Step Time 0.05 Test loss 0.810174
+     eval: loss 1.235137
+Global Step 129400 LR 0.0231 Step Time 0.05 Test loss 0.811742
+     eval: loss 1.199980
+Global Step 129500 LR 0.0231 Step Time 0.05 Test loss 0.816891
+     eval: loss 1.242949
+Global Step 129600 LR 0.0229 Step Time 0.05 Test loss 0.811216
+     eval: loss 1.258574
+Global Step 129700 LR 0.0229 Step Time 0.05 Test loss 0.812831
+     eval: loss 1.235137
+Global Step 129800 LR 0.0229 Step Time 0.06 Test loss 0.814551
+     eval: loss 1.203887
+Global Step 129900 LR 0.0229 Step Time 0.05 Test loss 0.813496
+     eval: loss 1.242949
+Global Step 130000 LR 0.0229 Step Time 0.05 Test loss 0.812168
+     eval: loss 1.219512
+Global Step 130100 LR 0.0229 Step Time 0.05 Test loss 0.812971
+     eval: loss 1.235137
+Global Step 130200 LR 0.0229 Step Time 0.05 Test loss 0.815215
+     eval: loss 1.219512
+Global Step 130300 LR 0.0226 Step Time 0.05 Test loss 0.817246
+     eval: loss 1.192168
+Global Step 130400 LR 0.0224 Step Time 0.05 Test loss 0.812051
+     eval: loss 1.192168
+Global Step 130500 LR 0.0224 Step Time 0.05 Test loss 0.813077
+     eval: loss 1.239043
+Global Step 130600 LR 0.0224 Step Time 0.05 Test loss 0.813027
+     eval: loss 1.215605
+Global Step 130700 LR 0.0224 Step Time 0.05 Test loss 0.814512
+     eval: loss 1.266387
+Global Step 130800 LR 0.0222 Step Time 0.05 Test loss 0.813457
+     eval: loss 1.242949
+Global Step 130900 LR 0.0222 Step Time 0.05 Test loss 0.813148
+     eval: loss 1.184355
+Global Step 131000 LR 0.0222 Step Time 0.05 Test loss 0.812175
+     eval: loss 1.254668
+Global Step 131100 LR 0.0222 Step Time 0.05 Test loss 0.811426
+     eval: loss 1.211699
+Global Step 131200 LR 0.0222 Step Time 0.05 Test loss 0.815996
+     eval: loss 1.215605
+Global Step 131300 LR 0.0220 Step Time 0.05 Test loss 0.812130
+     eval: loss 1.258574
+Global Step 131400 LR 0.0220 Step Time 0.05 Test loss 0.814931
+     eval: loss 1.207793
+Global Step 131500 LR 0.0220 Step Time 0.05 Test loss 0.814569
+     eval: loss 1.211699
+Global Step 131600 LR 0.0220 Step Time 0.05 Test loss 0.815370
+     eval: loss 1.199980
+Global Step 131700 LR 0.0217 Step Time 0.05 Test loss 0.813885
+     eval: loss 1.219512
+Global Step 131800 LR 0.0217 Step Time 0.05 Test loss 0.814941
+     eval: loss 1.211699
+Global Step 131900 LR 0.0217 Step Time 0.05 Test loss 0.812519
+     eval: loss 1.239043
+Global Step 132000 LR 0.0217 Step Time 0.05 Test loss 0.814307
+     eval: loss 1.227324
+Global Step 132100 LR 0.0217 Step Time 0.05 Test loss 0.812884
+     eval: loss 1.227324
+Global Step 132200 LR 0.0217 Step Time 0.05 Test loss 0.815488
+     eval: loss 1.207793
+Global Step 132300 LR 0.0215 Step Time 0.05 Test loss 0.814473
+     eval: loss 1.223418
+Global Step 132400 LR 0.0215 Step Time 0.05 Test loss 0.813457
+     eval: loss 1.262480
+Global Step 132500 LR 0.0215 Step Time 0.05 Test loss 0.813457
+     eval: loss 1.254668
+Global Step 132600 LR 0.0215 Step Time 0.05 Test loss 0.812219
+     eval: loss 1.231230
+Global Step 132700 LR 0.0215 Step Time 0.05 Test loss 0.815437
+     eval: loss 1.246855
+Global Step 132800 LR 0.0213 Step Time 0.05 Test loss 0.814160
+     eval: loss 1.274199
+Global Step 132900 LR 0.0213 Step Time 0.05 Test loss 0.809869
+     eval: loss 1.239043
+Global Step 133000 LR 0.0213 Step Time 0.05 Test loss 0.810213
+     eval: loss 1.227324
+Global Step 133100 LR 0.0213 Step Time 0.05 Test loss 0.812012
+     eval: loss 1.266387
+Global Step 133200 LR 0.0213 Step Time 0.05 Test loss 0.814243
+     eval: loss 1.254668
+Global Step 133300 LR 0.0211 Step Time 0.05 Test loss 0.811935
+     eval: loss 1.207793
+Global Step 133400 LR 0.0211 Step Time 0.05 Test loss 0.811779
+     eval: loss 1.246855
+Global Step 133500 LR 0.0211 Step Time 0.05 Test loss 0.812793
+     eval: loss 1.231230
+Global Step 133600 LR 0.0211 Step Time 0.05 Test loss 0.812875
+     eval: loss 1.250762
+Global Step 133700 LR 0.0209 Step Time 0.05 Test loss 0.809902
+     eval: loss 1.270293
+Global Step 133800 LR 0.0209 Step Time 0.05 Test loss 0.812871
+     eval: loss 1.266387
+Global Step 133900 LR 0.0209 Step Time 0.05 Test loss 0.813333
+     eval: loss 1.211699
+Global Step 134000 LR 0.0207 Step Time 0.05 Test loss 0.811783
+     eval: loss 1.227324
+Global Step 134100 LR 0.0207 Step Time 0.05 Test loss 0.812051
+     eval: loss 1.231230
+Global Step 134200 LR 0.0207 Step Time 0.05 Test loss 0.812989
+     eval: loss 1.254668
+Global Step 134300 LR 0.0207 Step Time 0.05 Test loss 0.813717
+     eval: loss 1.254668
+Global Step 134400 LR 0.0205 Step Time 0.05 Test loss 0.816738
+     eval: loss 1.231230
+Global Step 134500 LR 0.0203 Step Time 0.05 Test loss 0.810527
+     eval: loss 1.242949
+Global Step 134600 LR 0.0203 Step Time 0.05 Test loss 0.814316
+     eval: loss 1.231230
+Global Step 134700 LR 0.0203 Step Time 0.05 Test loss 0.813981
+     eval: loss 1.242949
+Global Step 134800 LR 0.0203 Step Time 0.05 Test loss 0.814322
+     eval: loss 1.223418
+Global Step 134900 LR 0.0201 Step Time 0.05 Test loss 0.812928
+     eval: loss 1.246855
+Global Step 135000 LR 0.0201 Step Time 0.05 Test loss 0.814708
+     eval: loss 1.239043
+Global Step 135100 LR 0.0199 Step Time 0.05 Test loss 0.813103
+     eval: loss 1.242949
+Global Step 135200 LR 0.0199 Step Time 0.05 Test loss 0.813187
+     eval: loss 1.235137
+Global Step 135300 LR 0.0199 Step Time 0.05 Test loss 0.810286
+     eval: loss 1.231230
+Global Step 135400 LR 0.0199 Step Time 0.05 Test loss 0.812441
+     eval: loss 1.215605
+Global Step 135500 LR 0.0199 Step Time 0.05 Test loss 0.812285
+     eval: loss 1.227324
+Global Step 135600 LR 0.0199 Step Time 0.05 Test loss 0.814394
+     eval: loss 1.262480
+Global Step 135700 LR 0.0197 Step Time 0.05 Test loss 0.813421
+     eval: loss 1.223418
+Global Step 135800 LR 0.0197 Step Time 0.05 Test loss 0.813457
+     eval: loss 1.239043
+Global Step 135900 LR 0.0197 Step Time 0.05 Test loss 0.811701
+     eval: loss 1.227324
+Global Step 136000 LR 0.0197 Step Time 0.05 Test loss 0.814042
+     eval: loss 1.246855
+Global Step 136100 LR 0.0195 Step Time 0.05 Test loss 0.813609
+     eval: loss 1.246855
+Global Step 136200 LR 0.0195 Step Time 0.05 Test loss 0.814315
+     eval: loss 1.258574
+Global Step 136300 LR 0.0193 Step Time 0.05 Test loss 0.812012
+     eval: loss 1.203887
+Global Step 136400 LR 0.0193 Step Time 0.05 Test loss 0.813066
+     eval: loss 1.211699
+Global Step 136500 LR 0.0193 Step Time 0.05 Test loss 0.815449
+     eval: loss 1.239043
+Global Step 136600 LR 0.0191 Step Time 0.05 Test loss 0.810876
+     eval: loss 1.239043
+Global Step 136700 LR 0.0191 Step Time 0.05 Test loss 0.814847
+     eval: loss 1.270292
+Global Step 136800 LR 0.0191 Step Time 0.05 Test loss 0.811311
+     eval: loss 1.223418
+Global Step 136900 LR 0.0191 Step Time 0.05 Test loss 0.811228
+     eval: loss 1.227324
+Global Step 137000 LR 0.0191 Step Time 0.05 Test loss 0.813356
+     eval: loss 1.215605
+Global Step 137100 LR 0.0191 Step Time 0.05 Test loss 0.813401
+     eval: loss 1.239043
+Global Step 137200 LR 0.0189 Step Time 0.05 Test loss 0.810372
+     eval: loss 1.211699
+Global Step 137300 LR 0.0189 Step Time 0.05 Test loss 0.814511
+     eval: loss 1.219512
+Global Step 137400 LR 0.0187 Step Time 0.05 Test loss 0.814531
+     eval: loss 1.199980
+Global Step 137500 LR 0.0185 Step Time 0.05 Test loss 0.811699
+     eval: loss 1.215605
+Global Step 137600 LR 0.0185 Step Time 0.05 Test loss 0.811468
+     eval: loss 1.223418
+Global Step 137700 LR 0.0185 Step Time 0.05 Test loss 0.814785
+     eval: loss 1.227324
+Global Step 137800 LR 0.0183 Step Time 0.05 Test loss 0.814394
+     eval: loss 1.207793
+Global Step 137900 LR 0.0183 Step Time 0.05 Test loss 0.814512
+     eval: loss 1.235137
+Global Step 138000 LR 0.0183 Step Time 0.05 Test loss 0.813057
+     eval: loss 1.215605
+Global Step 138100 LR 0.0183 Step Time 0.05 Test loss 0.812850
+     eval: loss 1.207793
+Global Step 138200 LR 0.0183 Step Time 0.05 Test loss 0.816855
+     eval: loss 1.231230
+Global Step 138300 LR 0.0181 Step Time 0.05 Test loss 0.816119
+     eval: loss 1.215605
+Global Step 138400 LR 0.0181 Step Time 0.05 Test loss 0.813856
+     eval: loss 1.227324
+Global Step 138500 LR 0.0181 Step Time 0.05 Test loss 0.811816
+     eval: loss 1.231230
+Global Step 138600 LR 0.0181 Step Time 0.05 Test loss 0.812206
+     eval: loss 1.242949
+Global Step 138700 LR 0.0181 Step Time 0.05 Test loss 0.814433
+     eval: loss 1.258574
+Global Step 138800 LR 0.0180 Step Time 0.05 Test loss 0.814082
+     eval: loss 1.223418
+Global Step 138900 LR 0.0180 Step Time 0.05 Test loss 0.812866
+     eval: loss 1.239043
+Global Step 139000 LR 0.0180 Step Time 0.05 Test loss 0.815332
+     eval: loss 1.215605
+Global Step 139100 LR 0.0178 Step Time 0.05 Test loss 0.814043
+     eval: loss 1.242949
+Global Step 139200 LR 0.0178 Step Time 0.05 Test loss 0.815449
+     eval: loss 1.235137
+Global Step 139300 LR 0.0176 Step Time 0.05 Test loss 0.811191
+     eval: loss 1.227324
+Global Step 139400 LR 0.0176 Step Time 0.05 Test loss 0.814822
+     eval: loss 1.246855
+Global Step 139500 LR 0.0176 Step Time 0.05 Test loss 0.813457
+     eval: loss 1.192168
+Global Step 139600 LR 0.0176 Step Time 0.05 Test loss 0.814121
+     eval: loss 1.235137
+Global Step 139700 LR 0.0176 Step Time 0.05 Test loss 0.812123
+     eval: loss 1.258574
+Global Step 139800 LR 0.0176 Step Time 0.05 Test loss 0.811746
+     eval: loss 1.250762
+Global Step 139900 LR 0.0176 Step Time 0.05 Test loss 0.813496
+     eval: loss 1.227324
+Global Step 140000 LR 0.0176 Step Time 0.05 Test loss 0.815331
+     eval: loss 1.239043
+Global Step 140100 LR 0.0174 Step Time 0.05 Test loss 0.812563
+     eval: loss 1.231230
+Global Step 140200 LR 0.0174 Step Time 0.05 Test loss 0.813575
+     eval: loss 1.254668
+Global Step 140300 LR 0.0174 Step Time 0.05 Test loss 0.810370
+     eval: loss 1.239043
+Global Step 140400 LR 0.0174 Step Time 0.05 Test loss 0.815137
+     eval: loss 1.235137
+Global Step 140500 LR 0.0172 Step Time 0.05 Test loss 0.813591
+     eval: loss 1.239043
+Global Step 140600 LR 0.0172 Step Time 0.05 Test loss 0.813692
+     eval: loss 1.219512
+Global Step 140700 LR 0.0172 Step Time 0.05 Test loss 0.813606
+     eval: loss 1.231230
+Global Step 140800 LR 0.0172 Step Time 0.05 Test loss 0.810801
+     eval: loss 1.227324
+Global Step 140900 LR 0.0172 Step Time 0.05 Test loss 0.815156
+     eval: loss 1.242949
+Global Step 141000 LR 0.0171 Step Time 0.05 Test loss 0.813214
+     eval: loss 1.250762
+Global Step 141100 LR 0.0171 Step Time 0.05 Test loss 0.813837
+     eval: loss 1.231230
+Global Step 141200 LR 0.0171 Step Time 0.05 Test loss 0.816333
+     eval: loss 1.250762
+Global Step 141300 LR 0.0169 Step Time 0.05 Test loss 0.812487
+     eval: loss 1.242949
+Global Step 141400 LR 0.0169 Step Time 0.05 Test loss 0.813730
+     eval: loss 1.242949
+Global Step 141500 LR 0.0169 Step Time 0.05 Test loss 0.812957
+     eval: loss 1.242949
+Global Step 141600 LR 0.0169 Step Time 0.05 Test loss 0.816465
+     eval: loss 1.246855
+Global Step 141700 LR 0.0167 Step Time 0.05 Test loss 0.811309
+     eval: loss 1.227324
+Global Step 141800 LR 0.0167 Step Time 0.05 Test loss 0.815480
+     eval: loss 1.192168
+Global Step 141900 LR 0.0167 Step Time 0.05 Test loss 0.811465
+     eval: loss 1.270293
+Global Step 142000 LR 0.0167 Step Time 0.06 Test loss 0.811035
+     eval: loss 1.235137
+Global Step 142100 LR 0.0167 Step Time 0.05 Test loss 0.812715
+     eval: loss 1.239043
+Global Step 142200 LR 0.0167 Step Time 0.05 Test loss 0.813195
+     eval: loss 1.231230
+Global Step 142300 LR 0.0166 Step Time 0.06 Test loss 0.811973
+     eval: loss 1.242949
+Global Step 142400 LR 0.0166 Step Time 0.06 Test loss 0.812558
+     eval: loss 1.235137
+Global Step 142500 LR 0.0166 Step Time 0.05 Test loss 0.812480
+     eval: loss 1.223418
+Global Step 142600 LR 0.0166 Step Time 0.05 Test loss 0.813158
+     eval: loss 1.235137
+Global Step 142700 LR 0.0164 Step Time 0.05 Test loss 0.812135
+     eval: loss 1.250762
+Global Step 142800 LR 0.0164 Step Time 0.05 Test loss 0.812012
+     eval: loss 1.207793
+Global Step 142900 LR 0.0164 Step Time 0.05 Test loss 0.813769
+     eval: loss 1.239043
+Global Step 143000 LR 0.0162 Step Time 0.05 Test loss 0.810293
+     eval: loss 1.227324
+Global Step 143100 LR 0.0162 Step Time 0.05 Test loss 0.812284
+     eval: loss 1.227324
+Global Step 143200 LR 0.0162 Step Time 0.05 Test loss 0.813613
+     eval: loss 1.235137
+Global Step 143300 LR 0.0162 Step Time 0.05 Test loss 0.810566
+     eval: loss 1.250762
+Global Step 143400 LR 0.0162 Step Time 0.05 Test loss 0.810918
+     eval: loss 1.246855
+Global Step 143500 LR 0.0162 Step Time 0.05 Test loss 0.810918
+     eval: loss 1.254668
+Global Step 143600 LR 0.0162 Step Time 0.05 Test loss 0.813183
+     eval: loss 1.219512
+Global Step 143700 LR 0.0161 Step Time 0.05 Test loss 0.813574
+     eval: loss 1.242949
+Global Step 143800 LR 0.0159 Step Time 0.06 Test loss 0.812522
+     eval: loss 1.223418
+Global Step 143900 LR 0.0159 Step Time 0.05 Test loss 0.814707
+     eval: loss 1.266387
+Global Step 144000 LR 0.0158 Step Time 0.05 Test loss 0.814239
+     eval: loss 1.258574
+Global Step 144100 LR 0.0158 Step Time 0.05 Test loss 0.818418
+     eval: loss 1.215605
+Global Step 144200 LR 0.0156 Step Time 0.05 Test loss 0.811815
+     eval: loss 1.235137
+Global Step 144300 LR 0.0156 Step Time 0.05 Test loss 0.814121
+     eval: loss 1.227324
+Global Step 144400 LR 0.0156 Step Time 0.05 Test loss 0.813797
+     eval: loss 1.231230
+Global Step 144500 LR 0.0156 Step Time 0.05 Test loss 0.811425
+     eval: loss 1.231230
+Global Step 144600 LR 0.0156 Step Time 0.05 Test loss 0.813457
+     eval: loss 1.207793
+Global Step 144700 LR 0.0156 Step Time 0.05 Test loss 0.814121
+     eval: loss 1.262480
+Global Step 144800 LR 0.0154 Step Time 0.05 Test loss 0.814629
+     eval: loss 1.223418
+Global Step 144900 LR 0.0153 Step Time 0.05 Test loss 0.814011
+     eval: loss 1.239043
+Global Step 145000 LR 0.0153 Step Time 0.05 Test loss 0.810455
+     eval: loss 1.227324
+Global Step 145100 LR 0.0153 Step Time 0.05 Test loss 0.810605
+     eval: loss 1.219512
+Global Step 145200 LR 0.0153 Step Time 0.05 Test loss 0.811151
+     eval: loss 1.219512
+Global Step 145300 LR 0.0153 Step Time 0.05 Test loss 0.813426
+     eval: loss 1.227324
+Global Step 145400 LR 0.0151 Step Time 0.05 Test loss 0.811426
+     eval: loss 1.223418
+Global Step 145500 LR 0.0151 Step Time 0.05 Test loss 0.812911
+     eval: loss 1.231230
+Global Step 145600 LR 0.0151 Step Time 0.05 Test loss 0.813423
+     eval: loss 1.227324
+Global Step 145700 LR 0.0151 Step Time 0.05 Test loss 0.814121
+     eval: loss 1.242949
+Global Step 145800 LR 0.0150 Step Time 0.05 Test loss 0.812772
+     eval: loss 1.262480
+Global Step 145900 LR 0.0150 Step Time 0.05 Test loss 0.813310
+     eval: loss 1.219512
+Global Step 146000 LR 0.0150 Step Time 0.05 Test loss 0.813106
+     eval: loss 1.227324
+Global Step 146100 LR 0.0150 Step Time 0.05 Test loss 0.811501
+     eval: loss 1.231230
+Global Step 146200 LR 0.0150 Step Time 0.05 Test loss 0.814317
+     eval: loss 1.199980
+Global Step 146300 LR 0.0148 Step Time 0.05 Test loss 0.807742
+     eval: loss 1.207793
+Global Step 146400 LR 0.0148 Step Time 0.05 Test loss 0.813613
+     eval: loss 1.219512
+Global Step 146500 LR 0.0148 Step Time 0.05 Test loss 0.812637
+     eval: loss 1.250762
+Global Step 146600 LR 0.0148 Step Time 0.05 Test loss 0.812648
+     eval: loss 1.266387
+Global Step 146700 LR 0.0148 Step Time 0.05 Test loss 0.814005
+     eval: loss 1.282012
+Global Step 146800 LR 0.0147 Step Time 0.05 Test loss 0.814865
+     eval: loss 1.242949
+Global Step 146900 LR 0.0145 Step Time 0.05 Test loss 0.813574
+     eval: loss 1.215605
+Global Step 147000 LR 0.0145 Step Time 0.05 Test loss 0.814670
+     eval: loss 1.199980
+Global Step 147100 LR 0.0145 Step Time 0.05 Test loss 0.811844
+     eval: loss 1.219512
+Global Step 147200 LR 0.0145 Step Time 0.05 Test loss 0.812754
+     eval: loss 1.231230
+Global Step 147300 LR 0.0145 Step Time 0.05 Test loss 0.817754
+     eval: loss 1.242949
+Global Step 147400 LR 0.0144 Step Time 0.05 Test loss 0.814908
+     eval: loss 1.219512
+Global Step 147500 LR 0.0144 Step Time 0.05 Test loss 0.813301
+     eval: loss 1.262480
+Global Step 147600 LR 0.0144 Step Time 0.05 Test loss 0.815404
+     eval: loss 1.246855
+Global Step 147700 LR 0.0144 Step Time 0.05 Test loss 0.811640
+     eval: loss 1.235137
+Global Step 147800 LR 0.0144 Step Time 0.05 Test loss 0.817715
+     eval: loss 1.242949
+Global Step 147900 LR 0.0143 Step Time 0.05 Test loss 0.815739
+     eval: loss 1.196074
+Global Step 148000 LR 0.0143 Step Time 0.05 Test loss 0.815095
+     eval: loss 1.223418
+Global Step 148100 LR 0.0143 Step Time 0.05 Test loss 0.813222
+     eval: loss 1.227324
+Global Step 148200 LR 0.0143 Step Time 0.05 Test loss 0.815789
+     eval: loss 1.246855
+Global Step 148300 LR 0.0141 Step Time 0.05 Test loss 0.813573
+     eval: loss 1.231230
+Global Step 148400 LR 0.0141 Step Time 0.05 Test loss 0.815528
+     eval: loss 1.211699
+Global Step 148500 LR 0.0141 Step Time 0.05 Test loss 0.816387
+     eval: loss 1.246855
+Global Step 148600 LR 0.0140 Step Time 0.05 Test loss 0.812479
+     eval: loss 1.242949
+Global Step 148700 LR 0.0140 Step Time 0.05 Test loss 0.813416
+     eval: loss 1.227324
+Global Step 148800 LR 0.0140 Step Time 0.05 Test loss 0.811620
+     eval: loss 1.207793
+Global Step 148900 LR 0.0140 Step Time 0.05 Test loss 0.813358
+     eval: loss 1.231230
+Global Step 149000 LR 0.0140 Step Time 0.05 Test loss 0.811638
+     eval: loss 1.196074
+Global Step 149100 LR 0.0140 Step Time 0.05 Test loss 0.813948
+     eval: loss 1.242949
+Global Step 149200 LR 0.0138 Step Time 0.05 Test loss 0.813562
+     eval: loss 1.231230
+Global Step 149300 LR 0.0138 Step Time 0.05 Test loss 0.814825
+     eval: loss 1.211699
+Global Step 149400 LR 0.0137 Step Time 0.05 Test loss 0.812715
+     eval: loss 1.235137
+Global Step 149500 LR 0.0137 Step Time 0.05 Test loss 0.814586
+     eval: loss 1.254668
+Global Step 149600 LR 0.0137 Step Time 0.05 Test loss 0.812129
+     eval: loss 1.215605
+Global Step 149700 LR 0.0137 Step Time 0.05 Test loss 0.811936
+     eval: loss 1.239043
+Global Step 149800 LR 0.0137 Step Time 0.05 Test loss 0.811465
+     eval: loss 1.239043
+Global Step 149900 LR 0.0137 Step Time 0.05 Test loss 0.813536
+     eval: loss 1.258574
+Global Step 150000 LR 0.0136 Step Time 0.05 Test loss 0.816383
+     eval: loss 1.227324
+Global Step 150100 LR 0.0134 Step Time 0.05 Test loss 0.811934
+     eval: loss 1.207793
+Global Step 150200 LR 0.0134 Step Time 0.05 Test loss 0.813112
+     eval: loss 1.242949
+Global Step 150300 LR 0.0134 Step Time 0.05 Test loss 0.814116
+     eval: loss 1.242949
+Global Step 150400 LR 0.0134 Step Time 0.05 Test loss 0.811596
+     eval: loss 1.239043
+Global Step 150500 LR 0.0134 Step Time 0.05 Test loss 0.812243
+     eval: loss 1.242949
+Global Step 150600 LR 0.0134 Step Time 0.05 Test loss 0.814629
+     eval: loss 1.239043
+Global Step 150700 LR 0.0133 Step Time 0.05 Test loss 0.812694
+     eval: loss 1.235137
+Global Step 150800 LR 0.0133 Step Time 0.05 Test loss 0.815957
+     eval: loss 1.203887
+Global Step 150900 LR 0.0131 Step Time 0.05 Test loss 0.814232
+     eval: loss 1.235137
+Global Step 151000 LR 0.0131 Step Time 0.05 Test loss 0.812083
+     eval: loss 1.211699
+Global Step 151100 LR 0.0131 Step Time 0.05 Test loss 0.816349
+     eval: loss 1.211699
+Global Step 151200 LR 0.0130 Step Time 0.05 Test loss 0.814668
+     eval: loss 1.246855
+Global Step 151300 LR 0.0130 Step Time 0.05 Test loss 0.810227
+     eval: loss 1.211699
+Global Step 151400 LR 0.0130 Step Time 0.05 Test loss 0.813183
+     eval: loss 1.242949
+Global Step 151500 LR 0.0130 Step Time 0.05 Test loss 0.812321
+     eval: loss 1.231230
+Global Step 151600 LR 0.0130 Step Time 0.05 Test loss 0.811557
+     eval: loss 1.231230
+Global Step 151700 LR 0.0130 Step Time 0.05 Test loss 0.814394
+     eval: loss 1.231230
+Global Step 151800 LR 0.0129 Step Time 0.05 Test loss 0.811973
+     eval: loss 1.239043
+Global Step 151900 LR 0.0129 Step Time 0.05 Test loss 0.813613
+     eval: loss 1.227324
+Global Step 152000 LR 0.0129 Step Time 0.05 Test loss 0.813965
+     eval: loss 1.239043
+Global Step 152100 LR 0.0129 Step Time 0.05 Test loss 0.813801
+     eval: loss 1.211699
+Global Step 152200 LR 0.0129 Step Time 0.05 Test loss 0.811793
+     eval: loss 1.242949
+Global Step 152300 LR 0.0129 Step Time 0.05 Test loss 0.815918
+     eval: loss 1.235137
+Global Step 152400 LR 0.0128 Step Time 0.05 Test loss 0.813379
+     eval: loss 1.235137
+Global Step 152500 LR 0.0128 Step Time 0.05 Test loss 0.810658
+     eval: loss 1.239043
+Global Step 152600 LR 0.0128 Step Time 0.05 Test loss 0.811808
+     eval: loss 1.246855
+Global Step 152700 LR 0.0128 Step Time 0.05 Test loss 0.812441
+     eval: loss 1.219512
+Global Step 152800 LR 0.0128 Step Time 0.05 Test loss 0.813278
+     eval: loss 1.250762
+Global Step 152900 LR 0.0126 Step Time 0.05 Test loss 0.814668
+     eval: loss 1.219512
+Global Step 153000 LR 0.0125 Step Time 0.05 Test loss 0.814043
+     eval: loss 1.235137
+Global Step 153100 LR 0.0125 Step Time 0.05 Test loss 0.809394
+     eval: loss 1.227324
+Global Step 153200 LR 0.0125 Step Time 0.05 Test loss 0.813760
+     eval: loss 1.223418
+Global Step 153300 LR 0.0125 Step Time 0.05 Test loss 0.814473
+     eval: loss 1.215605
+Global Step 153400 LR 0.0124 Step Time 0.05 Test loss 0.813407
+     eval: loss 1.219512
+Global Step 153500 LR 0.0124 Step Time 0.05 Test loss 0.814960
+     eval: loss 1.242949
+Global Step 153600 LR 0.0123 Step Time 0.05 Test loss 0.812089
+     eval: loss 1.192168
+Global Step 153700 LR 0.0123 Step Time 0.05 Test loss 0.810214
+     eval: loss 1.215605
+Global Step 153800 LR 0.0123 Step Time 0.05 Test loss 0.812794
+     eval: loss 1.246855
+Global Step 153900 LR 0.0123 Step Time 0.05 Test loss 0.816427
+     eval: loss 1.211699
+Global Step 154000 LR 0.0121 Step Time 0.05 Test loss 0.813379
+     eval: loss 1.246855
+Global Step 154100 LR 0.0121 Step Time 0.05 Test loss 0.811582
+     eval: loss 1.242949
+Global Step 154200 LR 0.0121 Step Time 0.05 Test loss 0.812854
+     eval: loss 1.250762
+Global Step 154300 LR 0.0121 Step Time 0.05 Test loss 0.814515
+     eval: loss 1.211699
+Global Step 154400 LR 0.0120 Step Time 0.05 Test loss 0.812832
+     eval: loss 1.258574
+Global Step 154500 LR 0.0120 Step Time 0.05 Test loss 0.811621
+     eval: loss 1.227324
+Global Step 154600 LR 0.0120 Step Time 0.05 Test loss 0.811153
+     eval: loss 1.207793
+Global Step 154700 LR 0.0120 Step Time 0.05 Test loss 0.813964
+     eval: loss 1.231230
+Global Step 154800 LR 0.0119 Step Time 0.05 Test loss 0.811619
+     eval: loss 1.242949
+Global Step 154900 LR 0.0119 Step Time 0.05 Test loss 0.815451
+     eval: loss 1.266387
+Global Step 155000 LR 0.0118 Step Time 0.05 Test loss 0.809323
+     eval: loss 1.211699
+Global Step 155100 LR 0.0118 Step Time 0.05 Test loss 0.814590
+     eval: loss 1.246855
+Global Step 155200 LR 0.0118 Step Time 0.05 Test loss 0.812480
+     eval: loss 1.219512
+Global Step 155300 LR 0.0118 Step Time 0.05 Test loss 0.813851
+     eval: loss 1.250762
+Global Step 155400 LR 0.0118 Step Time 0.05 Test loss 0.811888
+     eval: loss 1.203887
+Global Step 155500 LR 0.0118 Step Time 0.05 Test loss 0.813496
+     eval: loss 1.223418
+Global Step 155600 LR 0.0118 Step Time 0.05 Test loss 0.814143
+     eval: loss 1.223418
+Global Step 155700 LR 0.0117 Step Time 0.05 Test loss 0.811894
+     eval: loss 1.250762
+Global Step 155800 LR 0.0117 Step Time 0.05 Test loss 0.814437
+     eval: loss 1.246855
+Global Step 155900 LR 0.0115 Step Time 0.05 Test loss 0.813010
+     eval: loss 1.227324
+Global Step 156000 LR 0.0115 Step Time 0.05 Test loss 0.815213
+     eval: loss 1.242949
+Global Step 156100 LR 0.0114 Step Time 0.05 Test loss 0.810146
+     eval: loss 1.235137
+Global Step 156200 LR 0.0114 Step Time 0.05 Test loss 0.814277
+     eval: loss 1.199980
+Global Step 156300 LR 0.0114 Step Time 0.05 Test loss 0.813797
+     eval: loss 1.227324
+Global Step 156400 LR 0.0114 Step Time 0.05 Test loss 0.813672
+     eval: loss 1.258574
+Global Step 156500 LR 0.0114 Step Time 0.05 Test loss 0.811660
+     eval: loss 1.254668
+Global Step 156600 LR 0.0114 Step Time 0.05 Test loss 0.811191
+     eval: loss 1.239043
+Global Step 156700 LR 0.0114 Step Time 0.05 Test loss 0.815136
+     eval: loss 1.242949
+Global Step 156800 LR 0.0113 Step Time 0.05 Test loss 0.812754
+     eval: loss 1.219512
+Global Step 156900 LR 0.0113 Step Time 0.05 Test loss 0.813652
+     eval: loss 1.211699
+Global Step 157000 LR 0.0113 Step Time 0.05 Test loss 0.813398
+     eval: loss 1.231230
+Global Step 157100 LR 0.0113 Step Time 0.06 Test loss 0.815176
+     eval: loss 1.242949
+Global Step 157200 LR 0.0112 Step Time 0.05 Test loss 0.813853
+     eval: loss 1.239043
+Global Step 157300 LR 0.0112 Step Time 0.05 Test loss 0.809864
+     eval: loss 1.199980
+Global Step 157400 LR 0.0112 Step Time 0.05 Test loss 0.812441
+     eval: loss 1.242949
+Global Step 157500 LR 0.0112 Step Time 0.05 Test loss 0.813574
+     eval: loss 1.227324
+Global Step 157600 LR 0.0112 Step Time 0.05 Test loss 0.814995
+     eval: loss 1.258574
+Global Step 157700 LR 0.0111 Step Time 0.05 Test loss 0.813535
+     eval: loss 1.278105
+Global Step 157800 LR 0.0111 Step Time 0.05 Test loss 0.813500
+     eval: loss 1.242949
+Global Step 157900 LR 0.0111 Step Time 0.05 Test loss 0.807949
+     eval: loss 1.227324
+Global Step 158000 LR 0.0111 Step Time 0.05 Test loss 0.815451
+     eval: loss 1.207793
+Global Step 158100 LR 0.0110 Step Time 0.05 Test loss 0.812282
+     eval: loss 1.207793
+Global Step 158200 LR 0.0110 Step Time 0.05 Test loss 0.816152
+     eval: loss 1.239043
+Global Step 158300 LR 0.0109 Step Time 0.05 Test loss 0.810879
+     eval: loss 1.223418
+Global Step 158400 LR 0.0109 Step Time 0.05 Test loss 0.816439
+     eval: loss 1.258574
+Global Step 158500 LR 0.0108 Step Time 0.05 Test loss 0.815811
+     eval: loss 1.223418
+Global Step 158600 LR 0.0108 Step Time 0.05 Test loss 0.811894
+     eval: loss 1.215605
+Global Step 158700 LR 0.0108 Step Time 0.05 Test loss 0.813308
+     eval: loss 1.239043
+Global Step 158800 LR 0.0108 Step Time 0.05 Test loss 0.812012
+     eval: loss 1.242949
+Global Step 158900 LR 0.0108 Step Time 0.05 Test loss 0.814590
+     eval: loss 1.223418
+Global Step 159000 LR 0.0106 Step Time 0.05 Test loss 0.811113
+     eval: loss 1.239043
+Global Step 159100 LR 0.0106 Step Time 0.05 Test loss 0.811934
+     eval: loss 1.246855
+Global Step 159200 LR 0.0106 Step Time 0.05 Test loss 0.813730
+     eval: loss 1.254668
+Global Step 159300 LR 0.0106 Step Time 0.05 Test loss 0.815792
+     eval: loss 1.231230
+Global Step 159400 LR 0.0105 Step Time 0.05 Test loss 0.814519
+     eval: loss 1.231230
+Global Step 159500 LR 0.0105 Step Time 0.05 Test loss 0.814044
+     eval: loss 1.227324
+Global Step 159600 LR 0.0105 Step Time 0.05 Test loss 0.814473
+     eval: loss 1.211699
+Global Step 159700 LR 0.0105 Step Time 0.05 Test loss 0.811037
+     eval: loss 1.207793
+Global Step 159800 LR 0.0105 Step Time 0.05 Test loss 0.813418
+     eval: loss 1.262480
+Global Step 159900 LR 0.0105 Step Time 0.05 Test loss 0.811230
+     eval: loss 1.258574
+Global Step 160000 LR 0.0105 Step Time 0.05 Test loss 0.813537
+     eval: loss 1.235137
+Global Step 160100 LR 0.0104 Step Time 0.05 Test loss 0.811680
+     eval: loss 1.246855
+Global Step 160200 LR 0.0104 Step Time 0.05 Test loss 0.810605
+     eval: loss 1.211699
+Global Step 160300 LR 0.0104 Step Time 0.05 Test loss 0.815020
+     eval: loss 1.239043
+Global Step 160400 LR 0.0103 Step Time 0.05 Test loss 0.814785
+     eval: loss 1.235137
+Global Step 160500 LR 0.0103 Step Time 0.05 Test loss 0.815220
+     eval: loss 1.223409
+Global Step 160600 LR 0.0102 Step Time 0.05 Test loss 0.812547
+     eval: loss 1.235137
+Global Step 160700 LR 0.0102 Step Time 0.05 Test loss 0.812715
+     eval: loss 1.227324
+Global Step 160800 LR 0.0102 Step Time 0.05 Test loss 0.814160
+     eval: loss 1.223418
+Global Step 160900 LR 0.0102 Step Time 0.05 Test loss 0.812480
+     eval: loss 1.219512
+Global Step 161000 LR 0.0102 Step Time 0.05 Test loss 0.813006
+     eval: loss 1.262480
+Global Step 161100 LR 0.0102 Step Time 0.05 Test loss 0.812452
+     eval: loss 1.223418
+Global Step 161200 LR 0.0102 Step Time 0.05 Test loss 0.812518
+     eval: loss 1.231230
+Global Step 161300 LR 0.0102 Step Time 0.05 Test loss 0.811621
+     eval: loss 1.235137
+Global Step 161400 LR 0.0102 Step Time 0.05 Test loss 0.811777
+     eval: loss 1.250762
+Global Step 161500 LR 0.0102 Step Time 0.05 Test loss 0.814474
+     eval: loss 1.239043
+Global Step 161600 LR 0.0101 Step Time 0.05 Test loss 0.814160
+     eval: loss 1.223418
+Global Step 161700 LR 0.0101 Step Time 0.05 Test loss 0.815371
+     eval: loss 1.242949
+Global Step 161800 LR 0.0100 Step Time 0.05 Test loss 0.814433
+     eval: loss 1.223418
+Global Step 161900 LR 0.0100 Step Time 0.05 Test loss 0.815498
+     eval: loss 1.250762
+Global Step 162000 LR 0.0099 Step Time 0.05 Test loss 0.815023
+     eval: loss 1.235137
+Global Step 162100 LR 0.0099 Step Time 0.05 Test loss 0.816544
+     eval: loss 1.223418
+Global Step 162200 LR 0.0098 Step Time 0.05 Test loss 0.810723
+     eval: loss 1.246855
+Global Step 162300 LR 0.0098 Step Time 0.05 Test loss 0.812676
+     eval: loss 1.239043
+Global Step 162400 LR 0.0098 Step Time 0.05 Test loss 0.815058
+     eval: loss 1.219481
+Global Step 162500 LR 0.0098 Step Time 0.05 Test loss 0.811969
+     eval: loss 1.239043
+Global Step 162600 LR 0.0098 Step Time 0.05 Test loss 0.817598
+     eval: loss 1.250762
+Global Step 162700 LR 0.0097 Step Time 0.05 Test loss 0.817051
+     eval: loss 1.246855
+Global Step 162800 LR 0.0097 Step Time 0.05 Test loss 0.813593
+     eval: loss 1.219512
+Global Step 162900 LR 0.0097 Step Time 0.05 Test loss 0.816035
+     eval: loss 1.227324
+Global Step 163000 LR 0.0097 Step Time 0.05 Test loss 0.815229
+     eval: loss 1.203887
+Global Step 163100 LR 0.0097 Step Time 0.05 Test loss 0.813221
+     eval: loss 1.227324
+Global Step 163200 LR 0.0097 Step Time 0.05 Test loss 0.811074
+     eval: loss 1.231230
+Global Step 163300 LR 0.0097 Step Time 0.05 Test loss 0.812364
+     eval: loss 1.231230
+Global Step 163400 LR 0.0097 Step Time 0.05 Test loss 0.813887
+     eval: loss 1.235137
+Global Step 163500 LR 0.0096 Step Time 0.05 Test loss 0.812302
+     eval: loss 1.242949
+Global Step 163600 LR 0.0096 Step Time 0.05 Test loss 0.814316
+     eval: loss 1.254668
+Global Step 163700 LR 0.0095 Step Time 0.05 Test loss 0.812757
+     eval: loss 1.231230
+Global Step 163800 LR 0.0095 Step Time 0.05 Test loss 0.814043
+     eval: loss 1.223418
+Global Step 163900 LR 0.0095 Step Time 0.05 Test loss 0.813223
+     eval: loss 1.231230
+Global Step 164000 LR 0.0095 Step Time 0.05 Test loss 0.815644
+     eval: loss 1.262480
+Global Step 164100 LR 0.0094 Step Time 0.05 Test loss 0.809122
+     eval: loss 1.254668
+Global Step 164200 LR 0.0094 Step Time 0.05 Test loss 0.810213
+     eval: loss 1.231230
+Global Step 164300 LR 0.0094 Step Time 0.05 Test loss 0.814512
+     eval: loss 1.223418
+Global Step 164400 LR 0.0094 Step Time 0.05 Test loss 0.812308
+     eval: loss 1.231230
+Global Step 164500 LR 0.0094 Step Time 0.05 Test loss 0.810996
+     eval: loss 1.239043
+Global Step 164600 LR 0.0094 Step Time 0.05 Test loss 0.811933
+     eval: loss 1.192168
+Global Step 164700 LR 0.0094 Step Time 0.05 Test loss 0.815605
+     eval: loss 1.223418
+Global Step 164800 LR 0.0093 Step Time 0.05 Test loss 0.813183
+     eval: loss 1.184355
+Global Step 164900 LR 0.0093 Step Time 0.05 Test loss 0.814121
+     eval: loss 1.231230
+Global Step 165000 LR 0.0093 Step Time 0.05 Test loss 0.813496
+     eval: loss 1.223418
+Global Step 165100 LR 0.0093 Step Time 0.05 Test loss 0.812874
+     eval: loss 1.219512
+Global Step 165200 LR 0.0093 Step Time 0.05 Test loss 0.816230
+     eval: loss 1.270293
+Global Step 165300 LR 0.0093 Step Time 0.05 Test loss 0.810956
+     eval: loss 1.227324
+Global Step 165400 LR 0.0093 Step Time 0.05 Test loss 0.812946
+     eval: loss 1.211699
+Global Step 165500 LR 0.0093 Step Time 0.05 Test loss 0.812129
+     eval: loss 1.227324
+Global Step 165600 LR 0.0093 Step Time 0.05 Test loss 0.813730
+     eval: loss 1.231230
+Global Step 165700 LR 0.0092 Step Time 0.05 Test loss 0.815801
+     eval: loss 1.235137
+Global Step 165800 LR 0.0091 Step Time 0.05 Test loss 0.811879
+     eval: loss 1.223418
+Global Step 165900 LR 0.0091 Step Time 0.05 Test loss 0.815253
+     eval: loss 1.235137
+Global Step 166000 LR 0.0091 Step Time 0.05 Test loss 0.810515
+     eval: loss 1.227324
+Global Step 166100 LR 0.0091 Step Time 0.05 Test loss 0.811777
+     eval: loss 1.258574
+Global Step 166200 LR 0.0091 Step Time 0.05 Test loss 0.812402
+     eval: loss 1.223418
+Global Step 166300 LR 0.0091 Step Time 0.05 Test loss 0.814101
+     eval: loss 1.231230
+Global Step 166400 LR 0.0090 Step Time 0.05 Test loss 0.813301
+     eval: loss 1.254668
+Global Step 166500 LR 0.0090 Step Time 0.05 Test loss 0.812323
+     eval: loss 1.254668
+Global Step 166600 LR 0.0090 Step Time 0.05 Test loss 0.812128
+     eval: loss 1.242949
+Global Step 166700 LR 0.0090 Step Time 0.05 Test loss 0.814355
+     eval: loss 1.239043
+Global Step 166800 LR 0.0089 Step Time 0.05 Test loss 0.813626
+     eval: loss 1.239043
+Global Step 166900 LR 0.0089 Step Time 0.05 Test loss 0.814121
+     eval: loss 1.223418
+Global Step 167000 LR 0.0089 Step Time 0.05 Test loss 0.814706
+     eval: loss 1.199980
+Global Step 167100 LR 0.0088 Step Time 0.05 Test loss 0.814941
+     eval: loss 1.235137
+Global Step 167200 LR 0.0087 Step Time 0.05 Test loss 0.813282
+     eval: loss 1.207793
+Global Step 167300 LR 0.0087 Step Time 0.05 Test loss 0.814552
+     eval: loss 1.215605
+Global Step 167400 LR 0.0087 Step Time 0.05 Test loss 0.811113
+     eval: loss 1.262480
+Global Step 167500 LR 0.0087 Step Time 0.05 Test loss 0.811191
+     eval: loss 1.227324
+Global Step 167600 LR 0.0087 Step Time 0.05 Test loss 0.816896
+     eval: loss 1.227324
+Global Step 167700 LR 0.0086 Step Time 0.05 Test loss 0.814589
+     eval: loss 1.227324
+Global Step 167800 LR 0.0086 Step Time 0.05 Test loss 0.812363
+     eval: loss 1.250762
+Global Step 167900 LR 0.0086 Step Time 0.05 Test loss 0.814952
+     eval: loss 1.258574
+Global Step 168000 LR 0.0086 Step Time 0.05 Test loss 0.815332
+     eval: loss 1.207793
+Global Step 168100 LR 0.0085 Step Time 0.05 Test loss 0.817051
+     eval: loss 1.246855
+Global Step 168200 LR 0.0085 Step Time 0.05 Test loss 0.811620
+     eval: loss 1.235137
+Global Step 168300 LR 0.0085 Step Time 0.05 Test loss 0.812901
+     eval: loss 1.258574
+Global Step 168400 LR 0.0085 Step Time 0.05 Test loss 0.811527
+     eval: loss 1.227324
+Global Step 168500 LR 0.0085 Step Time 0.05 Test loss 0.809512
+     eval: loss 1.250762
+Global Step 168600 LR 0.0085 Step Time 0.05 Test loss 0.813574
+     eval: loss 1.223418
+Global Step 168700 LR 0.0084 Step Time 0.05 Test loss 0.812160
+     eval: loss 1.246855
+Global Step 168800 LR 0.0084 Step Time 0.05 Test loss 0.813631
+     eval: loss 1.246855
+Global Step 168900 LR 0.0083 Step Time 0.05 Test loss 0.812791
+     eval: loss 1.203887
+Global Step 169000 LR 0.0083 Step Time 0.05 Test loss 0.812676
+     eval: loss 1.223418
+Global Step 169100 LR 0.0083 Step Time 0.05 Test loss 0.814746
+     eval: loss 1.227324
+Global Step 169200 LR 0.0082 Step Time 0.05 Test loss 0.813535
+     eval: loss 1.231230
+Global Step 169300 LR 0.0082 Step Time 0.05 Test loss 0.813209
+     eval: loss 1.199980
+Global Step 169400 LR 0.0082 Step Time 0.05 Test loss 0.811740
+     eval: loss 1.223418
+Global Step 169500 LR 0.0082 Step Time 0.05 Test loss 0.814785
+     eval: loss 1.231230
+Global Step 169600 LR 0.0081 Step Time 0.05 Test loss 0.813808
+     eval: loss 1.242949
+Global Step 169700 LR 0.0081 Step Time 0.05 Test loss 0.814098
+     eval: loss 1.227324
+Global Step 169800 LR 0.0081 Step Time 0.05 Test loss 0.809785
+     eval: loss 1.223418
+Global Step 169900 LR 0.0081 Step Time 0.05 Test loss 0.814902
+     eval: loss 1.250762
+Global Step 170000 LR 0.0080 Step Time 0.05 Test loss 0.813246
+     eval: loss 1.231230
+Global Step 170100 LR 0.0080 Step Time 0.05 Test loss 0.816504
+     eval: loss 1.203887
+Global Step 170200 LR 0.0080 Step Time 0.05 Test loss 0.811544
+     eval: loss 1.207793
+Global Step 170300 LR 0.0080 Step Time 0.05 Test loss 0.812480
+     eval: loss 1.258574
+Global Step 170400 LR 0.0080 Step Time 0.05 Test loss 0.814449
+     eval: loss 1.235137
+Global Step 170500 LR 0.0080 Step Time 0.05 Test loss 0.814297
+     eval: loss 1.215605
+Global Step 170600 LR 0.0080 Step Time 0.05 Test loss 0.811193
+     eval: loss 1.235137
+Global Step 170700 LR 0.0080 Step Time 0.05 Test loss 0.812168
+     eval: loss 1.242949
+Global Step 170800 LR 0.0080 Step Time 0.05 Test loss 0.812786
+     eval: loss 1.227324
+Global Step 170900 LR 0.0080 Step Time 0.05 Test loss 0.815722
+     eval: loss 1.227324
+Global Step 171000 LR 0.0079 Step Time 0.05 Test loss 0.811962
+     eval: loss 1.250762
+Global Step 171100 LR 0.0079 Step Time 0.05 Test loss 0.813112
+     eval: loss 1.211699
+Global Step 171200 LR 0.0079 Step Time 0.05 Test loss 0.812092
+     eval: loss 1.207793
+Global Step 171300 LR 0.0079 Step Time 0.05 Test loss 0.813145
+     eval: loss 1.215605
+Global Step 171400 LR 0.0078 Step Time 0.05 Test loss 0.813187
+     eval: loss 1.242949
+Global Step 171500 LR 0.0077 Step Time 0.05 Test loss 0.813222
+     eval: loss 1.231230
+Global Step 171600 LR 0.0076 Step Time 0.05 Test loss 0.813248
+     eval: loss 1.192168
+Global Step 171700 LR 0.0076 Step Time 0.05 Test loss 0.813451
+     eval: loss 1.246855
+Global Step 171800 LR 0.0075 Step Time 0.05 Test loss 0.811131
+     eval: loss 1.219512
+Global Step 171900 LR 0.0075 Step Time 0.05 Test loss 0.813896
+     eval: loss 1.242949
+Global Step 172000 LR 0.0074 Step Time 0.05 Test loss 0.810607
+     eval: loss 1.219512
+Global Step 172100 LR 0.0074 Step Time 0.05 Test loss 0.815644
+     eval: loss 1.219512
+Global Step 172200 LR 0.0073 Step Time 0.05 Test loss 0.814358
+     eval: loss 1.262480
+Global Step 172300 LR 0.0073 Step Time 0.05 Test loss 0.811661
+     eval: loss 1.219512
+Global Step 172400 LR 0.0073 Step Time 0.05 Test loss 0.812736
+     eval: loss 1.223418
+Global Step 172500 LR 0.0073 Step Time 0.05 Test loss 0.815499
+     eval: loss 1.223418
+Global Step 172600 LR 0.0073 Step Time 0.05 Test loss 0.813731
+     eval: loss 1.246855
+Global Step 172700 LR 0.0073 Step Time 0.05 Test loss 0.812284
+     eval: loss 1.223418
+Global Step 172800 LR 0.0073 Step Time 0.05 Test loss 0.813334
+     eval: loss 1.231230
+Global Step 172900 LR 0.0073 Step Time 0.05 Test loss 0.814707
+     eval: loss 1.239043
+Global Step 173000 LR 0.0072 Step Time 0.05 Test loss 0.816380
+     eval: loss 1.235137
+Global Step 173100 LR 0.0071 Step Time 0.05 Test loss 0.812558
+     eval: loss 1.223418
+Global Step 173200 LR 0.0071 Step Time 0.05 Test loss 0.813848
+     eval: loss 1.227324
+Global Step 173300 LR 0.0071 Step Time 0.05 Test loss 0.816284
+     eval: loss 1.235137
+Global Step 173400 LR 0.0071 Step Time 0.06 Test loss 0.811191
+     eval: loss 1.254668
+Global Step 173500 LR 0.0071 Step Time 0.05 Test loss 0.810455
+     eval: loss 1.250762
+Global Step 173600 LR 0.0071 Step Time 0.05 Test loss 0.810879
+     eval: loss 1.227324
+Global Step 173700 LR 0.0071 Step Time 0.05 Test loss 0.813279
+     eval: loss 1.246855
+Global Step 173800 LR 0.0071 Step Time 0.05 Test loss 0.810525
+     eval: loss 1.246855
+Global Step 173900 LR 0.0071 Step Time 0.05 Test loss 0.814178
+     eval: loss 1.196074
+Global Step 174000 LR 0.0070 Step Time 0.05 Test loss 0.814433
+     eval: loss 1.250762
+Global Step 174100 LR 0.0069 Step Time 0.05 Test loss 0.812246
+     eval: loss 1.235137
+Global Step 174200 LR 0.0069 Step Time 0.05 Test loss 0.814394
+     eval: loss 1.215605
+Global Step 174300 LR 0.0069 Step Time 0.05 Test loss 0.811387
+     eval: loss 1.211699
+Global Step 174400 LR 0.0069 Step Time 0.05 Test loss 0.810179
+     eval: loss 1.219512
+Global Step 174500 LR 0.0069 Step Time 0.05 Test loss 0.813432
+     eval: loss 1.199980
+Global Step 174600 LR 0.0069 Step Time 0.05 Test loss 0.813847
+     eval: loss 1.219512
+Global Step 174700 LR 0.0068 Step Time 0.05 Test loss 0.813775
+     eval: loss 1.250762
+Global Step 174800 LR 0.0068 Step Time 0.05 Test loss 0.813288
+     eval: loss 1.242949
+Global Step 174900 LR 0.0068 Step Time 0.05 Test loss 0.815762
+     eval: loss 1.227324
+Global Step 175000 LR 0.0068 Step Time 0.05 Test loss 0.815431
+     eval: loss 1.223418
+Global Step 175100 LR 0.0068 Step Time 0.05 Test loss 0.812754
+     eval: loss 1.235137
+Global Step 175200 LR 0.0068 Step Time 0.05 Test loss 0.815137
+     eval: loss 1.223418
+Global Step 175300 LR 0.0068 Step Time 0.05 Test loss 0.813944
+     eval: loss 1.250762
+Global Step 175400 LR 0.0068 Step Time 0.05 Test loss 0.813770
+     eval: loss 1.235137
+Global Step 175500 LR 0.0068 Step Time 0.05 Test loss 0.815461
+     eval: loss 1.246855
+Global Step 175600 LR 0.0067 Step Time 0.05 Test loss 0.817441
+     eval: loss 1.242949
+Global Step 175700 LR 0.0066 Step Time 0.05 Test loss 0.814590
+     eval: loss 1.235137
+Global Step 175800 LR 0.0066 Step Time 0.05 Test loss 0.812755
+     eval: loss 1.219512
+Global Step 175900 LR 0.0066 Step Time 0.05 Test loss 0.814200
+     eval: loss 1.258574
+Global Step 176000 LR 0.0066 Step Time 0.05 Test loss 0.815555
+     eval: loss 1.207793
+Global Step 176100 LR 0.0066 Step Time 0.05 Test loss 0.814980
+     eval: loss 1.239043
+Global Step 176200 LR 0.0066 Step Time 0.05 Test loss 0.813535
+     eval: loss 1.219512
+Global Step 176300 LR 0.0066 Step Time 0.05 Test loss 0.814082
+     eval: loss 1.242949
+Global Step 176400 LR 0.0066 Step Time 0.05 Test loss 0.808068
+     eval: loss 1.262480
+Global Step 176500 LR 0.0066 Step Time 0.05 Test loss 0.815176
+     eval: loss 1.242949
+Global Step 176600 LR 0.0065 Step Time 0.05 Test loss 0.813374
+     eval: loss 1.219512
+Global Step 176700 LR 0.0065 Step Time 0.05 Test loss 0.810528
+     eval: loss 1.219512
+Global Step 176800 LR 0.0065 Step Time 0.05 Test loss 0.810189
+     eval: loss 1.215605
+Global Step 176900 LR 0.0065 Step Time 0.05 Test loss 0.814707
+     eval: loss 1.246855
+Global Step 177000 LR 0.0064 Step Time 0.05 Test loss 0.812090
+     eval: loss 1.223418
+Global Step 177100 LR 0.0064 Step Time 0.05 Test loss 0.813522
+     eval: loss 1.239043
+Global Step 177200 LR 0.0064 Step Time 0.05 Test loss 0.808466
+     eval: loss 1.246855
+Global Step 177300 LR 0.0064 Step Time 0.05 Test loss 0.814165
+     eval: loss 1.250762
+Global Step 177400 LR 0.0064 Step Time 0.05 Test loss 0.814272
+     eval: loss 1.223418
+Global Step 177500 LR 0.0063 Step Time 0.05 Test loss 0.813066
+     eval: loss 1.227324
+Global Step 177600 LR 0.0063 Step Time 0.05 Test loss 0.814503
+     eval: loss 1.235137
+Global Step 177700 LR 0.0063 Step Time 0.05 Test loss 0.811511
+     eval: loss 1.231230
+Global Step 177800 LR 0.0063 Step Time 0.05 Test loss 0.812907
+     eval: loss 1.231230
+Global Step 177900 LR 0.0063 Step Time 0.05 Test loss 0.813887
+     eval: loss 1.203887
+Global Step 178000 LR 0.0063 Step Time 0.05 Test loss 0.814578
+     eval: loss 1.242949
+Global Step 178100 LR 0.0062 Step Time 0.05 Test loss 0.811308
+     eval: loss 1.231230
+Global Step 178200 LR 0.0062 Step Time 0.05 Test loss 0.811973
+     eval: loss 1.211699
+Global Step 178300 LR 0.0062 Step Time 0.05 Test loss 0.812480
+     eval: loss 1.239043
+Global Step 178400 LR 0.0062 Step Time 0.05 Test loss 0.812952
+     eval: loss 1.215605
+Global Step 178500 LR 0.0061 Step Time 0.05 Test loss 0.815398
+     eval: loss 1.199980
+Global Step 178600 LR 0.0061 Step Time 0.05 Test loss 0.815464
+     eval: loss 1.211699
+Global Step 178700 LR 0.0060 Step Time 0.05 Test loss 0.811504
+     eval: loss 1.246855
+Global Step 178800 LR 0.0060 Step Time 0.05 Test loss 0.812849
+     eval: loss 1.242949
+Global Step 178900 LR 0.0060 Step Time 0.05 Test loss 0.811165
+     eval: loss 1.219512
+Global Step 179000 LR 0.0060 Step Time 0.05 Test loss 0.814512
+     eval: loss 1.235137
+Global Step 179100 LR 0.0059 Step Time 0.05 Test loss 0.812207
+     eval: loss 1.219512
+Global Step 179200 LR 0.0059 Step Time 0.05 Test loss 0.815611
+     eval: loss 1.266387
+Global Step 179300 LR 0.0059 Step Time 0.05 Test loss 0.813652
+     eval: loss 1.231230
+Global Step 179400 LR 0.0059 Step Time 0.05 Test loss 0.811895
+     eval: loss 1.211699
+Global Step 179500 LR 0.0059 Step Time 0.05 Test loss 0.813924
+     eval: loss 1.242949
+Global Step 179600 LR 0.0059 Step Time 0.05 Test loss 0.812917
+     eval: loss 1.227324
+Global Step 179700 LR 0.0059 Step Time 0.05 Test loss 0.807949
+     eval: loss 1.211699
+Global Step 179800 LR 0.0059 Step Time 0.05 Test loss 0.813717
+     eval: loss 1.242949
+Global Step 179900 LR 0.0059 Step Time 0.05 Test loss 0.811855
+     eval: loss 1.223418
+Global Step 180000 LR 0.0059 Step Time 0.05 Test loss 0.812714
+     eval: loss 1.239043
+Global Step 180100 LR 0.0059 Step Time 0.05 Test loss 0.815918
+     eval: loss 1.231230
+Global Step 180200 LR 0.0058 Step Time 0.05 Test loss 0.814121
+     eval: loss 1.231230
+Global Step 180300 LR 0.0058 Step Time 0.05 Test loss 0.814199
+     eval: loss 1.223418
+Global Step 180400 LR 0.0058 Step Time 0.05 Test loss 0.814746
+     eval: loss 1.231230
+Global Step 180500 LR 0.0058 Step Time 0.05 Test loss 0.814298
+     eval: loss 1.254668
+Global Step 180600 LR 0.0058 Step Time 0.05 Test loss 0.813652
+     eval: loss 1.231230
+Global Step 180700 LR 0.0058 Step Time 0.05 Test loss 0.814785
+     eval: loss 1.254668
+Global Step 180800 LR 0.0058 Step Time 0.05 Test loss 0.811973
+     eval: loss 1.231230
+Global Step 180900 LR 0.0058 Step Time 0.05 Test loss 0.810684
+     eval: loss 1.231230
+Global Step 181000 LR 0.0058 Step Time 0.05 Test loss 0.813418
+     eval: loss 1.242949
+Global Step 181100 LR 0.0058 Step Time 0.05 Test loss 0.813652
+     eval: loss 1.242949
+Global Step 181200 LR 0.0057 Step Time 0.05 Test loss 0.811896
+     eval: loss 1.258574
+Global Step 181300 LR 0.0057 Step Time 0.05 Test loss 0.814421
+     eval: loss 1.262480
+Global Step 181400 LR 0.0057 Step Time 0.05 Test loss 0.811738
+     eval: loss 1.227324
+Global Step 181500 LR 0.0057 Step Time 0.05 Test loss 0.813440
+     eval: loss 1.231230
+Global Step 181600 LR 0.0057 Step Time 0.05 Test loss 0.813926
+     eval: loss 1.258574
+Global Step 181700 LR 0.0057 Step Time 0.05 Test loss 0.812519
+     eval: loss 1.227324
+Global Step 181800 LR 0.0057 Step Time 0.05 Test loss 0.816152
+     eval: loss 1.215605
+Global Step 181900 LR 0.0056 Step Time 0.05 Test loss 0.813292
+     eval: loss 1.235137
+Global Step 182000 LR 0.0056 Step Time 0.05 Test loss 0.811113
+     eval: loss 1.246855
+Global Step 182100 LR 0.0056 Step Time 0.05 Test loss 0.816230
+     eval: loss 1.227324
+Global Step 182200 LR 0.0055 Step Time 0.05 Test loss 0.816210
+     eval: loss 1.192168
+Global Step 182300 LR 0.0055 Step Time 0.05 Test loss 0.812442
+     eval: loss 1.223418
+Global Step 182400 LR 0.0055 Step Time 0.05 Test loss 0.811660
+     eval: loss 1.235137
+Global Step 182500 LR 0.0055 Step Time 0.05 Test loss 0.812008
+     eval: loss 1.227324
+Global Step 182600 LR 0.0055 Step Time 0.05 Test loss 0.815606
+     eval: loss 1.207793
+Global Step 182700 LR 0.0055 Step Time 0.05 Test loss 0.814195
+     eval: loss 1.258574
+Global Step 182800 LR 0.0055 Step Time 0.05 Test loss 0.816786
+     eval: loss 1.227324
+Global Step 182900 LR 0.0054 Step Time 0.05 Test loss 0.814121
+     eval: loss 1.250762
+Global Step 183000 LR 0.0054 Step Time 0.05 Test loss 0.813496
+     eval: loss 1.215605
+Global Step 183100 LR 0.0054 Step Time 0.05 Test loss 0.812052
+     eval: loss 1.227324
+Global Step 183200 LR 0.0054 Step Time 0.05 Test loss 0.810801
+     eval: loss 1.239043
+Global Step 183300 LR 0.0054 Step Time 0.05 Test loss 0.814305
+     eval: loss 1.219512
+Global Step 183400 LR 0.0054 Step Time 0.05 Test loss 0.815106
+     eval: loss 1.235137
+Global Step 183500 LR 0.0053 Step Time 0.05 Test loss 0.811845
+     eval: loss 1.235137
+Global Step 183600 LR 0.0053 Step Time 0.05 Test loss 0.814668
+     eval: loss 1.239043
+Global Step 183700 LR 0.0053 Step Time 0.05 Test loss 0.812639
+     eval: loss 1.235137
+Global Step 183800 LR 0.0053 Step Time 0.05 Test loss 0.815137
+     eval: loss 1.242949
+Global Step 183900 LR 0.0053 Step Time 0.05 Test loss 0.814397
+     eval: loss 1.211699
+Global Step 184000 LR 0.0053 Step Time 0.05 Test loss 0.815762
+     eval: loss 1.227324
+Global Step 184100 LR 0.0052 Step Time 0.05 Test loss 0.814160
+     eval: loss 1.242949
+Global Step 184200 LR 0.0052 Step Time 0.05 Test loss 0.811660
+     eval: loss 1.196074
+Global Step 184300 LR 0.0052 Step Time 0.05 Test loss 0.812434
+     eval: loss 1.242949
+Global Step 184400 LR 0.0052 Step Time 0.05 Test loss 0.813966
+     eval: loss 1.250762
+Global Step 184500 LR 0.0052 Step Time 0.05 Test loss 0.813848
+     eval: loss 1.219512
+Global Step 184600 LR 0.0052 Step Time 0.05 Test loss 0.811762
+     eval: loss 1.227324
+Global Step 184700 LR 0.0052 Step Time 0.05 Test loss 0.812557
+     eval: loss 1.235137
+Global Step 184800 LR 0.0052 Step Time 0.05 Test loss 0.814590
+     eval: loss 1.246855
+Global Step 184900 LR 0.0052 Step Time 0.05 Test loss 0.814316
+     eval: loss 1.246855
+Global Step 185000 LR 0.0052 Step Time 0.05 Test loss 0.814083
+     eval: loss 1.215605
+Global Step 185100 LR 0.0052 Step Time 0.05 Test loss 0.812988
+     eval: loss 1.231230
+Global Step 185200 LR 0.0052 Step Time 0.05 Test loss 0.812441
+     eval: loss 1.246855
+Global Step 185300 LR 0.0052 Step Time 0.05 Test loss 0.813105
+     eval: loss 1.235137
+Global Step 185400 LR 0.0052 Step Time 0.05 Test loss 0.812246
+     eval: loss 1.239043
+Global Step 185500 LR 0.0052 Step Time 0.05 Test loss 0.809824
+     eval: loss 1.242949
+Global Step 185600 LR 0.0052 Step Time 0.05 Test loss 0.812007
+     eval: loss 1.219512
+Global Step 185700 LR 0.0052 Step Time 0.05 Test loss 0.811113
+     eval: loss 1.235137
+Global Step 185800 LR 0.0052 Step Time 0.05 Test loss 0.811777
+     eval: loss 1.246855
+Global Step 185900 LR 0.0052 Step Time 0.05 Test loss 0.815278
+     eval: loss 1.219512
+Global Step 186000 LR 0.0051 Step Time 0.05 Test loss 0.811816
+     eval: loss 1.211699
+Global Step 186100 LR 0.0051 Step Time 0.05 Test loss 0.810683
+     eval: loss 1.235137
+Global Step 186200 LR 0.0051 Step Time 0.05 Test loss 0.812168
+     eval: loss 1.242949
+Global Step 186300 LR 0.0051 Step Time 0.05 Test loss 0.812168
+     eval: loss 1.246855
+Global Step 186400 LR 0.0051 Step Time 0.05 Test loss 0.811456
+     eval: loss 1.235137
+Global Step 186500 LR 0.0051 Step Time 0.05 Test loss 0.812871
+     eval: loss 1.278105
+Global Step 186600 LR 0.0051 Step Time 0.05 Test loss 0.812991
+     eval: loss 1.211699
+Global Step 186700 LR 0.0050 Step Time 0.05 Test loss 0.817438
+     eval: loss 1.223418
+Global Step 186800 LR 0.0050 Step Time 0.05 Test loss 0.810371
+     eval: loss 1.250762
+Global Step 186900 LR 0.0050 Step Time 0.05 Test loss 0.814511
+     eval: loss 1.250762
+Global Step 187000 LR 0.0050 Step Time 0.05 Test loss 0.812370
+     eval: loss 1.242949
+Global Step 187100 LR 0.0050 Step Time 0.05 Test loss 0.811683
+     eval: loss 1.262480
+Global Step 187200 LR 0.0050 Step Time 0.05 Test loss 0.811067
+     eval: loss 1.246855
+Global Step 187300 LR 0.0050 Step Time 0.05 Test loss 0.814707
+     eval: loss 1.254668
+Global Step 187400 LR 0.0049 Step Time 0.05 Test loss 0.810489
+     eval: loss 1.223418
+Global Step 187500 LR 0.0049 Step Time 0.07 Test loss 0.815487
+     eval: loss 1.231230
+Global Step 187600 LR 0.0049 Step Time 0.05 Test loss 0.815879
+     eval: loss 1.235137
+Global Step 187700 LR 0.0048 Step Time 0.05 Test loss 0.814352
+     eval: loss 1.223418
+Global Step 187800 LR 0.0048 Step Time 0.05 Test loss 0.813535
+     eval: loss 1.203887
+Global Step 187900 LR 0.0048 Step Time 0.05 Test loss 0.813715
+     eval: loss 1.223418
+Global Step 188000 LR 0.0048 Step Time 0.05 Test loss 0.814172
+     eval: loss 1.242949
+Global Step 188100 LR 0.0048 Step Time 0.05 Test loss 0.809708
+     eval: loss 1.246855
+Global Step 188200 LR 0.0048 Step Time 0.05 Test loss 0.812089
+     eval: loss 1.239043
+Global Step 188300 LR 0.0048 Step Time 0.05 Test loss 0.813262
+     eval: loss 1.223418
+Global Step 188400 LR 0.0048 Step Time 0.05 Test loss 0.812149
+     eval: loss 1.242949
+Global Step 188500 LR 0.0048 Step Time 0.05 Test loss 0.811113
+     eval: loss 1.227324
+Global Step 188600 LR 0.0048 Step Time 0.05 Test loss 0.815137
+     eval: loss 1.215697
+Global Step 188700 LR 0.0048 Step Time 0.05 Test loss 0.816100
+     eval: loss 1.235137
+Global Step 188800 LR 0.0047 Step Time 0.05 Test loss 0.811231
+     eval: loss 1.203887
+Global Step 188900 LR 0.0047 Step Time 0.05 Test loss 0.811660
+     eval: loss 1.223418
+Global Step 189000 LR 0.0047 Step Time 0.05 Test loss 0.815566
+     eval: loss 1.235137
+Global Step 189100 LR 0.0047 Step Time 0.05 Test loss 0.812214
+     eval: loss 1.231230
+Global Step 189200 LR 0.0047 Step Time 0.05 Test loss 0.814084
+     eval: loss 1.242949
+Global Step 189300 LR 0.0047 Step Time 0.05 Test loss 0.815801
+     eval: loss 1.242949
+Global Step 189400 LR 0.0047 Step Time 0.05 Test loss 0.811828
+     eval: loss 1.219512
+Global Step 189500 LR 0.0047 Step Time 0.05 Test loss 0.811816
+     eval: loss 1.219512
+Global Step 189600 LR 0.0047 Step Time 0.05 Test loss 0.813652
+     eval: loss 1.199980
+Global Step 189700 LR 0.0047 Step Time 0.05 Test loss 0.812844
+     eval: loss 1.239043
+Global Step 189800 LR 0.0047 Step Time 0.05 Test loss 0.814199
+     eval: loss 1.215605
+Global Step 189900 LR 0.0046 Step Time 0.05 Test loss 0.811582
+     eval: loss 1.250762
+Global Step 190000 LR 0.0046 Step Time 0.05 Test loss 0.813741
+     eval: loss 1.203887
+Global Step 190100 LR 0.0046 Step Time 0.05 Test loss 0.811113
+     eval: loss 1.207793
+Global Step 190200 LR 0.0046 Step Time 0.05 Test loss 0.812871
+     eval: loss 1.235137
+Global Step 190300 LR 0.0046 Step Time 0.05 Test loss 0.810683
+     eval: loss 1.199980
+Global Step 190400 LR 0.0046 Step Time 0.05 Test loss 0.812246
+     eval: loss 1.235137
+Global Step 190500 LR 0.0046 Step Time 0.05 Test loss 0.813730
+     eval: loss 1.231230
+Global Step 190600 LR 0.0046 Step Time 0.05 Test loss 0.814082
+     eval: loss 1.235137
+Global Step 190700 LR 0.0045 Step Time 0.05 Test loss 0.810801
+     eval: loss 1.250762
+Global Step 190800 LR 0.0045 Step Time 0.05 Test loss 0.814373
+     eval: loss 1.207793
+Global Step 190900 LR 0.0045 Step Time 0.05 Test loss 0.812477
+     eval: loss 1.227324
+Global Step 191000 LR 0.0045 Step Time 0.05 Test loss 0.812952
+     eval: loss 1.235137
+Global Step 191100 LR 0.0045 Step Time 0.05 Test loss 0.815331
+     eval: loss 1.250762
+Global Step 191200 LR 0.0044 Step Time 0.05 Test loss 0.810058
+     eval: loss 1.239043
+Global Step 191300 LR 0.0044 Step Time 0.05 Test loss 0.815339
+     eval: loss 1.223418
+Global Step 191400 LR 0.0044 Step Time 0.05 Test loss 0.814049
+     eval: loss 1.231230
+Global Step 191500 LR 0.0044 Step Time 0.05 Test loss 0.810996
+     eval: loss 1.231230
+Global Step 191600 LR 0.0044 Step Time 0.05 Test loss 0.813332
+     eval: loss 1.250762
+Global Step 191700 LR 0.0044 Step Time 0.05 Test loss 0.811894
+     eval: loss 1.239043
+Global Step 191800 LR 0.0044 Step Time 0.05 Test loss 0.811761
+     eval: loss 1.203887
+Global Step 191900 LR 0.0044 Step Time 0.05 Test loss 0.814127
+     eval: loss 1.250762
+Global Step 192000 LR 0.0044 Step Time 0.05 Test loss 0.811899
+     eval: loss 1.211699
+Global Step 192100 LR 0.0044 Step Time 0.05 Test loss 0.813456
+     eval: loss 1.227324
+Global Step 192200 LR 0.0044 Step Time 0.05 Test loss 0.814005
+     eval: loss 1.231230
+Global Step 192300 LR 0.0044 Step Time 0.05 Test loss 0.812519
+     eval: loss 1.235137
+Global Step 192400 LR 0.0044 Step Time 0.05 Test loss 0.814355
+     eval: loss 1.231230
+Global Step 192500 LR 0.0043 Step Time 0.05 Test loss 0.811113
+     eval: loss 1.184355
+Global Step 192600 LR 0.0043 Step Time 0.05 Test loss 0.811738
+     eval: loss 1.235137
+Global Step 192700 LR 0.0043 Step Time 0.05 Test loss 0.815610
+     eval: loss 1.231230
+Global Step 192800 LR 0.0043 Step Time 0.05 Test loss 0.814785
+     eval: loss 1.246855
+Global Step 192900 LR 0.0043 Step Time 0.05 Test loss 0.812154
+     eval: loss 1.219512
+Global Step 193000 LR 0.0043 Step Time 0.05 Test loss 0.816110
+     eval: loss 1.219512
+Global Step 193100 LR 0.0042 Step Time 0.05 Test loss 0.814342
+     eval: loss 1.223418
+Global Step 193200 LR 0.0042 Step Time 0.05 Test loss 0.815019
+     eval: loss 1.258574
+Global Step 193300 LR 0.0042 Step Time 0.05 Test loss 0.813415
+     eval: loss 1.242949
+Global Step 193400 LR 0.0042 Step Time 0.05 Test loss 0.813301
+     eval: loss 1.239043
+Global Step 193500 LR 0.0042 Step Time 0.05 Test loss 0.817563
+     eval: loss 1.231230
+Global Step 193600 LR 0.0042 Step Time 0.05 Test loss 0.813418
+     eval: loss 1.215605
+Global Step 193700 LR 0.0042 Step Time 0.05 Test loss 0.813992
+     eval: loss 1.231230
+Global Step 193800 LR 0.0042 Step Time 0.05 Test loss 0.815254
+     eval: loss 1.227324
+Global Step 193900 LR 0.0042 Step Time 0.05 Test loss 0.813691
+     eval: loss 1.235137
+Global Step 194000 LR 0.0042 Step Time 0.05 Test loss 0.814004
+     eval: loss 1.231230
+Global Step 194100 LR 0.0042 Step Time 0.05 Test loss 0.813027
+     eval: loss 1.223418
+Global Step 194200 LR 0.0042 Step Time 0.05 Test loss 0.811584
+     eval: loss 1.235137
+Global Step 194300 LR 0.0042 Step Time 0.05 Test loss 0.814121
+     eval: loss 1.203887
+Global Step 194400 LR 0.0041 Step Time 0.05 Test loss 0.815428
+     eval: loss 1.254668
+Global Step 194500 LR 0.0041 Step Time 0.05 Test loss 0.813310
+     eval: loss 1.242949
+Global Step 194600 LR 0.0041 Step Time 0.05 Test loss 0.811933
+     eval: loss 1.223418
+Global Step 194700 LR 0.0041 Step Time 0.05 Test loss 0.813260
+     eval: loss 1.215605
+Global Step 194800 LR 0.0041 Step Time 0.05 Test loss 0.812903
+     eval: loss 1.239043
+Global Step 194900 LR 0.0041 Step Time 0.05 Test loss 0.814744
+     eval: loss 1.223418
+Global Step 195000 LR 0.0041 Step Time 0.05 Test loss 0.812910
+     eval: loss 1.246855
+Global Step 195100 LR 0.0041 Step Time 0.05 Test loss 0.814473
+     eval: loss 1.219512
+Global Step 195200 LR 0.0041 Step Time 0.05 Test loss 0.813595
+     eval: loss 1.219512
+Global Step 195300 LR 0.0041 Step Time 0.05 Test loss 0.812480
+     eval: loss 1.242949
+Global Step 195400 LR 0.0041 Step Time 0.05 Test loss 0.811387
+     eval: loss 1.215605
+Global Step 195500 LR 0.0041 Step Time 0.05 Test loss 0.811309
+     eval: loss 1.235137
+Global Step 195600 LR 0.0041 Step Time 0.05 Test loss 0.814194
+     eval: loss 1.207793
+Global Step 195700 LR 0.0040 Step Time 0.05 Test loss 0.813568
+     eval: loss 1.235137
+Global Step 195800 LR 0.0040 Step Time 0.05 Test loss 0.813847
+     eval: loss 1.184355
+Global Step 195900 LR 0.0040 Step Time 0.05 Test loss 0.813184
+     eval: loss 1.231230
+Global Step 196000 LR 0.0040 Step Time 0.05 Test loss 0.814008
+     eval: loss 1.207793
+Global Step 196100 LR 0.0040 Step Time 0.05 Test loss 0.812168
+     eval: loss 1.231230
+Global Step 196200 LR 0.0040 Step Time 0.05 Test loss 0.812715
+     eval: loss 1.258574
+Global Step 196300 LR 0.0040 Step Time 0.05 Test loss 0.814551
+     eval: loss 1.239043
+Global Step 196400 LR 0.0039 Step Time 0.05 Test loss 0.813867
+     eval: loss 1.242949
+Global Step 196500 LR 0.0039 Step Time 0.05 Test loss 0.813261
+     eval: loss 1.207793
+Global Step 196600 LR 0.0039 Step Time 0.05 Test loss 0.814827
+     eval: loss 1.246855
+Global Step 196700 LR 0.0039 Step Time 0.05 Test loss 0.811736
+     eval: loss 1.196074
+Global Step 196800 LR 0.0039 Step Time 0.05 Test loss 0.810879
+     eval: loss 1.242949
+Global Step 196900 LR 0.0039 Step Time 0.05 Test loss 0.811582
+     eval: loss 1.235137
+Global Step 197000 LR 0.0039 Step Time 0.05 Test loss 0.812677
+     eval: loss 1.223418
+Global Step 197100 LR 0.0039 Step Time 0.05 Test loss 0.812306
+     eval: loss 1.274199
+Global Step 197200 LR 0.0039 Step Time 0.05 Test loss 0.814512
+     eval: loss 1.239043
+Global Step 197300 LR 0.0038 Step Time 0.05 Test loss 0.813457
+     eval: loss 1.227324
+Global Step 197400 LR 0.0038 Step Time 0.05 Test loss 0.812754
+     eval: loss 1.235137
+Global Step 197500 LR 0.0038 Step Time 0.05 Test loss 0.813652
+     eval: loss 1.254668
+Global Step 197600 LR 0.0038 Step Time 0.05 Test loss 0.813066
+     eval: loss 1.223418
+Global Step 197700 LR 0.0038 Step Time 0.05 Test loss 0.813144
+     eval: loss 1.254668
+Global Step 197800 LR 0.0038 Step Time 0.05 Test loss 0.810762
+     eval: loss 1.227324
+Global Step 197900 LR 0.0038 Step Time 0.05 Test loss 0.811614
+     eval: loss 1.189199
+Global Step 198000 LR 0.0038 Step Time 0.05 Test loss 0.815097
+     eval: loss 1.219512
+Global Step 198100 LR 0.0038 Step Time 0.05 Test loss 0.813926
+     eval: loss 1.231230
+Global Step 198200 LR 0.0038 Step Time 0.05 Test loss 0.815058
+     eval: loss 1.258574
+Global Step 198300 LR 0.0038 Step Time 0.05 Test loss 0.812480
+     eval: loss 1.231230
+Global Step 198400 LR 0.0038 Step Time 0.06 Test loss 0.813144
+     eval: loss 1.239043
+Global Step 198500 LR 0.0038 Step Time 0.05 Test loss 0.814451
+     eval: loss 1.215605
+Global Step 198600 LR 0.0038 Step Time 0.05 Test loss 0.812479
+     eval: loss 1.219512
+Global Step 198700 LR 0.0038 Step Time 0.05 Test loss 0.813535
+     eval: loss 1.219512
+Global Step 198800 LR 0.0038 Step Time 0.05 Test loss 0.814707
+     eval: loss 1.254668
+Global Step 198900 LR 0.0037 Step Time 0.05 Test loss 0.813235
+     eval: loss 1.227324
+Global Step 199000 LR 0.0037 Step Time 0.05 Test loss 0.814199
+     eval: loss 1.246855
+Global Step 199100 LR 0.0037 Step Time 0.05 Test loss 0.814576
+     eval: loss 1.196074
+Global Step 199200 LR 0.0037 Step Time 0.05 Test loss 0.810644
+     eval: loss 1.250762
+Global Step 199300 LR 0.0037 Step Time 0.05 Test loss 0.812338
+     eval: loss 1.219512
+Global Step 199400 LR 0.0037 Step Time 0.05 Test loss 0.813766
+     eval: loss 1.235137
+Global Step 199500 LR 0.0037 Step Time 0.05 Test loss 0.814512
+     eval: loss 1.254668
+Global Step 199600 LR 0.0037 Step Time 0.05 Test loss 0.811972
+     eval: loss 1.239043
+Global Step 199700 LR 0.0037 Step Time 0.05 Test loss 0.812521
+     eval: loss 1.239043
+Global Step 199800 LR 0.0037 Step Time 0.05 Test loss 0.811372
+     eval: loss 1.242949
+Global Step 199900 LR 0.0037 Step Time 0.05 Test loss 0.813646
+     eval: loss 1.262480
+Global Step 200000 LR 0.0037 Step Time 0.05 Test loss 0.812402
+     eval: loss 1.219512
